@@ -1,0 +1,94 @@
+
+span[lang="e"] {
+	line-height: 5em;
+	padding: 0;
+	vertical-align: middle;
+}
+
+span[lang="tc"],
+span[lang="j"],
+span[lang="sc"] {
+	font-size: 4em;
+}
+
+.table th, 
+.table td {
+   text-align: center;
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+}
+
+.fixed-message div {
+	position: fixed;
+	top: 50%;
+	height: 4em;
+	margin-top: -2em;
+	left: 50%;
+	text-align: center;
+	width: 8em;
+	margin-left: -4em;
+
+	color: white;
+	font-size: 4em;
+}
+.fixed-message.show {
+	visibility: visible;
+
+	bottom: 0;
+	height: 100%;
+	opacity: 1;
+
+	transition: all 1s;
+	-webkit-transition: all 1s;
+}
+.fixed-message {
+	position: fixed;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	padding-top: 30%;
+	background-color: #2ecc71;
+
+	height: 0;
+	opacity: 0;
+
+	transition: all 1s;
+	-webkit-transition: all 1s;
+}
+
+#glyphstable td:hover span {
+	opacity: 1;
+	cursor: pointer;
+}
+#glyphstable td span {
+	opacity: 0.8;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+}
+span[lang="e"] {
+	opacity: 1;
+}
+#glyphstable td.incorrect {
+	background-color: #e74c3c;
+}
+#glyphstable td.correct {
+	background-color: #2ecc71;
+}
+
+span::selection{ background-color: transparent; }
+span::moz-selection{ background-color: transparent; }
+span::webkit-selection{ background-color: transparent; }
+td::selection{ background-color: transparent; }
+td::moz-selection{ background-color: transparent; }
+td::webkit-selection{ background-color: transparent; }
+
+/*table {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}*/
