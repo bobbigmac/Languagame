@@ -1,0 +1,45 @@
+<head>
+  <title>Languagame - Learn chinese/japanese words/characters</title>
+</head>
+
+<body>
+  {{> glyphstable}}
+</body>
+
+<template name="glyphstable">
+	<table id="glyphstable" class="table table-responsive">
+		<thead>
+			<tr>
+				{{#each langs}}
+					<th>{{name}}</th>
+				{{/each}}
+			</tr>
+		</thead>
+		<tbody>
+			{{#if loaded}}
+				{{> glyphsrows}}
+			{{/if}}
+  		</tbody>
+  	</table>
+	<div class="well well-lg">
+		<p>
+		<a class="btn btn-primary btn-block btn-lg checkresults {{#if not loaded}}disabled{{/if}}">
+			<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
+			<span>Test your choices?</span>
+			<span>Score: {{score}}</span>
+		</a>
+		<a class="btn pull-right" href="https://github.com/bobbigmac/Languagame">Languagame on Github</a>
+		</p>
+	</div>
+	<div class="fixed-message"><div>Well Done!</div></div>
+</template>
+
+<template name="glyphsrows">
+	{{#each glyphs}}
+		<tr class="glyphrow">
+	  		{{#each langs}}
+		  		<td><span id="{{key}}{{../_id}}" lang="{{key}}" glyphid="{{../_id}}">{{propOfObj key ..}}</span></td>
+	  		{{/each}}
+  		</tr>
+	{{/each}}
+</template>
