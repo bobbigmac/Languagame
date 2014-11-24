@@ -27,6 +27,7 @@
 			<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
 			<span>Test your choices?</span>
 			<span>Score: {{score}}</span>
+			<span>Glyphs: {{endNum}}</span>
 		</a>
 		<a class="btn pull-right" href="https://github.com/bobbigmac/Languagame">Languagame on Github</a>
 		</p>
@@ -38,7 +39,14 @@
 	{{#each glyphs}}
 		<tr class="glyphrow">
 	  		{{#each langs}}
-		  		<td><span id="{{key}}{{../_id}}" lang="{{key}}" glyphid="{{../_id}}">{{propOfObj key ..}}</span></td>
+		  		<td>
+		  			<span id="{{key}}{{../_id}}" lang="{{key}}" glyphid="{{../_id}}">{{propOfObj key ..}}</span>
+		  			<!--{{#if equals key 'e'}}
+			  		<audio controls="controls">  
+					   <source src="http://translate.google.com/translate_tts?ie=utf-8&amp;tl={{googleLangOf key}}&amp;q={{propOfObj key ..}}" type="audio/mp3" />  
+					</audio>
+					{{/if}}-->
+				</td>
 	  		{{/each}}
   		</tr>
 	{{/each}}

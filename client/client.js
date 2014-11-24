@@ -1,22 +1,36 @@
-var glyphs = new Meteor.Collection('glyphs');
+
 
 UI.registerHelper('not', function (val) {
   return !val;
 });
+UI.registerHelper('equals', function (a, b) {
+  return a == b;
+});
 UI.registerHelper('propOfObj', function (key, obj) {
   return obj[key];
+});
+var googleLangs = {
+  e: 'en',
+  tc: 'zh-TW',
+  sc: 'zh-CN',
+  j: 'ja',
+};
+UI.registerHelper('googleLangOf', function (lang) {
+  return googleLangs[lang];
 });
 
 Session.setDefault("playerScore", 0);
 Session.setDefault("atGlyphSet", 0);
+Session.setDefault("startNum", 0);
+Session.setDefault("endNum", 5);
 Session.setDefault('loadingNewGlyphs', true);
 
 /*Template.glyphsrows.helpers({
 });*/
 
 //TODO: Move to a collection (and make it cleverer)
-var languages = [{ key: 'tc', name: 'Chinese (Traditional)' }, 
-    { key: 'sc', name: 'Chinese (Simplified)' }, 
+var languages = [{ key: 'tc', name: 'Chinese (T)' }, 
+    { key: 'sc', name: 'Chinese (S)' }, 
     { key: 'j', name: 'Japanese' }, 
     { key: 'e', name: 'English' }];
 Template.glyphstable.langs = Template.glyphsrows.langs = function(e, t) {
@@ -78,6 +92,12 @@ function getNewGlyphs() {
 }
 function changePlayerScore(by) {
   Session.set("playerScore", Session.get("playerScore")+(by||0));
+
+  var score = Session.get('playerScore');
+  score = score <= 0 ? 1 : score;
+  
+  var endNum = Session.get('startNum') + ((score * 2) + 4);
+  Session.set('endNum', endNum);
 }
 
 Template.glyphstable.rendered = function() {
@@ -90,6 +110,9 @@ Template.glyphstable.rendered = function() {
       $('.checkresults').trigger('click');
     }
   });
+}
+Template.glyphstable.endNum = function(e, t) {
+  return Session.get('endNum')||5;
 }
 Template.glyphstable.score = function(e, t) {
   return Session.get('playerScore')||0;
@@ -137,8 +160,10 @@ Template.glyphstable.events({
 
     if(pass) {
       celebrateWin(getNewGlyphs);
+      changePlayerScore(1);
     }
-    changePlayerScore(pass ? 1 : -1);
+
+    //changePlayerScore(pass ? 1 : -1);
 
     return pass;
   },
@@ -168,7 +193,12 @@ Template.glyphsrows.events({
 Session.set('loadingNewGlyphs', true);
 
 Tracker.autorun(function() {
-  Meteor.subscribe('glyphSet', Session.get('atGlyphSet'), function(inArg) {
-    Session.set('loadingNewGlyphs', false);
-  });
+
+  Meteor.subscribe('glyphSet', 
+    Session.get('atGlyphSet'), 
+    Session.get('startNum'), 
+    Session.get('endNum'), 
+    function(inArg) {
+      Session.set('loadingNewGlyphs', false);
+    });
 });

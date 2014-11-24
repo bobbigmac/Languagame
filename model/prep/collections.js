@@ -1,0 +1,1 @@
+glyphs = new Meteor.Collection('glyphs');
