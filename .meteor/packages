@@ -4,4 +4,10 @@
 # but you can also edit it by hand.
 
 meteor-platform
-mrt:bootstrap-3
+twbs:bootstrap
+ian:accounts-ui-bootstrap-3
+accounts-password
+alanning:roles
+ongoworks:security
+iron:router
+less

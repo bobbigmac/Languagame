@@ -3,8 +3,15 @@
 </head>
 
 <body>
-  {{> glyphstable}}
 </body>
+
+<template name="loading">
+	Loading...
+</template>
+
+<template name="layout">
+	{{> yield}}
+</template>
 
 <template name="glyphstable">
 	<table id="glyphstable" class="table table-responsive">

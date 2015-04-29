@@ -1,50 +1,23 @@
 
 
-UI.registerHelper('not', function (val) {
-  return !val;
-});
-UI.registerHelper('equals', function (a, b) {
-  return a == b;
-});
-UI.registerHelper('propOfObj', function (key, obj) {
-  return obj[key];
-});
-var googleLangs = {
-  e: 'en',
-  tc: 'zh-TW',
-  sc: 'zh-CN',
-  j: 'ja',
-};
-UI.registerHelper('googleLangOf', function (lang) {
-  return googleLangs[lang];
-});
-
-Session.setDefault("playerScore", 0);
-Session.setDefault("atGlyphSet", 0);
-Session.setDefault("startNum", 0);
-Session.setDefault("endNum", 5);
-Session.setDefault('loadingNewGlyphs', true);
-
-/*Template.glyphsrows.helpers({
-});*/
-
 //TODO: Move to a collection (and make it cleverer)
 var languages = [{ key: 'tc', name: 'Chinese (T)' }, 
     { key: 'sc', name: 'Chinese (S)' }, 
     { key: 'j', name: 'Japanese' }, 
     { key: 'e', name: 'English' }];
-Template.glyphstable.langs = Template.glyphsrows.langs = function(e, t) {
-  return languages;
-}
-Template.glyphstable.loaded = function(e, t) {
-  return !Session.get('loadingNewGlyphs');
-}
+
+
 Template.glyphsrows.rendered = function() {
   window.setTimeout(nudgeColumns, 20);//bodgety bodge (shouldn't 'strictly' be necessary)
 }
-Template.glyphsrows.glyphs = function(e, t) {
-  return glyphs.find();
-}
+Template.glyphsrows.helpers({
+  glyphs: function(e, t) {
+    return glyphs.find();
+  },
+  langs: function(e, t) {
+    return languages
+  }
+});
 
 function nudgeColumn(ind, nudges) {
   nudges = nudges || 1;
@@ -111,12 +84,23 @@ Template.glyphstable.rendered = function() {
     }
   });
 }
-Template.glyphstable.endNum = function(e, t) {
-  return Session.get('endNum')||5;
-}
-Template.glyphstable.score = function(e, t) {
-  return Session.get('playerScore')||0;
-}
+
+Template.glyphstable.helpers({
+  endNum: function(e, t) {
+    return Session.get('endNum')||5;
+  },
+  score: function(e, t) {
+    return Session.get('playerScore')||0;
+  },
+  langs: function(e, t) {
+    return languages
+  },
+  loaded: function(e, t) {
+    //This is a bit bodgy, probably want to replace by using iron:router loading template
+    return !Session.get('loadingNewGlyphs');
+  }
+});
+
 Template.glyphstable.events({
   'click .checkresults': function (e, t) {
     var rows = $('tr.glyphrow td:last-child span').map(function(pos, el) {
@@ -193,7 +177,6 @@ Template.glyphsrows.events({
 Session.set('loadingNewGlyphs', true);
 
 Tracker.autorun(function() {
-
   Meteor.subscribe('glyphSet', 
     Session.get('atGlyphSet'), 
     Session.get('startNum'), 
