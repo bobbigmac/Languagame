@@ -99,7 +99,7 @@ Template.glyphstable.rendered = function() {
 
 Meteor.startup(function() {
   changePlayerScore(0);
-})
+});
 
 Template.glyphstable.helpers({
   endNum: function(e, t) {
@@ -188,16 +188,4 @@ Template.glyphsrows.events({
     el.siblings().css('background-color', '');
     el.parents('table').find('tbody td:nth-child(' + (ind + 1) + ')').css('background-color', '');
   },
-});
-
-Session.set('loadingNewGlyphs', true);
-
-Tracker.autorun(function() {
-  Meteor.subscribe('glyphSet',
-    Session.get('atGlyphSet'),
-    Session.get('startNum'),
-    Session.get('endNum'),
-    function(inArg) {
-      Session.set('loadingNewGlyphs', false);
-    });
 });
