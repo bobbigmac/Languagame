@@ -63,13 +63,14 @@ function getNewGlyphs() {
     Session.set("atGlyphSet", !Session.get("atGlyphSet"));
   }, 1000);
 }
-function changePlayerScore(by) {
+
+changePlayerScore = function(by) {
   var userId = Meteor.userId();
   var score = 0;
 
   if(userId) {
-    var user = Meteor.users.findOne(userId);
-    score = ((user.profile && user.profile.score)||score)+(by||0);
+    var user = Meteor.user();
+    score = ((user && user.profile && user.profile.score)||score)+(by||0);
     
     Meteor.users.update(userId, { $set: { 'profile.score': score }});
 
@@ -96,10 +97,6 @@ Template.glyphstable.rendered = function() {
     }
   });
 }
-
-Meteor.startup(function() {
-  changePlayerScore(0);
-});
 
 Template.glyphstable.helpers({
   endNum: function(e, t) {

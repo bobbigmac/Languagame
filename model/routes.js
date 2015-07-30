@@ -19,6 +19,8 @@ Router.route('/', {
 		];
 	},
 	data: function() {
+		
+		changePlayerScore(0);
 		Session.set('loadingNewGlyphs', true);
 
 		Tracker.autorun(function() {
@@ -30,5 +32,9 @@ Router.route('/', {
 		      Session.set('loadingNewGlyphs', false);
 		    });
 		});
+
+		// Meteor.startup(function() {
+		//   changePlayerScore(0);
+		// });
 	}
 });
