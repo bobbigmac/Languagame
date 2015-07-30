@@ -64,12 +64,24 @@ function getNewGlyphs() {
   }, 1000);
 }
 function changePlayerScore(by) {
-  Session.set("playerScore", Session.get("playerScore")+(by||0));
+  var userId = Meteor.userId();
+  var score = 0;
 
-  var score = Session.get('playerScore');
+  if(userId) {
+    var user = Meteor.users.findOne(userId);
+    score = ((user.profile && user.profile.score)||score)+(by||0);
+    
+    Meteor.users.update(userId, { $set: { 'profile.score': score }});
+
+    Session.set("playerScore", score);
+  } else {
+    Session.set("playerScore", Session.get("playerScore")+(by||0));
+  }
+
+  score = Session.get('playerScore');
   score = score <= 0 ? 1 : score;
-  
-  var endNum = Session.get('startNum') + ((score * 2) + 4);
+
+  var endNum = (Session.get('startNum') + ((score * 2) + 4));
   Session.set('endNum', endNum);
 }
 
@@ -84,6 +96,10 @@ Template.glyphstable.rendered = function() {
     }
   });
 }
+
+Meteor.startup(function() {
+  changePlayerScore(0);
+})
 
 Template.glyphstable.helpers({
   endNum: function(e, t) {
@@ -177,10 +193,10 @@ Template.glyphsrows.events({
 Session.set('loadingNewGlyphs', true);
 
 Tracker.autorun(function() {
-  Meteor.subscribe('glyphSet', 
-    Session.get('atGlyphSet'), 
-    Session.get('startNum'), 
-    Session.get('endNum'), 
+  Meteor.subscribe('glyphSet',
+    Session.get('atGlyphSet'),
+    Session.get('startNum'),
+    Session.get('endNum'),
     function(inArg) {
       Session.set('loadingNewGlyphs', false);
     });
