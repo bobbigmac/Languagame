@@ -26,4 +26,14 @@ $('span.nowrap').get().map(function(el){ el=$(el); var j=el.find('a').text(); va
 //https://en.wikipedia.org/wiki/Simplified_Chinese_characters
 $('span[lang="zh-hant"]').get().map(function(el){ el=$(el); var han=el.text(); var cn=el.nextAll('span[lang="zh-cn"]:first').text(); return { hant: han.length === 1 ? han : false, cn: cn.length === 1 ? cn : false }}).filter(function(pair){ return pair.cn && pair.hant; });
 
+
+//Traditional kanji radicals
+//https://en.wikipedia.org/wiki/Table_of_Japanese_kanji_radicals
+$('#collapsibleTable0 tr').get().map(function(el) { el=$(el); var ja=el.find('span[lang="ja"] a').text(); var e=el.find('td:nth-child(4)').text(); var ex=el.find('td:nth-child(7)').text(); return { e: e, ja: ja, ex: ex.split(/\s*/igm) }}).filter(function(a){ return a.e && a.ja; });
+
+//Simplified kanji radicals
+//https://en.wikipedia.org/wiki/Simplified_table_of_Japanese_kanji_radicals
+$('#collapsibleTable0 tr').get().map(function(el) { el=$(el); var ja=el.find('span[lang="ja"] a').text(); var e=el.find('td:nth-child(4)').text(); var ex=el.find('td:nth-child(6)').text(); return { e: e, ja: ja, ex: ex.split(/\s*/igm), hira: el.find('td:nth-child(3)').text() }}).filter(function(a){ return a.e && a.ja; });
+
+
 }
