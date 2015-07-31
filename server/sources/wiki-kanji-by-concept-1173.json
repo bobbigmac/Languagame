@@ -1,0 +1,8194 @@
+[
+  {
+    "j": "色",
+    "e": [
+      "Colours",
+      false
+    ]
+  },
+  {
+    "j": "白",
+    "e": [
+      "white",
+      false
+    ]
+  },
+  {
+    "j": "黒",
+    "e": [
+      "black",
+      false
+    ]
+  },
+  {
+    "j": "赤",
+    "e": [
+      "red",
+      false
+    ]
+  },
+  {
+    "j": "紅",
+    "e": [
+      "crimson",
+      false
+    ]
+  },
+  {
+    "j": "青",
+    "e": [
+      "blue",
+      false
+    ]
+  },
+  {
+    "j": "黄",
+    "e": [
+      "yellow",
+      false
+    ]
+  },
+  {
+    "j": "緑",
+    "e": [
+      "green",
+      false
+    ]
+  },
+  {
+    "j": "金",
+    "e": [
+      "gold",
+      false
+    ]
+  },
+  {
+    "j": "銀",
+    "e": [
+      "silver",
+      false
+    ]
+  },
+  {
+    "j": "紫",
+    "e": [
+      "violet",
+      false
+    ]
+  },
+  {
+    "j": "紺",
+    "e": [
+      "dark blue",
+      false
+    ]
+  },
+  {
+    "j": "朱",
+    "e": [
+      "vermilion",
+      false
+    ]
+  },
+  {
+    "j": "褐",
+    "e": [
+      "brown",
+      false
+    ]
+  },
+  {
+    "j": "藍",
+    "e": [
+      "indigo",
+      false
+    ]
+  },
+  {
+    "j": "彩",
+    "e": [
+      "brightly coloured",
+      false
+    ]
+  },
+  {
+    "j": "形",
+    "e": [
+      "shape",
+      false
+    ]
+  },
+  {
+    "j": "体",
+    "e": [
+      "form",
+      false
+    ]
+  },
+  {
+    "j": "姿",
+    "e": [
+      "figure",
+      false
+    ]
+  },
+  {
+    "j": "模",
+    "e": [
+      "pattern",
+      false
+    ]
+  },
+  {
+    "j": "柄",
+    "e": [
+      "design, pattern",
+      false
+    ]
+  },
+  {
+    "j": "円",
+    "e": [
+      "circle",
+      false
+    ]
+  },
+  {
+    "j": "丸",
+    "e": [
+      "circular",
+      false
+    ]
+  },
+  {
+    "j": "曲",
+    "e": [
+      "curve",
+      false
+    ]
+  },
+  {
+    "j": "弧",
+    "e": [
+      "arc",
+      false
+    ]
+  },
+  {
+    "j": "環",
+    "e": [
+      "ring, surround",
+      false
+    ]
+  },
+  {
+    "j": "輪",
+    "e": [
+      "ring",
+      false
+    ]
+  },
+  {
+    "j": "凹",
+    "e": [
+      "concave",
+      false
+    ]
+  },
+  {
+    "j": "凸",
+    "e": [
+      "convex",
+      false
+    ]
+  },
+  {
+    "j": "角",
+    "e": [
+      "angle",
+      false
+    ]
+  },
+  {
+    "j": "斜",
+    "e": [
+      "diagonal",
+      false
+    ]
+  },
+  {
+    "j": "球",
+    "e": [
+      "sphere",
+      false
+    ]
+  },
+  {
+    "j": "圏",
+    "e": [
+      "sphere",
+      false
+    ]
+  },
+  {
+    "j": "玉",
+    "e": [
+      "ball",
+      false
+    ]
+  },
+  {
+    "j": "線",
+    "e": [
+      "line",
+      false
+    ]
+  },
+  {
+    "j": "列",
+    "e": [
+      "row, line",
+      false
+    ]
+  },
+  {
+    "j": "並",
+    "e": [
+      "line up",
+      false
+    ]
+  },
+  {
+    "j": "大",
+    "e": [
+      "large",
+      false
+    ]
+  },
+  {
+    "j": "巨",
+    "e": [
+      "huge",
+      false
+    ]
+  },
+  {
+    "j": "小",
+    "e": [
+      "small",
+      false
+    ]
+  },
+  {
+    "j": "微",
+    "e": [
+      "minute",
+      false
+    ]
+  },
+  {
+    "j": "狭",
+    "e": [
+      "narrow",
+      false
+    ]
+  },
+  {
+    "j": "端",
+    "e": [
+      "edge or border",
+      false
+    ]
+  },
+  {
+    "j": "縁",
+    "e": [
+      "edge",
+      false
+    ]
+  },
+  {
+    "j": "周",
+    "e": [
+      "perimeter",
+      false
+    ]
+  },
+  {
+    "j": "境",
+    "e": [
+      "boundary",
+      false
+    ]
+  },
+  {
+    "j": "枠",
+    "e": [
+      "frame, border",
+      false
+    ]
+  },
+  {
+    "j": "端",
+    "e": [
+      "end, tip",
+      false
+    ]
+  },
+  {
+    "j": "側",
+    "e": [
+      "side",
+      false
+    ]
+  },
+  {
+    "j": "隅",
+    "e": [
+      "corner",
+      false
+    ]
+  },
+  {
+    "j": "高",
+    "e": [
+      "tall",
+      false
+    ]
+  },
+  {
+    "j": "長",
+    "e": [
+      "long",
+      false
+    ]
+  },
+  {
+    "j": "短",
+    "e": [
+      "short",
+      false
+    ]
+  },
+  {
+    "j": "広",
+    "e": [
+      "wide",
+      false
+    ]
+  },
+  {
+    "j": "幅",
+    "e": [
+      "width",
+      false
+    ]
+  },
+  {
+    "j": "硬",
+    "e": [
+      "hard",
+      false
+    ]
+  },
+  {
+    "j": "軟",
+    "e": [
+      "soft",
+      false
+    ]
+  },
+  {
+    "j": "重",
+    "e": [
+      "heavy",
+      false
+    ]
+  },
+  {
+    "j": "軽",
+    "e": [
+      "light (weight)",
+      false
+    ]
+  },
+  {
+    "j": "固",
+    "e": [
+      "solid, firm",
+      false
+    ]
+  },
+  {
+    "j": "液",
+    "e": [
+      "liquid",
+      false
+    ]
+  },
+  {
+    "j": "強",
+    "e": [
+      "strong",
+      false
+    ]
+  },
+  {
+    "j": "弱",
+    "e": [
+      "weak",
+      false
+    ]
+  },
+  {
+    "j": "厚",
+    "e": [
+      "thick",
+      false
+    ]
+  },
+  {
+    "j": "濃",
+    "e": [
+      "thick, concentrated",
+      false
+    ]
+  },
+  {
+    "j": "薄",
+    "e": [
+      "dilute, thin",
+      false
+    ]
+  },
+  {
+    "j": "細",
+    "e": [
+      "slender",
+      false
+    ]
+  },
+  {
+    "j": "緻",
+    "e": [
+      "fine, delicate",
+      false
+    ]
+  },
+  {
+    "j": "微",
+    "e": [
+      "delicate",
+      false
+    ]
+  },
+  {
+    "j": "鋭",
+    "e": [
+      "sharp",
+      false
+    ]
+  },
+  {
+    "j": "太",
+    "e": [
+      "fat, thick",
+      false
+    ]
+  },
+  {
+    "j": "深",
+    "e": [
+      "deep",
+      false
+    ]
+  },
+  {
+    "j": "浅",
+    "e": [
+      "shallow",
+      false
+    ]
+  },
+  {
+    "j": "暑",
+    "e": [
+      "hot",
+      false
+    ]
+  },
+  {
+    "j": "熱",
+    "e": [
+      "hot",
+      false
+    ]
+  },
+  {
+    "j": "温",
+    "e": [
+      "warm",
+      false
+    ]
+  },
+  {
+    "j": "暖",
+    "e": [
+      "warm",
+      false
+    ]
+  },
+  {
+    "j": "冷",
+    "e": [
+      "cold",
+      false
+    ]
+  },
+  {
+    "j": "寒",
+    "e": [
+      "cold",
+      false
+    ]
+  },
+  {
+    "j": "干",
+    "e": [
+      "dry",
+      false
+    ]
+  },
+  {
+    "j": "乾",
+    "e": [
+      "dry",
+      false
+    ]
+  },
+  {
+    "j": "湿",
+    "e": [
+      "damp",
+      false
+    ]
+  },
+  {
+    "j": "潤",
+    "e": [
+      "moist",
+      false
+    ]
+  },
+  {
+    "j": "浄",
+    "e": [
+      "clean",
+      false
+    ]
+  },
+  {
+    "j": "汚",
+    "e": [
+      "dirty",
+      false
+    ]
+  },
+  {
+    "j": "粘",
+    "e": [
+      "sticky",
+      false
+    ]
+  },
+  {
+    "j": "艶",
+    "e": [
+      "glossy",
+      false
+    ]
+  },
+  {
+    "j": "北",
+    "e": [
+      "north",
+      false
+    ]
+  },
+  {
+    "j": "南",
+    "e": [
+      "south",
+      false
+    ]
+  },
+  {
+    "j": "東",
+    "e": [
+      "east",
+      false
+    ]
+  },
+  {
+    "j": "西",
+    "e": [
+      "west",
+      false
+    ]
+  },
+  {
+    "j": "左",
+    "e": [
+      "left",
+      false
+    ]
+  },
+  {
+    "j": "右",
+    "e": [
+      "right",
+      false
+    ]
+  },
+  {
+    "j": "下",
+    "e": [
+      "down",
+      false
+    ]
+  },
+  {
+    "j": "上",
+    "e": [
+      "up",
+      false
+    ]
+  },
+  {
+    "j": "前",
+    "e": [
+      "front",
+      false
+    ]
+  },
+  {
+    "j": "後",
+    "e": [
+      "back",
+      false
+    ]
+  },
+  {
+    "j": "裏",
+    "e": [
+      "rear, back",
+      false
+    ]
+  },
+  {
+    "j": "底",
+    "e": [
+      "bottom",
+      false
+    ]
+  },
+  {
+    "j": "外",
+    "e": [
+      "outside",
+      false
+    ]
+  },
+  {
+    "j": "中",
+    "e": [
+      "inside/middle",
+      false
+    ]
+  },
+  {
+    "j": "内",
+    "e": [
+      "inside",
+      false
+    ]
+  },
+  {
+    "j": "央",
+    "e": [
+      "centre",
+      false
+    ]
+  },
+  {
+    "j": "奥",
+    "e": [
+      "interior",
+      false
+    ]
+  },
+  {
+    "j": "間",
+    "e": [
+      "between",
+      false
+    ]
+  },
+  {
+    "j": "入",
+    "e": [
+      "direction in",
+      false
+    ]
+  },
+  {
+    "j": "出",
+    "e": [
+      "direction out",
+      false
+    ]
+  },
+  {
+    "j": "方",
+    "e": [
+      "direction",
+      false
+    ]
+  },
+  {
+    "j": "近",
+    "e": [
+      "near",
+      false
+    ]
+  },
+  {
+    "j": "遠",
+    "e": [
+      "distant",
+      false
+    ]
+  },
+  {
+    "j": "向",
+    "e": [
+      "toward"
+    ]
+  },
+  {
+    "j": "来",
+    "e": [
+      "come",
+      false
+    ]
+  },
+  {
+    "j": "行",
+    "e": [
+      "go",
+      false
+    ]
+  },
+  {
+    "j": "旅",
+    "e": [
+      "travel",
+      false
+    ]
+  },
+  {
+    "j": "往",
+    "e": [
+      "go, depart",
+      false
+    ]
+  },
+  {
+    "j": "帰",
+    "e": [
+      "return",
+      false
+    ]
+  },
+  {
+    "j": "参",
+    "e": [
+      "go (esp. visit)",
+      false
+    ]
+  },
+  {
+    "j": "落",
+    "e": [
+      "fall, drop",
+      false
+    ]
+  },
+  {
+    "j": "赴",
+    "e": [
+      "go to",
+      false
+    ]
+  },
+  {
+    "j": "越",
+    "e": [
+      "go beyond, exceed",
+      false
+    ]
+  },
+  {
+    "j": "倒",
+    "e": [
+      "fall over",
+      false
+    ]
+  },
+  {
+    "j": "墜",
+    "e": [
+      "fall down, crash",
+      false
+    ]
+  },
+  {
+    "j": "揚",
+    "e": [
+      "raise, elevate"
+    ]
+  },
+  {
+    "j": "数",
+    "e": [
+      "number",
+      false
+    ]
+  },
+  {
+    "j": "零",
+    "e": [
+      "zero",
+      false
+    ]
+  },
+  {
+    "j": "一",
+    "e": [
+      "one",
+      false
+    ]
+  },
+  {
+    "j": "二",
+    "e": [
+      "two",
+      false
+    ]
+  },
+  {
+    "j": "三",
+    "e": [
+      "three",
+      false
+    ]
+  },
+  {
+    "j": "四",
+    "e": [
+      "four",
+      false
+    ]
+  },
+  {
+    "j": "五",
+    "e": [
+      "five",
+      false
+    ]
+  },
+  {
+    "j": "六",
+    "e": [
+      "six",
+      false
+    ]
+  },
+  {
+    "j": "七",
+    "e": [
+      "seven",
+      false
+    ]
+  },
+  {
+    "j": "八",
+    "e": [
+      "eight",
+      false
+    ]
+  },
+  {
+    "j": "九",
+    "e": [
+      "nine",
+      false
+    ]
+  },
+  {
+    "j": "十",
+    "e": [
+      "ten",
+      false
+    ]
+  },
+  {
+    "j": "百",
+    "e": [
+      "100",
+      false
+    ]
+  },
+  {
+    "j": "千",
+    "e": [
+      "1,000",
+      false
+    ]
+  },
+  {
+    "j": "万",
+    "e": [
+      "10,000",
+      false
+    ]
+  },
+  {
+    "j": "億",
+    "e": [
+      "100,000,000",
+      false
+    ]
+  },
+  {
+    "j": "兆",
+    "e": [
+      "1,000,000,000,000",
+      false
+    ]
+  },
+  {
+    "j": "第",
+    "e": [
+      "ordinal marker",
+      false
+    ]
+  },
+  {
+    "j": "初",
+    "e": [
+      "first",
+      false
+    ]
+  },
+  {
+    "j": "乙",
+    "e": [
+      "second (ordinal)",
+      false
+    ]
+  },
+  {
+    "j": "丙",
+    "e": [
+      "third (ordinal)",
+      false
+    ]
+  },
+  {
+    "j": "桁",
+    "e": [
+      "digit",
+      false
+    ]
+  },
+  {
+    "j": "双",
+    "e": [
+      "pair",
+      false
+    ]
+  },
+  {
+    "j": "多",
+    "e": [
+      "many",
+      false
+    ]
+  },
+  {
+    "j": "少",
+    "e": [
+      "few",
+      false
+    ]
+  },
+  {
+    "j": "半",
+    "e": [
+      "half",
+      false
+    ]
+  },
+  {
+    "j": "両",
+    "e": [
+      "both",
+      false
+    ]
+  },
+  {
+    "j": "各",
+    "e": [
+      "each",
+      false
+    ]
+  },
+  {
+    "j": "毎",
+    "e": [
+      "every",
+      false
+    ]
+  },
+  {
+    "j": "次",
+    "e": [
+      "next",
+      false
+    ]
+  },
+  {
+    "j": "翌",
+    "e": [
+      "the following",
+      false
+    ]
+  },
+  {
+    "j": "番",
+    "e": [
+      "numerical order",
+      false
+    ]
+  },
+  {
+    "j": "順",
+    "e": [
+      "sequence",
+      false
+    ]
+  },
+  {
+    "j": "序",
+    "e": [
+      "sequence"
+    ]
+  },
+  {
+    "j": "個",
+    "e": [
+      "general counter",
+      false
+    ]
+  },
+  {
+    "j": "台",
+    "e": [
+      "counter for machines and vehicles",
+      false
+    ]
+  },
+  {
+    "j": "枚",
+    "e": [
+      "counter for flat things",
+      false
+    ]
+  },
+  {
+    "j": "本",
+    "e": [
+      "counter for cylindrical things",
+      false
+    ]
+  },
+  {
+    "j": "隻",
+    "e": [
+      "counter for ships",
+      false
+    ]
+  },
+  {
+    "j": "冊",
+    "e": [
+      "counter for books",
+      false
+    ]
+  },
+  {
+    "j": "匹",
+    "e": [
+      "counter for animals",
+      false
+    ]
+  },
+  {
+    "j": "疋",
+    "e": [
+      "counter for small animals or insects",
+      false
+    ]
+  },
+  {
+    "j": "頭",
+    "e": [
+      "counter for large animals",
+      false
+    ]
+  },
+  {
+    "j": "羽",
+    "e": [
+      "counter for birds and rabbits",
+      false
+    ]
+  },
+  {
+    "j": "箇",
+    "e": [
+      "counter for articles",
+      false
+    ]
+  },
+  {
+    "j": "足",
+    "e": [
+      "counter for pairs of footwear",
+      false
+    ]
+  },
+  {
+    "j": "札",
+    "e": [
+      "counter for bonds, tickets",
+      false
+    ]
+  },
+  {
+    "j": "杯",
+    "e": [
+      "counter for cupfuls",
+      false
+    ]
+  },
+  {
+    "j": "軒",
+    "e": [
+      "counter for houses",
+      false
+    ]
+  },
+  {
+    "j": "戸",
+    "e": [
+      "counter for houses",
+      false
+    ]
+  },
+  {
+    "j": "輪",
+    "e": [
+      "counter for wheels and flowers",
+      false
+    ]
+  },
+  {
+    "j": "畳",
+    "e": [
+      "counter for tatami mats",
+      false
+    ]
+  },
+  {
+    "j": "斤",
+    "e": [
+      "counter for loaves of bread",
+      false
+    ]
+  },
+  {
+    "j": "丁",
+    "e": [
+      "miscellaneous counter"
+    ]
+  },
+  {
+    "j": "算",
+    "e": [
+      "calculation",
+      false
+    ]
+  },
+  {
+    "j": "倍",
+    "e": [
+      "times, double",
+      false
+    ]
+  },
+  {
+    "j": "増",
+    "e": [
+      "increase, add",
+      false
+    ]
+  },
+  {
+    "j": "殖",
+    "e": [
+      "increase",
+      false
+    ]
+  },
+  {
+    "j": "耗",
+    "e": [
+      "decrease, consume",
+      false
+    ]
+  },
+  {
+    "j": "減",
+    "e": [
+      "dwindle, decrease",
+      false
+    ]
+  },
+  {
+    "j": "縮",
+    "e": [
+      "shrink, contract",
+      false
+    ]
+  },
+  {
+    "j": "加",
+    "e": [
+      "add to",
+      false
+    ]
+  },
+  {
+    "j": "除",
+    "e": [
+      "division",
+      false
+    ]
+  },
+  {
+    "j": "分",
+    "e": [
+      "divide",
+      false
+    ]
+  },
+  {
+    "j": "剖",
+    "e": [
+      "split in two"
+    ]
+  },
+  {
+    "j": "尺",
+    "e": [
+      "Japanese foot (around 30 cm)",
+      false
+    ]
+  },
+  {
+    "j": "寸",
+    "e": [
+      "1/10 Japanese foot (around 3 cm)",
+      false
+    ]
+  },
+  {
+    "j": "厘",
+    "e": [
+      "(around 0.3 mm)",
+      false
+    ]
+  },
+  {
+    "j": "里",
+    "e": [
+      "league (around 3.9 km)"
+    ]
+  },
+  {
+    "j": "坪",
+    "e": [
+      "two-mat area (around 3.3 m²)",
+      false
+    ]
+  },
+  {
+    "j": "畝",
+    "e": [
+      "30 tsubo (around 100 m²)"
+    ]
+  },
+  {
+    "j": "勺",
+    "e": [
+      "ladle (around 18 ml)",
+      false
+    ]
+  },
+  {
+    "j": "升",
+    "e": [
+      "(around 1.8 l)",
+      false
+    ]
+  },
+  {
+    "j": "斗",
+    "e": [
+      "(around 18 l)",
+      false
+    ]
+  },
+  {
+    "j": "石",
+    "e": [
+      "(around 180 l)"
+    ]
+  },
+  {
+    "j": "匁",
+    "e": [
+      "(around 3.75 grams)",
+      false
+    ]
+  },
+  {
+    "j": "斤",
+    "e": [
+      "(around 600 g)"
+    ]
+  },
+  {
+    "j": "日",
+    "e": [
+      "day",
+      false
+    ]
+  },
+  {
+    "j": "週",
+    "e": [
+      "week",
+      false
+    ]
+  },
+  {
+    "j": "月",
+    "e": [
+      "month",
+      false
+    ]
+  },
+  {
+    "j": "年",
+    "e": [
+      "year",
+      false
+    ]
+  },
+  {
+    "j": "曜",
+    "e": [
+      "day of week",
+      false
+    ]
+  },
+  {
+    "j": "暦",
+    "e": [
+      "calendar",
+      false
+    ]
+  },
+  {
+    "j": "朝",
+    "e": [
+      "morning",
+      false
+    ]
+  },
+  {
+    "j": "午",
+    "e": [
+      "noon",
+      false
+    ]
+  },
+  {
+    "j": "昼",
+    "e": [
+      "daytime",
+      false
+    ]
+  },
+  {
+    "j": "夕",
+    "e": [
+      "evening",
+      false
+    ]
+  },
+  {
+    "j": "晩",
+    "e": [
+      "evening",
+      false
+    ]
+  },
+  {
+    "j": "宵",
+    "e": [
+      "early evening",
+      false
+    ]
+  },
+  {
+    "j": "夜",
+    "e": [
+      "night",
+      false
+    ]
+  },
+  {
+    "j": "暁",
+    "e": [
+      "sunrise",
+      false
+    ]
+  },
+  {
+    "j": "旭",
+    "e": [
+      "rising sun",
+      false
+    ]
+  },
+  {
+    "j": "旦",
+    "e": [
+      "sunrise",
+      false
+    ]
+  },
+  {
+    "j": "暮",
+    "e": [
+      "sunset",
+      false
+    ]
+  },
+  {
+    "j": "時",
+    "e": [
+      "time, hour",
+      false
+    ]
+  },
+  {
+    "j": "分",
+    "e": [
+      "minute",
+      false
+    ]
+  },
+  {
+    "j": "秒",
+    "e": [
+      "second",
+      false
+    ]
+  },
+  {
+    "j": "今",
+    "e": [
+      "now",
+      false
+    ]
+  },
+  {
+    "j": "早",
+    "e": [
+      "early",
+      false
+    ]
+  },
+  {
+    "j": "遅",
+    "e": [
+      "late",
+      false
+    ]
+  },
+  {
+    "j": "前",
+    "e": [
+      "before",
+      false
+    ]
+  },
+  {
+    "j": "後",
+    "e": [
+      "after",
+      false
+    ]
+  },
+  {
+    "j": "久",
+    "e": [
+      "long ago",
+      false
+    ]
+  },
+  {
+    "j": "旧",
+    "e": [
+      "former",
+      false
+    ]
+  },
+  {
+    "j": "曽",
+    "e": [
+      "formerly",
+      false
+    ]
+  },
+  {
+    "j": "近",
+    "e": [
+      "recent",
+      false
+    ]
+  },
+  {
+    "j": "先",
+    "e": [
+      "ahead, previous",
+      false
+    ]
+  },
+  {
+    "j": "間",
+    "e": [
+      "interval of time",
+      false
+    ]
+  },
+  {
+    "j": "期",
+    "e": [
+      "time period",
+      false
+    ]
+  },
+  {
+    "j": "暫",
+    "e": [
+      "a while",
+      false
+    ]
+  },
+  {
+    "j": "紀",
+    "e": [
+      "era",
+      false
+    ]
+  },
+  {
+    "j": "昨",
+    "e": [
+      "previous time",
+      false
+    ]
+  },
+  {
+    "j": "回",
+    "e": [
+      "number of times",
+      false
+    ]
+  },
+  {
+    "j": "頃",
+    "e": [
+      "time, about",
+      false
+    ]
+  },
+  {
+    "j": "際",
+    "e": [
+      "moment, occasion",
+      false
+    ]
+  },
+  {
+    "j": "度",
+    "e": [
+      "number of times",
+      false
+    ]
+  },
+  {
+    "j": "昔",
+    "e": [
+      "antiquity",
+      false
+    ]
+  },
+  {
+    "j": "永",
+    "e": [
+      "eternity",
+      false
+    ]
+  },
+  {
+    "j": "旬",
+    "e": [
+      "period of 10 days",
+      false
+    ]
+  },
+  {
+    "j": "始",
+    "e": [
+      "begin",
+      false
+    ]
+  },
+  {
+    "j": "終",
+    "e": [
+      "end",
+      false
+    ]
+  },
+  {
+    "j": "古",
+    "e": [
+      "old",
+      false
+    ]
+  },
+  {
+    "j": "老",
+    "e": [
+      "old",
+      false
+    ]
+  },
+  {
+    "j": "若",
+    "e": [
+      "young",
+      false
+    ]
+  },
+  {
+    "j": "新",
+    "e": [
+      "new",
+      false
+    ]
+  },
+  {
+    "j": "季",
+    "e": [
+      "season",
+      false
+    ]
+  },
+  {
+    "j": "候",
+    "e": [
+      "season",
+      false
+    ]
+  },
+  {
+    "j": "節",
+    "e": [
+      "season, period",
+      false
+    ]
+  },
+  {
+    "j": "春",
+    "e": [
+      "spring",
+      false
+    ]
+  },
+  {
+    "j": "夏",
+    "e": [
+      "summer",
+      false
+    ]
+  },
+  {
+    "j": "秋",
+    "e": [
+      "autumn",
+      false
+    ]
+  },
+  {
+    "j": "冬",
+    "e": [
+      "winter"
+    ]
+  },
+  {
+    "j": "曜",
+    "e": [
+      "weekday",
+      false
+    ]
+  },
+  {
+    "j": "日",
+    "e": [
+      "Sunday",
+      false
+    ]
+  },
+  {
+    "j": "月",
+    "e": [
+      "Monday",
+      false
+    ]
+  },
+  {
+    "j": "火",
+    "e": [
+      "Tuesday",
+      false
+    ]
+  },
+  {
+    "j": "水",
+    "e": [
+      "Wednesday",
+      false
+    ]
+  },
+  {
+    "j": "木",
+    "e": [
+      "Thursday",
+      false
+    ]
+  },
+  {
+    "j": "金",
+    "e": [
+      "Friday",
+      false
+    ]
+  },
+  {
+    "j": "土",
+    "e": [
+      "Saturday"
+    ]
+  },
+  {
+    "j": "日",
+    "e": [
+      "sun",
+      false
+    ]
+  },
+  {
+    "j": "陽yang principle",
+    "e": [
+      "陽 sun or yang principle",
+      false
+    ]
+  },
+  {
+    "j": "月",
+    "e": [
+      "moon",
+      false
+    ]
+  },
+  {
+    "j": "星",
+    "e": [
+      "star",
+      false
+    ]
+  },
+  {
+    "j": "天",
+    "e": [
+      "sky or heaven",
+      false
+    ]
+  },
+  {
+    "j": "空",
+    "e": [
+      "sky or void",
+      false
+    ]
+  },
+  {
+    "j": "気",
+    "e": [
+      "air",
+      false
+    ]
+  },
+  {
+    "j": "宇",
+    "e": [
+      "universe",
+      false
+    ]
+  },
+  {
+    "j": "金",
+    "e": [
+      "metal or gold",
+      false
+    ]
+  },
+  {
+    "j": "銀",
+    "e": [
+      "silver",
+      false
+    ]
+  },
+  {
+    "j": "銅",
+    "e": [
+      "copper",
+      false
+    ]
+  },
+  {
+    "j": "鉛",
+    "e": [
+      "lead",
+      false
+    ]
+  },
+  {
+    "j": "鉄",
+    "e": [
+      "iron",
+      false
+    ]
+  },
+  {
+    "j": "銑",
+    "e": [
+      "pig iron",
+      false
+    ]
+  },
+  {
+    "j": "鋼",
+    "e": [
+      "steel",
+      false
+    ]
+  },
+  {
+    "j": "鉱",
+    "e": [
+      "ore",
+      false
+    ]
+  },
+  {
+    "j": "晶",
+    "e": [
+      "crystal",
+      false
+    ]
+  },
+  {
+    "j": "玉",
+    "e": [
+      "jewel",
+      false
+    ]
+  },
+  {
+    "j": "珠",
+    "e": [
+      "pearl or jewel",
+      false
+    ]
+  },
+  {
+    "j": "水",
+    "e": [
+      "water",
+      false
+    ]
+  },
+  {
+    "j": "氷",
+    "e": [
+      "ice",
+      false
+    ]
+  },
+  {
+    "j": "汽",
+    "e": [
+      "steam, vapour",
+      false
+    ]
+  },
+  {
+    "j": "石",
+    "e": [
+      "stone",
+      false
+    ]
+  },
+  {
+    "j": "炭",
+    "e": [
+      "coal",
+      false
+    ]
+  },
+  {
+    "j": "灰",
+    "e": [
+      "ash",
+      false
+    ]
+  },
+  {
+    "j": "土",
+    "e": [
+      "earth",
+      false
+    ]
+  },
+  {
+    "j": "地",
+    "e": [
+      "ground or earth",
+      false
+    ]
+  },
+  {
+    "j": "砂",
+    "e": [
+      "sand",
+      false
+    ]
+  },
+  {
+    "j": "沙",
+    "e": [
+      "sand",
+      false
+    ]
+  },
+  {
+    "j": "泥",
+    "e": [
+      "mud",
+      false
+    ]
+  },
+  {
+    "j": "塩",
+    "e": [
+      "salt",
+      false
+    ]
+  },
+  {
+    "j": "丹",
+    "e": [
+      "cinnabar",
+      false
+    ]
+  },
+  {
+    "j": "硫",
+    "e": [
+      "sulphur",
+      false
+    ]
+  },
+  {
+    "j": "酸",
+    "e": [
+      "acid, oxygen",
+      false
+    ]
+  },
+  {
+    "j": "窒",
+    "e": [
+      "nitrogen",
+      false
+    ]
+  },
+  {
+    "j": "材",
+    "e": [
+      "timber, material",
+      false
+    ]
+  },
+  {
+    "j": "油",
+    "e": [
+      "oil",
+      false
+    ]
+  },
+  {
+    "j": "脂",
+    "e": [
+      "fat",
+      false
+    ]
+  },
+  {
+    "j": "雲",
+    "e": [
+      "cloud",
+      false
+    ]
+  },
+  {
+    "j": "曇",
+    "e": [
+      "cloud",
+      false
+    ]
+  },
+  {
+    "j": "雨",
+    "e": [
+      "rain",
+      false
+    ]
+  },
+  {
+    "j": "虹",
+    "e": [
+      "rainbow",
+      false
+    ]
+  },
+  {
+    "j": "風",
+    "e": [
+      "wind",
+      false
+    ]
+  },
+  {
+    "j": "雪",
+    "e": [
+      "snow",
+      false
+    ]
+  },
+  {
+    "j": "嵐",
+    "e": [
+      "storm",
+      false
+    ]
+  },
+  {
+    "j": "候",
+    "e": [
+      "climate",
+      false
+    ]
+  },
+  {
+    "j": "晴",
+    "e": [
+      "fine weather",
+      false
+    ]
+  },
+  {
+    "j": "霞",
+    "e": [
+      "haze or mist",
+      false
+    ]
+  },
+  {
+    "j": "雷",
+    "e": [
+      "lightning or thunder",
+      false
+    ]
+  },
+  {
+    "j": "霧",
+    "e": [
+      "fog or mist",
+      false
+    ]
+  },
+  {
+    "j": "霜",
+    "e": [
+      "frost",
+      false
+    ]
+  },
+  {
+    "j": "露",
+    "e": [
+      "dew",
+      false
+    ]
+  },
+  {
+    "j": "波",
+    "e": [
+      "wave",
+      false
+    ]
+  },
+  {
+    "j": "潮",
+    "e": [
+      "tide",
+      false
+    ]
+  },
+  {
+    "j": "渦",
+    "e": [
+      "whirlpool",
+      false
+    ]
+  },
+  {
+    "j": "洪",
+    "e": [
+      "flood",
+      false
+    ]
+  },
+  {
+    "j": "震",
+    "e": [
+      "earthquake",
+      false
+    ]
+  },
+  {
+    "j": "災",
+    "e": [
+      "natural disaster",
+      false
+    ]
+  },
+  {
+    "j": "暗",
+    "e": [
+      "dark",
+      false
+    ]
+  },
+  {
+    "j": "闇",
+    "e": [
+      "dark",
+      false
+    ]
+  },
+  {
+    "j": "冥",
+    "e": [
+      "dark",
+      false
+    ]
+  },
+  {
+    "j": "光",
+    "e": [
+      "light",
+      false
+    ]
+  },
+  {
+    "j": "明",
+    "e": [
+      "light",
+      false
+    ]
+  },
+  {
+    "j": "陰yin principle",
+    "e": [
+      "陰 yin principle or shadow",
+      false
+    ]
+  },
+  {
+    "j": "影",
+    "e": [
+      "shadow",
+      false
+    ]
+  },
+  {
+    "j": "煙",
+    "e": [
+      "smoke or fumes",
+      false
+    ]
+  },
+  {
+    "j": "電",
+    "e": [
+      "electricity",
+      false
+    ]
+  },
+  {
+    "j": "磁",
+    "e": [
+      "magnet",
+      false
+    ]
+  },
+  {
+    "j": "火",
+    "e": [
+      "fire",
+      false
+    ]
+  },
+  {
+    "j": "炎",
+    "e": [
+      "blaze"
+    ]
+  },
+  {
+    "j": "陸",
+    "e": [
+      "land",
+      false
+    ]
+  },
+  {
+    "j": "野",
+    "e": [
+      "field",
+      false
+    ]
+  },
+  {
+    "j": "畑",
+    "e": [
+      "field",
+      false
+    ]
+  },
+  {
+    "j": "原",
+    "e": [
+      "field",
+      false
+    ]
+  },
+  {
+    "j": "田",
+    "e": [
+      "rice paddy",
+      false
+    ]
+  },
+  {
+    "j": "牧",
+    "e": [
+      "pasture",
+      false
+    ]
+  },
+  {
+    "j": "里",
+    "e": [
+      "countryside",
+      false
+    ]
+  },
+  {
+    "j": "壌",
+    "e": [
+      "fertile soil",
+      false
+    ]
+  },
+  {
+    "j": "漠",
+    "e": [
+      "desert",
+      false
+    ]
+  },
+  {
+    "j": "山",
+    "e": [
+      "mountain",
+      false
+    ]
+  },
+  {
+    "j": "岳",
+    "e": [
+      "peak or mountain",
+      false
+    ]
+  },
+  {
+    "j": "峰",
+    "e": [
+      "peak",
+      false
+    ]
+  },
+  {
+    "j": "峠",
+    "e": [
+      "mountain pass",
+      false
+    ]
+  },
+  {
+    "j": "丘",
+    "e": [
+      "hill",
+      false
+    ]
+  },
+  {
+    "j": "岡",
+    "e": [
+      "hill",
+      false
+    ]
+  },
+  {
+    "j": "阜",
+    "e": [
+      "hill",
+      false
+    ]
+  },
+  {
+    "j": "坂",
+    "e": [
+      "slope",
+      false
+    ]
+  },
+  {
+    "j": "麓",
+    "e": [
+      "foot of mountain",
+      false
+    ]
+  },
+  {
+    "j": "堤",
+    "e": [
+      "embankment",
+      false
+    ]
+  },
+  {
+    "j": "谷",
+    "e": [
+      "valley",
+      false
+    ]
+  },
+  {
+    "j": "溪",
+    "e": [
+      "mountain stream or valley",
+      false
+    ]
+  },
+  {
+    "j": "峡",
+    "e": [
+      "gorge",
+      false
+    ]
+  },
+  {
+    "j": "渓",
+    "e": [
+      "ravine",
+      false
+    ]
+  },
+  {
+    "j": "窟",
+    "e": [
+      "cave",
+      false
+    ]
+  },
+  {
+    "j": "岩",
+    "e": [
+      "rock or boulder",
+      false
+    ]
+  },
+  {
+    "j": "巌",
+    "e": [
+      "rock or boulder",
+      false
+    ]
+  },
+  {
+    "j": "漠",
+    "e": [
+      "desert",
+      false
+    ]
+  },
+  {
+    "j": "川",
+    "e": [
+      "river",
+      false
+    ]
+  },
+  {
+    "j": "河",
+    "e": [
+      "river or stream",
+      false
+    ]
+  },
+  {
+    "j": "泉",
+    "e": [
+      "water spring",
+      false
+    ]
+  },
+  {
+    "j": "滝",
+    "e": [
+      "waterfall",
+      false
+    ]
+  },
+  {
+    "j": "瀬",
+    "e": [
+      "shallows, rapids",
+      false
+    ]
+  },
+  {
+    "j": "堀",
+    "e": [
+      "ditch",
+      false
+    ]
+  },
+  {
+    "j": "畔",
+    "e": [
+      "levee",
+      false
+    ]
+  },
+  {
+    "j": "沢",
+    "e": [
+      "swamp",
+      false
+    ]
+  },
+  {
+    "j": "沼",
+    "e": [
+      "marsh",
+      false
+    ]
+  },
+  {
+    "j": "海",
+    "e": [
+      "ocean or sea",
+      false
+    ]
+  },
+  {
+    "j": "洋",
+    "e": [
+      "ocean",
+      false
+    ]
+  },
+  {
+    "j": "沖",
+    "e": [
+      "open sea",
+      false
+    ]
+  },
+  {
+    "j": "湖",
+    "e": [
+      "lake",
+      false
+    ]
+  },
+  {
+    "j": "池",
+    "e": [
+      "pond",
+      false
+    ]
+  },
+  {
+    "j": "潟",
+    "e": [
+      "lagoon",
+      false
+    ]
+  },
+  {
+    "j": "礁",
+    "e": [
+      "reef",
+      false
+    ]
+  },
+  {
+    "j": "江",
+    "e": [
+      "creek or bay",
+      false
+    ]
+  },
+  {
+    "j": "湾",
+    "e": [
+      "bay, gulf",
+      false
+    ]
+  },
+  {
+    "j": "岸",
+    "e": [
+      "shore",
+      false
+    ]
+  },
+  {
+    "j": "磯",
+    "e": [
+      "seashore",
+      false
+    ]
+  },
+  {
+    "j": "浜",
+    "e": [
+      "beach",
+      false
+    ]
+  },
+  {
+    "j": "浦",
+    "e": [
+      "bay, beach",
+      false
+    ]
+  },
+  {
+    "j": "崖",
+    "e": [
+      "cliff",
+      false
+    ]
+  },
+  {
+    "j": "崎",
+    "e": [
+      "promontory or cape",
+      false
+    ]
+  },
+  {
+    "j": "埼",
+    "e": [
+      "promontory",
+      false
+    ]
+  },
+  {
+    "j": "岬",
+    "e": [
+      "headland",
+      false
+    ]
+  },
+  {
+    "j": "島",
+    "e": [
+      "island",
+      false
+    ]
+  },
+  {
+    "j": "犬",
+    "e": [
+      "dog",
+      false
+    ]
+  },
+  {
+    "j": "狗",
+    "e": [
+      "dog",
+      false
+    ]
+  },
+  {
+    "j": "猫",
+    "e": [
+      "cat",
+      false
+    ]
+  },
+  {
+    "j": "鼠",
+    "e": [
+      "mouse",
+      false
+    ]
+  },
+  {
+    "j": "兎",
+    "e": [
+      "rabbit",
+      false
+    ]
+  },
+  {
+    "j": "馬",
+    "e": [
+      "horse",
+      false
+    ]
+  },
+  {
+    "j": "牛",
+    "e": [
+      "cow",
+      false
+    ]
+  },
+  {
+    "j": "羊",
+    "e": [
+      "sheep",
+      false
+    ]
+  },
+  {
+    "j": "豚",
+    "e": [
+      "pig",
+      false
+    ]
+  },
+  {
+    "j": "鹿",
+    "e": [
+      "deer",
+      false
+    ]
+  },
+  {
+    "j": "獣",
+    "e": [
+      "beast",
+      false
+    ]
+  },
+  {
+    "j": "畜",
+    "e": [
+      "livestock",
+      false
+    ]
+  },
+  {
+    "j": "象",
+    "e": [
+      "elephant",
+      false
+    ]
+  },
+  {
+    "j": "虎",
+    "e": [
+      "tiger",
+      false
+    ]
+  },
+  {
+    "j": "熊",
+    "e": [
+      "bear",
+      false
+    ]
+  },
+  {
+    "j": "狼",
+    "e": [
+      "wolf",
+      false
+    ]
+  },
+  {
+    "j": "狐",
+    "e": [
+      "fox",
+      false
+    ]
+  },
+  {
+    "j": "狸tanuki",
+    "e": [
+      "狸 raccoon dog (tanuki)",
+      false
+    ]
+  },
+  {
+    "j": "猿",
+    "e": [
+      "monkey",
+      false
+    ]
+  },
+  {
+    "j": "龜亀",
+    "e": [
+      "龜/亀 turtle",
+      false
+    ]
+  },
+  {
+    "j": "鯆",
+    "e": [
+      "dolphin",
+      false
+    ]
+  },
+  {
+    "j": "鯨",
+    "e": [
+      "whale",
+      false
+    ]
+  },
+  {
+    "j": "虫",
+    "e": [
+      "insect",
+      false
+    ]
+  },
+  {
+    "j": "昆",
+    "e": [
+      "insect",
+      false
+    ]
+  },
+  {
+    "j": "蜂",
+    "e": [
+      "bee",
+      false
+    ]
+  },
+  {
+    "j": "蚊",
+    "e": [
+      "mosquito",
+      false
+    ]
+  },
+  {
+    "j": "蚕",
+    "e": [
+      "silkworm",
+      false
+    ]
+  },
+  {
+    "j": "蛍",
+    "e": [
+      "firefly",
+      false
+    ]
+  },
+  {
+    "j": "蛇",
+    "e": [
+      "snake",
+      false
+    ]
+  },
+  {
+    "j": "鰐",
+    "e": [
+      "alligator or crocodile"
+    ]
+  },
+  {
+    "j": "魚",
+    "e": [
+      "fish",
+      false
+    ]
+  },
+  {
+    "j": "貝",
+    "e": [
+      "shellfish",
+      false
+    ]
+  },
+  {
+    "j": "鯉carp",
+    "e": [
+      "鯉 carp",
+      false
+    ]
+  },
+  {
+    "j": "鮒crucian carp",
+    "e": [
+      "鮒 crucian carp",
+      false
+    ]
+  },
+  {
+    "j": "鮠minnow",
+    "e": [
+      "鮠 minnow",
+      false
+    ]
+  },
+  {
+    "j": "鱒trout",
+    "e": [
+      "鱒 trout",
+      false
+    ]
+  },
+  {
+    "j": "鮭salmon",
+    "e": [
+      "鮭 salmon",
+      false
+    ]
+  },
+  {
+    "j": "鱸sea bass",
+    "e": [
+      "鱸 sea bass",
+      false
+    ]
+  },
+  {
+    "j": "鯛sea bream",
+    "e": [
+      "鯛 sea bream",
+      false
+    ]
+  },
+  {
+    "j": "鰌stone loach",
+    "e": [
+      "鰌 stone loach",
+      false
+    ]
+  },
+  {
+    "j": "鱈cod",
+    "e": [
+      "鱈 cod",
+      false
+    ]
+  },
+  {
+    "j": "鰻eel",
+    "e": [
+      "鰻 eel",
+      false
+    ]
+  },
+  {
+    "j": "鯊goby",
+    "e": [
+      "鯊 goby",
+      false
+    ]
+  },
+  {
+    "j": "鯖mackerel",
+    "e": [
+      "鯖 mackerel",
+      false
+    ]
+  },
+  {
+    "j": "鰯sardine",
+    "e": [
+      "鰯 sardine",
+      false
+    ]
+  },
+  {
+    "j": "鯵scadhorse mackerel",
+    "e": [
+      "鯵 scad / horse mackerel",
+      false
+    ]
+  },
+  {
+    "j": "鰊herring",
+    "e": [
+      "鰊 herring",
+      false
+    ]
+  },
+  {
+    "j": "鰍bullhead",
+    "e": [
+      "鰍 bullhead",
+      false
+    ]
+  },
+  {
+    "j": "鯰catfish",
+    "e": [
+      "鯰 catfish",
+      false
+    ]
+  },
+  {
+    "j": "鰈鮃flounder",
+    "e": [
+      "鰈/鮃 flounder",
+      false
+    ]
+  },
+  {
+    "j": "鰤amberjack",
+    "e": [
+      "鰤 amberjack",
+      false
+    ]
+  },
+  {
+    "j": "鮃sole",
+    "e": [
+      "鮃 sole",
+      false
+    ]
+  },
+  {
+    "j": "鮫shark",
+    "e": [
+      "鮫 shark",
+      false
+    ]
+  },
+  {
+    "j": "鳥",
+    "e": [
+      "bird",
+      false
+    ]
+  },
+  {
+    "j": "鶏",
+    "e": [
+      "chicken",
+      false
+    ]
+  },
+  {
+    "j": "鴨",
+    "e": [
+      "duck",
+      false
+    ]
+  },
+  {
+    "j": "鷹",
+    "e": [
+      "hawk",
+      false
+    ]
+  },
+  {
+    "j": "鶴",
+    "e": [
+      "crane",
+      false
+    ]
+  },
+  {
+    "j": "雀",
+    "e": [
+      "sparrow",
+      false
+    ]
+  },
+  {
+    "j": "梟owl",
+    "e": [
+      "梟 owl",
+      false
+    ]
+  },
+  {
+    "j": "燕swallow",
+    "e": [
+      "燕 swallow",
+      false
+    ]
+  },
+  {
+    "j": "烏鴉crow",
+    "e": [
+      "烏/鴉 crow",
+      false
+    ]
+  },
+  {
+    "j": "羽",
+    "e": [
+      "feather, wing",
+      false
+    ]
+  },
+  {
+    "j": "翼",
+    "e": [
+      "wing",
+      false
+    ]
+  },
+  {
+    "j": "毛",
+    "e": [
+      "fur",
+      false
+    ]
+  },
+  {
+    "j": "尾",
+    "e": [
+      "tail",
+      false
+    ]
+  },
+  {
+    "j": "牙",
+    "e": [
+      "tusk, fang",
+      false
+    ]
+  },
+  {
+    "j": "角",
+    "e": [
+      "horn",
+      false
+    ]
+  },
+  {
+    "j": "爪",
+    "e": [
+      "claw",
+      false
+    ]
+  },
+  {
+    "j": "植",
+    "e": [
+      "plant",
+      false
+    ]
+  },
+  {
+    "j": "木",
+    "e": [
+      "tree",
+      false
+    ]
+  },
+  {
+    "j": "樹",
+    "e": [
+      "tree",
+      false
+    ]
+  },
+  {
+    "j": "林",
+    "e": [
+      "grove",
+      false
+    ]
+  },
+  {
+    "j": "森",
+    "e": [
+      "forest",
+      false
+    ]
+  },
+  {
+    "j": "松",
+    "e": [
+      "pine",
+      false
+    ]
+  },
+  {
+    "j": "杉",
+    "e": [
+      "cedar",
+      false
+    ]
+  },
+  {
+    "j": "桜",
+    "e": [
+      "cherry",
+      false
+    ]
+  },
+  {
+    "j": "梅",
+    "e": [
+      "plum",
+      false
+    ]
+  },
+  {
+    "j": "梨",
+    "e": [
+      "pear",
+      false
+    ]
+  },
+  {
+    "j": "柿",
+    "e": [
+      "persimmon",
+      false
+    ]
+  },
+  {
+    "j": "栃",
+    "e": [
+      "horse chestnut",
+      false
+    ]
+  },
+  {
+    "j": "藤",
+    "e": [
+      "wisteria",
+      false
+    ]
+  },
+  {
+    "j": "桑",
+    "e": [
+      "mulberry",
+      false
+    ]
+  },
+  {
+    "j": "桃",
+    "e": [
+      "peach",
+      false
+    ]
+  },
+  {
+    "j": "柳",
+    "e": [
+      "willow",
+      false
+    ]
+  },
+  {
+    "j": "桂",
+    "e": [
+      "cinnamon tree",
+      false
+    ]
+  },
+  {
+    "j": "草",
+    "e": [
+      "grass",
+      false
+    ]
+  },
+  {
+    "j": "稲",
+    "e": [
+      "rice plant",
+      false
+    ]
+  },
+  {
+    "j": "麻",
+    "e": [
+      "hemp or flax",
+      false
+    ]
+  },
+  {
+    "j": "竹",
+    "e": [
+      "bamboo",
+      false
+    ]
+  },
+  {
+    "j": "葛",
+    "e": [
+      "vine",
+      false
+    ]
+  },
+  {
+    "j": "茨",
+    "e": [
+      "brier",
+      false
+    ]
+  },
+  {
+    "j": "菊",
+    "e": [
+      "chrysanthemum",
+      false
+    ]
+  },
+  {
+    "j": "栽",
+    "e": [
+      "cultivation of plants",
+      false
+    ]
+  },
+  {
+    "j": "藻",
+    "e": [
+      "algae, seaweed",
+      false
+    ]
+  },
+  {
+    "j": "茸",
+    "e": [
+      "mushroom",
+      false
+    ]
+  },
+  {
+    "j": "菌",
+    "e": [
+      "fungi or bacteria",
+      false
+    ]
+  },
+  {
+    "j": "根",
+    "e": [
+      "root",
+      false
+    ]
+  },
+  {
+    "j": "幹",
+    "e": [
+      "tree trunk",
+      false
+    ]
+  },
+  {
+    "j": "枝",
+    "e": [
+      "branch",
+      false
+    ]
+  },
+  {
+    "j": "葉",
+    "e": [
+      "leaf",
+      false
+    ]
+  },
+  {
+    "j": "花",
+    "e": [
+      "flower",
+      false
+    ]
+  },
+  {
+    "j": "芽",
+    "e": [
+      "bud",
+      false
+    ]
+  },
+  {
+    "j": "苗",
+    "e": [
+      "seedling",
+      false
+    ]
+  },
+  {
+    "j": "茎",
+    "e": [
+      "stem",
+      false
+    ]
+  },
+  {
+    "j": "人",
+    "e": [
+      "person",
+      false
+    ]
+  },
+  {
+    "j": "者",
+    "e": [
+      "person (usually with qualifier)",
+      false
+    ]
+  },
+  {
+    "j": "民",
+    "e": [
+      "people",
+      false
+    ]
+  },
+  {
+    "j": "男",
+    "e": [
+      "man",
+      false
+    ]
+  },
+  {
+    "j": "女",
+    "e": [
+      "woman",
+      false
+    ]
+  },
+  {
+    "j": "雄",
+    "e": [
+      "male",
+      false
+    ]
+  },
+  {
+    "j": "雌",
+    "e": [
+      "female",
+      false
+    ]
+  },
+  {
+    "j": "翁",
+    "e": [
+      "old man",
+      false
+    ]
+  },
+  {
+    "j": "婆",
+    "e": [
+      "old woman",
+      false
+    ]
+  },
+  {
+    "j": "嬢",
+    "e": [
+      "young lady",
+      false
+    ]
+  },
+  {
+    "j": "子",
+    "e": [
+      "child",
+      false
+    ]
+  },
+  {
+    "j": "児",
+    "e": [
+      "child",
+      false
+    ]
+  },
+  {
+    "j": "坊",
+    "e": [
+      "boy, sonny",
+      false
+    ]
+  },
+  {
+    "j": "郎",
+    "e": [
+      "son, boy",
+      false
+    ]
+  },
+  {
+    "j": "童",
+    "e": [
+      "juvenile",
+      false
+    ]
+  },
+  {
+    "j": "徒",
+    "e": [
+      "gang or junior",
+      false
+    ]
+  },
+  {
+    "j": "私",
+    "e": [
+      "I",
+      false
+    ]
+  },
+  {
+    "j": "僕",
+    "e": [
+      "I",
+      false
+    ]
+  },
+  {
+    "j": "俺",
+    "e": [
+      "I",
+      false
+    ]
+  },
+  {
+    "j": "彼",
+    "e": [
+      "he",
+      false
+    ]
+  },
+  {
+    "j": "君",
+    "e": [
+      "you",
+      false
+    ]
+  },
+  {
+    "j": "自",
+    "e": [
+      "oneself",
+      false
+    ]
+  },
+  {
+    "j": "己",
+    "e": [
+      "oneself",
+      false
+    ]
+  },
+  {
+    "j": "我",
+    "e": [
+      "self, ego",
+      false
+    ]
+  },
+  {
+    "j": "主",
+    "e": [
+      "master or husband",
+      false
+    ]
+  },
+  {
+    "j": "夫",
+    "e": [
+      "husband or man",
+      false
+    ]
+  },
+  {
+    "j": "妻",
+    "e": [
+      "wife",
+      false
+    ]
+  },
+  {
+    "j": "婦",
+    "e": [
+      "wife or lady",
+      false
+    ]
+  },
+  {
+    "j": "王",
+    "e": [
+      "king",
+      false
+    ]
+  },
+  {
+    "j": "皇",
+    "e": [
+      "emperor or sovereign",
+      false
+    ]
+  },
+  {
+    "j": "帝",
+    "e": [
+      "Mikado or emperor",
+      false
+    ]
+  },
+  {
+    "j": "姫",
+    "e": [
+      "princess",
+      false
+    ]
+  },
+  {
+    "j": "媛",
+    "e": [
+      "princess",
+      false
+    ]
+  },
+  {
+    "j": "妃",
+    "e": [
+      "princess, queen",
+      false
+    ]
+  },
+  {
+    "j": "后",
+    "e": [
+      "empress",
+      false
+    ]
+  },
+  {
+    "j": "伯",
+    "e": [
+      "earl, count",
+      false
+    ]
+  },
+  {
+    "j": "侯",
+    "e": [
+      "lord, marquis",
+      false
+    ]
+  },
+  {
+    "j": "爵",
+    "e": [
+      "noble rank",
+      false
+    ]
+  },
+  {
+    "j": "士",
+    "e": [
+      "man or gentleman",
+      false
+    ]
+  },
+  {
+    "j": "方",
+    "e": [
+      "honorable person",
+      false
+    ]
+  },
+  {
+    "j": "漢Han",
+    "e": [
+      "漢 honorable man or Han person",
+      false
+    ]
+  },
+  {
+    "j": "彦",
+    "e": [
+      "boy, high-status man",
+      false
+    ]
+  },
+  {
+    "j": "傑",
+    "e": [
+      "great man",
+      false
+    ]
+  },
+  {
+    "j": "紳",
+    "e": [
+      "gentleman",
+      false
+    ]
+  },
+  {
+    "j": "氏",
+    "e": [
+      "courtesy title",
+      false
+    ]
+  },
+  {
+    "j": "長",
+    "e": [
+      "leader",
+      false
+    ]
+  },
+  {
+    "j": "係",
+    "e": [
+      "person in charge",
+      false
+    ]
+  },
+  {
+    "j": "督",
+    "e": [
+      "supervisor",
+      false
+    ]
+  },
+  {
+    "j": "師",
+    "e": [
+      "expert",
+      false
+    ]
+  },
+  {
+    "j": "仲",
+    "e": [
+      "intermediary",
+      false
+    ]
+  },
+  {
+    "j": "使",
+    "e": [
+      "messenger",
+      false
+    ]
+  },
+  {
+    "j": "医",
+    "e": [
+      "doctor",
+      false
+    ]
+  },
+  {
+    "j": "友",
+    "e": [
+      "friend",
+      false
+    ]
+  },
+  {
+    "j": "僚",
+    "e": [
+      "colleague",
+      false
+    ]
+  },
+  {
+    "j": "輩",
+    "e": [
+      "fellow, comrade",
+      false
+    ]
+  },
+  {
+    "j": "客",
+    "e": [
+      "guest, customer",
+      false
+    ]
+  },
+  {
+    "j": "賓",
+    "e": [
+      "guest, VIP",
+      false
+    ]
+  },
+  {
+    "j": "隣",
+    "e": [
+      "neighbour",
+      false
+    ]
+  },
+  {
+    "j": "奴",
+    "e": [
+      "servant, fellow",
+      false
+    ]
+  },
+  {
+    "j": "隷",
+    "e": [
+      "underling",
+      false
+    ]
+  },
+  {
+    "j": "仙",
+    "e": [
+      "hermit",
+      false
+    ]
+  },
+  {
+    "j": "家",
+    "e": [
+      "family",
+      false
+    ]
+  },
+  {
+    "j": "族",
+    "e": [
+      "family",
+      false
+    ]
+  },
+  {
+    "j": "名",
+    "e": [
+      "name",
+      false
+    ]
+  },
+  {
+    "j": "父",
+    "e": [
+      "father",
+      false
+    ]
+  },
+  {
+    "j": "母",
+    "e": [
+      "mother",
+      false
+    ]
+  },
+  {
+    "j": "親",
+    "e": [
+      "parent",
+      false
+    ]
+  },
+  {
+    "j": "嫁",
+    "e": [
+      "wife, bride",
+      false
+    ]
+  },
+  {
+    "j": "娘",
+    "e": [
+      "daughter",
+      false
+    ]
+  },
+  {
+    "j": "弟",
+    "e": [
+      "younger brother",
+      false
+    ]
+  },
+  {
+    "j": "妹",
+    "e": [
+      "younger sister",
+      false
+    ]
+  },
+  {
+    "j": "兄",
+    "e": [
+      "older brother",
+      false
+    ]
+  },
+  {
+    "j": "姉",
+    "e": [
+      "older sister",
+      false
+    ]
+  },
+  {
+    "j": "爺",
+    "e": [
+      "grandfather",
+      false
+    ]
+  },
+  {
+    "j": "婆",
+    "e": [
+      "grandmother",
+      false
+    ]
+  },
+  {
+    "j": "祖",
+    "e": [
+      "ancestor",
+      false
+    ]
+  },
+  {
+    "j": "孫",
+    "e": [
+      "grandchild",
+      false
+    ]
+  },
+  {
+    "j": "叔",
+    "e": [
+      "aunt, uncle",
+      false
+    ]
+  },
+  {
+    "j": "伯",
+    "e": [
+      "aunt, uncle",
+      false
+    ]
+  },
+  {
+    "j": "甥",
+    "e": [
+      "nephew",
+      false
+    ]
+  },
+  {
+    "j": "姪",
+    "e": [
+      "niece",
+      false
+    ]
+  },
+  {
+    "j": "婿",
+    "e": [
+      "son-in-law, bridegroom",
+      false
+    ]
+  },
+  {
+    "j": "昆",
+    "e": [
+      "descendants",
+      false
+    ]
+  },
+  {
+    "j": "戚",
+    "e": [
+      "relatives",
+      false
+    ]
+  },
+  {
+    "j": "婚",
+    "e": [
+      "marry",
+      false
+    ]
+  },
+  {
+    "j": "姻",
+    "e": [
+      "matrimony",
+      false
+    ]
+  },
+  {
+    "j": "嫡",
+    "e": [
+      "legitimate wife/family",
+      false
+    ]
+  },
+  {
+    "j": "寡",
+    "e": [
+      "widow",
+      false
+    ]
+  },
+  {
+    "j": "国",
+    "e": [
+      "country",
+      false
+    ]
+  },
+  {
+    "j": "社",
+    "e": [
+      "company",
+      false
+    ]
+  },
+  {
+    "j": "団",
+    "e": [
+      "group",
+      false
+    ]
+  },
+  {
+    "j": "派",
+    "e": [
+      "faction, group",
+      false
+    ]
+  },
+  {
+    "j": "組",
+    "e": [
+      "association, assemble",
+      false
+    ]
+  },
+  {
+    "j": "群",
+    "e": [
+      "flock, crowd"
+    ]
+  },
+  {
+    "j": "身",
+    "e": [
+      "body",
+      false
+    ]
+  },
+  {
+    "j": "体",
+    "e": [
+      "body",
+      false
+    ]
+  },
+  {
+    "j": "肉",
+    "e": [
+      "flesh",
+      false
+    ]
+  },
+  {
+    "j": "血",
+    "e": [
+      "blood",
+      false
+    ]
+  },
+  {
+    "j": "脈",
+    "e": [
+      "vein",
+      false
+    ]
+  },
+  {
+    "j": "筋",
+    "e": [
+      "muscles",
+      false
+    ]
+  },
+  {
+    "j": "骨",
+    "e": [
+      "bone",
+      false
+    ]
+  },
+  {
+    "j": "髄",
+    "e": [
+      "marrow",
+      false
+    ]
+  },
+  {
+    "j": "節",
+    "e": [
+      "joint",
+      false
+    ]
+  },
+  {
+    "j": "皮",
+    "e": [
+      "skin",
+      false
+    ]
+  },
+  {
+    "j": "膚",
+    "e": [
+      "skin",
+      false
+    ]
+  },
+  {
+    "j": "肌",
+    "e": [
+      "skin",
+      false
+    ]
+  },
+  {
+    "j": "皺",
+    "e": [
+      "wrinkle",
+      false
+    ]
+  },
+  {
+    "j": "腺",
+    "e": [
+      "gland",
+      false
+    ]
+  },
+  {
+    "j": "頭",
+    "e": [
+      "head",
+      false
+    ]
+  },
+  {
+    "j": "脳",
+    "e": [
+      "brain",
+      false
+    ]
+  },
+  {
+    "j": "髪",
+    "e": [
+      "hair",
+      false
+    ]
+  },
+  {
+    "j": "顔",
+    "e": [
+      "face",
+      false
+    ]
+  },
+  {
+    "j": "髭",
+    "e": [
+      "beard",
+      false
+    ]
+  },
+  {
+    "j": "額",
+    "e": [
+      "forehead",
+      false
+    ]
+  },
+  {
+    "j": "耳",
+    "e": [
+      "ear",
+      false
+    ]
+  },
+  {
+    "j": "目",
+    "e": [
+      "eye",
+      false
+    ]
+  },
+  {
+    "j": "眼",
+    "e": [
+      "eyeball",
+      false
+    ]
+  },
+  {
+    "j": "眉",
+    "e": [
+      "eyebrow",
+      false
+    ]
+  },
+  {
+    "j": "瞳",
+    "e": [
+      "pupil",
+      false
+    ]
+  },
+  {
+    "j": "鼻",
+    "e": [
+      "nose",
+      false
+    ]
+  },
+  {
+    "j": "顎",
+    "e": [
+      "jaw",
+      false
+    ]
+  },
+  {
+    "j": "口",
+    "e": [
+      "mouth",
+      false
+    ]
+  },
+  {
+    "j": "唇",
+    "e": [
+      "lips",
+      false
+    ]
+  },
+  {
+    "j": "歯",
+    "e": [
+      "tooth",
+      false
+    ]
+  },
+  {
+    "j": "舌",
+    "e": [
+      "tongue",
+      false
+    ]
+  },
+  {
+    "j": "頬",
+    "e": [
+      "cheek",
+      false
+    ]
+  },
+  {
+    "j": "頤",
+    "e": [
+      "chin",
+      false
+    ]
+  },
+  {
+    "j": "喉",
+    "e": [
+      "throat",
+      false
+    ]
+  },
+  {
+    "j": "咽",
+    "e": [
+      "throat",
+      false
+    ]
+  },
+  {
+    "j": "首",
+    "e": [
+      "neck",
+      false
+    ]
+  },
+  {
+    "j": "胴",
+    "e": [
+      "torso",
+      false
+    ]
+  },
+  {
+    "j": "背",
+    "e": [
+      "back",
+      false
+    ]
+  },
+  {
+    "j": "脊",
+    "e": [
+      "backbone",
+      false
+    ]
+  },
+  {
+    "j": "呂",
+    "e": [
+      "backbone",
+      false
+    ]
+  },
+  {
+    "j": "椎",
+    "e": [
+      "backbone",
+      false
+    ]
+  },
+  {
+    "j": "肋",
+    "e": [
+      "rib",
+      false
+    ]
+  },
+  {
+    "j": "胸",
+    "e": [
+      "chest",
+      false
+    ]
+  },
+  {
+    "j": "腹",
+    "e": [
+      "stomach",
+      false
+    ]
+  },
+  {
+    "j": "胃",
+    "e": [
+      "stomach",
+      false
+    ]
+  },
+  {
+    "j": "臍",
+    "e": [
+      "navel",
+      false
+    ]
+  },
+  {
+    "j": "腰",
+    "e": [
+      "waist",
+      false
+    ]
+  },
+  {
+    "j": "臓",
+    "e": [
+      "entrails",
+      false
+    ]
+  },
+  {
+    "j": "腸",
+    "e": [
+      "intestines",
+      false
+    ]
+  },
+  {
+    "j": "心",
+    "e": [
+      "heart",
+      false
+    ]
+  },
+  {
+    "j": "肺",
+    "e": [
+      "lung",
+      false
+    ]
+  },
+  {
+    "j": "肝",
+    "e": [
+      "liver",
+      false
+    ]
+  },
+  {
+    "j": "膵",
+    "e": [
+      "pancreas",
+      false
+    ]
+  },
+  {
+    "j": "腎",
+    "e": [
+      "kidney",
+      false
+    ]
+  },
+  {
+    "j": "胆",
+    "e": [
+      "gall bladder",
+      false
+    ]
+  },
+  {
+    "j": "肛",
+    "e": [
+      "anus",
+      false
+    ]
+  },
+  {
+    "j": "膣",
+    "e": [
+      "vagina",
+      false
+    ]
+  },
+  {
+    "j": "肢",
+    "e": [
+      "limb",
+      false
+    ]
+  },
+  {
+    "j": "腕",
+    "e": [
+      "arm",
+      false
+    ]
+  },
+  {
+    "j": "肩",
+    "e": [
+      "shoulder",
+      false
+    ]
+  },
+  {
+    "j": "脇",
+    "e": [
+      "armpit",
+      false
+    ]
+  },
+  {
+    "j": "肘",
+    "e": [
+      "elbow",
+      false
+    ]
+  },
+  {
+    "j": "手",
+    "e": [
+      "hand",
+      false
+    ]
+  },
+  {
+    "j": "拳",
+    "e": [
+      "fist",
+      false
+    ]
+  },
+  {
+    "j": "指",
+    "e": [
+      "finger",
+      false
+    ]
+  },
+  {
+    "j": "爪",
+    "e": [
+      "nail",
+      false
+    ]
+  },
+  {
+    "j": "掌",
+    "e": [
+      "palm",
+      false
+    ]
+  },
+  {
+    "j": "尻",
+    "e": [
+      "buttocks",
+      false
+    ]
+  },
+  {
+    "j": "股",
+    "e": [
+      "thighs",
+      false
+    ]
+  },
+  {
+    "j": "脚",
+    "e": [
+      "leg",
+      false
+    ]
+  },
+  {
+    "j": "足",
+    "e": [
+      "leg, foot",
+      false
+    ]
+  },
+  {
+    "j": "膝",
+    "e": [
+      "knee",
+      false
+    ]
+  },
+  {
+    "j": "踝",
+    "e": [
+      "ankle",
+      false
+    ]
+  },
+  {
+    "j": "踵",
+    "e": [
+      "heel",
+      false
+    ]
+  },
+  {
+    "j": "汗",
+    "e": [
+      "sweat",
+      false
+    ]
+  },
+  {
+    "j": "泪",
+    "e": [
+      "tear",
+      false
+    ]
+  },
+  {
+    "j": "涙",
+    "e": [
+      "tear",
+      false
+    ]
+  },
+  {
+    "j": "唾",
+    "e": [
+      "saliva",
+      false
+    ]
+  },
+  {
+    "j": "精",
+    "e": [
+      "sperm",
+      false
+    ]
+  },
+  {
+    "j": "尿",
+    "e": [
+      "urine",
+      false
+    ]
+  },
+  {
+    "j": "便",
+    "e": [
+      "faeces",
+      false
+    ]
+  },
+  {
+    "j": "胎",
+    "e": [
+      "foetus",
+      false
+    ]
+  },
+  {
+    "j": "妊",
+    "e": [
+      "pregnant",
+      false
+    ]
+  },
+  {
+    "j": "娠",
+    "e": [
+      "pregnant",
+      false
+    ]
+  },
+  {
+    "j": "生",
+    "e": [
+      "birth",
+      false
+    ]
+  },
+  {
+    "j": "産",
+    "e": [
+      "give birth",
+      false
+    ]
+  },
+  {
+    "j": "哺",
+    "e": [
+      "suckle",
+      false
+    ]
+  },
+  {
+    "j": "息",
+    "e": [
+      "breath",
+      false
+    ]
+  },
+  {
+    "j": "寝",
+    "e": [
+      "sleep",
+      false
+    ]
+  },
+  {
+    "j": "眠",
+    "e": [
+      "sleep",
+      false
+    ]
+  },
+  {
+    "j": "睡",
+    "e": [
+      "sleep",
+      false
+    ]
+  },
+  {
+    "j": "夢",
+    "e": [
+      "dream"
+    ]
+  },
+  {
+    "j": "生",
+    "e": [
+      "life",
+      false
+    ]
+  },
+  {
+    "j": "死",
+    "e": [
+      "death",
+      false
+    ]
+  },
+  {
+    "j": "健",
+    "e": [
+      "healthy",
+      false
+    ]
+  },
+  {
+    "j": "康",
+    "e": [
+      "healthy",
+      false
+    ]
+  },
+  {
+    "j": "力",
+    "e": [
+      "strength",
+      false
+    ]
+  },
+  {
+    "j": "病",
+    "e": [
+      "illness",
+      false
+    ]
+  },
+  {
+    "j": "症",
+    "e": [
+      "disease",
+      false
+    ]
+  },
+  {
+    "j": "疾",
+    "e": [
+      "disease",
+      false
+    ]
+  },
+  {
+    "j": "患",
+    "e": [
+      "sick",
+      false
+    ]
+  },
+  {
+    "j": "疫",
+    "e": [
+      "epidemic",
+      false
+    ]
+  },
+  {
+    "j": "骸",
+    "e": [
+      "corpse",
+      false
+    ]
+  },
+  {
+    "j": "痛",
+    "e": [
+      "pain",
+      false
+    ]
+  },
+  {
+    "j": "疲",
+    "e": [
+      "tired",
+      false
+    ]
+  },
+  {
+    "j": "休",
+    "e": [
+      "rest",
+      false
+    ]
+  },
+  {
+    "j": "痩",
+    "e": [
+      "weight loss",
+      false
+    ]
+  },
+  {
+    "j": "瘍",
+    "e": [
+      "ulcer",
+      false
+    ]
+  },
+  {
+    "j": "痘",
+    "e": [
+      "pox",
+      false
+    ]
+  },
+  {
+    "j": "痢",
+    "e": [
+      "diarrhoea",
+      false
+    ]
+  },
+  {
+    "j": "癌",
+    "e": [
+      "cancer",
+      false
+    ]
+  },
+  {
+    "j": "傷",
+    "e": [
+      "wound",
+      false
+    ]
+  },
+  {
+    "j": "痕",
+    "e": [
+      "scar",
+      false
+    ]
+  },
+  {
+    "j": "医",
+    "e": [
+      "medicine, doctor",
+      false
+    ]
+  },
+  {
+    "j": "療",
+    "e": [
+      "heal",
+      false
+    ]
+  },
+  {
+    "j": "癒",
+    "e": [
+      "heal",
+      false
+    ]
+  },
+  {
+    "j": "治",
+    "e": [
+      "cure",
+      false
+    ]
+  },
+  {
+    "j": "剤",
+    "e": [
+      "medicine",
+      false
+    ]
+  },
+  {
+    "j": "錠",
+    "e": [
+      "pill",
+      false
+    ]
+  },
+  {
+    "j": "薬",
+    "e": [
+      "drug",
+      false
+    ]
+  },
+  {
+    "j": "立",
+    "e": [
+      "stand up",
+      false
+    ]
+  },
+  {
+    "j": "走",
+    "e": [
+      "run",
+      false
+    ]
+  },
+  {
+    "j": "座",
+    "e": [
+      "sit",
+      false
+    ]
+  },
+  {
+    "j": "踊",
+    "e": [
+      "jump",
+      false
+    ]
+  },
+  {
+    "j": "歩",
+    "e": [
+      "walk",
+      false
+    ]
+  },
+  {
+    "j": "泳",
+    "e": [
+      "swim",
+      false
+    ]
+  },
+  {
+    "j": "止",
+    "e": [
+      "stop"
+    ]
+  },
+  {
+    "j": "情",
+    "e": [
+      "emotion",
+      false
+    ]
+  },
+  {
+    "j": "感",
+    "e": [
+      "feeling, emotion",
+      false
+    ]
+  },
+  {
+    "j": "気",
+    "e": [
+      "feeling, mood",
+      false
+    ]
+  },
+  {
+    "j": "愛",
+    "e": [
+      "love",
+      false
+    ]
+  },
+  {
+    "j": "恋",
+    "e": [
+      "love",
+      false
+    ]
+  },
+  {
+    "j": "慕",
+    "e": [
+      "adoration",
+      false
+    ]
+  },
+  {
+    "j": "崇",
+    "e": [
+      "reverence, adoration",
+      false
+    ]
+  },
+  {
+    "j": "恭",
+    "e": [
+      "respect",
+      false
+    ]
+  },
+  {
+    "j": "敬",
+    "e": [
+      "respect",
+      false
+    ]
+  },
+  {
+    "j": "慈",
+    "e": [
+      "affection, benevolence",
+      false
+    ]
+  },
+  {
+    "j": "憎",
+    "e": [
+      "hate",
+      false
+    ]
+  },
+  {
+    "j": "好",
+    "e": [
+      "like",
+      false
+    ]
+  },
+  {
+    "j": "嫌",
+    "e": [
+      "dislike",
+      false
+    ]
+  },
+  {
+    "j": "蔑",
+    "e": [
+      "contempt",
+      false
+    ]
+  },
+  {
+    "j": "恐",
+    "e": [
+      "fear or anxiety",
+      false
+    ]
+  },
+  {
+    "j": "虞",
+    "e": [
+      "fear or anxiety",
+      false
+    ]
+  },
+  {
+    "j": "怖",
+    "e": [
+      "fear or anxiety",
+      false
+    ]
+  },
+  {
+    "j": "畏",
+    "e": [
+      "fear or anxiety",
+      false
+    ]
+  },
+  {
+    "j": "慄",
+    "e": [
+      "fear",
+      false
+    ]
+  },
+  {
+    "j": "惧",
+    "e": [
+      "apprehension",
+      false
+    ]
+  },
+  {
+    "j": "悲",
+    "e": [
+      "sadness",
+      false
+    ]
+  },
+  {
+    "j": "哀",
+    "e": [
+      "sadness or pity",
+      false
+    ]
+  },
+  {
+    "j": "憂",
+    "e": [
+      "sadness, anxiety",
+      false
+    ]
+  },
+  {
+    "j": "煩",
+    "e": [
+      "anxiety, annoyance",
+      false
+    ]
+  },
+  {
+    "j": "愁",
+    "e": [
+      "melancholy",
+      false
+    ]
+  },
+  {
+    "j": "鬱",
+    "e": [
+      "melancholy",
+      false
+    ]
+  },
+  {
+    "j": "惜",
+    "e": [
+      "regret",
+      false
+    ]
+  },
+  {
+    "j": "憾",
+    "e": [
+      "regret",
+      false
+    ]
+  },
+  {
+    "j": "悔",
+    "e": [
+      "remorse",
+      false
+    ]
+  },
+  {
+    "j": "懐",
+    "e": [
+      "yearning",
+      false
+    ]
+  },
+  {
+    "j": "憧",
+    "e": [
+      "yearning, adoration",
+      false
+    ]
+  },
+  {
+    "j": "憬",
+    "e": [
+      "yearning",
+      false
+    ]
+  },
+  {
+    "j": "戚",
+    "e": [
+      "grief",
+      false
+    ]
+  },
+  {
+    "j": "恨",
+    "e": [
+      "resentment",
+      false
+    ]
+  },
+  {
+    "j": "怨",
+    "e": [
+      "resentment",
+      false
+    ]
+  },
+  {
+    "j": "慨",
+    "e": [
+      "indignation, resentment",
+      false
+    ]
+  },
+  {
+    "j": "寂",
+    "e": [
+      "loneliness",
+      false
+    ]
+  },
+  {
+    "j": "楽",
+    "e": [
+      "fun",
+      false
+    ]
+  },
+  {
+    "j": "愉",
+    "e": [
+      "fun",
+      false
+    ]
+  },
+  {
+    "j": "娯",
+    "e": [
+      "fun",
+      false
+    ]
+  },
+  {
+    "j": "幸",
+    "e": [
+      "happiness",
+      false
+    ]
+  },
+  {
+    "j": "嬉",
+    "e": [
+      "happiness",
+      false
+    ]
+  },
+  {
+    "j": "喜",
+    "e": [
+      "joy",
+      false
+    ]
+  },
+  {
+    "j": "悦",
+    "e": [
+      "joy",
+      false
+    ]
+  },
+  {
+    "j": "慶",
+    "e": [
+      "joy",
+      false
+    ]
+  },
+  {
+    "j": "歓",
+    "e": [
+      "joy",
+      false
+    ]
+  },
+  {
+    "j": "快",
+    "e": [
+      "pleasure",
+      false
+    ]
+  },
+  {
+    "j": "笑",
+    "e": [
+      "laughter",
+      false
+    ]
+  },
+  {
+    "j": "疑",
+    "e": [
+      "doubt or suspicion",
+      false
+    ]
+  },
+  {
+    "j": "迷",
+    "e": [
+      "doubt",
+      false
+    ]
+  },
+  {
+    "j": "迷",
+    "e": [
+      "confusion",
+      false
+    ]
+  },
+  {
+    "j": "紛",
+    "e": [
+      "confusion",
+      false
+    ]
+  },
+  {
+    "j": "惑",
+    "e": [
+      "bewilderment",
+      false
+    ]
+  },
+  {
+    "j": "慌",
+    "e": [
+      "disconcertion",
+      false
+    ]
+  },
+  {
+    "j": "驚",
+    "e": [
+      "surprise",
+      false
+    ]
+  },
+  {
+    "j": "欲",
+    "e": [
+      "desire",
+      false
+    ]
+  },
+  {
+    "j": "怒",
+    "e": [
+      "anger",
+      false
+    ]
+  },
+  {
+    "j": "激",
+    "e": [
+      "violent excitement",
+      false
+    ]
+  },
+  {
+    "j": "暴",
+    "e": [
+      "violent rage",
+      false
+    ]
+  },
+  {
+    "j": "憤",
+    "e": [
+      "indignation",
+      false
+    ]
+  },
+  {
+    "j": "傲",
+    "e": [
+      "pride",
+      false
+    ]
+  },
+  {
+    "j": "恥",
+    "e": [
+      "shame",
+      false
+    ]
+  },
+  {
+    "j": "羞",
+    "e": [
+      "shame",
+      false
+    ]
+  },
+  {
+    "j": "妬",
+    "e": [
+      "envy",
+      false
+    ]
+  },
+  {
+    "j": "羨",
+    "e": [
+      "envy",
+      false
+    ]
+  },
+  {
+    "j": "嫉",
+    "e": [
+      "envy",
+      false
+    ]
+  },
+  {
+    "j": "見",
+    "e": [
+      "see",
+      false
+    ]
+  },
+  {
+    "j": "聞",
+    "e": [
+      "hear",
+      false
+    ]
+  },
+  {
+    "j": "聴",
+    "e": [
+      "listen",
+      false
+    ]
+  },
+  {
+    "j": "音",
+    "e": [
+      "sound",
+      false
+    ]
+  },
+  {
+    "j": "静",
+    "e": [
+      "quiet",
+      false
+    ]
+  },
+  {
+    "j": "味",
+    "e": [
+      "taste, flavour",
+      false
+    ]
+  },
+  {
+    "j": "辣",
+    "e": [
+      "bitter",
+      false
+    ]
+  },
+  {
+    "j": "辛",
+    "e": [
+      "pungent",
+      false
+    ]
+  },
+  {
+    "j": "触",
+    "e": [
+      "touch, feel",
+      false
+    ]
+  },
+  {
+    "j": "嗅",
+    "e": [
+      "smell",
+      false
+    ]
+  },
+  {
+    "j": "芳",
+    "e": [
+      "fragrant",
+      false
+    ]
+  },
+  {
+    "j": "匂",
+    "e": [
+      "fragrant",
+      false
+    ]
+  },
+  {
+    "j": "香",
+    "e": [
+      "pleasant smell",
+      false
+    ]
+  },
+  {
+    "j": "臭",
+    "e": [
+      "bad smell",
+      false
+    ]
+  },
+  {
+    "j": "盲",
+    "e": [
+      "blind",
+      false
+    ]
+  },
+  {
+    "j": "思",
+    "e": [
+      "think",
+      false
+    ]
+  },
+  {
+    "j": "考",
+    "e": [
+      "think",
+      false
+    ]
+  },
+  {
+    "j": "正",
+    "e": [
+      "correct",
+      false
+    ]
+  },
+  {
+    "j": "良",
+    "e": [
+      "good",
+      false
+    ]
+  },
+  {
+    "j": "善",
+    "e": [
+      "good",
+      false
+    ]
+  },
+  {
+    "j": "悪",
+    "e": [
+      "bad",
+      false
+    ]
+  },
+  {
+    "j": "理",
+    "e": [
+      "reason"
+    ]
+  },
+  {
+    "j": "食",
+    "e": [
+      "eat, meal",
+      false
+    ]
+  },
+  {
+    "j": "飲",
+    "e": [
+      "drink",
+      false
+    ]
+  },
+  {
+    "j": "米",
+    "e": [
+      "rice",
+      false
+    ]
+  },
+  {
+    "j": "飯",
+    "e": [
+      "cooked rice, meal",
+      false
+    ]
+  },
+  {
+    "j": "餅",
+    "e": [
+      "rice cake",
+      false
+    ]
+  },
+  {
+    "j": "麦",
+    "e": [
+      "wheat or barley",
+      false
+    ]
+  },
+  {
+    "j": "粒",
+    "e": [
+      "grain",
+      false
+    ]
+  },
+  {
+    "j": "穀",
+    "e": [
+      "cereal",
+      false
+    ]
+  },
+  {
+    "j": "穂",
+    "e": [
+      "ear of grain",
+      false
+    ]
+  },
+  {
+    "j": "果",
+    "e": [
+      "fruit",
+      false
+    ]
+  },
+  {
+    "j": "実",
+    "e": [
+      "fruit",
+      false
+    ]
+  },
+  {
+    "j": "菜",
+    "e": [
+      "vegetable",
+      false
+    ]
+  },
+  {
+    "j": "豆",
+    "e": [
+      "bean",
+      false
+    ]
+  },
+  {
+    "j": "麺",
+    "e": [
+      "noodles",
+      false
+    ]
+  },
+  {
+    "j": "芋",
+    "e": [
+      "potato",
+      false
+    ]
+  },
+  {
+    "j": "粉",
+    "e": [
+      "flour",
+      false
+    ]
+  },
+  {
+    "j": "卵",
+    "e": [
+      "egg",
+      false
+    ]
+  },
+  {
+    "j": "糖",
+    "e": [
+      "sugar",
+      false
+    ]
+  },
+  {
+    "j": "肉",
+    "e": [
+      "meat",
+      false
+    ]
+  },
+  {
+    "j": "乳",
+    "e": [
+      "milk",
+      false
+    ]
+  },
+  {
+    "j": "酪",
+    "e": [
+      "dairy products",
+      false
+    ]
+  },
+  {
+    "j": "蜜",
+    "e": [
+      "honey",
+      false
+    ]
+  },
+  {
+    "j": "菓",
+    "e": [
+      "confectionery",
+      false
+    ]
+  },
+  {
+    "j": "栗",
+    "e": [
+      "chestnut",
+      false
+    ]
+  },
+  {
+    "j": "酒",
+    "e": [
+      "alcoholic drink",
+      false
+    ]
+  },
+  {
+    "j": "酎",
+    "e": [
+      "sake",
+      false
+    ]
+  },
+  {
+    "j": "酌",
+    "e": [
+      "serve alcohol",
+      false
+    ]
+  },
+  {
+    "j": "酢",
+    "e": [
+      "vinegar",
+      false
+    ]
+  },
+  {
+    "j": "漬",
+    "e": [
+      "pickle",
+      false
+    ]
+  },
+  {
+    "j": "汁",
+    "e": [
+      "juice, soup",
+      false
+    ]
+  },
+  {
+    "j": "茶",
+    "e": [
+      "tea",
+      false
+    ]
+  },
+  {
+    "j": "炊",
+    "e": [
+      "cook",
+      false
+    ]
+  },
+  {
+    "j": "焼",
+    "e": [
+      "bake",
+      false
+    ]
+  },
+  {
+    "j": "煎",
+    "e": [
+      "roast, boil",
+      false
+    ]
+  },
+  {
+    "j": "蒸",
+    "e": [
+      "steam",
+      false
+    ]
+  },
+  {
+    "j": "醸",
+    "e": [
+      "brew",
+      false
+    ]
+  },
+  {
+    "j": "揚",
+    "e": [
+      "fry",
+      false
+    ]
+  },
+  {
+    "j": "丼",
+    "e": [
+      "bowl of food",
+      false
+    ]
+  },
+  {
+    "j": "箸",
+    "e": [
+      "chopsticks",
+      false
+    ]
+  },
+  {
+    "j": "鮨sushi",
+    "e": [
+      "鮨 sushi",
+      false
+    ]
+  },
+  {
+    "j": "村",
+    "e": [
+      "village",
+      false
+    ]
+  },
+  {
+    "j": "町",
+    "e": [
+      "town",
+      false
+    ]
+  },
+  {
+    "j": "市",
+    "e": [
+      "city",
+      false
+    ]
+  },
+  {
+    "j": "京",
+    "e": [
+      "capital city",
+      false
+    ]
+  },
+  {
+    "j": "都",
+    "e": [
+      "metropolis",
+      false
+    ]
+  },
+  {
+    "j": "畿",
+    "e": [
+      "capital",
+      false
+    ]
+  },
+  {
+    "j": "街",
+    "e": [
+      "street, city district",
+      false
+    ]
+  },
+  {
+    "j": "建",
+    "e": [
+      "build",
+      false
+    ]
+  },
+  {
+    "j": "家",
+    "e": [
+      "house",
+      false
+    ]
+  },
+  {
+    "j": "宅",
+    "e": [
+      "home",
+      false
+    ]
+  },
+  {
+    "j": "屋",
+    "e": [
+      "roof, house, shop",
+      false
+    ]
+  },
+  {
+    "j": "店",
+    "e": [
+      "shop",
+      false
+    ]
+  },
+  {
+    "j": "荘",
+    "e": [
+      "villa",
+      false
+    ]
+  },
+  {
+    "j": "亭",
+    "e": [
+      "pavilion",
+      false
+    ]
+  },
+  {
+    "j": "園",
+    "e": [
+      "garden",
+      false
+    ]
+  },
+  {
+    "j": "芝",
+    "e": [
+      "lawn, turf",
+      false
+    ]
+  },
+  {
+    "j": "庭",
+    "e": [
+      "garden, courtyard",
+      false
+    ]
+  },
+  {
+    "j": "室",
+    "e": [
+      "room",
+      false
+    ]
+  },
+  {
+    "j": "房",
+    "e": [
+      "room",
+      false
+    ]
+  },
+  {
+    "j": "廊",
+    "e": [
+      "corridor",
+      false
+    ]
+  },
+  {
+    "j": "壁",
+    "e": [
+      "wall",
+      false
+    ]
+  },
+  {
+    "j": "戸",
+    "e": [
+      "door",
+      false
+    ]
+  },
+  {
+    "j": "扉",
+    "e": [
+      "door",
+      false
+    ]
+  },
+  {
+    "j": "窓",
+    "e": [
+      "window",
+      false
+    ]
+  },
+  {
+    "j": "棚",
+    "e": [
+      "shelf",
+      false
+    ]
+  },
+  {
+    "j": "門",
+    "e": [
+      "gate",
+      false
+    ]
+  },
+  {
+    "j": "垣",
+    "e": [
+      "fence",
+      false
+    ]
+  },
+  {
+    "j": "塀",
+    "e": [
+      "wall, fence",
+      false
+    ]
+  },
+  {
+    "j": "柵",
+    "e": [
+      "fence",
+      false
+    ]
+  },
+  {
+    "j": "寮",
+    "e": [
+      "dormitory",
+      false
+    ]
+  },
+  {
+    "j": "蔵",
+    "e": [
+      "storehouse",
+      false
+    ]
+  },
+  {
+    "j": "庫",
+    "e": [
+      "storage room",
+      false
+    ]
+  },
+  {
+    "j": "倉",
+    "e": [
+      "warehouse",
+      false
+    ]
+  },
+  {
+    "j": "舎",
+    "e": [
+      "building",
+      false
+    ]
+  },
+  {
+    "j": "館",
+    "e": [
+      "public building",
+      false
+    ]
+  },
+  {
+    "j": "閣",
+    "e": [
+      "imposing building",
+      false
+    ]
+  },
+  {
+    "j": "宮",
+    "e": [
+      "palace",
+      false
+    ]
+  },
+  {
+    "j": "殿",
+    "e": [
+      "hall, palace",
+      false
+    ]
+  },
+  {
+    "j": "堂",
+    "e": [
+      "hall",
+      false
+    ]
+  },
+  {
+    "j": "楼",
+    "e": [
+      "tower",
+      false
+    ]
+  },
+  {
+    "j": "塔",
+    "e": [
+      "tower",
+      false
+    ]
+  },
+  {
+    "j": "城",
+    "e": [
+      "castle",
+      false
+    ]
+  },
+  {
+    "j": "塁",
+    "e": [
+      "base, fort",
+      false
+    ]
+  },
+  {
+    "j": "獄",
+    "e": [
+      "prison",
+      false
+    ]
+  },
+  {
+    "j": "宿",
+    "e": [
+      "inn",
+      false
+    ]
+  },
+  {
+    "j": "駅",
+    "e": [
+      "station",
+      false
+    ]
+  },
+  {
+    "j": "港",
+    "e": [
+      "harbour",
+      false
+    ]
+  },
+  {
+    "j": "津",
+    "e": [
+      "harbour",
+      false
+    ]
+  },
+  {
+    "j": "橋",
+    "e": [
+      "bridge",
+      false
+    ]
+  },
+  {
+    "j": "碑",
+    "e": [
+      "monument",
+      false
+    ]
+  },
+  {
+    "j": "桟",
+    "e": [
+      "wooden structure",
+      false
+    ]
+  },
+  {
+    "j": "桁",
+    "e": [
+      "beam, column",
+      false
+    ]
+  },
+  {
+    "j": "柱",
+    "e": [
+      "pillar",
+      false
+    ]
+  },
+  {
+    "j": "棟",
+    "e": [
+      "ridgepole",
+      false
+    ]
+  },
+  {
+    "j": "壇",
+    "e": [
+      "podium",
+      false
+    ]
+  },
+  {
+    "j": "台",
+    "e": [
+      "pedestal",
+      false
+    ]
+  },
+  {
+    "j": "井",
+    "e": [
+      "well",
+      false
+    ]
+  },
+  {
+    "j": "炉",
+    "e": [
+      "fireplace, hearth",
+      false
+    ]
+  },
+  {
+    "j": "道",
+    "e": [
+      "path or road",
+      false
+    ]
+  },
+  {
+    "j": "路",
+    "e": [
+      "path or road",
+      false
+    ]
+  },
+  {
+    "j": "途",
+    "e": [
+      "way, route",
+      false
+    ]
+  },
+  {
+    "j": "岐",
+    "e": [
+      "fork in the road",
+      false
+    ]
+  },
+  {
+    "j": "辻",
+    "e": [
+      "crossroads",
+      false
+    ]
+  },
+  {
+    "j": "車",
+    "e": [
+      "vehicle, wheel",
+      false
+    ]
+  },
+  {
+    "j": "軸",
+    "e": [
+      "axle",
+      false
+    ]
+  },
+  {
+    "j": "機",
+    "e": [
+      "machine",
+      false
+    ]
+  },
+  {
+    "j": "械",
+    "e": [
+      "contraption",
+      false
+    ]
+  },
+  {
+    "j": "船",
+    "e": [
+      "boat",
+      false
+    ]
+  },
+  {
+    "j": "艇",
+    "e": [
+      "boat",
+      false
+    ]
+  },
+  {
+    "j": "舟",
+    "e": [
+      "small boat",
+      false
+    ]
+  },
+  {
+    "j": "舶",
+    "e": [
+      "oceangoing ship",
+      false
+    ]
+  },
+  {
+    "j": "舷",
+    "e": [
+      "side of a ship",
+      false
+    ]
+  },
+  {
+    "j": "乗",
+    "e": [
+      "ride, board",
+      false
+    ]
+  },
+  {
+    "j": "搭",
+    "e": [
+      "board, load",
+      false
+    ]
+  },
+  {
+    "j": "力",
+    "e": [
+      "power"
+    ]
+  },
+  {
+    "j": "布",
+    "e": [
+      "cloth",
+      false
+    ]
+  },
+  {
+    "j": "巾",
+    "e": [
+      "cloth, towel",
+      false
+    ]
+  },
+  {
+    "j": "衣",
+    "e": [
+      "garment",
+      false
+    ]
+  },
+  {
+    "j": "服",
+    "e": [
+      "clothes",
+      false
+    ]
+  },
+  {
+    "j": "装",
+    "e": [
+      "attire",
+      false
+    ]
+  },
+  {
+    "j": "絹",
+    "e": [
+      "silk",
+      false
+    ]
+  },
+  {
+    "j": "袖",
+    "e": [
+      "sleeve",
+      false
+    ]
+  },
+  {
+    "j": "裾",
+    "e": [
+      "hem, cuff",
+      false
+    ]
+  },
+  {
+    "j": "襟",
+    "e": [
+      "collar",
+      false
+    ]
+  },
+  {
+    "j": "帯",
+    "e": [
+      "belt",
+      false
+    ]
+  },
+  {
+    "j": "靴",
+    "e": [
+      "shoes",
+      false
+    ]
+  },
+  {
+    "j": "履",
+    "e": [
+      "footwear",
+      false
+    ]
+  },
+  {
+    "j": "帽",
+    "e": [
+      "hat",
+      false
+    ]
+  },
+  {
+    "j": "着",
+    "e": [
+      "wear",
+      false
+    ]
+  },
+  {
+    "j": "糸",
+    "e": [
+      "thread",
+      false
+    ]
+  },
+  {
+    "j": "縫",
+    "e": [
+      "sew",
+      false
+    ]
+  },
+  {
+    "j": "織",
+    "e": [
+      "weave",
+      false
+    ]
+  },
+  {
+    "j": "紡",
+    "e": [
+      "spin (yarn)",
+      false
+    ]
+  },
+  {
+    "j": "綿",
+    "e": [
+      "cotton",
+      false
+    ]
+  },
+  {
+    "j": "錦",
+    "e": [
+      "brocade",
+      false
+    ]
+  },
+  {
+    "j": "品",
+    "e": [
+      "article",
+      false
+    ]
+  },
+  {
+    "j": "器",
+    "e": [
+      "vessel",
+      false
+    ]
+  },
+  {
+    "j": "鉢",
+    "e": [
+      "bowl",
+      false
+    ]
+  },
+  {
+    "j": "丼",
+    "e": [
+      "bowl",
+      false
+    ]
+  },
+  {
+    "j": "杯",
+    "e": [
+      "cup",
+      false
+    ]
+  },
+  {
+    "j": "鍋",
+    "e": [
+      "pot",
+      false
+    ]
+  },
+  {
+    "j": "釜",
+    "e": [
+      "kettle",
+      false
+    ]
+  },
+  {
+    "j": "皿",
+    "e": [
+      "plate, dish",
+      false
+    ]
+  },
+  {
+    "j": "板",
+    "e": [
+      "board, plate",
+      false
+    ]
+  },
+  {
+    "j": "盤",
+    "e": [
+      "disk, board",
+      false
+    ]
+  },
+  {
+    "j": "盆",
+    "e": [
+      "basin, tray",
+      false
+    ]
+  },
+  {
+    "j": "瓶",
+    "e": [
+      "bottle, jar",
+      false
+    ]
+  },
+  {
+    "j": "缶",
+    "e": [
+      "tin can",
+      false
+    ]
+  },
+  {
+    "j": "箸",
+    "e": [
+      "chopsticks",
+      false
+    ]
+  },
+  {
+    "j": "蓋",
+    "e": [
+      "lid",
+      false
+    ]
+  },
+  {
+    "j": "栓",
+    "e": [
+      "stopper, plug",
+      false
+    ]
+  },
+  {
+    "j": "卓",
+    "e": [
+      "table",
+      false
+    ]
+  },
+  {
+    "j": "椅",
+    "e": [
+      "chair",
+      false
+    ]
+  },
+  {
+    "j": "机",
+    "e": [
+      "desk",
+      false
+    ]
+  },
+  {
+    "j": "床",
+    "e": [
+      "bed",
+      false
+    ]
+  },
+  {
+    "j": "膳",
+    "e": [
+      "tray, small table",
+      false
+    ]
+  },
+  {
+    "j": "箱",
+    "e": [
+      "box",
+      false
+    ]
+  },
+  {
+    "j": "灯",
+    "e": [
+      "lamp",
+      false
+    ]
+  },
+  {
+    "j": "袋",
+    "e": [
+      "bag",
+      false
+    ]
+  },
+  {
+    "j": "俵",
+    "e": [
+      "straw sack, bag",
+      false
+    ]
+  },
+  {
+    "j": "籠",
+    "e": [
+      "basket",
+      false
+    ]
+  },
+  {
+    "j": "扇",
+    "e": [
+      "fan",
+      false
+    ]
+  },
+  {
+    "j": "枕",
+    "e": [
+      "pillow",
+      false
+    ]
+  },
+  {
+    "j": "幕",
+    "e": [
+      "curtain",
+      false
+    ]
+  },
+  {
+    "j": "帆",
+    "e": [
+      "sail",
+      false
+    ]
+  },
+  {
+    "j": "畳",
+    "e": [
+      "tatami mat",
+      false
+    ]
+  },
+  {
+    "j": "傘",
+    "e": [
+      "umbrella",
+      false
+    ]
+  },
+  {
+    "j": "磁",
+    "e": [
+      "porcelain",
+      false
+    ]
+  },
+  {
+    "j": "陶",
+    "e": [
+      "pottery",
+      false
+    ]
+  },
+  {
+    "j": "瓦",
+    "e": [
+      "tile",
+      false
+    ]
+  },
+  {
+    "j": "紙",
+    "e": [
+      "paper",
+      false
+    ]
+  },
+  {
+    "j": "箋",
+    "e": [
+      "paper",
+      false
+    ]
+  },
+  {
+    "j": "革",
+    "e": [
+      "leather",
+      false
+    ]
+  },
+  {
+    "j": "塗",
+    "e": [
+      "paint",
+      false
+    ]
+  },
+  {
+    "j": "漆",
+    "e": [
+      "lacquer",
+      false
+    ]
+  },
+  {
+    "j": "棒",
+    "e": [
+      "rod",
+      false
+    ]
+  },
+  {
+    "j": "維",
+    "e": [
+      "fibre",
+      false
+    ]
+  },
+  {
+    "j": "網",
+    "e": [
+      "net",
+      false
+    ]
+  },
+  {
+    "j": "索",
+    "e": [
+      "cord",
+      false
+    ]
+  },
+  {
+    "j": "縄",
+    "e": [
+      "rope",
+      false
+    ]
+  },
+  {
+    "j": "綱",
+    "e": [
+      "rope",
+      false
+    ]
+  },
+  {
+    "j": "弦",
+    "e": [
+      "string",
+      false
+    ]
+  },
+  {
+    "j": "針",
+    "e": [
+      "needle",
+      false
+    ]
+  },
+  {
+    "j": "鎌",
+    "e": [
+      "sickle",
+      false
+    ]
+  },
+  {
+    "j": "管",
+    "e": [
+      "pipe",
+      false
+    ]
+  },
+  {
+    "j": "槽",
+    "e": [
+      "tank",
+      false
+    ]
+  },
+  {
+    "j": "鎖",
+    "e": [
+      "chain",
+      false
+    ]
+  },
+  {
+    "j": "串",
+    "e": [
+      "skewer",
+      false
+    ]
+  },
+  {
+    "j": "具",
+    "e": [
+      "tool",
+      false
+    ]
+  },
+  {
+    "j": "鍵",
+    "e": [
+      "key",
+      false
+    ]
+  },
+  {
+    "j": "錠",
+    "e": [
+      "lock",
+      false
+    ]
+  },
+  {
+    "j": "鈴",
+    "e": [
+      "bell",
+      false
+    ]
+  },
+  {
+    "j": "鐘",
+    "e": [
+      "bell",
+      false
+    ]
+  },
+  {
+    "j": "鋳",
+    "e": [
+      "casting",
+      false
+    ]
+  },
+  {
+    "j": "鏡",
+    "e": [
+      "mirror",
+      false
+    ]
+  },
+  {
+    "j": "棺",
+    "e": [
+      "coffin",
+      false
+    ]
+  },
+  {
+    "j": "窯",
+    "e": [
+      "stove, kiln",
+      false
+    ]
+  },
+  {
+    "j": "臼",
+    "e": [
+      "millstone, mortar",
+      false
+    ]
+  },
+  {
+    "j": "錘",
+    "e": [
+      "spindle, plumb",
+      false
+    ]
+  },
+  {
+    "j": "枢",
+    "e": [
+      "hinge, pivot",
+      false
+    ]
+  },
+  {
+    "j": "斤",
+    "e": [
+      "axe",
+      false
+    ]
+  },
+  {
+    "j": "鈎fish hook",
+    "e": [
+      "鈎 fish hook",
+      false
+    ]
+  },
+  {
+    "j": "金",
+    "e": [
+      "money or gold",
+      false
+    ]
+  },
+  {
+    "j": "銭",
+    "e": [
+      "coin",
+      false
+    ]
+  },
+  {
+    "j": "札",
+    "e": [
+      "banknote",
+      false
+    ]
+  },
+  {
+    "j": "円",
+    "e": [
+      "yen",
+      false
+    ]
+  },
+  {
+    "j": "幣",
+    "e": [
+      "currency",
+      false
+    ]
+  },
+  {
+    "j": "財",
+    "e": [
+      "wealth",
+      false
+    ]
+  },
+  {
+    "j": "富",
+    "e": [
+      "rich",
+      false
+    ]
+  },
+  {
+    "j": "買",
+    "e": [
+      "buy",
+      false
+    ]
+  },
+  {
+    "j": "購",
+    "e": [
+      "purchase",
+      false
+    ]
+  },
+  {
+    "j": "売",
+    "e": [
+      "sell",
+      false
+    ]
+  },
+  {
+    "j": "業",
+    "e": [
+      "business, industry",
+      false
+    ]
+  },
+  {
+    "j": "商",
+    "e": [
+      "trade",
+      false
+    ]
+  },
+  {
+    "j": "貿",
+    "e": [
+      "trade",
+      false
+    ]
+  },
+  {
+    "j": "販",
+    "e": [
+      "marketing",
+      false
+    ]
+  },
+  {
+    "j": "卸",
+    "e": [
+      "wholesale",
+      false
+    ]
+  },
+  {
+    "j": "払",
+    "e": [
+      "pay",
+      false
+    ]
+  },
+  {
+    "j": "貝ancient Chinese currency",
+    "e": [
+      "貝 cowry (ancient Chinese currency)",
+      false
+    ]
+  },
+  {
+    "j": "貨",
+    "e": [
+      "goods, property",
+      false
+    ]
+  },
+  {
+    "j": "宝",
+    "e": [
+      "treasure, wealth",
+      false
+    ]
+  },
+  {
+    "j": "産",
+    "e": [
+      "product",
+      false
+    ]
+  },
+  {
+    "j": "工",
+    "e": [
+      "manufacture",
+      false
+    ]
+  },
+  {
+    "j": "価",
+    "e": [
+      "price",
+      false
+    ]
+  },
+  {
+    "j": "値",
+    "e": [
+      "price",
+      false
+    ]
+  },
+  {
+    "j": "高",
+    "e": [
+      "expensive",
+      false
+    ]
+  },
+  {
+    "j": "安",
+    "e": [
+      "cheap",
+      false
+    ]
+  },
+  {
+    "j": "廉",
+    "e": [
+      "cheap",
+      false
+    ]
+  },
+  {
+    "j": "資",
+    "e": [
+      "capital",
+      false
+    ]
+  },
+  {
+    "j": "賃",
+    "e": [
+      "fee or wages",
+      false
+    ]
+  },
+  {
+    "j": "料",
+    "e": [
+      "fee",
+      false
+    ]
+  },
+  {
+    "j": "費",
+    "e": [
+      "expense",
+      false
+    ]
+  },
+  {
+    "j": "営",
+    "e": [
+      "management",
+      false
+    ]
+  },
+  {
+    "j": "職",
+    "e": [
+      "employment",
+      false
+    ]
+  },
+  {
+    "j": "働",
+    "e": [
+      "work",
+      false
+    ]
+  },
+  {
+    "j": "稼",
+    "e": [
+      "work, earn",
+      false
+    ]
+  },
+  {
+    "j": "給",
+    "e": [
+      "salary",
+      false
+    ]
+  },
+  {
+    "j": "俸",
+    "e": [
+      "salary",
+      false
+    ]
+  },
+  {
+    "j": "償",
+    "e": [
+      "recompense",
+      false
+    ]
+  },
+  {
+    "j": "債",
+    "e": [
+      "debt, bond",
+      false
+    ]
+  },
+  {
+    "j": "貯",
+    "e": [
+      "savings",
+      false
+    ]
+  },
+  {
+    "j": "税",
+    "e": [
+      "tax",
+      false
+    ]
+  },
+  {
+    "j": "租",
+    "e": [
+      "tax",
+      false
+    ]
+  },
+  {
+    "j": "賦",
+    "e": [
+      "levy, instalment",
+      false
+    ]
+  },
+  {
+    "j": "賄",
+    "e": [
+      "bribe",
+      false
+    ]
+  },
+  {
+    "j": "賂",
+    "e": [
+      "bribe",
+      false
+    ]
+  },
+  {
+    "j": "賭",
+    "e": [
+      "gamble",
+      false
+    ]
+  },
+  {
+    "j": "芸",
+    "e": [
+      "art",
+      false
+    ]
+  },
+  {
+    "j": "絵",
+    "e": [
+      "picture, painting",
+      false
+    ]
+  },
+  {
+    "j": "画",
+    "e": [
+      "picture",
+      false
+    ]
+  },
+  {
+    "j": "楽",
+    "e": [
+      "music",
+      false
+    ]
+  },
+  {
+    "j": "曲",
+    "e": [
+      "musical composition",
+      false
+    ]
+  },
+  {
+    "j": "歌",
+    "e": [
+      "song",
+      false
+    ]
+  },
+  {
+    "j": "謡",
+    "e": [
+      "song, noh chant",
+      false
+    ]
+  },
+  {
+    "j": "唄",
+    "e": [
+      "song",
+      false
+    ]
+  },
+  {
+    "j": "諧",
+    "e": [
+      "harmony",
+      false
+    ]
+  },
+  {
+    "j": "琴",
+    "e": [
+      "cithare, harp",
+      false
+    ]
+  },
+  {
+    "j": "笛",
+    "e": [
+      "flute",
+      false
+    ]
+  },
+  {
+    "j": "鼓",
+    "e": [
+      "drum",
+      false
+    ]
+  },
+  {
+    "j": "拍",
+    "e": [
+      "clap, beat (music)",
+      false
+    ]
+  },
+  {
+    "j": "節",
+    "e": [
+      "tune, melody",
+      false
+    ]
+  },
+  {
+    "j": "詩",
+    "e": [
+      "poetry",
+      false
+    ]
+  },
+  {
+    "j": "詠",
+    "e": [
+      "recite poetry",
+      false
+    ]
+  },
+  {
+    "j": "俳",
+    "e": [
+      "haiku",
+      false
+    ]
+  },
+  {
+    "j": "劇",
+    "e": [
+      "drama, play",
+      false
+    ]
+  },
+  {
+    "j": "祭",
+    "e": [
+      "festival",
+      false
+    ]
+  },
+  {
+    "j": "校",
+    "e": [
+      "school",
+      false
+    ]
+  },
+  {
+    "j": "学",
+    "e": [
+      "study, school",
+      false
+    ]
+  },
+  {
+    "j": "生",
+    "e": [
+      "student",
+      false
+    ]
+  },
+  {
+    "j": "塾",
+    "e": [
+      "private school",
+      false
+    ]
+  },
+  {
+    "j": "科",
+    "e": [
+      "faculty",
+      false
+    ]
+  },
+  {
+    "j": "教",
+    "e": [
+      "teach",
+      false
+    ]
+  },
+  {
+    "j": "究",
+    "e": [
+      "study, research",
+      false
+    ]
+  },
+  {
+    "j": "研",
+    "e": [
+      "study, research",
+      false
+    ]
+  },
+  {
+    "j": "知",
+    "e": [
+      "know",
+      false
+    ]
+  },
+  {
+    "j": "卒",
+    "e": [
+      "graduate",
+      false
+    ]
+  },
+  {
+    "j": "儒",
+    "e": [
+      "Confucianism",
+      false
+    ]
+  },
+  {
+    "j": "語",
+    "e": [
+      "language",
+      false
+    ]
+  },
+  {
+    "j": "言",
+    "e": [
+      "say",
+      false
+    ]
+  },
+  {
+    "j": "話",
+    "e": [
+      "speak",
+      false
+    ]
+  },
+  {
+    "j": "声",
+    "e": [
+      "voice",
+      false
+    ]
+  },
+  {
+    "j": "告",
+    "e": [
+      "tell",
+      false
+    ]
+  },
+  {
+    "j": "談",
+    "e": [
+      "discuss",
+      false
+    ]
+  },
+  {
+    "j": "聞",
+    "e": [
+      "ask",
+      false
+    ]
+  },
+  {
+    "j": "問",
+    "e": [
+      "question",
+      false
+    ]
+  },
+  {
+    "j": "答",
+    "e": [
+      "answer",
+      false
+    ]
+  },
+  {
+    "j": "吟",
+    "e": [
+      "recite",
+      false
+    ]
+  },
+  {
+    "j": "読",
+    "e": [
+      "read",
+      false
+    ]
+  },
+  {
+    "j": "書",
+    "e": [
+      "write",
+      false
+    ]
+  },
+  {
+    "j": "本",
+    "e": [
+      "book",
+      false
+    ]
+  },
+  {
+    "j": "文",
+    "e": [
+      "text",
+      false
+    ]
+  },
+  {
+    "j": "図",
+    "e": [
+      "map, diagram",
+      false
+    ]
+  },
+  {
+    "j": "筆",
+    "e": [
+      "writing, brush",
+      false
+    ]
+  },
+  {
+    "j": "字",
+    "e": [
+      "character",
+      false
+    ]
+  },
+  {
+    "j": "辞",
+    "e": [
+      "word",
+      false
+    ]
+  },
+  {
+    "j": "詞",
+    "e": [
+      "words",
+      false
+    ]
+  },
+  {
+    "j": "句",
+    "e": [
+      "phrase",
+      false
+    ]
+  },
+  {
+    "j": "記",
+    "e": [
+      "written record",
+      false
+    ]
+  },
+  {
+    "j": "刊",
+    "e": [
+      "publish",
+      false
+    ]
+  },
+  {
+    "j": "誌",
+    "e": [
+      "document, journal",
+      false
+    ]
+  },
+  {
+    "j": "訃",
+    "e": [
+      "obituary",
+      false
+    ]
+  },
+  {
+    "j": "信",
+    "e": [
+      "message",
+      false
+    ]
+  },
+  {
+    "j": "報",
+    "e": [
+      "inform",
+      false
+    ]
+  },
+  {
+    "j": "説",
+    "e": [
+      "explain",
+      false
+    ]
+  },
+  {
+    "j": "題",
+    "e": [
+      "topic",
+      false
+    ]
+  },
+  {
+    "j": "表",
+    "e": [
+      "express",
+      false
+    ]
+  },
+  {
+    "j": "伝",
+    "e": [
+      "transmit",
+      false
+    ]
+  },
+  {
+    "j": "論",
+    "e": [
+      "discourse",
+      false
+    ]
+  },
+  {
+    "j": "講",
+    "e": [
+      "lecture",
+      false
+    ]
+  },
+  {
+    "j": "宣",
+    "e": [
+      "proclaim"
+    ]
+  },
+  {
+    "j": "神",
+    "e": [
+      "god",
+      false
+    ]
+  },
+  {
+    "j": "宗",
+    "e": [
+      "religion, sect",
+      false
+    ]
+  },
+  {
+    "j": "教",
+    "e": [
+      "religion",
+      false
+    ]
+  },
+  {
+    "j": "聖",
+    "e": [
+      "sacred",
+      false
+    ]
+  },
+  {
+    "j": "祈",
+    "e": [
+      "pray",
+      false
+    ]
+  },
+  {
+    "j": "仏",
+    "e": [
+      "Buddha",
+      false
+    ]
+  },
+  {
+    "j": "寺",
+    "e": [
+      "Buddhist temple",
+      false
+    ]
+  },
+  {
+    "j": "僧",
+    "e": [
+      "Buddhist priest",
+      false
+    ]
+  },
+  {
+    "j": "尼",
+    "e": [
+      "Buddhist nun",
+      false
+    ]
+  },
+  {
+    "j": "禅",
+    "e": [
+      "Zen",
+      false
+    ]
+  },
+  {
+    "j": "社",
+    "e": [
+      "Shinto shrine",
+      false
+    ]
+  },
+  {
+    "j": "刹",
+    "e": [
+      "temple",
+      false
+    ]
+  },
+  {
+    "j": "詣",
+    "e": [
+      "temple visit",
+      false
+    ]
+  },
+  {
+    "j": "宮",
+    "e": [
+      "shrine",
+      false
+    ]
+  },
+  {
+    "j": "派",
+    "e": [
+      "sect",
+      false
+    ]
+  },
+  {
+    "j": "魂",
+    "e": [
+      "soul",
+      false
+    ]
+  },
+  {
+    "j": "霊",
+    "e": [
+      "spirit",
+      false
+    ]
+  },
+  {
+    "j": "魔",
+    "e": [
+      "demon, witch",
+      false
+    ]
+  },
+  {
+    "j": "鬼",
+    "e": [
+      "ghost, devil",
+      false
+    ]
+  },
+  {
+    "j": "幻",
+    "e": [
+      "phantom, apparition",
+      false
+    ]
+  },
+  {
+    "j": "竜",
+    "e": [
+      "dragon",
+      false
+    ]
+  },
+  {
+    "j": "武",
+    "e": [
+      "military",
+      false
+    ]
+  },
+  {
+    "j": "戦",
+    "e": [
+      "battle",
+      false
+    ]
+  },
+  {
+    "j": "闘",
+    "e": [
+      "battle",
+      false
+    ]
+  },
+  {
+    "j": "敵",
+    "e": [
+      "enemy",
+      false
+    ]
+  },
+  {
+    "j": "攻",
+    "e": [
+      "attack",
+      false
+    ]
+  },
+  {
+    "j": "斬",
+    "e": [
+      "slash",
+      false
+    ]
+  },
+  {
+    "j": "伐",
+    "e": [
+      "attack or punish",
+      false
+    ]
+  },
+  {
+    "j": "殺",
+    "e": [
+      "kill",
+      false
+    ]
+  },
+  {
+    "j": "撃",
+    "e": [
+      "attack",
+      false
+    ]
+  },
+  {
+    "j": "討",
+    "e": [
+      "attack",
+      false
+    ]
+  },
+  {
+    "j": "殴",
+    "e": [
+      "beat, assault",
+      false
+    ]
+  },
+  {
+    "j": "撃",
+    "e": [
+      "beat, attack",
+      false
+    ]
+  },
+  {
+    "j": "射",
+    "e": [
+      "shoot at",
+      false
+    ]
+  },
+  {
+    "j": "襲",
+    "e": [
+      "raid",
+      false
+    ]
+  },
+  {
+    "j": "征",
+    "e": [
+      "conquer",
+      false
+    ]
+  },
+  {
+    "j": "兵",
+    "e": [
+      "soldier",
+      false
+    ]
+  },
+  {
+    "j": "刀katana",
+    "e": [
+      "刀 sword or katana",
+      false
+    ]
+  },
+  {
+    "j": "矛halberd",
+    "e": [
+      "矛 halberd",
+      false
+    ]
+  },
+  {
+    "j": "戈",
+    "e": [
+      "spear",
+      false
+    ]
+  },
+  {
+    "j": "剣",
+    "e": [
+      "sword",
+      false
+    ]
+  },
+  {
+    "j": "斬",
+    "e": [
+      "cut with a sword",
+      false
+    ]
+  },
+  {
+    "j": "盾",
+    "e": [
+      "shield",
+      false
+    ]
+  },
+  {
+    "j": "甲",
+    "e": [
+      "armour",
+      false
+    ]
+  },
+  {
+    "j": "侍samurai",
+    "e": [
+      "侍 samurai",
+      false
+    ]
+  },
+  {
+    "j": "忍ninja or shinobi",
+    "e": [
+      "忍 ninja or shinobi",
+      false
+    ]
+  },
+  {
+    "j": "偵",
+    "e": [
+      "spy",
+      false
+    ]
+  },
+  {
+    "j": "弓",
+    "e": [
+      "bow",
+      false
+    ]
+  },
+  {
+    "j": "矢",
+    "e": [
+      "arrow",
+      false
+    ]
+  },
+  {
+    "j": "銃",
+    "e": [
+      "gun",
+      false
+    ]
+  },
+  {
+    "j": "砲",
+    "e": [
+      "gun or cannon",
+      false
+    ]
+  },
+  {
+    "j": "将",
+    "e": [
+      "commander",
+      false
+    ]
+  },
+  {
+    "j": "曹",
+    "e": [
+      "sergeant",
+      false
+    ]
+  },
+  {
+    "j": "尉",
+    "e": [
+      "military officer",
+      false
+    ]
+  },
+  {
+    "j": "軍",
+    "e": [
+      "troops",
+      false
+    ]
+  },
+  {
+    "j": "隊",
+    "e": [
+      "corps",
+      false
+    ]
+  },
+  {
+    "j": "班",
+    "e": [
+      "squad, corps",
+      false
+    ]
+  },
+  {
+    "j": "陣",
+    "e": [
+      "battle formation, camp",
+      false
+    ]
+  },
+  {
+    "j": "屯",
+    "e": [
+      "barracks",
+      false
+    ]
+  },
+  {
+    "j": "爆",
+    "e": [
+      "bomb",
+      false
+    ]
+  },
+  {
+    "j": "弾",
+    "e": [
+      "bullet",
+      false
+    ]
+  },
+  {
+    "j": "艦",
+    "e": [
+      "warship",
+      false
+    ]
+  }
+]

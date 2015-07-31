@@ -1,0 +1,12055 @@
+[
+  {
+    "pr": [
+      "ichi",
+      "hitotsu"
+    ],
+    "j": "一",
+    "e": [
+      "one",
+      "1",
+      "first"
+    ],
+    "w": 1
+  },
+  {
+    "pr": [
+      "ni",
+      "futatsu"
+    ],
+    "j": "二",
+    "e": [
+      "two",
+      "2",
+      "second"
+    ],
+    "w": 2
+  },
+  {
+    "pr": [
+      "san",
+      "mi",
+      "mitsu"
+    ],
+    "j": "三",
+    "e": [
+      "three",
+      "3",
+      "third"
+    ],
+    "w": 3
+  },
+  {
+    "pr": [
+      "yon",
+      "shi",
+      "yotsu"
+    ],
+    "j": "四",
+    "e": [
+      "four",
+      "4",
+      "forth"
+    ],
+    "w": 4
+  },
+  {
+    "pr": [
+      "go",
+      "itsutsu"
+    ],
+    "j": "五",
+    "e": [
+      "five",
+      "5",
+      "fifth"
+    ],
+    "w": 5
+  },
+  {
+    "pr": [
+      "roku",
+      "mutsu",
+      "mui"
+    ],
+    "j": "六",
+    "e": [
+      "six",
+      "6",
+      "sixth"
+    ],
+    "w": 6
+  },
+  {
+    "pr": [
+      "shichi",
+      "nanatsu",
+      "nano"
+    ],
+    "j": "七",
+    "e": [
+      "seven",
+      "7",
+      "seventh"
+    ],
+    "w": 7
+  },
+  {
+    "pr": [
+      "hachi",
+      "yatsu",
+      "you"
+    ],
+    "j": "八",
+    "e": [
+      "eight",
+      "8",
+      "eighth"
+    ],
+    "w": 8
+  },
+  {
+    "pr": [
+      "kyuu",
+      "ku",
+      "kokonotsu"
+    ],
+    "j": "九",
+    "e": [
+      "nine",
+      "9",
+      "ninth"
+    ],
+    "w": 9
+  },
+  {
+    "pr": [
+      "juu",
+      "tou",
+      "ju"
+    ],
+    "j": "十",
+    "e": [
+      "ten",
+      "10",
+      "tenth"
+    ],
+    "w": 10
+  },
+  {
+    "pr": [
+      "hyaku"
+    ],
+    "j": "百",
+    "e": [
+      "hundred",
+      "100"
+    ],
+    "w": 11
+  },
+  {
+    "pr": [
+      "sen",
+      "chi"
+    ],
+    "j": "千",
+    "e": [
+      "thousand",
+      "1000"
+    ],
+    "w": 12
+  },
+  {
+    "pr": [
+      false
+    ],
+    "j": "万",
+    "e": [
+      "ten thousand",
+      "10,000"
+    ],
+    "w": 13
+  },
+  {
+    "pr": [
+      "fu",
+      "chichi",
+      "tou"
+    ],
+    "j": "父",
+    "e": [
+      "father",
+      "dad"
+    ],
+    "w": 14
+  },
+  {
+    "pr": [
+      "bo",
+      "haha",
+      "kaa"
+    ],
+    "j": "母",
+    "e": [
+      "mother",
+      "mom"
+    ],
+    "w": 15
+  },
+  {
+    "pr": [
+      "yuu",
+      "tomo"
+    ],
+    "j": "友",
+    "e": [
+      "friend"
+    ],
+    "w": 16
+  },
+  {
+    "pr": [
+      "jo",
+      "onna"
+    ],
+    "j": "女",
+    "e": [
+      "woman",
+      "female"
+    ],
+    "w": 17
+  },
+  {
+    "pr": [
+      "dan",
+      "otoko"
+    ],
+    "j": "男",
+    "e": [
+      "man",
+      "male"
+    ],
+    "w": 18
+  },
+  {
+    "pr": [
+      "jin",
+      "nin",
+      "hito"
+    ],
+    "j": "人",
+    "e": [
+      "person",
+      "people",
+      "man"
+    ],
+    "w": 19
+  },
+  {
+    "pr": [
+      "shi",
+      "ko"
+    ],
+    "j": "子",
+    "e": [
+      "child",
+      "children",
+      "kid"
+    ],
+    "w": 20
+  },
+  {
+    "pr": [
+      "jitsu",
+      "nichi",
+      "hi"
+    ],
+    "j": "日",
+    "e": [
+      "sun",
+      "day"
+    ],
+    "w": 21
+  },
+  {
+    "pr": [
+      "gatsu",
+      "getsu",
+      "tsuki"
+    ],
+    "j": "月",
+    "e": [
+      "month",
+      "moon"
+    ],
+    "w": 22
+  },
+  {
+    "pr": [
+      "ka",
+      "hi"
+    ],
+    "j": "火",
+    "e": [
+      "fire",
+      "light"
+    ],
+    "w": 23
+  },
+  {
+    "pr": [
+      "sui",
+      "mizu"
+    ],
+    "j": "水",
+    "e": [
+      "water"
+    ],
+    "w": 24
+  },
+  {
+    "pr": [
+      "moku",
+      "boku",
+      "ki"
+    ],
+    "j": "木",
+    "e": [
+      "tree",
+      "wood"
+    ],
+    "w": 25
+  },
+  {
+    "pr": [
+      "kin",
+      "kon",
+      "kane"
+    ],
+    "j": "金",
+    "e": [
+      "gold",
+      "money"
+    ],
+    "w": 26
+  },
+  {
+    "pr": [
+      "do",
+      "to",
+      "tsuchi"
+    ],
+    "j": "土",
+    "e": [
+      "earth",
+      "ground",
+      "soil"
+    ],
+    "w": 27
+  },
+  {
+    "pr": [
+      "hon"
+    ],
+    "j": "本",
+    "e": [
+      "book",
+      "counter for long, slender objects"
+    ],
+    "w": 28
+  },
+  {
+    "pr": [
+      "kyuu",
+      "yasumi",
+      "yasumu"
+    ],
+    "j": "休",
+    "e": [
+      "vacation",
+      "rest"
+    ],
+    "w": 29
+  },
+  {
+    "pr": [
+      "go",
+      "kataru",
+      "katari"
+    ],
+    "j": "語",
+    "e": [
+      "word",
+      "language",
+      "speech"
+    ],
+    "w": 30
+  },
+  {
+    "pr": [
+      "nen",
+      "toshi"
+    ],
+    "j": "年",
+    "e": [
+      "year"
+    ],
+    "w": 31
+  },
+  {
+    "pr": [
+      "go"
+    ],
+    "j": "午",
+    "e": [
+      "noon"
+    ],
+    "w": 32
+  },
+  {
+    "pr": [
+      "zen",
+      "mae"
+    ],
+    "j": "前",
+    "e": [
+      "before",
+      "in front of",
+      "previous"
+    ],
+    "w": 33
+  },
+  {
+    "pr": [
+      "go",
+      "kou",
+      "ushiro"
+    ],
+    "j": "後",
+    "e": [
+      "behind",
+      "after"
+    ],
+    "w": 34
+  },
+  {
+    "pr": [
+      "ji",
+      "toki"
+    ],
+    "j": "時",
+    "e": [
+      "time"
+    ],
+    "w": 35
+  },
+  {
+    "pr": [
+      "kan",
+      "aida",
+      "ma"
+    ],
+    "j": "間",
+    "e": [
+      "interval",
+      "space",
+      "room"
+    ],
+    "w": 36
+  },
+  {
+    "pr": [
+      "mai"
+    ],
+    "j": "毎",
+    "e": [
+      "every"
+    ],
+    "w": 37
+  },
+  {
+    "pr": [
+      "sen",
+      "saki"
+    ],
+    "j": "先",
+    "e": [
+      "previous",
+      "ahead"
+    ],
+    "w": 38
+  },
+  {
+    "pr": [
+      "kon",
+      "kin",
+      "ima"
+    ],
+    "j": "今",
+    "e": [
+      "now",
+      "present"
+    ],
+    "w": 39
+  },
+  {
+    "pr": [
+      "ka",
+      "nan",
+      "nani"
+    ],
+    "j": "何",
+    "e": [
+      "what",
+      "how many"
+    ],
+    "w": 40
+  },
+  {
+    "pr": [
+      "jou",
+      "ue"
+    ],
+    "j": "上",
+    "e": [
+      "top",
+      "above",
+      "up"
+    ],
+    "w": 41
+  },
+  {
+    "pr": [
+      "ka",
+      "ge",
+      "shita"
+    ],
+    "j": "下",
+    "e": [
+      "under",
+      "bottom",
+      "down"
+    ],
+    "w": 42
+  },
+  {
+    "pr": [
+      "sa",
+      "hidari"
+    ],
+    "j": "左",
+    "e": [
+      "left"
+    ],
+    "w": 43
+  },
+  {
+    "pr": [
+      "yuu",
+      "migi",
+      "u"
+    ],
+    "j": "右",
+    "e": [
+      "right"
+    ],
+    "w": 44
+  },
+  {
+    "pr": [
+      "tou",
+      "higashi"
+    ],
+    "j": "東",
+    "e": [
+      "east"
+    ],
+    "w": 45
+  },
+  {
+    "pr": [
+      "sei",
+      "sai",
+      "nishi"
+    ],
+    "j": "西",
+    "e": [
+      "west"
+    ],
+    "w": 46
+  },
+  {
+    "pr": [
+      "nan",
+      "minami"
+    ],
+    "j": "南",
+    "e": [
+      "south"
+    ],
+    "w": 47
+  },
+  {
+    "pr": [
+      "hoku",
+      "kita"
+    ],
+    "j": "北",
+    "e": [
+      "north"
+    ],
+    "w": 48
+  },
+  {
+    "pr": [
+      "gai",
+      "hoka",
+      "soto"
+    ],
+    "j": "外",
+    "e": [
+      "outside",
+      "foreign",
+      "other"
+    ],
+    "w": 49
+  },
+  {
+    "pr": [
+      "mei",
+      "myou",
+      "na"
+    ],
+    "j": "名",
+    "e": [
+      "name",
+      "famous",
+      "fame"
+    ],
+    "w": 50
+  },
+  {
+    "pr": [
+      "kou",
+      "takai"
+    ],
+    "j": "高",
+    "e": [
+      "high",
+      "expensive",
+      "tall"
+    ],
+    "w": 51
+  },
+  {
+    "pr": [
+      "shou",
+      "ko",
+      "chiisai"
+    ],
+    "j": "小",
+    "e": [
+      "small",
+      "little"
+    ],
+    "w": 52
+  },
+  {
+    "pr": [
+      "chuu",
+      "naka"
+    ],
+    "j": "中",
+    "e": [
+      "middle",
+      "inside",
+      "center"
+    ],
+    "w": 53
+  },
+  {
+    "pr": [
+      "dai",
+      "tai",
+      "ooki"
+    ],
+    "j": "大",
+    "e": [
+      "big",
+      "large",
+      "great"
+    ],
+    "w": 54
+  },
+  {
+    "pr": [
+      "chou",
+      "nagai"
+    ],
+    "j": "長",
+    "e": [
+      "leader",
+      "long"
+    ],
+    "w": 55
+  },
+  {
+    "pr": [
+      "han"
+    ],
+    "j": "半",
+    "e": [
+      "half"
+    ],
+    "w": 56
+  },
+  {
+    "pr": [
+      "fun",
+      "bun",
+      "wakaru"
+    ],
+    "j": "分",
+    "e": [
+      "understand",
+      "share",
+      "part"
+    ],
+    "w": 57
+  },
+  {
+    "pr": [
+      "gaku",
+      "manabu"
+    ],
+    "j": "学",
+    "e": [
+      "learning",
+      "learn",
+      "science"
+    ],
+    "w": 58
+  },
+  {
+    "pr": [
+      "kou"
+    ],
+    "j": "校",
+    "e": [
+      "school"
+    ],
+    "w": 59
+  },
+  {
+    "pr": [
+      "sei",
+      "ikiru",
+      "shou"
+    ],
+    "j": "生",
+    "e": [
+      "live",
+      "birth",
+      "life"
+    ],
+    "w": 60
+  },
+  {
+    "pr": [
+      "san",
+      "yama"
+    ],
+    "j": "山",
+    "e": [
+      "mountain"
+    ],
+    "w": 61
+  },
+  {
+    "pr": [
+      "sen",
+      "kawa"
+    ],
+    "j": "川",
+    "e": [
+      "river",
+      "stream"
+    ],
+    "w": 62
+  },
+  {
+    "pr": [
+      "haku",
+      "byaku",
+      "shiroi"
+    ],
+    "j": "白",
+    "e": [
+      "white"
+    ],
+    "w": 63
+  },
+  {
+    "pr": [
+      "ten",
+      "ama",
+      "ame"
+    ],
+    "j": "天",
+    "e": [
+      "heaven",
+      "sky"
+    ],
+    "w": 64
+  },
+  {
+    "pr": [
+      "u",
+      "ama",
+      "ame"
+    ],
+    "j": "雨",
+    "e": [
+      "rain"
+    ],
+    "w": 65
+  },
+  {
+    "pr": [
+      "den"
+    ],
+    "j": "電",
+    "e": [
+      "electricity",
+      "electric",
+      "power"
+    ],
+    "w": 66
+  },
+  {
+    "pr": [
+      "ki",
+      "ke",
+      "iki"
+    ],
+    "j": "気",
+    "e": [
+      "spirit",
+      "energy",
+      "power"
+    ],
+    "w": 67
+  },
+  {
+    "pr": [
+      "sha",
+      "kuruma"
+    ],
+    "j": "車",
+    "e": [
+      "car",
+      "vehicle",
+      "automobile"
+    ],
+    "w": 68
+  },
+  {
+    "pr": [
+      "koku",
+      "kuni"
+    ],
+    "j": "国",
+    "e": [
+      "country",
+      "nation"
+    ],
+    "w": 69
+  },
+  {
+    "pr": [
+      "en",
+      "marui"
+    ],
+    "j": "円",
+    "e": [
+      "circle",
+      "yen",
+      "money"
+    ],
+    "w": 70
+  },
+  {
+    "pr": [
+      "wa",
+      "hanashi",
+      "hanasu"
+    ],
+    "j": "話",
+    "e": [
+      "talk",
+      "topic",
+      "story"
+    ],
+    "w": 71
+  },
+  {
+    "pr": [
+      "bun",
+      "kiku"
+    ],
+    "j": "聞",
+    "e": [
+      "hear",
+      "listen",
+      "ask"
+    ],
+    "w": 72
+  },
+  {
+    "pr": [
+      "kuu",
+      "shoku",
+      "taberu"
+    ],
+    "j": "食",
+    "e": [
+      "eat",
+      "meal",
+      "food"
+    ],
+    "w": 73
+  },
+  {
+    "pr": [
+      "doku",
+      "yomu"
+    ],
+    "j": "読",
+    "e": [
+      "read"
+    ],
+    "w": 74
+  },
+  {
+    "pr": [
+      "rai",
+      "kuru"
+    ],
+    "j": "来",
+    "e": [
+      "come"
+    ],
+    "w": 75
+  },
+  {
+    "pr": [
+      "sho",
+      "kaku"
+    ],
+    "j": "書",
+    "e": [
+      "book",
+      "document",
+      "papers"
+    ],
+    "w": 76
+  },
+  {
+    "pr": [
+      "ken",
+      "miru",
+      "mi"
+    ],
+    "j": "見",
+    "e": [
+      "see",
+      "show"
+    ],
+    "w": 77
+  },
+  {
+    "pr": [
+      "gyou",
+      "kou",
+      "iku"
+    ],
+    "j": "行",
+    "e": [
+      "go",
+      "leave"
+    ],
+    "w": 78
+  },
+  {
+    "pr": [
+      "shutsu",
+      "dasu",
+      "deru"
+    ],
+    "j": "出",
+    "e": [
+      "leave",
+      "go out"
+    ],
+    "w": 79
+  },
+  {
+    "pr": [
+      "nyuu",
+      "iru",
+      "hairu"
+    ],
+    "j": "入",
+    "e": [
+      "enter",
+      "insert",
+      "go in"
+    ],
+    "w": 80
+  },
+  {
+    "pr": [
+      "kai",
+      "e",
+      "au"
+    ],
+    "j": "会",
+    "e": [
+      "meeting",
+      "meet"
+    ],
+    "w": 81
+  },
+  {
+    "pr": [
+      "sei",
+      "shou",
+      "aoi"
+    ],
+    "j": "青",
+    "e": [
+      "blue"
+    ],
+    "w": 82
+  },
+  {
+    "pr": [
+      "seki",
+      "shaku",
+      "akai"
+    ],
+    "j": "赤",
+    "e": [
+      "red"
+    ],
+    "w": 83
+  },
+  {
+    "pr": [
+      "mei",
+      "myou",
+      "akarui"
+    ],
+    "j": "明",
+    "e": [
+      "light",
+      "bright",
+      "dawn"
+    ],
+    "w": 84
+  },
+  {
+    "pr": [
+      "shuu",
+      "aki"
+    ],
+    "j": "秋",
+    "e": [
+      "fall",
+      "autumn"
+    ],
+    "w": 85
+  },
+  {
+    "pr": [
+      "kuu",
+      "kara",
+      "sora"
+    ],
+    "j": "空",
+    "e": [
+      "sky",
+      "air",
+      "empty"
+    ],
+    "w": 86
+  },
+  {
+    "pr": [
+      "kai",
+      "hiraku",
+      "akeru"
+    ],
+    "j": "開",
+    "e": [
+      "open"
+    ],
+    "w": 87
+  },
+  {
+    "pr": [
+      "aku",
+      "warui"
+    ],
+    "j": "悪",
+    "e": [
+      "bad",
+      "evil"
+    ],
+    "w": 88
+  },
+  {
+    "pr": [
+      "chou",
+      "asa"
+    ],
+    "j": "朝",
+    "e": [
+      "morning"
+    ],
+    "w": 89
+  },
+  {
+    "pr": [
+      "ji",
+      "aza"
+    ],
+    "j": "字",
+    "e": [
+      "letter",
+      "character",
+      "mark"
+    ],
+    "w": 90
+  },
+  {
+    "pr": [
+      "ashi",
+      "soku",
+      "tariru"
+    ],
+    "j": "足",
+    "e": [
+      "foot",
+      "feet",
+      "sufficient"
+    ],
+    "w": 91
+  },
+  {
+    "pr": [
+      "mi",
+      "aji"
+    ],
+    "j": "味",
+    "e": [
+      "taste",
+      "experience"
+    ],
+    "w": 92
+  },
+  {
+    "pr": [
+      "shin",
+      "atarashii"
+    ],
+    "j": "新",
+    "e": [
+      "textframe",
+      "fresh"
+    ],
+    "w": 93
+  },
+  {
+    "pr": [
+      "shuu",
+      "atsumeru"
+    ],
+    "j": "集",
+    "e": [
+      "collect",
+      "gather"
+    ],
+    "w": 94
+  },
+  {
+    "pr": [
+      "kei",
+      "kyou",
+      "ani"
+    ],
+    "j": "兄",
+    "e": [
+      "brother",
+      "older brother"
+    ],
+    "w": 95
+  },
+  {
+    "pr": [
+      "shi",
+      "ane"
+    ],
+    "j": "姉",
+    "e": [
+      "sister",
+      "older sister"
+    ],
+    "w": 96
+  },
+  {
+    "pr": [
+      "ho",
+      "bu",
+      "aruku"
+    ],
+    "j": "歩",
+    "e": [
+      "walk",
+      "step"
+    ],
+    "w": 97
+  },
+  {
+    "pr": [
+      "yuu",
+      "u",
+      "aru"
+    ],
+    "j": "有",
+    "e": [
+      "have",
+      "exist",
+      "be"
+    ],
+    "w": 98
+  },
+  {
+    "pr": [
+      "an",
+      "yasui"
+    ],
+    "j": "安",
+    "e": [
+      "cheap",
+      "peaceful",
+      "safe"
+    ],
+    "w": 99
+  },
+  {
+    "pr": [
+      "i"
+    ],
+    "j": "医",
+    "e": [
+      "heal",
+      "cure"
+    ],
+    "w": 100
+  },
+  {
+    "pr": [
+      "i"
+    ],
+    "j": "意",
+    "e": [
+      "mind",
+      "heart",
+      "attention"
+    ],
+    "w": 101
+  },
+  {
+    "pr": [
+      "i"
+    ],
+    "j": "以",
+    "e": [
+      "more",
+      "through",
+      "on account"
+    ],
+    "w": 102
+  },
+  {
+    "pr": [
+      "gen",
+      "koto",
+      "iu"
+    ],
+    "j": "言",
+    "e": [
+      "speech",
+      "statement",
+      "word"
+    ],
+    "w": 103
+  },
+  {
+    "pr": [
+      "ka",
+      "ya",
+      "ie"
+    ],
+    "j": "家",
+    "e": [
+      "house"
+    ],
+    "w": 104
+  },
+  {
+    "pr": [
+      "kyuu",
+      "isogu"
+    ],
+    "j": "急",
+    "e": [
+      "hurry",
+      "quick"
+    ],
+    "w": 105
+  },
+  {
+    "pr": [
+      "ken",
+      "inu"
+    ],
+    "j": "犬",
+    "e": [
+      "dog"
+    ],
+    "w": 106
+  },
+  {
+    "pr": [
+      "mai",
+      "imouto"
+    ],
+    "j": "妹",
+    "e": [
+      "sister",
+      "younger sister"
+    ],
+    "w": 107
+  },
+  {
+    "pr": [
+      "iro",
+      "shoku",
+      "shiki"
+    ],
+    "j": "色",
+    "e": [
+      "color"
+    ],
+    "w": 108
+  },
+  {
+    "pr": [
+      "oto",
+      "on",
+      "ne"
+    ],
+    "j": "音",
+    "e": [
+      "sound"
+    ],
+    "w": 109
+  },
+  {
+    "pr": [
+      "in"
+    ],
+    "j": "員",
+    "e": [
+      "member",
+      "official"
+    ],
+    "w": 110
+  },
+  {
+    "pr": [
+      "in"
+    ],
+    "j": "院",
+    "e": [
+      "institution",
+      "academy"
+    ],
+    "w": 111
+  },
+  {
+    "pr": [
+      "in",
+      "nomu"
+    ],
+    "j": "飲",
+    "e": [
+      "drink"
+    ],
+    "w": 112
+  },
+  {
+    "pr": [
+      "sakana",
+      "gyo",
+      "uo"
+    ],
+    "j": "魚",
+    "e": [
+      "fish"
+    ],
+    "w": 113
+  },
+  {
+    "pr": [
+      "ugoku",
+      "dou"
+    ],
+    "j": "動",
+    "e": [
+      "move"
+    ],
+    "w": 114
+  },
+  {
+    "pr": [
+      "gyuu",
+      "ushi"
+    ],
+    "j": "牛",
+    "e": [
+      "cow",
+      "bull"
+    ],
+    "w": 115
+  },
+  {
+    "pr": [
+      "ka",
+      "uta",
+      "utau"
+    ],
+    "j": "歌",
+    "e": [
+      "song",
+      "sing"
+    ],
+    "w": 116
+  },
+  {
+    "pr": [
+      "sha",
+      "utsusu"
+    ],
+    "j": "写",
+    "e": [
+      "copy",
+      "take a photo"
+    ],
+    "w": 117
+  },
+  {
+    "pr": [
+      "ei",
+      "utsuru",
+      "utsusu"
+    ],
+    "j": "映",
+    "e": [
+      "reflect",
+      "project"
+    ],
+    "w": 118
+  },
+  {
+    "pr": [
+      "kai",
+      "umi"
+    ],
+    "j": "海",
+    "e": [
+      "sea",
+      "ocean"
+    ],
+    "w": 119
+  },
+  {
+    "pr": [
+      "bai",
+      "uri",
+      "uru"
+    ],
+    "j": "売",
+    "e": [
+      "sale",
+      "sell"
+    ],
+    "w": 120
+  },
+  {
+    "pr": [
+      "un",
+      "hakobu"
+    ],
+    "j": "運",
+    "e": [
+      "luck",
+      "carry",
+      "move"
+    ],
+    "w": 121
+  },
+  {
+    "pr": [
+      "juu",
+      "chou",
+      "omoi"
+    ],
+    "j": "重",
+    "e": [
+      "heavy",
+      "important",
+      "stress"
+    ],
+    "w": 122
+  },
+  {
+    "pr": [
+      "ei"
+    ],
+    "j": "英",
+    "e": [
+      "england",
+      "english",
+      "grand"
+    ],
+    "w": 123
+  },
+  {
+    "pr": [
+      "eki"
+    ],
+    "j": "駅",
+    "e": [
+      "station",
+      "(train) station"
+    ],
+    "w": 124
+  },
+  {
+    "pr": [
+      "shuu",
+      "owari",
+      "tsui"
+    ],
+    "j": "終",
+    "e": [
+      "end",
+      "finish",
+      "last"
+    ],
+    "w": 125
+  },
+  {
+    "pr": [
+      "ta",
+      "ooi"
+    ],
+    "j": "多",
+    "e": [
+      "many",
+      "much",
+      "frequent"
+    ],
+    "w": 126
+  },
+  {
+    "pr": [
+      "ki",
+      "okiru",
+      "okosu"
+    ],
+    "j": "起",
+    "e": [
+      "wake",
+      "get up",
+      "rise"
+    ],
+    "w": 127
+  },
+  {
+    "pr": [
+      "oku",
+      "ya"
+    ],
+    "j": "屋",
+    "e": [
+      "roof",
+      "house",
+      "shop"
+    ],
+    "w": 128
+  },
+  {
+    "pr": [
+      "sou",
+      "okuru"
+    ],
+    "j": "送",
+    "e": [
+      "send"
+    ],
+    "w": 129
+  },
+  {
+    "pr": [
+      "kyou",
+      "oshieru"
+    ],
+    "j": "教",
+    "e": [
+      "teach",
+      "education",
+      "faith"
+    ],
+    "w": 130
+  },
+  {
+    "pr": [
+      "dai",
+      "tei",
+      "otouto"
+    ],
+    "j": "弟",
+    "e": [
+      "brother",
+      "younger brother"
+    ],
+    "w": 131
+  },
+  {
+    "pr": [
+      "dou",
+      "onaji"
+    ],
+    "j": "同",
+    "e": [
+      "same",
+      "agree",
+      "equal"
+    ],
+    "w": 132
+  },
+  {
+    "pr": [
+      "shu",
+      "su",
+      "nushi"
+    ],
+    "j": "主",
+    "e": [
+      "lord",
+      "master",
+      "principal"
+    ],
+    "w": 133
+  },
+  {
+    "pr": [
+      "shi",
+      "omou"
+    ],
+    "j": "思",
+    "e": [
+      "think",
+      "thought"
+    ],
+    "w": 134
+  },
+  {
+    "pr": [
+      "shin",
+      "oya",
+      "shitashii"
+    ],
+    "j": "親",
+    "e": [
+      "parent",
+      "relative",
+      "familiar"
+    ],
+    "w": 135
+  },
+  {
+    "pr": [
+      "ka",
+      "ke",
+      "hana"
+    ],
+    "j": "花",
+    "e": [
+      "flower"
+    ],
+    "w": 136
+  },
+  {
+    "pr": [
+      "ka",
+      "natsu"
+    ],
+    "j": "夏",
+    "e": [
+      "summer"
+    ],
+    "w": 137
+  },
+  {
+    "pr": [
+      "ga",
+      "kaku"
+    ],
+    "j": "画",
+    "e": [
+      "picture",
+      "stroke",
+      "stroke of kanji"
+    ],
+    "w": 138
+  },
+  {
+    "pr": [
+      "kai"
+    ],
+    "j": "界",
+    "e": [
+      "world"
+    ],
+    "w": 139
+  },
+  {
+    "pr": [
+      "bai",
+      "kau"
+    ],
+    "j": "買",
+    "e": [
+      "buy"
+    ],
+    "w": 140
+  },
+  {
+    "pr": [
+      "ki",
+      "kaeru"
+    ],
+    "j": "帰",
+    "e": [
+      "return",
+      "arrive",
+      "come home"
+    ],
+    "w": 141
+  },
+  {
+    "pr": [
+      "dai",
+      "yo",
+      "kawaru"
+    ],
+    "j": "代",
+    "e": [
+      "generation",
+      "substitute",
+      "exchange"
+    ],
+    "w": 142
+  },
+  {
+    "pr": [
+      "gaku",
+      "raku",
+      "tanoshii"
+    ],
+    "j": "楽",
+    "e": [
+      "music",
+      "comfort",
+      "ease"
+    ],
+    "w": 143
+  },
+  {
+    "pr": [
+      "fuu",
+      "fu",
+      "kaze"
+    ],
+    "j": "風",
+    "e": [
+      "wind",
+      "air",
+      "style"
+    ],
+    "w": 144
+  },
+  {
+    "pr": [
+      "tai",
+      "kasu"
+    ],
+    "j": "貸",
+    "e": [
+      "lend"
+    ],
+    "w": 145
+  },
+  {
+    "pr": [
+      "hou",
+      "kata"
+    ],
+    "j": "方",
+    "e": [
+      "direction",
+      "way",
+      "person"
+    ],
+    "w": 146
+  },
+  {
+    "pr": [
+      "shi",
+      "kami"
+    ],
+    "j": "紙",
+    "e": [
+      "paper"
+    ],
+    "w": 147
+  },
+  {
+    "pr": [
+      "tsuu",
+      "tooru",
+      "toori"
+    ],
+    "j": "通",
+    "e": [
+      "avenue",
+      "traffic",
+      "go through"
+    ],
+    "w": 148
+  },
+  {
+    "pr": [
+      "tai",
+      "karada",
+      "katachi"
+    ],
+    "j": "体",
+    "e": [
+      "body",
+      "object"
+    ],
+    "w": 149
+  },
+  {
+    "pr": [
+      "shaku",
+      "kariru"
+    ],
+    "j": "借",
+    "e": [
+      "borrow",
+      "rent"
+    ],
+    "w": 150
+  },
+  {
+    "pr": [
+      "kan",
+      "han"
+    ],
+    "j": "漢",
+    "e": [
+      "china",
+      "chinese"
+    ],
+    "w": 151
+  },
+  {
+    "pr": [
+      "kan",
+      "yakata"
+    ],
+    "j": "館",
+    "e": [
+      "building",
+      "palace"
+    ],
+    "w": 152
+  },
+  {
+    "pr": [
+      "gen",
+      "gan",
+      "moto"
+    ],
+    "j": "元",
+    "e": [
+      "beginning",
+      "origin"
+    ],
+    "w": 153
+  },
+  {
+    "pr": [
+      "kou",
+      "kangaeru",
+      "kangae"
+    ],
+    "j": "考",
+    "e": [
+      "think",
+      "consider",
+      "thought"
+    ],
+    "w": 154
+  },
+  {
+    "pr": [
+      "chaku",
+      "jyaku",
+      "kiru"
+    ],
+    "j": "着",
+    "e": [
+      "wear",
+      "wear clothes",
+      "arrive"
+    ],
+    "w": 155
+  },
+  {
+    "pr": [
+      "kyuu",
+      "ku",
+      "kiwameru"
+    ],
+    "j": "究",
+    "e": [
+      "research",
+      "study"
+    ],
+    "w": 156
+  },
+  {
+    "pr": [
+      "kyo",
+      "ko",
+      "saru"
+    ],
+    "j": "去",
+    "e": [
+      "past",
+      "gone",
+      "leave"
+    ],
+    "w": 157
+  },
+  {
+    "pr": [
+      "kyou",
+      "miyako",
+      "kei"
+    ],
+    "j": "京",
+    "e": [
+      "capital"
+    ],
+    "w": 158
+  },
+  {
+    "pr": [
+      "kyou",
+      "gou",
+      "tsuyoi"
+    ],
+    "j": "強",
+    "e": [
+      "strong",
+      "force"
+    ],
+    "w": 159
+  },
+  {
+    "pr": [
+      "gyou",
+      "gou",
+      "waza"
+    ],
+    "j": "業",
+    "e": [
+      "business",
+      "vocation",
+      "job"
+    ],
+    "w": 160
+  },
+  {
+    "pr": [
+      "setsu",
+      "sai",
+      "kiru"
+    ],
+    "j": "切",
+    "e": [
+      "cut",
+      "cut off",
+      "slice"
+    ],
+    "w": 161
+  },
+  {
+    "pr": [
+      "kin",
+      "kon",
+      "chikai"
+    ],
+    "j": "近",
+    "e": [
+      "near",
+      "early",
+      "soon"
+    ],
+    "w": 162
+  },
+  {
+    "pr": [
+      "gin",
+      "shirogane"
+    ],
+    "j": "銀",
+    "e": [
+      "silver"
+    ],
+    "w": 163
+  },
+  {
+    "pr": [
+      "kou",
+      "ku",
+      "kuchi"
+    ],
+    "j": "口",
+    "e": [
+      "mouth"
+    ],
+    "w": 164
+  },
+  {
+    "pr": [
+      "kou",
+      "ku",
+      "gu"
+    ],
+    "j": "工",
+    "e": [
+      "construction",
+      "craft"
+    ],
+    "w": 165
+  },
+  {
+    "pr": [
+      "koku",
+      "kuro",
+      "kuroi"
+    ],
+    "j": "黒",
+    "e": [
+      "black"
+    ],
+    "w": 166
+  },
+  {
+    "pr": [
+      "kei",
+      "hakaru"
+    ],
+    "j": "計",
+    "e": [
+      "plan",
+      "measure"
+    ],
+    "w": 167
+  },
+  {
+    "pr": [
+      "ken",
+      "togu"
+    ],
+    "j": "研",
+    "e": [
+      "study",
+      "sharpen"
+    ],
+    "w": 168
+  },
+  {
+    "pr": [
+      "ken",
+      "kon",
+      "tateru"
+    ],
+    "j": "建",
+    "e": [
+      "build"
+    ],
+    "w": 169
+  },
+  {
+    "pr": [
+      "ken",
+      "tamesu"
+    ],
+    "j": "験",
+    "e": [
+      "test",
+      "examine",
+      "effect"
+    ],
+    "w": 170
+  },
+  {
+    "pr": [
+      "ko",
+      "furui"
+    ],
+    "j": "古",
+    "e": [
+      "old",
+      "old fashioned"
+    ],
+    "w": 171
+  },
+  {
+    "pr": [
+      "kou",
+      "hiroi",
+      "hiromeru"
+    ],
+    "j": "広",
+    "e": [
+      "wide",
+      "broad",
+      "big"
+    ],
+    "w": 172
+  },
+  {
+    "pr": [
+      "shin",
+      "kokoro"
+    ],
+    "j": "心",
+    "e": [
+      "heart",
+      "mind"
+    ],
+    "w": 173
+  },
+  {
+    "pr": [
+      "shi",
+      "kokoromiru",
+      "tamesu"
+    ],
+    "j": "試",
+    "e": [
+      "test",
+      "try",
+      "experiment"
+    ],
+    "w": 174
+  },
+  {
+    "pr": [
+      "tou",
+      "kotaeru",
+      "kotae"
+    ],
+    "j": "答",
+    "e": [
+      "solution",
+      "answer"
+    ],
+    "w": 175
+  },
+  {
+    "pr": [
+      "ji",
+      "zu",
+      "koto"
+    ],
+    "j": "事",
+    "e": [
+      "thing",
+      "matter",
+      "business"
+    ],
+    "w": 176
+  },
+  {
+    "pr": [
+      "ten"
+    ],
+    "j": "転",
+    "e": [
+      "revolve",
+      "turn",
+      "turn around"
+    ],
+    "w": 177
+  },
+  {
+    "pr": [
+      "saku",
+      "sa",
+      "tsukuru"
+    ],
+    "j": "作",
+    "e": [
+      "make",
+      "produce",
+      "prepare"
+    ],
+    "w": 178
+  },
+  {
+    "pr": [
+      "cha",
+      "sa"
+    ],
+    "j": "茶",
+    "e": [
+      "tea"
+    ],
+    "w": 179
+  },
+  {
+    "pr": [
+      "sou",
+      "hayai"
+    ],
+    "j": "早",
+    "e": [
+      "fast",
+      "quick",
+      "early"
+    ],
+    "w": 180
+  },
+  {
+    "pr": [
+      "shi",
+      "tomaru",
+      "tomeru"
+    ],
+    "j": "止",
+    "e": [
+      "stop"
+    ],
+    "w": 181
+  },
+  {
+    "pr": [
+      "ji",
+      "shi",
+      "mizukara"
+    ],
+    "j": "自",
+    "e": [
+      "oneself",
+      "I",
+      "self"
+    ],
+    "w": 182
+  },
+  {
+    "pr": [
+      "shi",
+      "ji",
+      "tsukaeru"
+    ],
+    "j": "仕",
+    "e": [
+      "official",
+      "serve",
+      "attend"
+    ],
+    "w": 183
+  },
+  {
+    "pr": [
+      "shi",
+      "shinu"
+    ],
+    "j": "死",
+    "e": [
+      "death",
+      "die",
+      "dead"
+    ],
+    "w": 184
+  },
+  {
+    "pr": [
+      "shi",
+      "hajimeru"
+    ],
+    "j": "始",
+    "e": [
+      "begin",
+      "beginning",
+      "start"
+    ],
+    "w": 185
+  },
+  {
+    "pr": [
+      "shi",
+      "tsukau",
+      "tsukai"
+    ],
+    "j": "使",
+    "e": [
+      "use"
+    ],
+    "w": 186
+  },
+  {
+    "pr": [
+      "shi",
+      "watashi",
+      "watakushi"
+    ],
+    "j": "私",
+    "e": [
+      "I",
+      "me",
+      "private"
+    ],
+    "w": 187
+  },
+  {
+    "pr": [
+      "chi",
+      "ji"
+    ],
+    "j": "地",
+    "e": [
+      "ground",
+      "land",
+      "earth"
+    ],
+    "w": 188
+  },
+  {
+    "pr": [
+      "ji",
+      "motsu",
+      "moteru"
+    ],
+    "j": "持",
+    "e": [
+      "have",
+      "hold",
+      "carry"
+    ],
+    "w": 189
+  },
+  {
+    "pr": [
+      "shitsu"
+    ],
+    "j": "質",
+    "e": [
+      "quality",
+      "matter",
+      "substance"
+    ],
+    "w": 190
+  },
+  {
+    "pr": [
+      "shitsu",
+      "muro"
+    ],
+    "j": "室",
+    "e": [
+      "room",
+      "chamber"
+    ],
+    "w": 191
+  },
+  {
+    "pr": [
+      "hin",
+      "shina"
+    ],
+    "j": "品",
+    "e": [
+      "goods",
+      "article",
+      "dignity"
+    ],
+    "w": 192
+  },
+  {
+    "pr": [
+      "sha",
+      "yashiro"
+    ],
+    "j": "社",
+    "e": [
+      "company",
+      "firm",
+      "office"
+    ],
+    "w": 193
+  },
+  {
+    "pr": [
+      "sha",
+      "mono"
+    ],
+    "j": "者",
+    "e": [
+      "someone",
+      "person"
+    ],
+    "w": 194
+  },
+  {
+    "pr": [
+      "shu",
+      "zu",
+      "te"
+    ],
+    "j": "手",
+    "e": [
+      "hand"
+    ],
+    "w": 195
+  },
+  {
+    "pr": [
+      "shuu"
+    ],
+    "j": "週",
+    "e": [
+      "week"
+    ],
+    "w": 196
+  },
+  {
+    "pr": [
+      "shuu",
+      "ju",
+      "narau"
+    ],
+    "j": "習",
+    "e": [
+      "learn"
+    ],
+    "w": 197
+  },
+  {
+    "pr": [
+      "juu",
+      "chuu",
+      "sumu"
+    ],
+    "j": "住",
+    "e": [
+      "live",
+      "reside",
+      "dwell"
+    ],
+    "w": 198
+  },
+  {
+    "pr": [
+      "shun",
+      "haru"
+    ],
+    "j": "春",
+    "e": [
+      "spring",
+      "spring (season)"
+    ],
+    "w": 199
+  },
+  {
+    "pr": [
+      "sei",
+      "shou",
+      "tadashii"
+    ],
+    "j": "正",
+    "e": [
+      "correct",
+      "right",
+      "justice"
+    ],
+    "w": 200
+  },
+  {
+    "pr": [
+      "shou",
+      "sukunai",
+      "sukoshi"
+    ],
+    "j": "少",
+    "e": [
+      "few",
+      "little"
+    ],
+    "w": 201
+  },
+  {
+    "pr": [
+      "jou",
+      "chou",
+      "ba"
+    ],
+    "j": "場",
+    "e": [
+      "area",
+      "location",
+      "place"
+    ],
+    "w": 202
+  },
+  {
+    "pr": [
+      "chi",
+      "shiru"
+    ],
+    "j": "知",
+    "e": [
+      "know",
+      "wisdom"
+    ],
+    "w": 203
+  },
+  {
+    "pr": [
+      "shin",
+      "ma",
+      "makoto"
+    ],
+    "j": "真",
+    "e": [
+      "true",
+      "reality",
+      "truth"
+    ],
+    "w": 204
+  },
+  {
+    "pr": [
+      "zu",
+      "to",
+      "hakaru"
+    ],
+    "j": "図",
+    "e": [
+      "map",
+      "drawing",
+      "plan"
+    ],
+    "w": 205
+  },
+  {
+    "pr": [
+      "sei",
+      "se",
+      "yo"
+    ],
+    "j": "世",
+    "e": [
+      "world",
+      "society",
+      "generation"
+    ],
+    "w": 206
+  },
+  {
+    "pr": [
+      "seki",
+      "yuu"
+    ],
+    "j": "夕",
+    "e": [
+      "evening"
+    ],
+    "w": 207
+  },
+  {
+    "pr": [
+      "sou",
+      "hashiru"
+    ],
+    "j": "走",
+    "e": [
+      "run"
+    ],
+    "w": 208
+  },
+  {
+    "pr": [
+      "zoku"
+    ],
+    "j": "族",
+    "e": [
+      "tribe",
+      "family"
+    ],
+    "w": 209
+  },
+  {
+    "pr": [
+      "chuu",
+      "sosogu",
+      "sasu"
+    ],
+    "j": "注",
+    "e": [
+      "pour",
+      "flow",
+      "concentrate"
+    ],
+    "w": 210
+  },
+  {
+    "pr": [
+      "den",
+      "ta"
+    ],
+    "j": "田",
+    "e": [
+      "field",
+      "rice field",
+      "rice patty"
+    ],
+    "w": 211
+  },
+  {
+    "pr": [
+      "dai",
+      "tai"
+    ],
+    "j": "台",
+    "e": [
+      "stand",
+      "stage",
+      "pedestal"
+    ],
+    "w": 212
+  },
+  {
+    "pr": [
+      "tai",
+      "matsu"
+    ],
+    "j": "待",
+    "e": [
+      "wait",
+      "depend on"
+    ],
+    "w": 213
+  },
+  {
+    "pr": [
+      "dai"
+    ],
+    "j": "題",
+    "e": [
+      "topic",
+      "subject"
+    ],
+    "w": 214
+  },
+  {
+    "pr": [
+      "do",
+      "taku",
+      "tabi"
+    ],
+    "j": "度",
+    "e": [
+      "degree",
+      "time",
+      "times occurred"
+    ],
+    "w": 215
+  },
+  {
+    "pr": [
+      "ritsu",
+      "ryuu",
+      "tatsu"
+    ],
+    "j": "立",
+    "e": [
+      "stand",
+      "stand up"
+    ],
+    "w": 216
+  },
+  {
+    "pr": [
+      "ryo",
+      "tabi"
+    ],
+    "j": "旅",
+    "e": [
+      "trip",
+      "travel"
+    ],
+    "w": 217
+  },
+  {
+    "pr": [
+      "ryoku",
+      "riki",
+      "chikara"
+    ],
+    "j": "力",
+    "e": [
+      "power",
+      "strength",
+      "exertion"
+    ],
+    "w": 218
+  },
+  {
+    "pr": [
+      "chuu",
+      "hiru"
+    ],
+    "j": "昼",
+    "e": [
+      "noon",
+      "daytime",
+      "day"
+    ],
+    "w": 219
+  },
+  {
+    "pr": [
+      "chou",
+      "machi"
+    ],
+    "j": "町",
+    "e": [
+      "town",
+      "village"
+    ],
+    "w": 220
+  },
+  {
+    "pr": [
+      "chou",
+      "tori"
+    ],
+    "j": "鳥",
+    "e": [
+      "bird"
+    ],
+    "w": 221
+  },
+  {
+    "pr": [
+      "ten",
+      "mise"
+    ],
+    "j": "店",
+    "e": [
+      "store",
+      "shop",
+      "problem"
+    ],
+    "w": 222
+  },
+  {
+    "pr": [
+      "mon",
+      "tou"
+    ],
+    "j": "問",
+    "e": [
+      "question",
+      "ask"
+    ],
+    "w": 223
+  },
+  {
+    "pr": [
+      "tou",
+      "fuyu"
+    ],
+    "j": "冬",
+    "e": [
+      "winter",
+      "winter (season)",
+      "course"
+    ],
+    "w": 224
+  },
+  {
+    "pr": [
+      "dou",
+      "tou",
+      "michi"
+    ],
+    "j": "道",
+    "e": [
+      "way",
+      "road"
+    ],
+    "w": 225
+  },
+  {
+    "pr": [
+      "dou"
+    ],
+    "j": "堂",
+    "e": [
+      "hall"
+    ],
+    "w": 226
+  },
+  {
+    "pr": [
+      "toku"
+    ],
+    "j": "特",
+    "e": [
+      "special"
+    ],
+    "w": 227
+  },
+  {
+    "pr": [
+      "niku"
+    ],
+    "j": "肉",
+    "e": [
+      "meat"
+    ],
+    "w": 228
+  },
+  {
+    "pr": [
+      "ya",
+      "sho",
+      "no"
+    ],
+    "j": "野",
+    "e": [
+      "plains",
+      "field"
+    ],
+    "w": 229
+  },
+  {
+    "pr": [
+      "hatsu",
+      "abaku",
+      "tatsu"
+    ],
+    "j": "発",
+    "e": [
+      "depart",
+      "start",
+      "happen"
+    ],
+    "w": 230
+  },
+  {
+    "pr": [
+      "han",
+      "meshi"
+    ],
+    "j": "飯",
+    "e": [
+      "meal",
+      "rice",
+      "cooked rice"
+    ],
+    "w": 231
+  },
+  {
+    "pr": [
+      "byou",
+      "yamai",
+      "yamu"
+    ],
+    "j": "病",
+    "e": [
+      "ill",
+      "sick"
+    ],
+    "w": 232
+  },
+  {
+    "pr": [
+      "fu",
+      "bu"
+    ],
+    "j": "不",
+    "e": [
+      "non",
+      "negative",
+      "bad"
+    ],
+    "w": 233
+  },
+  {
+    "pr": [
+      "fuku"
+    ],
+    "j": "服",
+    "e": [
+      "clothing",
+      "obey"
+    ],
+    "w": 234
+  },
+  {
+    "pr": [
+      "butsu",
+      "motsu",
+      "mono"
+    ],
+    "j": "物",
+    "e": [
+      "thing",
+      "matter",
+      "object"
+    ],
+    "w": 235
+  },
+  {
+    "pr": [
+      "bun",
+      "mon",
+      "fumi"
+    ],
+    "j": "文",
+    "e": [
+      "sentence",
+      "literature"
+    ],
+    "w": 236
+  },
+  {
+    "pr": [
+      "betsu",
+      "wakareru",
+      "wakeru"
+    ],
+    "j": "別",
+    "e": [
+      "separate",
+      "another",
+      "specially"
+    ],
+    "w": 237
+  },
+  {
+    "pr": [
+      "ben",
+      "tsutomeru"
+    ],
+    "j": "勉",
+    "e": [
+      "exertion"
+    ],
+    "w": 238
+  },
+  {
+    "pr": [
+      "moku",
+      "boku",
+      "me"
+    ],
+    "j": "目",
+    "e": [
+      "eye"
+    ],
+    "w": 239
+  },
+  {
+    "pr": [
+      "you",
+      "mochiiru"
+    ],
+    "j": "用",
+    "e": [
+      "use",
+      "service",
+      "business"
+    ],
+    "w": 240
+  },
+  {
+    "pr": [
+      "ya",
+      "yo",
+      "yoru"
+    ],
+    "j": "夜",
+    "e": [
+      "night",
+      "evening"
+    ],
+    "w": 241
+  },
+  {
+    "pr": [
+      "you"
+    ],
+    "j": "曜",
+    "e": [
+      "weekday"
+    ],
+    "w": 242
+  },
+  {
+    "pr": [
+      "you"
+    ],
+    "j": "洋",
+    "e": [
+      "west",
+      "western",
+      "ocean"
+    ],
+    "w": 243
+  },
+  {
+    "pr": [
+      "ri"
+    ],
+    "j": "理",
+    "e": [
+      "logic",
+      "reason",
+      "truth"
+    ],
+    "w": 244
+  },
+  {
+    "pr": [
+      "ryou"
+    ],
+    "j": "料",
+    "e": [
+      "fee",
+      "materials"
+    ],
+    "w": 245
+  },
+  {
+    "pr": [
+      "ai",
+      "sou",
+      "shou"
+    ],
+    "j": "相",
+    "e": [
+      "mutual",
+      "appearance",
+      "minister (of state)"
+    ],
+    "w": 246
+  },
+  {
+    "pr": [
+      "ai"
+    ],
+    "j": "愛",
+    "e": [
+      "love",
+      "affection"
+    ],
+    "w": 247
+  },
+  {
+    "pr": [
+      "au",
+      "gou",
+      "ka (tsu)"
+    ],
+    "j": "合",
+    "e": [
+      "together",
+      "fit",
+      "to be together"
+    ],
+    "w": 248
+  },
+  {
+    "pr": [
+      "akinau",
+      "shou"
+    ],
+    "j": "商",
+    "e": [
+      "sell",
+      "trade"
+    ],
+    "w": 249
+  },
+  {
+    "pr": [
+      "asai",
+      "sen"
+    ],
+    "j": "浅",
+    "e": [
+      "shallow",
+      "superficial"
+    ],
+    "w": 250
+  },
+  {
+    "pr": [
+      "azukaru",
+      "yo",
+      "azukeru"
+    ],
+    "j": "預",
+    "e": [
+      "keep",
+      "charge",
+      "deposit"
+    ],
+    "w": 251
+  },
+  {
+    "pr": [
+      "ase",
+      "kan"
+    ],
+    "j": "汗",
+    "e": [
+      "sweat",
+      "perspiration"
+    ],
+    "w": 252
+  },
+  {
+    "pr": [
+      "asobu",
+      "yuu"
+    ],
+    "j": "遊",
+    "e": [
+      "play",
+      "idle",
+      "playful"
+    ],
+    "w": 253
+  },
+  {
+    "pr": [
+      "atai",
+      "chi",
+      "ne"
+    ],
+    "j": "値",
+    "e": [
+      "value",
+      "price",
+      "to value"
+    ],
+    "w": 254
+  },
+  {
+    "pr": [
+      "ataeru",
+      "yo"
+    ],
+    "j": "与",
+    "e": [
+      "give",
+      "award",
+      "assign"
+    ],
+    "w": 255
+  },
+  {
+    "pr": [
+      "atatakai",
+      "on"
+    ],
+    "j": "温",
+    "e": [
+      "warm",
+      "temperature"
+    ],
+    "w": 256
+  },
+  {
+    "pr": [
+      "atatakai",
+      "dan"
+    ],
+    "j": "暖",
+    "e": [
+      "warm",
+      "cordial"
+    ],
+    "w": 257
+  },
+  {
+    "pr": [
+      "atama",
+      "tou",
+      "zu"
+    ],
+    "j": "頭",
+    "e": [
+      "head",
+      "top"
+    ],
+    "w": 258
+  },
+  {
+    "pr": [
+      "atari",
+      "hen",
+      "be"
+    ],
+    "j": "辺",
+    "e": [
+      "vicinity",
+      "neighborhood"
+    ],
+    "w": 259
+  },
+  {
+    "pr": [
+      "ataru",
+      "tou",
+      "ateru"
+    ],
+    "j": "当",
+    "e": [
+      "hit",
+      "win",
+      "guess"
+    ],
+    "w": 260
+  },
+  {
+    "pr": [
+      "atsu"
+    ],
+    "j": "圧",
+    "e": [
+      "pressure"
+    ],
+    "w": 261
+  },
+  {
+    "pr": [
+      "atsui",
+      "sho"
+    ],
+    "j": "暑",
+    "e": [
+      "heat",
+      "hot",
+      "summer heat"
+    ],
+    "w": 262
+  },
+  {
+    "pr": [
+      "atsui",
+      "netsu"
+    ],
+    "j": "熱",
+    "e": [
+      "heat",
+      "hot",
+      "fever"
+    ],
+    "w": 263
+  },
+  {
+    "pr": [
+      "atsui",
+      "kou"
+    ],
+    "j": "厚",
+    "e": [
+      "thick"
+    ],
+    "w": 264
+  },
+  {
+    "pr": [
+      "ato",
+      "seki"
+    ],
+    "j": "跡",
+    "e": [
+      "trace",
+      "marks",
+      "remains"
+    ],
+    "w": 265
+  },
+  {
+    "pr": [
+      "abaku",
+      "bou"
+    ],
+    "j": "暴",
+    "e": [
+      "disclose",
+      "open",
+      "violent"
+    ],
+    "w": 266
+  },
+  {
+    "pr": [
+      "abiru",
+      "yoku"
+    ],
+    "j": "浴",
+    "e": [
+      "bathe"
+    ],
+    "w": 267
+  },
+  {
+    "pr": [
+      "abunai",
+      "ki",
+      "ayaui"
+    ],
+    "j": "危",
+    "e": [
+      "dangerous",
+      "unsafe",
+      "unsteady"
+    ],
+    "w": 268
+  },
+  {
+    "pr": [
+      "abura",
+      "yu"
+    ],
+    "j": "油",
+    "e": [
+      "oil"
+    ],
+    "w": 269
+  },
+  {
+    "pr": [
+      "abura",
+      "shi"
+    ],
+    "j": "脂",
+    "e": [
+      "fat"
+    ],
+    "w": 270
+  },
+  {
+    "pr": [
+      "amai",
+      "kan"
+    ],
+    "j": "甘",
+    "e": [
+      "sweet"
+    ],
+    "w": 271
+  },
+  {
+    "pr": [
+      "amasu",
+      "yo",
+      "amaru"
+    ],
+    "j": "余",
+    "e": [
+      "remain",
+      "remainder",
+      "to leave over"
+    ],
+    "w": 272
+  },
+  {
+    "pr": [
+      "amu",
+      "hen"
+    ],
+    "j": "編",
+    "e": [
+      "compile",
+      "knit"
+    ],
+    "w": 273
+  },
+  {
+    "pr": [
+      "ayamachi",
+      "ka",
+      "sugiru"
+    ],
+    "j": "過",
+    "e": [
+      "fault",
+      "exceed",
+      "pass"
+    ],
+    "w": 274
+  },
+  {
+    "pr": [
+      "ayamaru",
+      "go"
+    ],
+    "j": "誤",
+    "e": [
+      "mistake",
+      "fault"
+    ],
+    "w": 275
+  },
+  {
+    "pr": [
+      "arai",
+      "kou",
+      "areru"
+    ],
+    "j": "荒",
+    "e": [
+      "violent",
+      "wild",
+      "rough"
+    ],
+    "w": 276
+  },
+  {
+    "pr": [
+      "arau",
+      "sen"
+    ],
+    "j": "洗",
+    "e": [
+      "wash"
+    ],
+    "w": 277
+  },
+  {
+    "pr": [
+      "arasou",
+      "sou",
+      "arasoi"
+    ],
+    "j": "争",
+    "e": [
+      "struggle",
+      "quarrel",
+      "dispute"
+    ],
+    "w": 278
+  },
+  {
+    "pr": [
+      "aratameru",
+      "aratamaru",
+      "kai"
+    ],
+    "j": "改",
+    "e": [
+      "change",
+      "reform",
+      "reformed"
+    ],
+    "w": 279
+  },
+  {
+    "pr": [
+      "arawasu",
+      "hyou",
+      "omote"
+    ],
+    "j": "表",
+    "e": [
+      "show",
+      "list",
+      "schedule"
+    ],
+    "w": 280
+  },
+  {
+    "pr": [
+      "arawasu",
+      "gen"
+    ],
+    "j": "現",
+    "e": [
+      "actual",
+      "appear"
+    ],
+    "w": 281
+  },
+  {
+    "pr": [
+      "arawasu",
+      "cho",
+      "ichijirushii"
+    ],
+    "j": "著",
+    "e": [
+      "author",
+      "writer",
+      "remarkable"
+    ],
+    "w": 282
+  },
+  {
+    "pr": [
+      "aru",
+      "zai"
+    ],
+    "j": "在",
+    "e": [
+      "exist",
+      "country",
+      "suburbs"
+    ],
+    "w": 283
+  },
+  {
+    "pr": [
+      "an",
+      "kurai"
+    ],
+    "j": "暗",
+    "e": [
+      "dark"
+    ],
+    "w": 284
+  },
+  {
+    "pr": [
+      "i"
+    ],
+    "j": "委",
+    "e": [
+      "commit",
+      "entrust"
+    ],
+    "w": 285
+  },
+  {
+    "pr": [
+      "i",
+      "koromo"
+    ],
+    "j": "衣",
+    "e": [
+      "clothes",
+      "garments"
+    ],
+    "w": 286
+  },
+  {
+    "pr": [
+      "i",
+      "kakomu",
+      "kakou"
+    ],
+    "j": "囲",
+    "e": [
+      "enclose",
+      "surround"
+    ],
+    "w": 287
+  },
+  {
+    "pr": [
+      "i",
+      "kurai"
+    ],
+    "j": "位",
+    "e": [
+      "rank",
+      "position",
+      "about"
+    ],
+    "w": 288
+  },
+  {
+    "pr": [
+      "i"
+    ],
+    "j": "胃",
+    "e": [
+      "stomach"
+    ],
+    "w": 289
+  },
+  {
+    "pr": [
+      "i",
+      "eki",
+      "yasui"
+    ],
+    "j": "易",
+    "e": [
+      "easy"
+    ],
+    "w": 290
+  },
+  {
+    "pr": [
+      "i",
+      "utsuru",
+      "utsusu"
+    ],
+    "j": "移",
+    "e": [
+      "transfer",
+      "infect",
+      "move"
+    ],
+    "w": 291
+  },
+  {
+    "pr": [
+      "i",
+      "e"
+    ],
+    "j": "依",
+    "e": [
+      "depend",
+      "depend on"
+    ],
+    "w": 292
+  },
+  {
+    "pr": [
+      "i",
+      "erai"
+    ],
+    "j": "偉",
+    "e": [
+      "great",
+      "remarkable"
+    ],
+    "w": 293
+  },
+  {
+    "pr": [
+      "i",
+      "chigau",
+      "chigaeru"
+    ],
+    "j": "違",
+    "e": [
+      "differ",
+      "wrong"
+    ],
+    "w": 294
+  },
+  {
+    "pr": [
+      "ikaru",
+      "do",
+      "okoru"
+    ],
+    "j": "怒",
+    "e": [
+      "anger",
+      "get angry",
+      "angry"
+    ],
+    "w": 295
+  },
+  {
+    "pr": [
+      "iki",
+      "soku"
+    ],
+    "j": "息",
+    "e": [
+      "breath"
+    ],
+    "w": 296
+  },
+  {
+    "pr": [
+      "iki"
+    ],
+    "j": "域",
+    "e": [
+      "boundary"
+    ],
+    "w": 297
+  },
+  {
+    "pr": [
+      "ikioi",
+      "sei"
+    ],
+    "j": "勢",
+    "e": [
+      "power"
+    ],
+    "w": 298
+  },
+  {
+    "pr": [
+      "iku",
+      "ki"
+    ],
+    "j": "幾",
+    "e": [
+      "how many",
+      "some"
+    ],
+    "w": 299
+  },
+  {
+    "pr": [
+      "iku",
+      "sodatsu",
+      "sodateru"
+    ],
+    "j": "育",
+    "e": [
+      "bring up",
+      "educate",
+      "grow"
+    ],
+    "w": 300
+  },
+  {
+    "pr": [
+      "ikusa",
+      "sen",
+      "tatakau"
+    ],
+    "j": "戦",
+    "e": [
+      "war"
+    ],
+    "w": 301
+  },
+  {
+    "pr": [
+      "ike",
+      "chi"
+    ],
+    "j": "池",
+    "e": [
+      "pond"
+    ],
+    "w": 302
+  },
+  {
+    "pr": [
+      "isamu",
+      "yuu"
+    ],
+    "j": "勇",
+    "e": [
+      "brave"
+    ],
+    "w": 303
+  },
+  {
+    "pr": [
+      "ishi",
+      "seki",
+      "shaku"
+    ],
+    "j": "石",
+    "e": [
+      "stone",
+      "rock"
+    ],
+    "w": 304
+  },
+  {
+    "pr": [
+      "izumi",
+      "sen"
+    ],
+    "j": "泉",
+    "e": [
+      "spring"
+    ],
+    "w": 305
+  },
+  {
+    "pr": [
+      "isogashii",
+      "bou"
+    ],
+    "j": "忙",
+    "e": [
+      "busy"
+    ],
+    "w": 306
+  },
+  {
+    "pr": [
+      "ita",
+      "han",
+      "ban"
+    ],
+    "j": "板",
+    "e": [
+      "board",
+      "plate"
+    ],
+    "w": 307
+  },
+  {
+    "pr": [
+      "itai",
+      "tsuu",
+      "itamu"
+    ],
+    "j": "痛",
+    "e": [
+      "pain",
+      "hurt"
+    ],
+    "w": 308
+  },
+  {
+    "pr": [
+      "idaku",
+      "hou",
+      "daku"
+    ],
+    "j": "抱",
+    "e": [
+      "hug",
+      "hold"
+    ],
+    "w": 309
+  },
+  {
+    "pr": [
+      "itadaki",
+      "chou",
+      "itadaku"
+    ],
+    "j": "頂",
+    "e": [
+      "summit",
+      "receive",
+      "summit (mountain)"
+    ],
+    "w": 310
+  },
+  {
+    "pr": [
+      "ichi",
+      "shi"
+    ],
+    "j": "市",
+    "e": [
+      "market",
+      "city"
+    ],
+    "w": 311
+  },
+  {
+    "pr": [
+      "ito",
+      "shi"
+    ],
+    "j": "糸",
+    "e": [
+      "thread"
+    ],
+    "w": 312
+  },
+  {
+    "pr": [
+      "itonamu",
+      "ei"
+    ],
+    "j": "営",
+    "e": [
+      "manage",
+      "barracks"
+    ],
+    "w": 313
+  },
+  {
+    "pr": [
+      "ina",
+      "hi"
+    ],
+    "j": "否",
+    "e": [
+      "no",
+      "denial"
+    ],
+    "w": 314
+  },
+  {
+    "pr": [
+      "inochi",
+      "mei",
+      "myou"
+    ],
+    "j": "命",
+    "e": [
+      "life",
+      "order"
+    ],
+    "w": 315
+  },
+  {
+    "pr": [
+      "inoru",
+      "ki"
+    ],
+    "j": "祈",
+    "e": [
+      "pray",
+      "to pray",
+      "prayer"
+    ],
+    "w": 316
+  },
+  {
+    "pr": [
+      "iru",
+      "you"
+    ],
+    "j": "要",
+    "e": [
+      "require",
+      "necessary"
+    ],
+    "w": 317
+  },
+  {
+    "pr": [
+      "iru",
+      "kyo"
+    ],
+    "j": "居",
+    "e": [
+      "reside"
+    ],
+    "w": 318
+  },
+  {
+    "pr": [
+      "iwa",
+      "gan"
+    ],
+    "j": "岩",
+    "e": [
+      "rock",
+      "crag"
+    ],
+    "w": 319
+  },
+  {
+    "pr": [
+      "iwau",
+      "shuku",
+      "shuu"
+    ],
+    "j": "祝",
+    "e": [
+      "celebrate"
+    ],
+    "w": 320
+  },
+  {
+    "pr": [
+      "in",
+      "hiku",
+      "hikeru"
+    ],
+    "j": "引",
+    "e": [
+      "draw",
+      "pull"
+    ],
+    "w": 321
+  },
+  {
+    "pr": [
+      "in",
+      "shirushi"
+    ],
+    "j": "印",
+    "e": [
+      "sign",
+      "mark"
+    ],
+    "w": 322
+  },
+  {
+    "pr": [
+      "in",
+      "yoru"
+    ],
+    "j": "因",
+    "e": [
+      "cause"
+    ],
+    "w": 323
+  },
+  {
+    "pr": [
+      "u",
+      "ha",
+      "hane"
+    ],
+    "j": "羽",
+    "e": [
+      "feather",
+      "wing"
+    ],
+    "w": 324
+  },
+  {
+    "pr": [
+      "u"
+    ],
+    "j": "宇",
+    "e": [
+      "universe",
+      "eaves",
+      "house"
+    ],
+    "w": 325
+  },
+  {
+    "pr": [
+      "hatsu",
+      "sho",
+      "hajime"
+    ],
+    "j": "初",
+    "e": [
+      "first",
+      "beginning",
+      "begin"
+    ],
+    "w": 326
+  },
+  {
+    "pr": [
+      "ueru",
+      "uwaru",
+      "shoku"
+    ],
+    "j": "植",
+    "e": [
+      "plant",
+      "to plant",
+      "set up"
+    ],
+    "w": 327
+  },
+  {
+    "pr": [
+      "ukagau",
+      "shi"
+    ],
+    "j": "伺",
+    "e": [
+      "ask",
+      "visit",
+      "hear"
+    ],
+    "w": 328
+  },
+  {
+    "pr": [
+      "ukabu",
+      "fu",
+      "uku"
+    ],
+    "j": "浮",
+    "e": [
+      "float",
+      "to float",
+      "come to mind"
+    ],
+    "w": 329
+  },
+  {
+    "pr": [
+      "ukaru",
+      "ju",
+      "ukeru"
+    ],
+    "j": "受",
+    "e": [
+      "receive",
+      "popularity",
+      "receptacle"
+    ],
+    "w": 330
+  },
+  {
+    "pr": [
+      "uketamawaru",
+      "shou"
+    ],
+    "j": "承",
+    "e": [
+      "hear",
+      "agree"
+    ],
+    "w": 331
+  },
+  {
+    "pr": [
+      "ushinau",
+      "shitsu"
+    ],
+    "j": "失",
+    "e": [
+      "lose",
+      "slip"
+    ],
+    "w": 332
+  },
+  {
+    "pr": [
+      "usui",
+      "haku"
+    ],
+    "j": "薄",
+    "e": [
+      "thin",
+      "pale",
+      "weak"
+    ],
+    "w": 333
+  },
+  {
+    "pr": [
+      "utagau",
+      "gi",
+      "utagai"
+    ],
+    "j": "疑",
+    "e": [
+      "doubt",
+      "suspect",
+      "suspicion"
+    ],
+    "w": 334
+  },
+  {
+    "pr": [
+      "uchi",
+      "nai",
+      "dai"
+    ],
+    "j": "内",
+    "e": [
+      "inside"
+    ],
+    "w": 335
+  },
+  {
+    "pr": [
+      "utsu",
+      "da"
+    ],
+    "j": "打",
+    "e": [
+      "strick",
+      "hit",
+      "beat"
+    ],
+    "w": 336
+  },
+  {
+    "pr": [
+      "utsukushii",
+      "bi"
+    ],
+    "j": "美",
+    "e": [
+      "beautiful",
+      "beauty"
+    ],
+    "w": 337
+  },
+  {
+    "pr": [
+      "utsuwa",
+      "ki"
+    ],
+    "j": "器",
+    "e": [
+      "vessel",
+      "tool"
+    ],
+    "w": 338
+  },
+  {
+    "pr": [
+      "ude",
+      "wan"
+    ],
+    "j": "腕",
+    "e": [
+      "arm",
+      "talent",
+      "ability"
+    ],
+    "w": 339
+  },
+  {
+    "pr": [
+      "ubu",
+      "san",
+      "umu"
+    ],
+    "j": "産",
+    "e": [
+      "childbearing",
+      "product",
+      "birth"
+    ],
+    "w": 340
+  },
+  {
+    "pr": [
+      "uma",
+      "ba",
+      "ma"
+    ],
+    "j": "馬",
+    "e": [
+      "horse"
+    ],
+    "w": 341
+  },
+  {
+    "pr": [
+      "umaru",
+      "mai",
+      "umeru"
+    ],
+    "j": "埋",
+    "e": [
+      "bury",
+      "fill",
+      "fill up"
+    ],
+    "w": 342
+  },
+  {
+    "pr": [
+      "uyamau",
+      "kei"
+    ],
+    "j": "敬",
+    "e": [
+      "respect"
+    ],
+    "w": 343
+  },
+  {
+    "pr": [
+      "ura",
+      "ri"
+    ],
+    "j": "裏",
+    "e": [
+      "opposite",
+      "back",
+      "reverse"
+    ],
+    "w": 344
+  },
+  {
+    "pr": [
+      "uranau",
+      "sen",
+      "shimeru"
+    ],
+    "j": "占",
+    "e": [
+      "divination",
+      "to hold (a seat)",
+      "occupy"
+    ],
+    "w": 345
+  },
+  {
+    "pr": [
+      "uru",
+      "toku",
+      "eru"
+    ],
+    "j": "得",
+    "e": [
+      "acquire",
+      "gain"
+    ],
+    "w": 346
+  },
+  {
+    "pr": [
+      "e",
+      "kai"
+    ],
+    "j": "絵",
+    "e": [
+      "picture"
+    ],
+    "w": 347
+  },
+  {
+    "pr": [
+      "e",
+      "kai",
+      "mawaru"
+    ],
+    "j": "回",
+    "e": [
+      "turn",
+      "to turn"
+    ],
+    "w": 348
+  },
+  {
+    "pr": [
+      "ei",
+      "oyogu"
+    ],
+    "j": "泳",
+    "e": [
+      "swim"
+    ],
+    "w": 349
+  },
+  {
+    "pr": [
+      "ei",
+      "sakaeru",
+      "hae"
+    ],
+    "j": "栄",
+    "e": [
+      "glory",
+      "flourish"
+    ],
+    "w": 350
+  },
+  {
+    "pr": [
+      "ei",
+      "nagai"
+    ],
+    "j": "永",
+    "e": [
+      "eternal"
+    ],
+    "w": 351
+  },
+  {
+    "pr": [
+      "ei",
+      "surudoi"
+    ],
+    "j": "鋭",
+    "e": [
+      "sharp"
+    ],
+    "w": 352
+  },
+  {
+    "pr": [
+      "eki",
+      "yaku"
+    ],
+    "j": "役",
+    "e": [
+      "office",
+      "duty",
+      "service"
+    ],
+    "w": 353
+  },
+  {
+    "pr": [
+      "eki"
+    ],
+    "j": "液",
+    "e": [
+      "liquid"
+    ],
+    "w": 354
+  },
+  {
+    "pr": [
+      "eda",
+      "shi"
+    ],
+    "j": "枝",
+    "e": [
+      "branch",
+      "tree branch"
+    ],
+    "w": 355
+  },
+  {
+    "pr": [
+      "etsu",
+      "koeru",
+      "kosu"
+    ],
+    "j": "越",
+    "e": [
+      "exceed",
+      "cross",
+      "move"
+    ],
+    "w": 356
+  },
+  {
+    "pr": [
+      "emu",
+      "warau",
+      "shou"
+    ],
+    "j": "笑",
+    "e": [
+      "laugh",
+      "smile"
+    ],
+    "w": 357
+  },
+  {
+    "pr": [
+      "erabu",
+      "sen"
+    ],
+    "j": "選",
+    "e": [
+      "choose",
+      "choice"
+    ],
+    "w": 358
+  },
+  {
+    "pr": [
+      "en",
+      "sono"
+    ],
+    "j": "園",
+    "e": [
+      "garden"
+    ],
+    "w": 359
+  },
+  {
+    "pr": [
+      "en",
+      "on",
+      "tooi"
+    ],
+    "j": "遠",
+    "e": [
+      "far"
+    ],
+    "w": 360
+  },
+  {
+    "pr": [
+      "en",
+      "shio"
+    ],
+    "j": "塩",
+    "e": [
+      "salt"
+    ],
+    "w": 361
+  },
+  {
+    "pr": [
+      "en"
+    ],
+    "j": "演",
+    "e": [
+      "act",
+      "perform",
+      "put on a play"
+    ],
+    "w": 362
+  },
+  {
+    "pr": [
+      "en",
+      "nobiru",
+      "nobasu"
+    ],
+    "j": "延",
+    "e": [
+      "postpone",
+      "extend"
+    ],
+    "w": 363
+  },
+  {
+    "pr": [
+      "en",
+      "kemuri",
+      "kemuru"
+    ],
+    "j": "煙",
+    "e": [
+      "smoke",
+      "smokey"
+    ],
+    "w": 364
+  },
+  {
+    "pr": [
+      "sho",
+      "cho",
+      "o"
+    ],
+    "j": "緒",
+    "e": [
+      "cord",
+      "string (of a musical instrument)",
+      "beginning (lineage)"
+    ],
+    "w": 365
+  },
+  {
+    "pr": [
+      "o",
+      "kegasu",
+      "kitanai"
+    ],
+    "j": "汚",
+    "e": [
+      "soil",
+      "dirty",
+      "get dirty"
+    ],
+    "w": 366
+  },
+  {
+    "pr": [
+      "wa",
+      "yawaraku",
+      "nagomu"
+    ],
+    "j": "和",
+    "e": [
+      "peace",
+      "Japan",
+      "sum"
+    ],
+    "w": 367
+  },
+  {
+    "pr": [
+      "oiru",
+      "rou",
+      "fukeru"
+    ],
+    "j": "老",
+    "e": [
+      "old"
+    ],
+    "w": 368
+  },
+  {
+    "pr": [
+      "ou",
+      "fu",
+      "makeru"
+    ],
+    "j": "負",
+    "e": [
+      "lose",
+      "defeated",
+      "to bear"
+    ],
+    "w": 369
+  },
+  {
+    "pr": [
+      "ou",
+      "tsui"
+    ],
+    "j": "追",
+    "e": [
+      "chase"
+    ],
+    "w": 370
+  },
+  {
+    "pr": [
+      "ou"
+    ],
+    "j": "王",
+    "e": [
+      "king"
+    ],
+    "w": 371
+  },
+  {
+    "pr": [
+      "ou",
+      "kou",
+      "ki"
+    ],
+    "j": "黄",
+    "e": [
+      "yellow"
+    ],
+    "w": 372
+  },
+  {
+    "pr": [
+      "ou"
+    ],
+    "j": "央",
+    "e": [
+      "center",
+      "middle"
+    ],
+    "w": 373
+  },
+  {
+    "pr": [
+      "ou",
+      "yoko"
+    ],
+    "j": "横",
+    "e": [
+      "side",
+      "width",
+      "beside"
+    ],
+    "w": 374
+  },
+  {
+    "pr": [
+      "ou"
+    ],
+    "j": "欧",
+    "e": [
+      "europe",
+      "european"
+    ],
+    "w": 375
+  },
+  {
+    "pr": [
+      "ou",
+      "osu",
+      "osaeru"
+    ],
+    "j": "押",
+    "e": [
+      "push"
+    ],
+    "w": 376
+  },
+  {
+    "pr": [
+      "ou",
+      "oku"
+    ],
+    "j": "奥",
+    "e": [
+      "interior",
+      "depths",
+      "inner"
+    ],
+    "w": 377
+  },
+  {
+    "pr": [
+      "okasu",
+      "han"
+    ],
+    "j": "犯",
+    "e": [
+      "violate",
+      "offense",
+      "to commit"
+    ],
+    "w": 378
+  },
+  {
+    "pr": [
+      "ogamu",
+      "hai"
+    ],
+    "j": "拝",
+    "e": [
+      "worship",
+      "humbly"
+    ],
+    "w": 379
+  },
+  {
+    "pr": [
+      "oginau",
+      "ho"
+    ],
+    "j": "補",
+    "e": [
+      "supply",
+      "supplement",
+      "compensate"
+    ],
+    "w": 380
+  },
+  {
+    "pr": [
+      "oku",
+      "chi"
+    ],
+    "j": "置",
+    "e": [
+      "place",
+      "put"
+    ],
+    "w": 381
+  },
+  {
+    "pr": [
+      "oku"
+    ],
+    "j": "億",
+    "e": [
+      "hundred million",
+      "100,000,000"
+    ],
+    "w": 382
+  },
+  {
+    "pr": [
+      "okureru",
+      "chi",
+      "osoi"
+    ],
+    "j": "遅",
+    "e": [
+      "slow",
+      "late"
+    ],
+    "w": 383
+  },
+  {
+    "pr": [
+      "okuru",
+      "zou",
+      "sou"
+    ],
+    "j": "贈",
+    "e": [
+      "gift",
+      "present",
+      "to present"
+    ],
+    "w": 384
+  },
+  {
+    "pr": [
+      "osanai",
+      "you"
+    ],
+    "j": "幼",
+    "e": [
+      "childish",
+      "young"
+    ],
+    "w": 385
+  },
+  {
+    "pr": [
+      "ji",
+      "chi",
+      "naosu"
+    ],
+    "j": "治",
+    "e": [
+      "rule",
+      "govern",
+      "cure"
+    ],
+    "w": 386
+  },
+  {
+    "pr": [
+      "shuu",
+      "osamaru"
+    ],
+    "j": "収",
+    "e": [
+      "obtain",
+      "to store",
+      "pay (taxes)"
+    ],
+    "w": 387
+  },
+  {
+    "pr": [
+      "osoreru",
+      "kyou",
+      "osoroshii"
+    ],
+    "j": "恐",
+    "e": [
+      "fear",
+      "anxiety",
+      "fearful"
+    ],
+    "w": 388
+  },
+  {
+    "pr": [
+      "ochiru",
+      "raku",
+      "otosu"
+    ],
+    "j": "落",
+    "e": [
+      "fall",
+      "to fall",
+      "drop"
+    ],
+    "w": 389
+  },
+  {
+    "pr": [
+      "otto",
+      "fu",
+      "fuu"
+    ],
+    "j": "夫",
+    "e": [
+      "husband",
+      "man"
+    ],
+    "w": 390
+  },
+  {
+    "pr": [
+      "otozureru",
+      "hou",
+      "tazuneru"
+    ],
+    "j": "訪",
+    "e": [
+      "visit"
+    ],
+    "w": 391
+  },
+  {
+    "pr": [
+      "odori",
+      "you",
+      "odoru"
+    ],
+    "j": "踊",
+    "e": [
+      "dance",
+      "to dance"
+    ],
+    "w": 392
+  },
+  {
+    "pr": [
+      "onoono",
+      "kaku"
+    ],
+    "j": "各",
+    "e": [
+      "each",
+      "every"
+    ],
+    "w": 393
+  },
+  {
+    "pr": [
+      "obi",
+      "tai",
+      "obiru"
+    ],
+    "j": "帯",
+    "e": [
+      "belt",
+      "region",
+      "to wear"
+    ],
+    "w": 394
+  },
+  {
+    "pr": [
+      "oboeru",
+      "kaku"
+    ],
+    "j": "覚",
+    "e": [
+      "remember",
+      "understand"
+    ],
+    "w": 395
+  },
+  {
+    "pr": [
+      "omo",
+      "men",
+      "omote"
+    ],
+    "j": "面",
+    "e": [
+      "face",
+      "surface",
+      "front"
+    ],
+    "w": 396
+  },
+  {
+    "pr": [
+      "ori",
+      "setsu",
+      "oru"
+    ],
+    "j": "折",
+    "e": [
+      "break",
+      "fold"
+    ],
+    "w": 397
+  },
+  {
+    "pr": [
+      "kou",
+      "furu",
+      "oriru"
+    ],
+    "j": "降",
+    "e": [
+      "fall",
+      "come down",
+      "get off"
+    ],
+    "w": 398
+  },
+  {
+    "pr": [
+      "on",
+      "gyo",
+      "go"
+    ],
+    "j": "御",
+    "e": [
+      "honorific prefix"
+    ],
+    "w": 399
+  },
+  {
+    "pr": [
+      "ka",
+      "kou",
+      "kaori"
+    ],
+    "j": "香",
+    "e": [
+      "fragrance",
+      "smell"
+    ],
+    "w": 400
+  },
+  {
+    "pr": [
+      "ka"
+    ],
+    "j": "科",
+    "e": [
+      "subject of study"
+    ],
+    "w": 401
+  },
+  {
+    "pr": [
+      "ka",
+      "ke",
+      "bakeru"
+    ],
+    "j": "化",
+    "e": [
+      "change",
+      "change into"
+    ],
+    "w": 402
+  },
+  {
+    "pr": [
+      "ka",
+      "ni"
+    ],
+    "j": "荷",
+    "e": [
+      "load"
+    ],
+    "w": 403
+  },
+  {
+    "pr": [
+      "ka",
+      "kuwaeru",
+      "kuwawaru"
+    ],
+    "j": "加",
+    "e": [
+      "add"
+    ],
+    "w": 404
+  },
+  {
+    "pr": [
+      "ka",
+      "hatasu",
+      "hateru"
+    ],
+    "j": "果",
+    "e": [
+      "fruit",
+      "end"
+    ],
+    "w": 405
+  },
+  {
+    "pr": [
+      "ka"
+    ],
+    "j": "貨",
+    "e": [
+      "money",
+      "goods"
+    ],
+    "w": 406
+  },
+  {
+    "pr": [
+      "ka"
+    ],
+    "j": "課",
+    "e": [
+      "section",
+      "lesson"
+    ],
+    "w": 407
+  },
+  {
+    "pr": [
+      "ka"
+    ],
+    "j": "可",
+    "e": [
+      "possible",
+      "approve"
+    ],
+    "w": 408
+  },
+  {
+    "pr": [
+      "ka",
+      "kawa"
+    ],
+    "j": "河",
+    "e": [
+      "river"
+    ],
+    "w": 409
+  },
+  {
+    "pr": [
+      "ka"
+    ],
+    "j": "菓",
+    "e": [
+      "candy",
+      "confectionery"
+    ],
+    "w": 410
+  },
+  {
+    "pr": [
+      "ka",
+      "kutsu"
+    ],
+    "j": "靴",
+    "e": [
+      "shoes"
+    ],
+    "w": 411
+  },
+  {
+    "pr": [
+      "kai"
+    ],
+    "j": "貝",
+    "e": [
+      "shell",
+      "shellfish"
+    ],
+    "w": 412
+  },
+  {
+    "pr": [
+      "kai"
+    ],
+    "j": "階",
+    "e": [
+      "floor (of a building)",
+      "rank"
+    ],
+    "w": 413
+  },
+  {
+    "pr": [
+      "kai"
+    ],
+    "j": "械",
+    "e": [
+      "machine"
+    ],
+    "w": 414
+  },
+  {
+    "pr": [
+      "kai",
+      "kokoroyoi"
+    ],
+    "j": "快",
+    "e": [
+      "pleasant"
+    ],
+    "w": 415
+  },
+  {
+    "pr": [
+      "kai",
+      "tokeru",
+      "toku"
+    ],
+    "j": "解",
+    "e": [
+      "explanation",
+      "solve",
+      "dissolve"
+    ],
+    "w": 416
+  },
+  {
+    "pr": [
+      "kai",
+      "hai"
+    ],
+    "j": "灰",
+    "e": [
+      "ashes"
+    ],
+    "w": 417
+  },
+  {
+    "pr": [
+      "kai"
+    ],
+    "j": "介",
+    "e": [
+      "mediate",
+      "aid",
+      "come between"
+    ],
+    "w": 418
+  },
+  {
+    "pr": [
+      "kai",
+      "mina"
+    ],
+    "j": "皆",
+    "e": [
+      "all",
+      "everyone",
+      "everything"
+    ],
+    "w": 419
+  },
+  {
+    "pr": [
+      "gai"
+    ],
+    "j": "害",
+    "e": [
+      "harm",
+      "calamity"
+    ],
+    "w": 420
+  },
+  {
+    "pr": [
+      "kau",
+      "kou",
+      "majiru"
+    ],
+    "j": "交",
+    "e": [
+      "mix",
+      "be mixed",
+      "associate"
+    ],
+    "w": 421
+  },
+  {
+    "pr": [
+      "kaesu",
+      "hen",
+      "kaeru"
+    ],
+    "j": "返",
+    "e": [
+      "return"
+    ],
+    "w": 422
+  },
+  {
+    "pr": [
+      "kaerimiru",
+      "sei",
+      "shou"
+    ],
+    "j": "省",
+    "e": [
+      "government department",
+      "omit",
+      "reflect upon"
+    ],
+    "w": 423
+  },
+  {
+    "pr": [
+      "kaeru",
+      "hen",
+      "kawaru"
+    ],
+    "j": "変",
+    "e": [
+      "change",
+      "abnormal",
+      "strange"
+    ],
+    "w": 424
+  },
+  {
+    "pr": [
+      "kaeru",
+      "tai",
+      "kawaru"
+    ],
+    "j": "替",
+    "e": [
+      "replace"
+    ],
+    "w": 425
+  },
+  {
+    "pr": [
+      "kaeru",
+      "kan",
+      "kawaru"
+    ],
+    "j": "換",
+    "e": [
+      "exchange"
+    ],
+    "w": 426
+  },
+  {
+    "pr": [
+      "kakari",
+      "kei",
+      "kakaru"
+    ],
+    "j": "係",
+    "e": [
+      "connect",
+      "in charge"
+    ],
+    "w": 427
+  },
+  {
+    "pr": [
+      "kakari",
+      "kakeru",
+      "kakaru"
+    ],
+    "j": "掛",
+    "e": [
+      "hang",
+      "catch",
+      "call"
+    ],
+    "w": 428
+  },
+  {
+    "pr": [
+      "kagiru",
+      "gen"
+    ],
+    "j": "限",
+    "e": [
+      "limit"
+    ],
+    "w": 429
+  },
+  {
+    "pr": [
+      "kaku",
+      "ketsu",
+      "kakeru"
+    ],
+    "j": "欠",
+    "e": [
+      "lack"
+    ],
+    "w": 430
+  },
+  {
+    "pr": [
+      "kaku",
+      "kado",
+      "tsuno"
+    ],
+    "j": "角",
+    "e": [
+      "angle",
+      "corner",
+      "horn"
+    ],
+    "w": 431
+  },
+  {
+    "pr": [
+      "kaku",
+      "kyaku"
+    ],
+    "j": "客",
+    "e": [
+      "guest",
+      "customer"
+    ],
+    "w": 432
+  },
+  {
+    "pr": [
+      "kaku",
+      "kou"
+    ],
+    "j": "格",
+    "e": [
+      "norm",
+      "status"
+    ],
+    "w": 433
+  },
+  {
+    "pr": [
+      "kaku",
+      "tashika",
+      "tashikameru"
+    ],
+    "j": "確",
+    "e": [
+      "certain",
+      "make certain"
+    ],
+    "w": 434
+  },
+  {
+    "pr": [
+      "kaku",
+      "kawa"
+    ],
+    "j": "革",
+    "e": [
+      "leather",
+      "reform"
+    ],
+    "w": 435
+  },
+  {
+    "pr": [
+      "gaku",
+      "hitai"
+    ],
+    "j": "額",
+    "e": [
+      "amount",
+      "forehead"
+    ],
+    "w": 436
+  },
+  {
+    "pr": [
+      "kashikoi",
+      "ken"
+    ],
+    "j": "賢",
+    "e": [
+      "wise",
+      "clever",
+      "smart"
+    ],
+    "w": 437
+  },
+  {
+    "pr": [
+      "kazu",
+      "suu",
+      "kazoeru"
+    ],
+    "j": "数",
+    "e": [
+      "count",
+      "number"
+    ],
+    "w": 438
+  },
+  {
+    "pr": [
+      "kata",
+      "kei",
+      "katachi"
+    ],
+    "j": "形",
+    "e": [
+      "shape",
+      "form",
+      "type"
+    ],
+    "w": 439
+  },
+  {
+    "pr": [
+      "kata",
+      "kei"
+    ],
+    "j": "型",
+    "e": [
+      "type"
+    ],
+    "w": 440
+  },
+  {
+    "pr": [
+      "kata",
+      "hen"
+    ],
+    "j": "片",
+    "e": [
+      "fragment",
+      "onesided"
+    ],
+    "w": 441
+  },
+  {
+    "pr": [
+      "kata",
+      "ken"
+    ],
+    "j": "肩",
+    "e": [
+      "shoulder"
+    ],
+    "w": 442
+  },
+  {
+    "pr": [
+      "katai",
+      "ko",
+      "katameru"
+    ],
+    "j": "固",
+    "e": [
+      "solid",
+      "firm",
+      "hard"
+    ],
+    "w": 443
+  },
+  {
+    "pr": [
+      "katai",
+      "nan",
+      "muzukashii"
+    ],
+    "j": "難",
+    "e": [
+      "difficult",
+      "hard",
+      "disaster"
+    ],
+    "w": 444
+  },
+  {
+    "pr": [
+      "katai",
+      "kou"
+    ],
+    "j": "硬",
+    "e": [
+      "hard"
+    ],
+    "w": 445
+  },
+  {
+    "pr": [
+      "katai",
+      "ken"
+    ],
+    "j": "堅",
+    "e": [
+      "firm",
+      "hard"
+    ],
+    "w": 446
+  },
+  {
+    "pr": [
+      "katamuku",
+      "kei",
+      "katamukeru"
+    ],
+    "j": "傾",
+    "e": [
+      "incline",
+      "lean"
+    ],
+    "w": 447
+  },
+  {
+    "pr": [
+      "katsu",
+      "shou",
+      "masaru"
+    ],
+    "j": "勝",
+    "e": [
+      "win",
+      "excel"
+    ],
+    "w": 448
+  },
+  {
+    "pr": [
+      "katsu"
+    ],
+    "j": "活",
+    "e": [
+      "active",
+      "live",
+      "activity"
+    ],
+    "w": 449
+  },
+  {
+    "pr": [
+      "katsu",
+      "waru",
+      "saku"
+    ],
+    "j": "割",
+    "e": [
+      "divide"
+    ],
+    "w": 450
+  },
+  {
+    "pr": [
+      "katsugu",
+      "tan",
+      "ninau"
+    ],
+    "j": "担",
+    "e": [
+      "bear",
+      "undertake"
+    ],
+    "w": 451
+  },
+  {
+    "pr": [
+      "mon",
+      "kado"
+    ],
+    "j": "門",
+    "e": [
+      "gate"
+    ],
+    "w": 452
+  },
+  {
+    "pr": [
+      "kanashii",
+      "hi",
+      "kanashimu"
+    ],
+    "j": "悲",
+    "e": [
+      "sad"
+    ],
+    "w": 453
+  },
+  {
+    "pr": [
+      "kanarazu",
+      "hitsu"
+    ],
+    "j": "必",
+    "e": [
+      "without fail"
+    ],
+    "w": 454
+  },
+  {
+    "pr": [
+      "kano",
+      "hi",
+      "kare"
+    ],
+    "j": "彼",
+    "e": [
+      "he",
+      "that"
+    ],
+    "w": 455
+  },
+  {
+    "pr": [
+      "kamau",
+      "kou",
+      "kamaeru"
+    ],
+    "j": "構",
+    "e": [
+      "structure",
+      "posture",
+      "construct"
+    ],
+    "w": 456
+  },
+  {
+    "pr": [
+      "kami",
+      "shin",
+      "jin"
+    ],
+    "j": "神",
+    "e": [
+      "God",
+      "god",
+      "mind"
+    ],
+    "w": 457
+  },
+  {
+    "pr": [
+      "kami",
+      "hatsu"
+    ],
+    "j": "髪",
+    "e": [
+      "hair"
+    ],
+    "w": 458
+  },
+  {
+    "pr": [
+      "karai",
+      "shin"
+    ],
+    "j": "辛",
+    "e": [
+      "spicy",
+      "hot (food)",
+      "hard"
+    ],
+    "w": 459
+  },
+  {
+    "pr": [
+      "karasu",
+      "ko",
+      "kareru"
+    ],
+    "j": "枯",
+    "e": [
+      "dry",
+      "wither",
+      "to dry"
+    ],
+    "w": 460
+  },
+  {
+    "pr": [
+      "karamaru",
+      "raku",
+      "karamu"
+    ],
+    "j": "絡",
+    "e": [
+      "entwine",
+      "to twine around"
+    ],
+    "w": 461
+  },
+  {
+    "pr": [
+      "karui",
+      "kei",
+      "karoyaka"
+    ],
+    "j": "軽",
+    "e": [
+      "light",
+      "light (weight)"
+    ],
+    "w": 462
+  },
+  {
+    "pr": [
+      "kawa",
+      "hi"
+    ],
+    "j": "皮",
+    "e": [
+      "skin"
+    ],
+    "w": 463
+  },
+  {
+    "pr": [
+      "kawa",
+      "soku"
+    ],
+    "j": "側",
+    "e": [
+      "side"
+    ],
+    "w": 464
+  },
+  {
+    "pr": [
+      "kawakasu",
+      "kan",
+      "kawaku"
+    ],
+    "j": "乾",
+    "e": [
+      "dry"
+    ],
+    "w": 465
+  },
+  {
+    "pr": [
+      "kan",
+      "samui"
+    ],
+    "j": "寒",
+    "e": [
+      "cold"
+    ],
+    "w": 466
+  },
+  {
+    "pr": [
+      "kan"
+    ],
+    "j": "感",
+    "e": [
+      "feeling",
+      "sense",
+      "feel"
+    ],
+    "w": 467
+  },
+  {
+    "pr": [
+      "kan"
+    ],
+    "j": "完",
+    "e": [
+      "complete",
+      "perfect"
+    ],
+    "w": 468
+  },
+  {
+    "pr": [
+      "kan"
+    ],
+    "j": "官",
+    "e": [
+      "government"
+    ],
+    "w": 469
+  },
+  {
+    "pr": [
+      "kan",
+      "kuda"
+    ],
+    "j": "管",
+    "e": [
+      "pipe",
+      "control"
+    ],
+    "w": 470
+  },
+  {
+    "pr": [
+      "kan",
+      "seki"
+    ],
+    "j": "関",
+    "e": [
+      "concern",
+      "barrier"
+    ],
+    "w": 471
+  },
+  {
+    "pr": [
+      "kan"
+    ],
+    "j": "観",
+    "e": [
+      "view"
+    ],
+    "w": 472
+  },
+  {
+    "pr": [
+      "kan"
+    ],
+    "j": "刊",
+    "e": [
+      "publish"
+    ],
+    "w": 473
+  },
+  {
+    "pr": [
+      "kan",
+      "nareru",
+      "narasu"
+    ],
+    "j": "慣",
+    "e": [
+      "habit",
+      "custom",
+      "get used to"
+    ],
+    "w": 474
+  },
+  {
+    "pr": [
+      "kan",
+      "hosu",
+      "hiru"
+    ],
+    "j": "干",
+    "e": [
+      "dry"
+    ],
+    "w": 475
+  },
+  {
+    "pr": [
+      "kan",
+      "maku",
+      "maki"
+    ],
+    "j": "巻",
+    "e": [
+      "roll up",
+      "volume",
+      "roll"
+    ],
+    "w": 476
+  },
+  {
+    "pr": [
+      "kan"
+    ],
+    "j": "簡",
+    "e": [
+      "simple"
+    ],
+    "w": 477
+  },
+  {
+    "pr": [
+      "kan"
+    ],
+    "j": "缶",
+    "e": [
+      "can",
+      "canned (food, drink)"
+    ],
+    "w": 478
+  },
+  {
+    "pr": [
+      "kan",
+      "wazurau"
+    ],
+    "j": "患",
+    "e": [
+      "sickness",
+      "sick"
+    ],
+    "w": 479
+  },
+  {
+    "pr": [
+      "gan",
+      "maru",
+      "marui"
+    ],
+    "j": "丸",
+    "e": [
+      "round"
+    ],
+    "w": 480
+  },
+  {
+    "pr": [
+      "gan",
+      "kishi"
+    ],
+    "j": "岸",
+    "e": [
+      "shore",
+      "seashore"
+    ],
+    "w": 481
+  },
+  {
+    "pr": [
+      "gan",
+      "negau"
+    ],
+    "j": "願",
+    "e": [
+      "wish",
+      "ask a favor",
+      "desire"
+    ],
+    "w": 482
+  },
+  {
+    "pr": [
+      "gan",
+      "fukumu",
+      "fukumeru"
+    ],
+    "j": "含",
+    "e": [
+      "contain",
+      "include"
+    ],
+    "w": 483
+  },
+  {
+    "pr": [
+      "ki",
+      "shirushu"
+    ],
+    "j": "記",
+    "e": [
+      "write down",
+      "record"
+    ],
+    "w": 484
+  },
+  {
+    "pr": [
+      "ki",
+      "go"
+    ],
+    "j": "期",
+    "e": [
+      "term",
+      "expect"
+    ],
+    "w": 485
+  },
+  {
+    "pr": [
+      "ki"
+    ],
+    "j": "希",
+    "e": [
+      "rare",
+      "aspire",
+      "desire"
+    ],
+    "w": 486
+  },
+  {
+    "pr": [
+      "ki"
+    ],
+    "j": "季",
+    "e": [
+      "season",
+      "season (of the year)"
+    ],
+    "w": 487
+  },
+  {
+    "pr": [
+      "ki",
+      "yorokobu"
+    ],
+    "j": "喜",
+    "e": [
+      "joy",
+      "happy"
+    ],
+    "w": 488
+  },
+  {
+    "pr": [
+      "ki",
+      "hata"
+    ],
+    "j": "機",
+    "e": [
+      "machine",
+      "occation"
+    ],
+    "w": 489
+  },
+  {
+    "pr": [
+      "ki"
+    ],
+    "j": "規",
+    "e": [
+      "rule",
+      "regulation"
+    ],
+    "w": 490
+  },
+  {
+    "pr": [
+      "ki",
+      "yoru",
+      "yoseru"
+    ],
+    "j": "寄",
+    "e": [
+      "approach",
+      "gather",
+      "contribute"
+    ],
+    "w": 491
+  },
+  {
+    "pr": [
+      "ki",
+      "tsukue"
+    ],
+    "j": "机",
+    "e": [
+      "desk"
+    ],
+    "w": 492
+  },
+  {
+    "pr": [
+      "gi"
+    ],
+    "j": "議",
+    "e": [
+      "discuss",
+      "debate"
+    ],
+    "w": 493
+  },
+  {
+    "pr": [
+      "gi",
+      "waza"
+    ],
+    "j": "技",
+    "e": [
+      "skill"
+    ],
+    "w": 494
+  },
+  {
+    "pr": [
+      "kieru",
+      "shou",
+      "kesu"
+    ],
+    "j": "消",
+    "e": [
+      "extinguish",
+      "put out",
+      "spend"
+    ],
+    "w": 495
+  },
+  {
+    "pr": [
+      "kiku",
+      "ri"
+    ],
+    "j": "利",
+    "e": [
+      "advantage",
+      "profit"
+    ],
+    "w": 496
+  },
+  {
+    "pr": [
+      "kiku",
+      "kou"
+    ],
+    "j": "効",
+    "e": [
+      "effect",
+      "efficancy"
+    ],
+    "w": 497
+  },
+  {
+    "pr": [
+      "kizashi",
+      "chou",
+      "kizasu"
+    ],
+    "j": "兆",
+    "e": [
+      "trillion",
+      "sign",
+      "symptom"
+    ],
+    "w": 498
+  },
+  {
+    "pr": [
+      "kizamu",
+      "koku"
+    ],
+    "j": "刻",
+    "e": [
+      "engrave",
+      "carve"
+    ],
+    "w": 499
+  },
+  {
+    "pr": [
+      "kizuku",
+      "chiku"
+    ],
+    "j": "築",
+    "e": [
+      "build",
+      "construct",
+      "construction"
+    ],
+    "w": 500
+  },
+  {
+    "pr": [
+      "kisou",
+      "kyou",
+      "kei"
+    ],
+    "j": "競",
+    "e": [
+      "compete (in a race)"
+    ],
+    "w": 501
+  },
+  {
+    "pr": [
+      "kitsu"
+    ],
+    "j": "喫",
+    "e": [
+      "inhale",
+      "drink"
+    ],
+    "w": 502
+  },
+  {
+    "pr": [
+      "kitsu",
+      "tsumaru",
+      "tsumeru"
+    ],
+    "j": "詰",
+    "e": [
+      "cram",
+      "shorten"
+    ],
+    "w": 503
+  },
+  {
+    "pr": [
+      "kimeru",
+      "ketsu",
+      "kimaru"
+    ],
+    "j": "決",
+    "e": [
+      "decide",
+      "be decided"
+    ],
+    "w": 504
+  },
+  {
+    "pr": [
+      "kimi",
+      "kun"
+    ],
+    "j": "君",
+    "e": [
+      "you",
+      "ruler",
+      "added to names of boys"
+    ],
+    "w": 505
+  },
+  {
+    "pr": [
+      "gyaku",
+      "sakarau",
+      "saka"
+    ],
+    "j": "逆",
+    "e": [
+      "reverse",
+      "opposite"
+    ],
+    "w": 506
+  },
+  {
+    "pr": [
+      "kyuu"
+    ],
+    "j": "級",
+    "e": [
+      "grade",
+      "level"
+    ],
+    "w": 507
+  },
+  {
+    "pr": [
+      "kyuu",
+      "tama"
+    ],
+    "j": "球",
+    "e": [
+      "ball"
+    ],
+    "w": 508
+  },
+  {
+    "pr": [
+      "kyuu",
+      "motomeru"
+    ],
+    "j": "求",
+    "e": [
+      "seek",
+      "search"
+    ],
+    "w": 509
+  },
+  {
+    "pr": [
+      "kyuu",
+      "naku"
+    ],
+    "j": "泣",
+    "e": [
+      "cry"
+    ],
+    "w": 510
+  },
+  {
+    "pr": [
+      "kyuu",
+      "sukuu"
+    ],
+    "j": "救",
+    "e": [
+      "rescue",
+      "save"
+    ],
+    "w": 511
+  },
+  {
+    "pr": [
+      "kyuu"
+    ],
+    "j": "給",
+    "e": [
+      "supply",
+      "pay"
+    ],
+    "w": 512
+  },
+  {
+    "pr": [
+      "kyuu",
+      "ku",
+      "hisashii"
+    ],
+    "j": "久",
+    "e": [
+      "long time"
+    ],
+    "w": 513
+  },
+  {
+    "pr": [
+      "kyuu"
+    ],
+    "j": "旧",
+    "e": [
+      "old",
+      "former"
+    ],
+    "w": 514
+  },
+  {
+    "pr": [
+      "kyuu",
+      "suu"
+    ],
+    "j": "吸",
+    "e": [
+      "suck",
+      "breathe in"
+    ],
+    "w": 515
+  },
+  {
+    "pr": [
+      "kyo",
+      "yurusu"
+    ],
+    "j": "許",
+    "e": [
+      "permit",
+      "pardon",
+      "forgive"
+    ],
+    "w": 516
+  },
+  {
+    "pr": [
+      "gyo",
+      "ryou"
+    ],
+    "j": "漁",
+    "e": [
+      "fish"
+    ],
+    "w": 517
+  },
+  {
+    "pr": [
+      "kiyoi",
+      "sei",
+      "kyomeru"
+    ],
+    "j": "清",
+    "e": [
+      "clean",
+      "clear",
+      "pure"
+    ],
+    "w": 518
+  },
+  {
+    "pr": [
+      "kyou",
+      "hashi"
+    ],
+    "j": "橋",
+    "e": [
+      "bridge"
+    ],
+    "w": 519
+  },
+  {
+    "pr": [
+      "kyou",
+      "tomo"
+    ],
+    "j": "共",
+    "e": [
+      "together"
+    ],
+    "w": 520
+  },
+  {
+    "pr": [
+      "kyou"
+    ],
+    "j": "協",
+    "e": [
+      "cooperate"
+    ],
+    "w": 521
+  },
+  {
+    "pr": [
+      "kyou",
+      "heru",
+      "kei"
+    ],
+    "j": "経",
+    "e": [
+      "manage",
+      "passage",
+      "circles of longitude"
+    ],
+    "w": 522
+  },
+  {
+    "pr": [
+      "kyou",
+      "kei",
+      "sakai"
+    ],
+    "j": "境",
+    "e": [
+      "boundary",
+      "border line"
+    ],
+    "w": 523
+  },
+  {
+    "pr": [
+      "kyou",
+      "tomo",
+      "sonaeru"
+    ],
+    "j": "供",
+    "e": [
+      "attendant",
+      "offer"
+    ],
+    "w": 524
+  },
+  {
+    "pr": [
+      "kyou",
+      "mune",
+      "muna"
+    ],
+    "j": "胸",
+    "e": [
+      "chest",
+      "chest (body part)"
+    ],
+    "w": 525
+  },
+  {
+    "pr": [
+      "kyou",
+      "sakebu"
+    ],
+    "j": "叫",
+    "e": [
+      "shout"
+    ],
+    "w": 526
+  },
+  {
+    "pr": [
+      "kyou"
+    ],
+    "j": "況",
+    "e": [
+      "condition",
+      "state of things"
+    ],
+    "w": 527
+  },
+  {
+    "pr": [
+      "kyou",
+      "semai",
+      "sebameru"
+    ],
+    "j": "狭",
+    "e": [
+      "narrow"
+    ],
+    "w": 528
+  },
+  {
+    "pr": [
+      "kyou",
+      "hasamu",
+      "hasamaru"
+    ],
+    "j": "挟",
+    "e": [
+      "hold between",
+      "clasp"
+    ],
+    "w": 529
+  },
+  {
+    "pr": [
+      "kyoku",
+      "magaru",
+      "mageru"
+    ],
+    "j": "曲",
+    "e": [
+      "music",
+      "song",
+      "curve"
+    ],
+    "w": 530
+  },
+  {
+    "pr": [
+      "kyoku"
+    ],
+    "j": "局",
+    "e": [
+      "bureau",
+      "segment"
+    ],
+    "w": 531
+  },
+  {
+    "pr": [
+      "kyoku",
+      "goku",
+      "kiwameru"
+    ],
+    "j": "極",
+    "e": [
+      "extreme",
+      "poles (north or south)"
+    ],
+    "w": 532
+  },
+  {
+    "pr": [
+      "gyoku",
+      "tama"
+    ],
+    "j": "玉",
+    "e": [
+      "gem",
+      "jewel"
+    ],
+    "w": 533
+  },
+  {
+    "pr": [
+      "kiwa",
+      "sai"
+    ],
+    "j": "際",
+    "e": [
+      "verge",
+      "occation"
+    ],
+    "w": 534
+  },
+  {
+    "pr": [
+      "kin"
+    ],
+    "j": "均",
+    "e": [
+      "even",
+      "level"
+    ],
+    "w": 535
+  },
+  {
+    "pr": [
+      "kin"
+    ],
+    "j": "禁",
+    "e": [
+      "prohibit",
+      "not allowed"
+    ],
+    "w": 536
+  },
+  {
+    "pr": [
+      "kin",
+      "gon",
+      "tsutomeru"
+    ],
+    "j": "勤",
+    "e": [
+      "service"
+    ],
+    "w": 537
+  },
+  {
+    "pr": [
+      "ku"
+    ],
+    "j": "区",
+    "e": [
+      "district",
+      "ward"
+    ],
+    "w": 538
+  },
+  {
+    "pr": [
+      "ku",
+      "kurushii",
+      "nigai"
+    ],
+    "j": "苦",
+    "e": [
+      "suffering",
+      "bitter",
+      "painful"
+    ],
+    "w": 539
+  },
+  {
+    "pr": [
+      "ku",
+      "ko"
+    ],
+    "j": "庫",
+    "e": [
+      "storehouse",
+      "warehouse"
+    ],
+    "w": 540
+  },
+  {
+    "pr": [
+      "ku",
+      "kou",
+      "beni"
+    ],
+    "j": "紅",
+    "e": [
+      "crimson"
+    ],
+    "w": 541
+  },
+  {
+    "pr": [
+      "gu"
+    ],
+    "j": "具",
+    "e": [
+      "tool",
+      "utensil",
+      "ingredient"
+    ],
+    "w": 542
+  },
+  {
+    "pr": [
+      "guu"
+    ],
+    "j": "偶",
+    "e": [
+      "chance",
+      "even numbers",
+      "by chance"
+    ],
+    "w": 543
+  },
+  {
+    "pr": [
+      "guu",
+      "sumi"
+    ],
+    "j": "隅",
+    "e": [
+      "nook",
+      "corner"
+    ],
+    "w": 544
+  },
+  {
+    "pr": [
+      "kusa",
+      "sou"
+    ],
+    "j": "草",
+    "e": [
+      "grass"
+    ],
+    "w": 545
+  },
+  {
+    "pr": [
+      "kusuri",
+      "yaku"
+    ],
+    "j": "薬",
+    "e": [
+      "medicine",
+      "drug"
+    ],
+    "w": 546
+  },
+  {
+    "pr": [
+      "kutsu",
+      "horu"
+    ],
+    "j": "掘",
+    "e": [
+      "dig"
+    ],
+    "w": 547
+  },
+  {
+    "pr": [
+      "kubaru",
+      "hai"
+    ],
+    "j": "配",
+    "e": [
+      "distribute",
+      "deliver"
+    ],
+    "w": 548
+  },
+  {
+    "pr": [
+      "kubi",
+      "shu"
+    ],
+    "j": "首",
+    "e": [
+      "head",
+      "neck"
+    ],
+    "w": 549
+  },
+  {
+    "pr": [
+      "kumi",
+      "so",
+      "kumu"
+    ],
+    "j": "組",
+    "e": [
+      "organize",
+      "assemble"
+    ],
+    "w": 550
+  },
+  {
+    "pr": [
+      "kumoru",
+      "don"
+    ],
+    "j": "曇",
+    "e": [
+      "cloudy"
+    ],
+    "w": 551
+  },
+  {
+    "pr": [
+      "kura",
+      "zou"
+    ],
+    "j": "蔵",
+    "e": [
+      "store",
+      "warehouse",
+      "own"
+    ],
+    "w": 552
+  },
+  {
+    "pr": [
+      "kurasu",
+      "bo",
+      "kureru"
+    ],
+    "j": "暮",
+    "e": [
+      "dusk",
+      "grow dark",
+      "live"
+    ],
+    "w": 553
+  },
+  {
+    "pr": [
+      "kuraberu",
+      "hi"
+    ],
+    "j": "比",
+    "e": [
+      "compare"
+    ],
+    "w": 554
+  },
+  {
+    "pr": [
+      "kun"
+    ],
+    "j": "訓",
+    "e": [
+      "instruct"
+    ],
+    "w": 555
+  },
+  {
+    "pr": [
+      "gun"
+    ],
+    "j": "軍",
+    "e": [
+      "army",
+      "military"
+    ],
+    "w": 556
+  },
+  {
+    "pr": [
+      "gun",
+      "mureru",
+      "mure"
+    ],
+    "j": "群",
+    "e": [
+      "group",
+      "crowd"
+    ],
+    "w": 557
+  },
+  {
+    "pr": [
+      "ke",
+      "mou"
+    ],
+    "j": "毛",
+    "e": [
+      "hair"
+    ],
+    "w": 558
+  },
+  {
+    "pr": [
+      "kei"
+    ],
+    "j": "景",
+    "e": [
+      "scene"
+    ],
+    "w": 559
+  },
+  {
+    "pr": [
+      "kei"
+    ],
+    "j": "警",
+    "e": [
+      "guard",
+      "warn"
+    ],
+    "w": 560
+  },
+  {
+    "pr": [
+      "gei"
+    ],
+    "j": "芸",
+    "e": [
+      "art",
+      "skill"
+    ],
+    "w": 561
+  },
+  {
+    "pr": [
+      "gei",
+      "mukaeru"
+    ],
+    "j": "迎",
+    "e": [
+      "meet",
+      "welcome"
+    ],
+    "w": 562
+  },
+  {
+    "pr": [
+      "geki"
+    ],
+    "j": "劇",
+    "e": [
+      "drama"
+    ],
+    "w": 563
+  },
+  {
+    "pr": [
+      "ketsu",
+      "chi"
+    ],
+    "j": "血",
+    "e": [
+      "blood"
+    ],
+    "w": 564
+  },
+  {
+    "pr": [
+      "ketsu",
+      "musubu",
+      "yuu"
+    ],
+    "j": "結",
+    "e": [
+      "tie",
+      "conclude"
+    ],
+    "w": 565
+  },
+  {
+    "pr": [
+      "kewashii",
+      "ken"
+    ],
+    "j": "険",
+    "e": [
+      "danger",
+      "steep"
+    ],
+    "w": 566
+  },
+  {
+    "pr": [
+      "ken"
+    ],
+    "j": "県",
+    "e": [
+      "prefecture"
+    ],
+    "w": 567
+  },
+  {
+    "pr": [
+      "ken"
+    ],
+    "j": "件",
+    "e": [
+      "matter"
+    ],
+    "w": 568
+  },
+  {
+    "pr": [
+      "ken"
+    ],
+    "j": "券",
+    "e": [
+      "ticket",
+      "certificate",
+      "coupon"
+    ],
+    "w": 569
+  },
+  {
+    "pr": [
+      "ken"
+    ],
+    "j": "検",
+    "e": [
+      "examine"
+    ],
+    "w": 570
+  },
+  {
+    "pr": [
+      "ken"
+    ],
+    "j": "権",
+    "e": [
+      "right",
+      "power"
+    ],
+    "w": 571
+  },
+  {
+    "pr": [
+      "ken",
+      "noki"
+    ],
+    "j": "軒",
+    "e": [
+      "eaves"
+    ],
+    "w": 572
+  },
+  {
+    "pr": [
+      "gen",
+      "hara"
+    ],
+    "j": "原",
+    "e": [
+      "original",
+      "plain"
+    ],
+    "w": 573
+  },
+  {
+    "pr": [
+      "gen",
+      "heru",
+      "herasu"
+    ],
+    "j": "減",
+    "e": [
+      "decrease"
+    ],
+    "w": 574
+  },
+  {
+    "pr": [
+      "ko",
+      "fun",
+      "kona"
+    ],
+    "j": "粉",
+    "e": [
+      "powder"
+    ],
+    "w": 575
+  },
+  {
+    "pr": [
+      "ko",
+      "to"
+    ],
+    "j": "戸",
+    "e": [
+      "door"
+    ],
+    "w": 576
+  },
+  {
+    "pr": [
+      "ko",
+      "mizuumi"
+    ],
+    "j": "湖",
+    "e": [
+      "lake"
+    ],
+    "w": 577
+  },
+  {
+    "pr": [
+      "ko"
+    ],
+    "j": "個",
+    "e": [
+      "individual"
+    ],
+    "w": 578
+  },
+  {
+    "pr": [
+      "ko",
+      "yobu"
+    ],
+    "j": "呼",
+    "e": [
+      "call"
+    ],
+    "w": 579
+  },
+  {
+    "pr": [
+      "ko",
+      "yatou"
+    ],
+    "j": "雇",
+    "e": [
+      "employ",
+      "hire"
+    ],
+    "w": 580
+  },
+  {
+    "pr": [
+      "go",
+      "tagai"
+    ],
+    "j": "互",
+    "e": [
+      "reciprocal",
+      "mutual",
+      "each other"
+    ],
+    "w": 581
+  },
+  {
+    "pr": [
+      "koi",
+      "ren",
+      "koishii"
+    ],
+    "j": "恋",
+    "e": [
+      "love"
+    ],
+    "w": 582
+  },
+  {
+    "pr": [
+      "koi",
+      "nou"
+    ],
+    "j": "濃",
+    "e": [
+      "thick"
+    ],
+    "w": 583
+  },
+  {
+    "pr": [
+      "kou",
+      "hikaru",
+      "hikari"
+    ],
+    "j": "光",
+    "e": [
+      "light"
+    ],
+    "w": 584
+  },
+  {
+    "pr": [
+      "kou",
+      "muku",
+      "mukou"
+    ],
+    "j": "向",
+    "e": [
+      "turn toward",
+      "turn"
+    ],
+    "w": 585
+  },
+  {
+    "pr": [
+      "kou",
+      "saiwai",
+      "shiawase"
+    ],
+    "j": "幸",
+    "e": [
+      "happy",
+      "happiness"
+    ],
+    "w": 586
+  },
+  {
+    "pr": [
+      "kou",
+      "minato"
+    ],
+    "j": "港",
+    "e": [
+      "port",
+      "harbor"
+    ],
+    "w": 587
+  },
+  {
+    "pr": [
+      "kou",
+      "konomu",
+      "suku"
+    ],
+    "j": "好",
+    "e": [
+      "like",
+      "favorable"
+    ],
+    "w": 588
+  },
+  {
+    "pr": [
+      "kou"
+    ],
+    "j": "航",
+    "e": [
+      "navigate"
+    ],
+    "w": 589
+  },
+  {
+    "pr": [
+      "kou",
+      "sourou"
+    ],
+    "j": "候",
+    "e": [
+      "season",
+      "serve"
+    ],
+    "w": 590
+  },
+  {
+    "pr": [
+      "kou",
+      "tagayasu"
+    ],
+    "j": "耕",
+    "e": [
+      "till",
+      "plow",
+      "cultivate"
+    ],
+    "w": 591
+  },
+  {
+    "pr": [
+      "kou"
+    ],
+    "j": "鉱",
+    "e": [
+      "ore",
+      "mine"
+    ],
+    "w": 592
+  },
+  {
+    "pr": [
+      "kou"
+    ],
+    "j": "講",
+    "e": [
+      "lecture"
+    ],
+    "w": 593
+  },
+  {
+    "pr": [
+      "kou",
+      "sara",
+      "fukeru"
+    ],
+    "j": "更",
+    "e": [
+      "retextframe",
+      "change",
+      "reform"
+    ],
+    "w": 594
+  },
+  {
+    "pr": [
+      "kou"
+    ],
+    "j": "肯",
+    "e": [
+      "assent",
+      "consent"
+    ],
+    "w": 595
+  },
+  {
+    "pr": [
+      "kou"
+    ],
+    "j": "郊",
+    "e": [
+      "suburb"
+    ],
+    "w": 596
+  },
+  {
+    "pr": [
+      "gou"
+    ],
+    "j": "号",
+    "e": [
+      "number",
+      "signal",
+      "sign"
+    ],
+    "w": 597
+  },
+  {
+    "pr": [
+      "koumuru",
+      "hi",
+      "kaburu"
+    ],
+    "j": "被",
+    "e": [
+      "wear (hat)",
+      "suffer (damage)"
+    ],
+    "w": 598
+  },
+  {
+    "pr": [
+      "koe",
+      "sei",
+      "kowa"
+    ],
+    "j": "声",
+    "e": [
+      "voice"
+    ],
+    "w": 599
+  },
+  {
+    "pr": [
+      "koeru",
+      "chou",
+      "kosu"
+    ],
+    "j": "超",
+    "e": [
+      "surpass",
+      "very",
+      "super"
+    ],
+    "w": 600
+  },
+  {
+    "pr": [
+      "koori",
+      "hyou",
+      "hi"
+    ],
+    "j": "氷",
+    "e": [
+      "ice"
+    ],
+    "w": 601
+  },
+  {
+    "pr": [
+      "kooru",
+      "tou",
+      "kogoeru"
+    ],
+    "j": "凍",
+    "e": [
+      "freeze"
+    ],
+    "w": 602
+  },
+  {
+    "pr": [
+      "koku",
+      "tani"
+    ],
+    "j": "谷",
+    "e": [
+      "valley"
+    ],
+    "w": 603
+  },
+  {
+    "pr": [
+      "koku",
+      "tsugeru"
+    ],
+    "j": "告",
+    "e": [
+      "notify"
+    ],
+    "w": 604
+  },
+  {
+    "pr": [
+      "koshi",
+      "you"
+    ],
+    "j": "腰",
+    "e": [
+      "waist",
+      "hip"
+    ],
+    "w": 605
+  },
+  {
+    "pr": [
+      "kotsu",
+      "hone"
+    ],
+    "j": "骨",
+    "e": [
+      "bone"
+    ],
+    "w": 606
+  },
+  {
+    "pr": [
+      "kotowaru",
+      "dan",
+      "tatsu"
+    ],
+    "j": "断",
+    "e": [
+      "resolve",
+      "cut off"
+    ],
+    "w": 607
+  },
+  {
+    "pr": [
+      "komakai",
+      "sai",
+      "hosoi"
+    ],
+    "j": "細",
+    "e": [
+      "small",
+      "slender",
+      "thin"
+    ],
+    "w": 608
+  },
+  {
+    "pr": [
+      "komaru",
+      "kon"
+    ],
+    "j": "困",
+    "e": [
+      "trouble",
+      "be in trouble"
+    ],
+    "w": 609
+  },
+  {
+    "pr": [
+      "komu",
+      "komeru"
+    ],
+    "j": "込",
+    "e": [
+      "crowded",
+      "into"
+    ],
+    "w": 610
+  },
+  {
+    "pr": [
+      "kome",
+      "bei",
+      "mai"
+    ],
+    "j": "米",
+    "e": [
+      "rice",
+      "america"
+    ],
+    "w": 611
+  },
+  {
+    "pr": [
+      "korosu",
+      "satsu",
+      "sai"
+    ],
+    "j": "殺",
+    "e": [
+      "kill"
+    ],
+    "w": 612
+  },
+  {
+    "pr": [
+      "kowai",
+      "fu"
+    ],
+    "j": "怖",
+    "e": [
+      "fear",
+      "fearful",
+      "scared"
+    ],
+    "w": 613
+  },
+  {
+    "pr": [
+      "kon",
+      "ne"
+    ],
+    "j": "根",
+    "e": [
+      "root"
+    ],
+    "w": 614
+  },
+  {
+    "pr": [
+      "kon",
+      "majiru",
+      "mazaru"
+    ],
+    "j": "混",
+    "e": [
+      "mix",
+      "blend",
+      "associate with"
+    ],
+    "w": 615
+  },
+  {
+    "pr": [
+      "kon"
+    ],
+    "j": "婚",
+    "e": [
+      "marry",
+      "marriage"
+    ],
+    "w": 616
+  },
+  {
+    "pr": [
+      "sa",
+      "sasu"
+    ],
+    "j": "差",
+    "e": [
+      "difference"
+    ],
+    "w": 617
+  },
+  {
+    "pr": [
+      "sa"
+    ],
+    "j": "査",
+    "e": [
+      "look into",
+      "investigate"
+    ],
+    "w": 618
+  },
+  {
+    "pr": [
+      "sa",
+      "sha",
+      "suna"
+    ],
+    "j": "砂",
+    "e": [
+      "sand"
+    ],
+    "w": 619
+  },
+  {
+    "pr": [
+      "sa",
+      "sai",
+      "futatabi"
+    ],
+    "j": "再",
+    "e": [
+      "repeat",
+      "again",
+      "another time"
+    ],
+    "w": 620
+  },
+  {
+    "pr": [
+      "za",
+      "suwaru"
+    ],
+    "j": "座",
+    "e": [
+      "seat",
+      "sit down",
+      "constellation"
+    ],
+    "w": 621
+  },
+  {
+    "pr": [
+      "sai"
+    ],
+    "j": "才",
+    "e": [
+      "talent",
+      "age"
+    ],
+    "w": 622
+  },
+  {
+    "pr": [
+      "sai",
+      "matsuri",
+      "matsuru"
+    ],
+    "j": "祭",
+    "e": [
+      "festival"
+    ],
+    "w": 623
+  },
+  {
+    "pr": [
+      "sai",
+      "na"
+    ],
+    "j": "菜",
+    "e": [
+      "vegetable"
+    ],
+    "w": 624
+  },
+  {
+    "pr": [
+      "sai",
+      "mottomo"
+    ],
+    "j": "最",
+    "e": [
+      "most",
+      "est"
+    ],
+    "w": 625
+  },
+  {
+    "pr": [
+      "sai",
+      "tsuma"
+    ],
+    "j": "妻",
+    "e": [
+      "wife"
+    ],
+    "w": 626
+  },
+  {
+    "pr": [
+      "sai",
+      "toru"
+    ],
+    "j": "採",
+    "e": [
+      "pick",
+      "gather"
+    ],
+    "w": 627
+  },
+  {
+    "pr": [
+      "sai",
+      "sumu",
+      "sumasu"
+    ],
+    "j": "済",
+    "e": [
+      "settle",
+      "relieve"
+    ],
+    "w": 628
+  },
+  {
+    "pr": [
+      "sai",
+      "sei"
+    ],
+    "j": "歳",
+    "e": [
+      "year",
+      "age",
+      "age suffix"
+    ],
+    "w": 629
+  },
+  {
+    "pr": [
+      "sai",
+      "zai"
+    ],
+    "j": "財",
+    "e": [
+      "wealth"
+    ],
+    "w": 630
+  },
+  {
+    "pr": [
+      "zai"
+    ],
+    "j": "材",
+    "e": [
+      "timber",
+      "materials"
+    ],
+    "w": 631
+  },
+  {
+    "pr": [
+      "zai",
+      "tsumi"
+    ],
+    "j": "罪",
+    "e": [
+      "sin",
+      "crime"
+    ],
+    "w": 632
+  },
+  {
+    "pr": [
+      "saka",
+      "han"
+    ],
+    "j": "坂",
+    "e": [
+      "slope"
+    ],
+    "w": 633
+  },
+  {
+    "pr": [
+      "sake",
+      "shu"
+    ],
+    "j": "酒",
+    "e": [
+      "sake",
+      "alcohol"
+    ],
+    "w": 634
+  },
+  {
+    "pr": [
+      "sagasu",
+      "tan",
+      "saguru"
+    ],
+    "j": "探",
+    "e": [
+      "probe",
+      "search"
+    ],
+    "w": 635
+  },
+  {
+    "pr": [
+      "sagasu",
+      "sou"
+    ],
+    "j": "捜",
+    "e": [
+      "look for",
+      "search"
+    ],
+    "w": 636
+  },
+  {
+    "pr": [
+      "sakazuki",
+      "hai"
+    ],
+    "j": "杯",
+    "e": [
+      "cup",
+      "counter for cups"
+    ],
+    "w": 637
+  },
+  {
+    "pr": [
+      "saku"
+    ],
+    "j": "咲",
+    "e": [
+      "bloom",
+      "come out"
+    ],
+    "w": 638
+  },
+  {
+    "pr": [
+      "saku"
+    ],
+    "j": "昨",
+    "e": [
+      "yesterday",
+      "last..."
+    ],
+    "w": 639
+  },
+  {
+    "pr": [
+      "saku",
+      "satsu"
+    ],
+    "j": "冊",
+    "e": [
+      "card",
+      "volume",
+      "counter for books"
+    ],
+    "w": 640
+  },
+  {
+    "pr": [
+      "sasaeru",
+      "shi"
+    ],
+    "j": "支",
+    "e": [
+      "support",
+      "branch"
+    ],
+    "w": 641
+  },
+  {
+    "pr": [
+      "sasaru",
+      "shi",
+      "sasu"
+    ],
+    "j": "刺",
+    "e": [
+      "stab",
+      "stab (with a knife)"
+    ],
+    "w": 642
+  },
+  {
+    "pr": [
+      "sasu",
+      "shi",
+      "yubi"
+    ],
+    "j": "指",
+    "e": [
+      "point",
+      "finger"
+    ],
+    "w": 643
+  },
+  {
+    "pr": [
+      "sadaka",
+      "tei",
+      "jou"
+    ],
+    "j": "定",
+    "e": [
+      "fix",
+      "decide",
+      "establish"
+    ],
+    "w": 644
+  },
+  {
+    "pr": [
+      "satsu",
+      "fuda"
+    ],
+    "j": "札",
+    "e": [
+      "bill",
+      "paper money",
+      "tag"
+    ],
+    "w": 645
+  },
+  {
+    "pr": [
+      "satsu",
+      "suru"
+    ],
+    "j": "刷",
+    "e": [
+      "print"
+    ],
+    "w": 646
+  },
+  {
+    "pr": [
+      "satsu"
+    ],
+    "j": "察",
+    "e": [
+      "inspect",
+      "guess"
+    ],
+    "w": 647
+  },
+  {
+    "pr": [
+      "zatsu",
+      "zou"
+    ],
+    "j": "雑",
+    "e": [
+      "mixed",
+      "rough"
+    ],
+    "w": 648
+  },
+  {
+    "pr": [
+      "sama",
+      "you"
+    ],
+    "j": "様",
+    "e": [
+      "mode",
+      "formal title",
+      "Mr. / Mrs."
+    ],
+    "w": 649
+  },
+  {
+    "pr": [
+      "samasu",
+      "rei",
+      "tsumetai"
+    ],
+    "j": "冷",
+    "e": [
+      "cold"
+    ],
+    "w": 650
+  },
+  {
+    "pr": [
+      "sara"
+    ],
+    "j": "皿",
+    "e": [
+      "plate",
+      "dish"
+    ],
+    "w": 651
+  },
+  {
+    "pr": [
+      "sawaru",
+      "shoku",
+      "fureru"
+    ],
+    "j": "触",
+    "e": [
+      "touch",
+      "feel"
+    ],
+    "w": 652
+  },
+  {
+    "pr": [
+      "san"
+    ],
+    "j": "算",
+    "e": [
+      "calculate"
+    ],
+    "w": 653
+  },
+  {
+    "pr": [
+      "san",
+      "mairu"
+    ],
+    "j": "参",
+    "e": [
+      "attend"
+    ],
+    "w": 654
+  },
+  {
+    "pr": [
+      "san",
+      "chiru",
+      "chirakasu"
+    ],
+    "j": "散",
+    "e": [
+      "scatter"
+    ],
+    "w": 655
+  },
+  {
+    "pr": [
+      "san"
+    ],
+    "j": "賛",
+    "e": [
+      "approve",
+      "praise"
+    ],
+    "w": 656
+  },
+  {
+    "pr": [
+      "zan",
+      "nokoru",
+      "nokosu"
+    ],
+    "j": "残",
+    "e": [
+      "remain",
+      "ruthless"
+    ],
+    "w": 657
+  },
+  {
+    "pr": [
+      "shi",
+      "ji",
+      "tsugi"
+    ],
+    "j": "次",
+    "e": [
+      "next"
+    ],
+    "w": 658
+  },
+  {
+    "pr": [
+      "shi",
+      "ha"
+    ],
+    "j": "歯",
+    "e": [
+      "tooth"
+    ],
+    "w": 659
+  },
+  {
+    "pr": [
+      "shi"
+    ],
+    "j": "史",
+    "e": [
+      "history"
+    ],
+    "w": 660
+  },
+  {
+    "pr": [
+      "shi",
+      "ji",
+      "shimesu"
+    ],
+    "j": "示",
+    "e": [
+      "show",
+      "to show"
+    ],
+    "w": 661
+  },
+  {
+    "pr": [
+      "shi"
+    ],
+    "j": "師",
+    "e": [
+      "master",
+      "teacher"
+    ],
+    "w": 662
+  },
+  {
+    "pr": [
+      "shi"
+    ],
+    "j": "資",
+    "e": [
+      "resource"
+    ],
+    "w": 663
+  },
+  {
+    "pr": [
+      "shi"
+    ],
+    "j": "詞",
+    "e": [
+      "words"
+    ],
+    "w": 664
+  },
+  {
+    "pr": [
+      "shi"
+    ],
+    "j": "誌",
+    "e": [
+      "magazine"
+    ],
+    "w": 665
+  },
+  {
+    "pr": [
+      "ji",
+      "ro"
+    ],
+    "j": "路",
+    "e": [
+      "road"
+    ],
+    "w": 666
+  },
+  {
+    "pr": [
+      "ji",
+      "mimi"
+    ],
+    "j": "耳",
+    "e": [
+      "ear"
+    ],
+    "w": 667
+  },
+  {
+    "pr": [
+      "ji",
+      "tera"
+    ],
+    "j": "寺",
+    "e": [
+      "buddhist temple"
+    ],
+    "w": 668
+  },
+  {
+    "pr": [
+      "ji",
+      "ni"
+    ],
+    "j": "児",
+    "e": [
+      "child"
+    ],
+    "w": 669
+  },
+  {
+    "pr": [
+      "ji",
+      "yameru"
+    ],
+    "j": "辞",
+    "e": [
+      "word",
+      "resign",
+      "retire"
+    ],
+    "w": 670
+  },
+  {
+    "pr": [
+      "ji",
+      "niru"
+    ],
+    "j": "似",
+    "e": [
+      "look like",
+      "resemble"
+    ],
+    "w": 671
+  },
+  {
+    "pr": [
+      "ji",
+      "jo",
+      "nozoku"
+    ],
+    "j": "除",
+    "e": [
+      "remove"
+    ],
+    "w": 672
+  },
+  {
+    "pr": [
+      "shiki"
+    ],
+    "j": "式",
+    "e": [
+      "ceremony",
+      "style"
+    ],
+    "w": 673
+  },
+  {
+    "pr": [
+      "shiki"
+    ],
+    "j": "識",
+    "e": [
+      "know"
+    ],
+    "w": 674
+  },
+  {
+    "pr": [
+      "jiki",
+      "choku",
+      "naosu"
+    ],
+    "j": "直",
+    "e": [
+      "straight",
+      "fix"
+    ],
+    "w": 675
+  },
+  {
+    "pr": [
+      "shizuka",
+      "sei",
+      "jou"
+    ],
+    "j": "静",
+    "e": [
+      "quiet"
+    ],
+    "w": 676
+  },
+  {
+    "pr": [
+      "shizuku",
+      "teki",
+      "shitataru"
+    ],
+    "j": "滴",
+    "e": [
+      "drop",
+      "drop (of liquid)",
+      "trickle"
+    ],
+    "w": 677
+  },
+  {
+    "pr": [
+      "shizumu",
+      "chin",
+      "shizumeru"
+    ],
+    "j": "沈",
+    "e": [
+      "sink",
+      "to sink"
+    ],
+    "w": 678
+  },
+  {
+    "pr": [
+      "shimeru",
+      "shimesu"
+    ],
+    "j": "湿",
+    "e": [
+      "damp"
+    ],
+    "w": 679
+  },
+  {
+    "pr": [
+      "jitsu",
+      "mi",
+      "minoru"
+    ],
+    "j": "実",
+    "e": [
+      "real",
+      "truth",
+      "fruit"
+    ],
+    "w": 680
+  },
+  {
+    "pr": [
+      "shima",
+      "tou"
+    ],
+    "j": "島",
+    "e": [
+      "island"
+    ],
+    "w": 681
+  },
+  {
+    "pr": [
+      "shimeru",
+      "tojiru",
+      "hei"
+    ],
+    "j": "閉",
+    "e": [
+      "close"
+    ],
+    "w": 682
+  },
+  {
+    "pr": [
+      "sha",
+      "suteru"
+    ],
+    "j": "捨",
+    "e": [
+      "throw away",
+      "discard"
+    ],
+    "w": 683
+  },
+  {
+    "pr": [
+      "shaku",
+      "seki",
+      "mukashi"
+    ],
+    "j": "昔",
+    "e": [
+      "old",
+      "long ago",
+      "former"
+    ],
+    "w": 684
+  },
+  {
+    "pr": [
+      "jaku",
+      "yowai"
+    ],
+    "j": "弱",
+    "e": [
+      "weak",
+      "weakness"
+    ],
+    "w": 685
+  },
+  {
+    "pr": [
+      "jaku",
+      "wakai"
+    ],
+    "j": "若",
+    "e": [
+      "young"
+    ],
+    "w": 686
+  },
+  {
+    "pr": [
+      "shu",
+      "mamoru",
+      "mori"
+    ],
+    "j": "守",
+    "e": [
+      "protect",
+      "obey",
+      "guard"
+    ],
+    "w": 687
+  },
+  {
+    "pr": [
+      "shu",
+      "toru"
+    ],
+    "j": "取",
+    "e": [
+      "take"
+    ],
+    "w": 688
+  },
+  {
+    "pr": [
+      "shu",
+      "tane"
+    ],
+    "j": "種",
+    "e": [
+      "seed",
+      "variety"
+    ],
+    "w": 689
+  },
+  {
+    "pr": [
+      "shuu",
+      "su"
+    ],
+    "j": "州",
+    "e": [
+      "state"
+    ],
+    "w": 690
+  },
+  {
+    "pr": [
+      "shuu",
+      "juu",
+      "hirou"
+    ],
+    "j": "拾",
+    "e": [
+      "pick up"
+    ],
+    "w": 691
+  },
+  {
+    "pr": [
+      "shuu",
+      "mawari"
+    ],
+    "j": "周",
+    "e": [
+      "around",
+      "surrounding area"
+    ],
+    "w": 692
+  },
+  {
+    "pr": [
+      "shuu",
+      "fune",
+      "funa"
+    ],
+    "j": "船",
+    "e": [
+      "boat",
+      "small boat"
+    ],
+    "w": 693
+  },
+  {
+    "pr": [
+      "juu",
+      "nyuu",
+      "yawarakai"
+    ],
+    "j": "柔",
+    "e": [
+      "soft",
+      "soft (to the touch)"
+    ],
+    "w": 694
+  },
+  {
+    "pr": [
+      "shuku",
+      "yado",
+      "yadoru"
+    ],
+    "j": "宿",
+    "e": [
+      "stay",
+      "lodge",
+      "inn"
+    ],
+    "w": 695
+  },
+  {
+    "pr": [
+      "jutsu",
+      "noberu"
+    ],
+    "j": "述",
+    "e": [
+      "speak",
+      "state"
+    ],
+    "w": 696
+  },
+  {
+    "pr": [
+      "jutsu"
+    ],
+    "j": "術",
+    "e": [
+      "art"
+    ],
+    "w": 697
+  },
+  {
+    "pr": [
+      "jun"
+    ],
+    "j": "順",
+    "e": [
+      "order",
+      "turn",
+      "obey"
+    ],
+    "w": 698
+  },
+  {
+    "pr": [
+      "jun"
+    ],
+    "j": "準",
+    "e": [
+      "standard",
+      "rule",
+      "semi"
+    ],
+    "w": 699
+  },
+  {
+    "pr": [
+      "jun"
+    ],
+    "j": "純",
+    "e": [
+      "pure",
+      "purity"
+    ],
+    "w": 700
+  },
+  {
+    "pr": [
+      "sho",
+      "tokoro"
+    ],
+    "j": "所",
+    "e": [
+      "place",
+      "area"
+    ],
+    "w": 701
+  },
+  {
+    "pr": [
+      "sho"
+    ],
+    "j": "処",
+    "e": [
+      "deal with",
+      "manage"
+    ],
+    "w": 702
+  },
+  {
+    "pr": [
+      "sho"
+    ],
+    "j": "署",
+    "e": [
+      "government office"
+    ],
+    "w": 703
+  },
+  {
+    "pr": [
+      "sho"
+    ],
+    "j": "諸",
+    "e": [
+      "many"
+    ],
+    "w": 704
+  },
+  {
+    "pr": [
+      "jo",
+      "tasukeru",
+      "tasukaru"
+    ],
+    "j": "助",
+    "e": [
+      "help"
+    ],
+    "w": 705
+  },
+  {
+    "pr": [
+      "shou"
+    ],
+    "j": "章",
+    "e": [
+      "chapter"
+    ],
+    "w": 706
+  },
+  {
+    "pr": [
+      "shou",
+      "yaku",
+      "yakeru"
+    ],
+    "j": "焼",
+    "e": [
+      "burn"
+    ],
+    "w": 707
+  },
+  {
+    "pr": [
+      "shou",
+      "zou"
+    ],
+    "j": "象",
+    "e": [
+      "image",
+      "elephant"
+    ],
+    "w": 708
+  },
+  {
+    "pr": [
+      "shou",
+      "teru",
+      "tereru"
+    ],
+    "j": "照",
+    "e": [
+      "illuminate"
+    ],
+    "w": 709
+  },
+  {
+    "pr": [
+      "shou"
+    ],
+    "j": "賞",
+    "e": [
+      "prize",
+      "award"
+    ],
+    "w": 710
+  },
+  {
+    "pr": [
+      "shou",
+      "maneku"
+    ],
+    "j": "招",
+    "e": [
+      "invite"
+    ],
+    "w": 711
+  },
+  {
+    "pr": [
+      "shou",
+      "sei"
+    ],
+    "j": "性",
+    "e": [
+      "nature",
+      "gender"
+    ],
+    "w": 712
+  },
+  {
+    "pr": [
+      "shou"
+    ],
+    "j": "将",
+    "e": [
+      "general officer",
+      "general"
+    ],
+    "w": 713
+  },
+  {
+    "pr": [
+      "shou",
+      "sou",
+      "yosoou"
+    ],
+    "j": "装",
+    "e": [
+      "dress",
+      "decoration",
+      "adorn"
+    ],
+    "w": 714
+  },
+  {
+    "pr": [
+      "shou",
+      "mesu"
+    ],
+    "j": "召",
+    "e": [
+      "summon"
+    ],
+    "w": 715
+  },
+  {
+    "pr": [
+      "shou",
+      "toko",
+      "yuka"
+    ],
+    "j": "床",
+    "e": [
+      "floor"
+    ],
+    "w": 716
+  },
+  {
+    "pr": [
+      "shou",
+      "sei"
+    ],
+    "j": "姓",
+    "e": [
+      "surname",
+      "family name"
+    ],
+    "w": 717
+  },
+  {
+    "pr": [
+      "shou",
+      "noboru"
+    ],
+    "j": "昇",
+    "e": [
+      "ascend",
+      "go up",
+      "rise"
+    ],
+    "w": 718
+  },
+  {
+    "pr": [
+      "shou"
+    ],
+    "j": "紹",
+    "e": [
+      "intoduce"
+    ],
+    "w": 719
+  },
+  {
+    "pr": [
+      "shou",
+      "sei",
+      "hoshi"
+    ],
+    "j": "星",
+    "e": [
+      "star"
+    ],
+    "w": 720
+  },
+  {
+    "pr": [
+      "shou",
+      "sei",
+      "matsurigoto"
+    ],
+    "j": "政",
+    "e": [
+      "politics",
+      "rule"
+    ],
+    "w": 721
+  },
+  {
+    "pr": [
+      "shou",
+      "sei"
+    ],
+    "j": "精",
+    "e": [
+      "refine",
+      "essence"
+    ],
+    "w": 722
+  },
+  {
+    "pr": [
+      "jou",
+      "noru",
+      "noseru"
+    ],
+    "j": "乗",
+    "e": [
+      "ride",
+      "get on"
+    ],
+    "w": 723
+  },
+  {
+    "pr": [
+      "jou"
+    ],
+    "j": "状",
+    "e": [
+      "form",
+      "letter"
+    ],
+    "w": 724
+  },
+  {
+    "pr": [
+      "jou",
+      "tsune",
+      "toko"
+    ],
+    "j": "常",
+    "e": [
+      "normal",
+      "regular"
+    ],
+    "w": 725
+  },
+  {
+    "pr": [
+      "jou",
+      "sei",
+      "nasake"
+    ],
+    "j": "情",
+    "e": [
+      "condition",
+      "emotion"
+    ],
+    "w": 726
+  },
+  {
+    "pr": [
+      "jou",
+      "shiro"
+    ],
+    "j": "城",
+    "e": [
+      "castle"
+    ],
+    "w": 727
+  },
+  {
+    "pr": [
+      "jou",
+      "musu",
+      "mureru"
+    ],
+    "j": "蒸",
+    "e": [
+      "evaporate",
+      "steam"
+    ],
+    "w": 728
+  },
+  {
+    "pr": [
+      "jou",
+      "tatami",
+      "tatamu"
+    ],
+    "j": "畳",
+    "e": [
+      "tatami",
+      "fold up",
+      "fold"
+    ],
+    "w": 729
+  },
+  {
+    "pr": [
+      "jou",
+      "sei",
+      "naru"
+    ],
+    "j": "成",
+    "e": [
+      "become",
+      "form",
+      "achieve"
+    ],
+    "w": 730
+  },
+  {
+    "pr": [
+      "shoku"
+    ],
+    "j": "職",
+    "e": [
+      "employment",
+      "job"
+    ],
+    "w": 731
+  },
+  {
+    "pr": [
+      "shiraberu",
+      "chou",
+      "totonou"
+    ],
+    "j": "調",
+    "e": [
+      "look up",
+      "research",
+      "tone"
+    ],
+    "w": 732
+  },
+  {
+    "pr": [
+      "shirizoku",
+      "tai",
+      "shirizokeru"
+    ],
+    "j": "退",
+    "e": [
+      "retreat"
+    ],
+    "w": 733
+  },
+  {
+    "pr": [
+      "shin",
+      "mori"
+    ],
+    "j": "森",
+    "e": [
+      "forest"
+    ],
+    "w": 734
+  },
+  {
+    "pr": [
+      "shin",
+      "mousu"
+    ],
+    "j": "申",
+    "e": [
+      "report",
+      "call"
+    ],
+    "w": 735
+  },
+  {
+    "pr": [
+      "shin",
+      "mi"
+    ],
+    "j": "身",
+    "e": [
+      "body",
+      "self"
+    ],
+    "w": 736
+  },
+  {
+    "pr": [
+      "shin",
+      "fukai",
+      "fukameru"
+    ],
+    "j": "深",
+    "e": [
+      "deep"
+    ],
+    "w": 737
+  },
+  {
+    "pr": [
+      "shin",
+      "susumu",
+      "susumeru"
+    ],
+    "j": "進",
+    "e": [
+      "advance",
+      "move forward"
+    ],
+    "w": 738
+  },
+  {
+    "pr": [
+      "shin",
+      "jin"
+    ],
+    "j": "臣",
+    "e": [
+      "subject",
+      "retainer"
+    ],
+    "w": 739
+  },
+  {
+    "pr": [
+      "shin"
+    ],
+    "j": "信",
+    "e": [
+      "believe",
+      "message"
+    ],
+    "w": 740
+  },
+  {
+    "pr": [
+      "shin",
+      "hari"
+    ],
+    "j": "針",
+    "e": [
+      "needle"
+    ],
+    "w": 741
+  },
+  {
+    "pr": [
+      "shin",
+      "nobiru",
+      "nobosu"
+    ],
+    "j": "伸",
+    "e": [
+      "stretch"
+    ],
+    "w": 742
+  },
+  {
+    "pr": [
+      "shin",
+      "neru",
+      "nekasu"
+    ],
+    "j": "寝",
+    "e": [
+      "sleep",
+      "go to sleep"
+    ],
+    "w": 743
+  },
+  {
+    "pr": [
+      "shin",
+      "furuu",
+      "furueru"
+    ],
+    "j": "震",
+    "e": [
+      "shake",
+      "quake"
+    ],
+    "w": 744
+  },
+  {
+    "pr": [
+      "sui",
+      "fuku"
+    ],
+    "j": "吹",
+    "e": [
+      "blow"
+    ],
+    "w": 745
+  },
+  {
+    "pr": [
+      "sue",
+      "matsu",
+      "batsu"
+    ],
+    "j": "末",
+    "e": [
+      "last part",
+      "end"
+    ],
+    "w": 746
+  },
+  {
+    "pr": [
+      "sugureru",
+      "you",
+      "yasashii"
+    ],
+    "j": "優",
+    "e": [
+      "gentle",
+      "kind",
+      "nice"
+    ],
+    "w": 747
+  },
+  {
+    "pr": [
+      "suzushii",
+      "ryou",
+      "suzumu"
+    ],
+    "j": "涼",
+    "e": [
+      "cool",
+      "cool (temp)"
+    ],
+    "w": 748
+  },
+  {
+    "pr": [
+      "sumi",
+      "tan"
+    ],
+    "j": "炭",
+    "e": [
+      "coal",
+      "charcoal"
+    ],
+    "w": 749
+  },
+  {
+    "pr": [
+      "sumiyaka",
+      "soku",
+      "hayai"
+    ],
+    "j": "速",
+    "e": [
+      "fast",
+      "quick"
+    ],
+    "w": 750
+  },
+  {
+    "pr": [
+      "se",
+      "hai",
+      "somuku"
+    ],
+    "j": "背",
+    "e": [
+      "back",
+      "back (body part)"
+    ],
+    "w": 751
+  },
+  {
+    "pr": [
+      "sei",
+      "hareru",
+      "harasu"
+    ],
+    "j": "晴",
+    "e": [
+      "fine weather",
+      "sunny"
+    ],
+    "w": 752
+  },
+  {
+    "pr": [
+      "sei"
+    ],
+    "j": "制",
+    "e": [
+      "system",
+      "control"
+    ],
+    "w": 753
+  },
+  {
+    "pr": [
+      "sei"
+    ],
+    "j": "製",
+    "e": [
+      "manufactured",
+      "made in"
+    ],
+    "w": 754
+  },
+  {
+    "pr": [
+      "zei"
+    ],
+    "j": "税",
+    "e": [
+      "tax"
+    ],
+    "w": 755
+  },
+  {
+    "pr": [
+      "zei",
+      "setsu",
+      "toku"
+    ],
+    "j": "説",
+    "e": [
+      "explain"
+    ],
+    "w": 756
+  },
+  {
+    "pr": [
+      "seki"
+    ],
+    "j": "席",
+    "e": [
+      "seat"
+    ],
+    "w": 757
+  },
+  {
+    "pr": [
+      "seki",
+      "tsumu"
+    ],
+    "j": "積",
+    "e": [
+      "accumulate"
+    ],
+    "w": 758
+  },
+  {
+    "pr": [
+      "seki",
+      "semeru"
+    ],
+    "j": "責",
+    "e": [
+      "burden",
+      "blame"
+    ],
+    "w": 759
+  },
+  {
+    "pr": [
+      "seki"
+    ],
+    "j": "績",
+    "e": [
+      "achievements"
+    ],
+    "w": 760
+  },
+  {
+    "pr": [
+      "seki"
+    ],
+    "j": "隻",
+    "e": [
+      "one of a pair",
+      "counter for boats"
+    ],
+    "w": 761
+  },
+  {
+    "pr": [
+      "seki"
+    ],
+    "j": "籍",
+    "e": [
+      "register"
+    ],
+    "w": 762
+  },
+  {
+    "pr": [
+      "setsu",
+      "yuki"
+    ],
+    "j": "雪",
+    "e": [
+      "snow"
+    ],
+    "w": 763
+  },
+  {
+    "pr": [
+      "setsu",
+      "moukeru"
+    ],
+    "j": "設",
+    "e": [
+      "set up"
+    ],
+    "w": 764
+  },
+  {
+    "pr": [
+      "setsu",
+      "tsugu"
+    ],
+    "j": "接",
+    "e": [
+      "contact",
+      "touch"
+    ],
+    "w": 765
+  },
+  {
+    "pr": [
+      "zetsu",
+      "taeru",
+      "tatsu"
+    ],
+    "j": "絶",
+    "e": [
+      "die out",
+      "cut off"
+    ],
+    "w": 766
+  },
+  {
+    "pr": [
+      "sen"
+    ],
+    "j": "線",
+    "e": [
+      "line"
+    ],
+    "w": 767
+  },
+  {
+    "pr": [
+      "sen",
+      "mobbara"
+    ],
+    "j": "専",
+    "e": [
+      "exclusive",
+      "sole"
+    ],
+    "w": 768
+  },
+  {
+    "pr": [
+      "zen",
+      "mattaku"
+    ],
+    "j": "全",
+    "e": [
+      "whole"
+    ],
+    "w": 769
+  },
+  {
+    "pr": [
+      "zen",
+      "nen"
+    ],
+    "j": "然",
+    "e": [
+      "yes",
+      "however",
+      "but"
+    ],
+    "w": 770
+  },
+  {
+    "pr": [
+      "so"
+    ],
+    "j": "祖",
+    "e": [
+      "ancestor"
+    ],
+    "w": 771
+  },
+  {
+    "pr": [
+      "so",
+      "sou"
+    ],
+    "j": "想",
+    "e": [
+      "conceive",
+      "image",
+      "imagination"
+    ],
+    "w": 772
+  },
+  {
+    "pr": [
+      "sou"
+    ],
+    "j": "総",
+    "e": [
+      "total",
+      "general"
+    ],
+    "w": 773
+  },
+  {
+    "pr": [
+      "sou",
+      "mado"
+    ],
+    "j": "窓",
+    "e": [
+      "window"
+    ],
+    "w": 774
+  },
+  {
+    "pr": [
+      "sou"
+    ],
+    "j": "層",
+    "e": [
+      "stratum",
+      "layer"
+    ],
+    "w": 775
+  },
+  {
+    "pr": [
+      "sou",
+      "futa"
+    ],
+    "j": "双",
+    "e": [
+      "set of two",
+      "twin",
+      "double"
+    ],
+    "w": 776
+  },
+  {
+    "pr": [
+      "sou",
+      "haku"
+    ],
+    "j": "掃",
+    "e": [
+      "sweep"
+    ],
+    "w": 777
+  },
+  {
+    "pr": [
+      "sou"
+    ],
+    "j": "燥",
+    "e": [
+      "dry up"
+    ],
+    "w": 778
+  },
+  {
+    "pr": [
+      "zou",
+      "tsukuru"
+    ],
+    "j": "造",
+    "e": [
+      "make",
+      "create"
+    ],
+    "w": 779
+  },
+  {
+    "pr": [
+      "zou",
+      "masu",
+      "fueru"
+    ],
+    "j": "増",
+    "e": [
+      "increase"
+    ],
+    "w": 780
+  },
+  {
+    "pr": [
+      "zou"
+    ],
+    "j": "像",
+    "e": [
+      "image"
+    ],
+    "w": 781
+  },
+  {
+    "pr": [
+      "zou"
+    ],
+    "j": "臓",
+    "e": [
+      "internal organ"
+    ],
+    "w": 782
+  },
+  {
+    "pr": [
+      "zou",
+      "nikui",
+      "nikumu"
+    ],
+    "j": "憎",
+    "e": [
+      "hate",
+      "dislike"
+    ],
+    "w": 783
+  },
+  {
+    "pr": [
+      "soku",
+      "taba"
+    ],
+    "j": "束",
+    "e": [
+      "tie",
+      "bundle"
+    ],
+    "w": 784
+  },
+  {
+    "pr": [
+      "soku"
+    ],
+    "j": "則",
+    "e": [
+      "rule",
+      "law",
+      "act on"
+    ],
+    "w": 785
+  },
+  {
+    "pr": [
+      "soku",
+      "hakaru"
+    ],
+    "j": "測",
+    "e": [
+      "measure"
+    ],
+    "w": 786
+  },
+  {
+    "pr": [
+      "zoku",
+      "tsuzuku",
+      "tsuzukeru"
+    ],
+    "j": "続",
+    "e": [
+      "continue"
+    ],
+    "w": 787
+  },
+  {
+    "pr": [
+      "soko",
+      "tei"
+    ],
+    "j": "底",
+    "e": [
+      "bottom"
+    ],
+    "w": 788
+  },
+  {
+    "pr": [
+      "sokonau",
+      "son",
+      "sokoneru"
+    ],
+    "j": "損",
+    "e": [
+      "loss",
+      "damage"
+    ],
+    "w": 789
+  },
+  {
+    "pr": [
+      "sotsu"
+    ],
+    "j": "卒",
+    "e": [
+      "graduate"
+    ],
+    "w": 790
+  },
+  {
+    "pr": [
+      "sotsu",
+      "ritsu",
+      "hikiiru"
+    ],
+    "j": "率",
+    "e": [
+      "rate",
+      "percentage",
+      "lead"
+    ],
+    "w": 791
+  },
+  {
+    "pr": [
+      "sonaeru",
+      "bi",
+      "sonawaru"
+    ],
+    "j": "備",
+    "e": [
+      "provide"
+    ],
+    "w": 792
+  },
+  {
+    "pr": [
+      "sorasu",
+      "han",
+      "tan"
+    ],
+    "j": "反",
+    "e": [
+      "counter",
+      "against"
+    ],
+    "w": 793
+  },
+  {
+    "pr": [
+      "son",
+      "mura"
+    ],
+    "j": "村",
+    "e": [
+      "village"
+    ],
+    "w": 794
+  },
+  {
+    "pr": [
+      "son",
+      "mago"
+    ],
+    "j": "孫",
+    "e": [
+      "grandchild"
+    ],
+    "w": 795
+  },
+  {
+    "pr": [
+      "son",
+      "zon"
+    ],
+    "j": "存",
+    "e": [
+      "exist"
+    ],
+    "w": 796
+  },
+  {
+    "pr": [
+      "son",
+      "toutobu",
+      "tattobu"
+    ],
+    "j": "尊",
+    "e": [
+      "honor",
+      "respect"
+    ],
+    "w": 797
+  },
+  {
+    "pr": [
+      "ta",
+      "futoi",
+      "tai"
+    ],
+    "j": "太",
+    "e": [
+      "big",
+      "thick",
+      "become fat"
+    ],
+    "w": 798
+  },
+  {
+    "pr": [
+      "tai",
+      "fukuro"
+    ],
+    "j": "袋",
+    "e": [
+      "sack",
+      "bag"
+    ],
+    "w": 799
+  },
+  {
+    "pr": [
+      "dai"
+    ],
+    "j": "第",
+    "e": [
+      "rank",
+      "no. ~"
+    ],
+    "w": 800
+  },
+  {
+    "pr": [
+      "taira",
+      "hei",
+      "byou"
+    ],
+    "j": "平",
+    "e": [
+      "flat",
+      "calm"
+    ],
+    "w": 801
+  },
+  {
+    "pr": [
+      "taosu",
+      "tou"
+    ],
+    "j": "倒",
+    "e": [
+      "topple",
+      "fall over"
+    ],
+    "w": 802
+  },
+  {
+    "pr": [
+      "takara",
+      "hou"
+    ],
+    "j": "宝",
+    "e": [
+      "treasure"
+    ],
+    "w": 803
+  },
+  {
+    "pr": [
+      "taku"
+    ],
+    "j": "宅",
+    "e": [
+      "house",
+      "home"
+    ],
+    "w": 804
+  },
+  {
+    "pr": [
+      "taku"
+    ],
+    "j": "濯",
+    "e": [
+      "rinse"
+    ],
+    "w": 805
+  },
+  {
+    "pr": [
+      "take",
+      "chiku"
+    ],
+    "j": "竹",
+    "e": [
+      "bamboo"
+    ],
+    "w": 806
+  },
+  {
+    "pr": [
+      "tatsu",
+      "tachi"
+    ],
+    "j": "達",
+    "e": [
+      "attain",
+      "arrive",
+      "plural marker"
+    ],
+    "w": 807
+  },
+  {
+    "pr": [
+      "tatoeru",
+      "rei"
+    ],
+    "j": "例",
+    "e": [
+      "example"
+    ],
+    "w": 808
+  },
+  {
+    "pr": [
+      "tanomu",
+      "rai",
+      "tanomoshii"
+    ],
+    "j": "頼",
+    "e": [
+      "rely on",
+      "ask"
+    ],
+    "w": 809
+  },
+  {
+    "pr": [
+      "tamago",
+      "ran"
+    ],
+    "j": "卵",
+    "e": [
+      "egg"
+    ],
+    "w": 810
+  },
+  {
+    "pr": [
+      "tami",
+      "min"
+    ],
+    "j": "民",
+    "e": [
+      "people"
+    ],
+    "w": 811
+  },
+  {
+    "pr": [
+      "tayori",
+      "ben",
+      "bin"
+    ],
+    "j": "便",
+    "e": [
+      "post",
+      "convenient"
+    ],
+    "w": 812
+  },
+  {
+    "pr": [
+      "tan",
+      "mijikai"
+    ],
+    "j": "短",
+    "e": [
+      "short"
+    ],
+    "w": 813
+  },
+  {
+    "pr": [
+      "tan"
+    ],
+    "j": "単",
+    "e": [
+      "single"
+    ],
+    "w": 814
+  },
+  {
+    "pr": [
+      "dan"
+    ],
+    "j": "談",
+    "e": [
+      "talk"
+    ],
+    "w": 815
+  },
+  {
+    "pr": [
+      "dan"
+    ],
+    "j": "段",
+    "e": [
+      "step"
+    ],
+    "w": 816
+  },
+  {
+    "pr": [
+      "chi",
+      "nyuu",
+      "chichi"
+    ],
+    "j": "乳",
+    "e": [
+      "milk"
+    ],
+    "w": 817
+  },
+  {
+    "pr": [
+      "chi",
+      "hajiru",
+      "hazukashii"
+    ],
+    "j": "恥",
+    "e": [
+      "shy",
+      "shame"
+    ],
+    "w": 818
+  },
+  {
+    "pr": [
+      "chiku"
+    ],
+    "j": "畜",
+    "e": [
+      "livestock"
+    ],
+    "w": 819
+  },
+  {
+    "pr": [
+      "chuu",
+      "mushi"
+    ],
+    "j": "虫",
+    "e": [
+      "insect"
+    ],
+    "w": 820
+  },
+  {
+    "pr": [
+      "chuu",
+      "hashira"
+    ],
+    "j": "柱",
+    "e": [
+      "pillar"
+    ],
+    "w": 821
+  },
+  {
+    "pr": [
+      "chuu",
+      "naka"
+    ],
+    "j": "仲",
+    "e": [
+      "intermediary"
+    ],
+    "w": 822
+  },
+  {
+    "pr": [
+      "chuu"
+    ],
+    "j": "宙",
+    "e": [
+      "outer space",
+      "space"
+    ],
+    "w": 823
+  },
+  {
+    "pr": [
+      "chuu"
+    ],
+    "j": "駐",
+    "e": [
+      "stationed"
+    ],
+    "w": 824
+  },
+  {
+    "pr": [
+      "cho"
+    ],
+    "j": "貯",
+    "e": [
+      "lay up",
+      "store"
+    ],
+    "w": 825
+  },
+  {
+    "pr": [
+      "chou"
+    ],
+    "j": "庁",
+    "e": [
+      "government agency"
+    ],
+    "w": 826
+  },
+  {
+    "pr": [
+      "chin",
+      "mezurashii"
+    ],
+    "j": "珍",
+    "e": [
+      "rare"
+    ],
+    "w": 827
+  },
+  {
+    "pr": [
+      "shi",
+      "to",
+      "miyako"
+    ],
+    "j": "都",
+    "e": [
+      "metropolis",
+      "city"
+    ],
+    "w": 828
+  },
+  {
+    "pr": [
+      "tsuieru",
+      "hi",
+      "tsuiyasu"
+    ],
+    "j": "費",
+    "e": [
+      "expense"
+    ],
+    "w": 829
+  },
+  {
+    "pr": [
+      "tsukamaru",
+      "ho",
+      "toru"
+    ],
+    "j": "捕",
+    "e": [
+      "catch",
+      "arrest"
+    ],
+    "w": 830
+  },
+  {
+    "pr": [
+      "tsukareru",
+      "hi"
+    ],
+    "j": "疲",
+    "e": [
+      "tired"
+    ],
+    "w": 831
+  },
+  {
+    "pr": [
+      "tsuku",
+      "fu",
+      "tsukeru"
+    ],
+    "j": "付",
+    "e": [
+      "attach",
+      "add"
+    ],
+    "w": 832
+  },
+  {
+    "pr": [
+      "tsuku",
+      "totsu"
+    ],
+    "j": "突",
+    "e": [
+      "dash",
+      "thrust"
+    ],
+    "w": 833
+  },
+  {
+    "pr": [
+      "tsutsumu",
+      "hou"
+    ],
+    "j": "包",
+    "e": [
+      "envelop",
+      "wrap"
+    ],
+    "w": 834
+  },
+  {
+    "pr": [
+      "tsutomeru",
+      "do"
+    ],
+    "j": "努",
+    "e": [
+      "exert"
+    ],
+    "w": 835
+  },
+  {
+    "pr": [
+      "tsutomeru",
+      "mu"
+    ],
+    "j": "務",
+    "e": [
+      "duty"
+    ],
+    "w": 836
+  },
+  {
+    "pr": [
+      "tsunoru",
+      "bo"
+    ],
+    "j": "募",
+    "e": [
+      "raise"
+    ],
+    "w": 837
+  },
+  {
+    "pr": [
+      "tsubu",
+      "ryuu"
+    ],
+    "j": "粒",
+    "e": [
+      "grain"
+    ],
+    "w": 838
+  },
+  {
+    "pr": [
+      "tsuraneru",
+      "ren",
+      "tsureru"
+    ],
+    "j": "連",
+    "e": [
+      "link",
+      "succession"
+    ],
+    "w": 839
+  },
+  {
+    "pr": [
+      "tei",
+      "niwa"
+    ],
+    "j": "庭",
+    "e": [
+      "court",
+      "garden"
+    ],
+    "w": 840
+  },
+  {
+    "pr": [
+      "tei",
+      "hikui",
+      "hikumeru"
+    ],
+    "j": "低",
+    "e": [
+      "low"
+    ],
+    "w": 841
+  },
+  {
+    "pr": [
+      "tei"
+    ],
+    "j": "停",
+    "e": [
+      "stop",
+      "halt"
+    ],
+    "w": 842
+  },
+  {
+    "pr": [
+      "tei",
+      "hodo"
+    ],
+    "j": "程",
+    "e": [
+      "extent",
+      "span",
+      "degree"
+    ],
+    "w": 843
+  },
+  {
+    "pr": [
+      "tei",
+      "doro"
+    ],
+    "j": "泥",
+    "e": [
+      "mud"
+    ],
+    "w": 844
+  },
+  {
+    "pr": [
+      "teki",
+      "mato"
+    ],
+    "j": "的",
+    "e": [
+      "mark",
+      "target",
+      "suffix for making adj"
+    ],
+    "w": 845
+  },
+  {
+    "pr": [
+      "teki"
+    ],
+    "j": "適",
+    "e": [
+      "suitable"
+    ],
+    "w": 846
+  },
+  {
+    "pr": [
+      "tetsu"
+    ],
+    "j": "鉄",
+    "e": [
+      "iron"
+    ],
+    "w": 847
+  },
+  {
+    "pr": [
+      "ten"
+    ],
+    "j": "点",
+    "e": [
+      "point",
+      "mark",
+      "dot"
+    ],
+    "w": 848
+  },
+  {
+    "pr": [
+      "ten",
+      "den",
+      "dono"
+    ],
+    "j": "殿",
+    "e": [
+      "palace",
+      "lord"
+    ],
+    "w": 849
+  },
+  {
+    "pr": [
+      "to",
+      "tou",
+      "noboru"
+    ],
+    "j": "登",
+    "e": [
+      "climb"
+    ],
+    "w": 850
+  },
+  {
+    "pr": [
+      "to"
+    ],
+    "j": "徒",
+    "e": [
+      "follower"
+    ],
+    "w": 851
+  },
+  {
+    "pr": [
+      "to"
+    ],
+    "j": "途",
+    "e": [
+      "way"
+    ],
+    "w": 852
+  },
+  {
+    "pr": [
+      "to",
+      "wataru",
+      "watasu"
+    ],
+    "j": "渡",
+    "e": [
+      "cross",
+      "go across"
+    ],
+    "w": 853
+  },
+  {
+    "pr": [
+      "to",
+      "nutsu"
+    ],
+    "j": "塗",
+    "e": [
+      "apply on a surface"
+    ],
+    "w": 854
+  },
+  {
+    "pr": [
+      "tou",
+      "nageru"
+    ],
+    "j": "投",
+    "e": [
+      "throw"
+    ],
+    "w": 855
+  },
+  {
+    "pr": [
+      "tou",
+      "hitoshii"
+    ],
+    "j": "等",
+    "e": [
+      "equal",
+      "class"
+    ],
+    "w": 856
+  },
+  {
+    "pr": [
+      "tou",
+      "yu"
+    ],
+    "j": "湯",
+    "e": [
+      "hot water"
+    ],
+    "w": 857
+  },
+  {
+    "pr": [
+      "tou",
+      "hi"
+    ],
+    "j": "灯",
+    "e": [
+      "lamp"
+    ],
+    "w": 858
+  },
+  {
+    "pr": [
+      "tou"
+    ],
+    "j": "党",
+    "e": [
+      "party",
+      "sect",
+      "group"
+    ],
+    "w": 859
+  },
+  {
+    "pr": [
+      "tou"
+    ],
+    "j": "到",
+    "e": [
+      "arrive"
+    ],
+    "w": 860
+  },
+  {
+    "pr": [
+      "tou",
+      "nigeru",
+      "nogasu"
+    ],
+    "j": "逃",
+    "e": [
+      "escape"
+    ],
+    "w": 861
+  },
+  {
+    "pr": [
+      "tou",
+      "nusumu"
+    ],
+    "j": "盗",
+    "e": [
+      "steal"
+    ],
+    "w": 862
+  },
+  {
+    "pr": [
+      "tou",
+      "tsutsu"
+    ],
+    "j": "筒",
+    "e": [
+      "tube"
+    ],
+    "w": 863
+  },
+  {
+    "pr": [
+      "tou"
+    ],
+    "j": "塔",
+    "e": [
+      "tower"
+    ],
+    "w": 864
+  },
+  {
+    "pr": [
+      "dou",
+      "warabe"
+    ],
+    "j": "童",
+    "e": [
+      "child"
+    ],
+    "w": 865
+  },
+  {
+    "pr": [
+      "tou",
+      "hataraku"
+    ],
+    "j": "働",
+    "e": [
+      "work"
+    ],
+    "w": 866
+  },
+  {
+    "pr": [
+      "dou"
+    ],
+    "j": "銅",
+    "e": [
+      "copper",
+      "bronze"
+    ],
+    "w": 867
+  },
+  {
+    "pr": [
+      "tou",
+      "michibiku"
+    ],
+    "j": "導",
+    "e": [
+      "lead",
+      "guide"
+    ],
+    "w": 868
+  },
+  {
+    "pr": [
+      "toku",
+      "you",
+      "tokeru"
+    ],
+    "j": "溶",
+    "e": [
+      "dissolve",
+      "melt"
+    ],
+    "w": 869
+  },
+  {
+    "pr": [
+      "doku"
+    ],
+    "j": "毒",
+    "e": [
+      "poison"
+    ],
+    "w": 870
+  },
+  {
+    "pr": [
+      "doku",
+      "hitori"
+    ],
+    "j": "独",
+    "e": [
+      "alone"
+    ],
+    "w": 871
+  },
+  {
+    "pr": [
+      "todoku",
+      "todokeru"
+    ],
+    "j": "届",
+    "e": [
+      "deliver",
+      "reach"
+    ],
+    "w": 872
+  },
+  {
+    "pr": [
+      "tobasu",
+      "hi",
+      "tobu"
+    ],
+    "j": "飛",
+    "e": [
+      "fly"
+    ],
+    "w": 873
+  },
+  {
+    "pr": [
+      "tomeru",
+      "ryuu",
+      "ru"
+    ],
+    "j": "留",
+    "e": [
+      "stay",
+      "keep"
+    ],
+    "w": 874
+  },
+  {
+    "pr": [
+      "tomaru",
+      "tomeru",
+      "haku"
+    ],
+    "j": "泊",
+    "e": [
+      "stay overnight",
+      "stay"
+    ],
+    "w": 875
+  },
+  {
+    "pr": [
+      "fuu",
+      "fu",
+      "tomu"
+    ],
+    "j": "富",
+    "e": [
+      "rich"
+    ],
+    "w": 876
+  },
+  {
+    "pr": [
+      "don",
+      "nibui",
+      "niburu"
+    ],
+    "j": "鈍",
+    "e": [
+      "dull"
+    ],
+    "w": 877
+  },
+  {
+    "pr": [
+      "nai",
+      "mu",
+      "bu"
+    ],
+    "j": "無",
+    "e": [
+      "without",
+      "nothing"
+    ],
+    "w": 878
+  },
+  {
+    "pr": [
+      "nai",
+      "bou",
+      "mou"
+    ],
+    "j": "亡",
+    "e": [
+      "decease",
+      "dead"
+    ],
+    "w": 879
+  },
+  {
+    "pr": [
+      "nagasu",
+      "ryuu",
+      "nagareru"
+    ],
+    "j": "流",
+    "e": [
+      "flow",
+      "current"
+    ],
+    "w": 880
+  },
+  {
+    "pr": [
+      "naku",
+      "mei",
+      "naru"
+    ],
+    "j": "鳴",
+    "e": [
+      "cry",
+      "sound (from a bird...)"
+    ],
+    "w": 881
+  },
+  {
+    "pr": [
+      "nami",
+      "ha"
+    ],
+    "j": "波",
+    "e": [
+      "wave"
+    ],
+    "w": 882
+  },
+  {
+    "pr": [
+      "nami",
+      "hei",
+      "naraberu"
+    ],
+    "j": "並",
+    "e": [
+      "line up",
+      "line"
+    ],
+    "w": 883
+  },
+  {
+    "pr": [
+      "namida",
+      "rui"
+    ],
+    "j": "涙",
+    "e": [
+      "tear",
+      "teardrop"
+    ],
+    "w": 884
+  },
+  {
+    "pr": [
+      "nayamasu",
+      "nou",
+      "nayamu"
+    ],
+    "j": "悩",
+    "e": [
+      "suffer",
+      "worry"
+    ],
+    "w": 885
+  },
+  {
+    "pr": [
+      "nan",
+      "yawaraka",
+      "yawarakai"
+    ],
+    "j": "軟",
+    "e": [
+      "soft"
+    ],
+    "w": 886
+  },
+  {
+    "pr": [
+      "nin",
+      "makaseru",
+      "makasu"
+    ],
+    "j": "任",
+    "e": [
+      "office",
+      "entrust"
+    ],
+    "w": 887
+  },
+  {
+    "pr": [
+      "nin",
+      "mitomeru"
+    ],
+    "j": "認",
+    "e": [
+      "recognize"
+    ],
+    "w": 888
+  },
+  {
+    "pr": [
+      "nuku",
+      "batsu",
+      "nukeru"
+    ],
+    "j": "抜",
+    "e": [
+      "pullout",
+      "stand out"
+    ],
+    "w": 889
+  },
+  {
+    "pr": [
+      "nuno",
+      "fu"
+    ],
+    "j": "布",
+    "e": [
+      "cloth"
+    ],
+    "w": 890
+  },
+  {
+    "pr": [
+      "neko",
+      "byou"
+    ],
+    "j": "猫",
+    "e": [
+      "cat"
+    ],
+    "w": 891
+  },
+  {
+    "pr": [
+      "nemui",
+      "min",
+      "nemuru"
+    ],
+    "j": "眠",
+    "e": [
+      "sleep"
+    ],
+    "w": 892
+  },
+  {
+    "pr": [
+      "neru",
+      "ren"
+    ],
+    "j": "練",
+    "e": [
+      "to train",
+      "training"
+    ],
+    "w": 893
+  },
+  {
+    "pr": [
+      "nen"
+    ],
+    "j": "念",
+    "e": [
+      "thoughts",
+      "remembering"
+    ],
+    "w": 894
+  },
+  {
+    "pr": [
+      "nen",
+      "moeru",
+      "moyasu"
+    ],
+    "j": "燃",
+    "e": [
+      "burn"
+    ],
+    "w": 895
+  },
+  {
+    "pr": [
+      "nou"
+    ],
+    "j": "農",
+    "e": [
+      "farming",
+      "farm"
+    ],
+    "w": 896
+  },
+  {
+    "pr": [
+      "nou"
+    ],
+    "j": "能",
+    "e": [
+      "ability"
+    ],
+    "w": 897
+  },
+  {
+    "pr": [
+      "nou"
+    ],
+    "j": "脳",
+    "e": [
+      "brain"
+    ],
+    "w": 898
+  },
+  {
+    "pr": [
+      "nozomu",
+      "bou",
+      "mou"
+    ],
+    "j": "望",
+    "e": [
+      "hope",
+      "desire",
+      "expect"
+    ],
+    "w": 899
+  },
+  {
+    "pr": [
+      "ha",
+      "you"
+    ],
+    "j": "葉",
+    "e": [
+      "leaf",
+      "leaves"
+    ],
+    "w": 900
+  },
+  {
+    "pr": [
+      "ha",
+      "yaburu",
+      "yabureru"
+    ],
+    "j": "破",
+    "e": [
+      "tear",
+      "break"
+    ],
+    "w": 901
+  },
+  {
+    "pr": [
+      "hai",
+      "yabureru"
+    ],
+    "j": "敗",
+    "e": [
+      "defeated"
+    ],
+    "w": 902
+  },
+  {
+    "pr": [
+      "bai"
+    ],
+    "j": "倍",
+    "e": [
+      "times X",
+      "double"
+    ],
+    "w": 903
+  },
+  {
+    "pr": [
+      "hakaru",
+      "ryou"
+    ],
+    "j": "量",
+    "e": [
+      "quantity"
+    ],
+    "w": 904
+  },
+  {
+    "pr": [
+      "baku",
+      "mugi"
+    ],
+    "j": "麦",
+    "e": [
+      "wheat"
+    ],
+    "w": 905
+  },
+  {
+    "pr": [
+      "baku"
+    ],
+    "j": "爆",
+    "e": [
+      "explode"
+    ],
+    "w": 906
+  },
+  {
+    "pr": [
+      "hako"
+    ],
+    "j": "箱",
+    "e": [
+      "box"
+    ],
+    "w": 907
+  },
+  {
+    "pr": [
+      "hata",
+      "hatake"
+    ],
+    "j": "畑",
+    "e": [
+      "field"
+    ],
+    "w": 908
+  },
+  {
+    "pr": [
+      "hada"
+    ],
+    "j": "肌",
+    "e": [
+      "skin"
+    ],
+    "w": 909
+  },
+  {
+    "pr": [
+      "hatsu",
+      "hou",
+      "hotsu"
+    ],
+    "j": "法",
+    "e": [
+      "law"
+    ],
+    "w": 910
+  },
+  {
+    "pr": [
+      "hana",
+      "bi"
+    ],
+    "j": "鼻",
+    "e": [
+      "nose"
+    ],
+    "w": 911
+  },
+  {
+    "pr": [
+      "hanasu",
+      "hou",
+      "hanatsu"
+    ],
+    "j": "放",
+    "e": [
+      "let go",
+      "separate"
+    ],
+    "w": 912
+  },
+  {
+    "pr": [
+      "haba",
+      "fuku"
+    ],
+    "j": "幅",
+    "e": [
+      "width"
+    ],
+    "w": 913
+  },
+  {
+    "pr": [
+      "hayashi",
+      "rin"
+    ],
+    "j": "林",
+    "e": [
+      "woods",
+      "forest"
+    ],
+    "w": 914
+  },
+  {
+    "pr": [
+      "hara",
+      "fuku"
+    ],
+    "j": "腹",
+    "e": [
+      "belly",
+      "stomach"
+    ],
+    "w": 915
+  },
+  {
+    "pr": [
+      "harau",
+      "futsu"
+    ],
+    "j": "払",
+    "e": [
+      "pay",
+      "clear away"
+    ],
+    "w": 916
+  },
+  {
+    "pr": [
+      "han",
+      "ban"
+    ],
+    "j": "判",
+    "e": [
+      "judge"
+    ],
+    "w": 917
+  },
+  {
+    "pr": [
+      "han"
+    ],
+    "j": "版",
+    "e": [
+      "print",
+      "publishing"
+    ],
+    "w": 918
+  },
+  {
+    "pr": [
+      "han"
+    ],
+    "j": "般",
+    "e": [
+      "sort",
+      "generally"
+    ],
+    "w": 919
+  },
+  {
+    "pr": [
+      "han"
+    ],
+    "j": "販",
+    "e": [
+      "sell"
+    ],
+    "w": 920
+  },
+  {
+    "pr": [
+      "ban"
+    ],
+    "j": "番",
+    "e": [
+      "order",
+      "turn",
+      "watch"
+    ],
+    "w": 921
+  },
+  {
+    "pr": [
+      "ban"
+    ],
+    "j": "晩",
+    "e": [
+      "evening"
+    ],
+    "w": 922
+  },
+  {
+    "pr": [
+      "hi"
+    ],
+    "j": "非",
+    "e": [
+      "not",
+      "not good"
+    ],
+    "w": 923
+  },
+  {
+    "pr": [
+      "hiki",
+      "hitsu"
+    ],
+    "j": "匹",
+    "e": [
+      "equal",
+      "counter for small animals"
+    ],
+    "w": 924
+  },
+  {
+    "pr": [
+      "hitsu",
+      "fude"
+    ],
+    "j": "筆",
+    "e": [
+      "brush",
+      "writing"
+    ],
+    "w": 925
+  },
+  {
+    "pr": [
+      "hyou",
+      "hei"
+    ],
+    "j": "兵",
+    "e": [
+      "soldier"
+    ],
+    "w": 926
+  },
+  {
+    "pr": [
+      "byou"
+    ],
+    "j": "秒",
+    "e": [
+      "second"
+    ],
+    "w": 927
+  },
+  {
+    "pr": [
+      "hin",
+      "bin",
+      "mazushii"
+    ],
+    "j": "貧",
+    "e": [
+      "poor",
+      "poverty"
+    ],
+    "w": 928
+  },
+  {
+    "pr": [
+      "bin",
+      "kame"
+    ],
+    "j": "瓶",
+    "e": [
+      "bottle",
+      "vase"
+    ],
+    "w": 929
+  },
+  {
+    "pr": [
+      "fu"
+    ],
+    "j": "府",
+    "e": [
+      "prefecture",
+      "agency"
+    ],
+    "w": 930
+  },
+  {
+    "pr": [
+      "fu"
+    ],
+    "j": "婦",
+    "e": [
+      "woman"
+    ],
+    "w": 931
+  },
+  {
+    "pr": [
+      "fu"
+    ],
+    "j": "符",
+    "e": [
+      "symbol"
+    ],
+    "w": 932
+  },
+  {
+    "pr": [
+      "fu"
+    ],
+    "j": "普",
+    "e": [
+      "wide",
+      "universal",
+      "general"
+    ],
+    "w": 933
+  },
+  {
+    "pr": [
+      "fu"
+    ],
+    "j": "膚",
+    "e": [
+      "skin"
+    ],
+    "w": 934
+  },
+  {
+    "pr": [
+      "bu"
+    ],
+    "j": "部",
+    "e": [
+      "department",
+      "section"
+    ],
+    "w": 935
+  },
+  {
+    "pr": [
+      "bu",
+      "mu"
+    ],
+    "j": "武",
+    "e": [
+      "military"
+    ],
+    "w": 936
+  },
+  {
+    "pr": [
+      "bu",
+      "mau",
+      "mai"
+    ],
+    "j": "舞",
+    "e": [
+      "dance"
+    ],
+    "w": 937
+  },
+  {
+    "pr": [
+      "fuu",
+      "hou"
+    ],
+    "j": "封",
+    "e": [
+      "seal"
+    ],
+    "w": 938
+  },
+  {
+    "pr": [
+      "fuku"
+    ],
+    "j": "福",
+    "e": [
+      "fortune"
+    ],
+    "w": 939
+  },
+  {
+    "pr": [
+      "fuku"
+    ],
+    "j": "副",
+    "e": [
+      "secondary"
+    ],
+    "w": 940
+  },
+  {
+    "pr": [
+      "fuku"
+    ],
+    "j": "復",
+    "e": [
+      "return",
+      "again",
+      "return to"
+    ],
+    "w": 941
+  },
+  {
+    "pr": [
+      "fuku"
+    ],
+    "j": "複",
+    "e": [
+      "compound",
+      "complex"
+    ],
+    "w": 942
+  },
+  {
+    "pr": [
+      "fusegu",
+      "bou"
+    ],
+    "j": "防",
+    "e": [
+      "prevent"
+    ],
+    "w": 943
+  },
+  {
+    "pr": [
+      "futsu",
+      "waku",
+      "wakasu"
+    ],
+    "j": "沸",
+    "e": [
+      "boil"
+    ],
+    "w": 944
+  },
+  {
+    "pr": [
+      "butsu",
+      "hotoke"
+    ],
+    "j": "仏",
+    "e": [
+      "buddha",
+      "france"
+    ],
+    "w": 945
+  },
+  {
+    "pr": [
+      "hou",
+      "mukuiru"
+    ],
+    "j": "報",
+    "e": [
+      "inform",
+      "information"
+    ],
+    "w": 946
+  },
+  {
+    "pr": [
+      "hou",
+      "yutaka"
+    ],
+    "j": "豊",
+    "e": [
+      "plentiful",
+      "abundance"
+    ],
+    "w": 947
+  },
+  {
+    "pr": [
+      "bou"
+    ],
+    "j": "貿",
+    "e": [
+      "trade"
+    ],
+    "w": 948
+  },
+  {
+    "pr": [
+      "bou",
+      "wasureru"
+    ],
+    "j": "忘",
+    "e": [
+      "forget"
+    ],
+    "w": 949
+  },
+  {
+    "pr": [
+      "bou"
+    ],
+    "j": "棒",
+    "e": [
+      "stick",
+      "rod"
+    ],
+    "w": 950
+  },
+  {
+    "pr": [
+      "bou",
+      "botsu"
+    ],
+    "j": "坊",
+    "e": [
+      "boy",
+      "priest"
+    ],
+    "w": 951
+  },
+  {
+    "pr": [
+      "bou"
+    ],
+    "j": "帽",
+    "e": [
+      "headgear",
+      "headwear"
+    ],
+    "w": 952
+  },
+  {
+    "pr": [
+      "hoshii",
+      "yoku",
+      "hossuru"
+    ],
+    "j": "欲",
+    "e": [
+      "desire",
+      "want"
+    ],
+    "w": 953
+  },
+  {
+    "pr": [
+      "ma",
+      "magaku"
+    ],
+    "j": "磨",
+    "e": [
+      "polish",
+      "brush (teeth)"
+    ],
+    "w": 954
+  },
+  {
+    "pr": [
+      "mai"
+    ],
+    "j": "枚",
+    "e": [
+      "counter for sheets (paper)"
+    ],
+    "w": 955
+  },
+  {
+    "pr": [
+      "mayou",
+      "mei"
+    ],
+    "j": "迷",
+    "e": [
+      "perplexed",
+      "lost"
+    ],
+    "w": 956
+  },
+  {
+    "pr": [
+      "man",
+      "michiru",
+      "mitasu"
+    ],
+    "j": "満",
+    "e": [
+      "full"
+    ],
+    "w": 957
+  },
+  {
+    "pr": [
+      "mi"
+    ],
+    "j": "未",
+    "e": [
+      "not yet",
+      "still to come"
+    ],
+    "w": 958
+  },
+  {
+    "pr": [
+      "midasu",
+      "ran",
+      "midareru"
+    ],
+    "j": "乱",
+    "e": [
+      "disordered"
+    ],
+    "w": 959
+  },
+  {
+    "pr": [
+      "midori",
+      "ryoku"
+    ],
+    "j": "緑",
+    "e": [
+      "green"
+    ],
+    "w": 960
+  },
+  {
+    "pr": [
+      "mu",
+      "yume"
+    ],
+    "j": "夢",
+    "e": [
+      "dream"
+    ],
+    "w": 961
+  },
+  {
+    "pr": [
+      "musume"
+    ],
+    "j": "娘",
+    "e": [
+      "daughter",
+      "girl"
+    ],
+    "w": 962
+  },
+  {
+    "pr": [
+      "men",
+      "wata"
+    ],
+    "j": "綿",
+    "e": [
+      "cotton"
+    ],
+    "w": 963
+  },
+  {
+    "pr": [
+      "modosu",
+      "rei",
+      "modoru"
+    ],
+    "j": "戻",
+    "e": [
+      "return"
+    ],
+    "w": 964
+  },
+  {
+    "pr": [
+      "yaku"
+    ],
+    "j": "約",
+    "e": [
+      "promise",
+      "contract"
+    ],
+    "w": 965
+  },
+  {
+    "pr": [
+      "yu",
+      "yuu",
+      "yoshi"
+    ],
+    "j": "由",
+    "e": [
+      "reason"
+    ],
+    "w": 966
+  },
+  {
+    "pr": [
+      "yu"
+    ],
+    "j": "輸",
+    "e": [
+      "transport"
+    ],
+    "w": 967
+  },
+  {
+    "pr": [
+      "yuu"
+    ],
+    "j": "郵",
+    "e": [
+      "mail"
+    ],
+    "w": 968
+  },
+  {
+    "pr": [
+      "yo"
+    ],
+    "j": "予",
+    "e": [
+      "advance"
+    ],
+    "w": 969
+  },
+  {
+    "pr": [
+      "yoi",
+      "ryou"
+    ],
+    "j": "良",
+    "e": [
+      "good"
+    ],
+    "w": 970
+  },
+  {
+    "pr": [
+      "you"
+    ],
+    "j": "陽",
+    "e": [
+      "sun",
+      "positive"
+    ],
+    "w": 971
+  },
+  {
+    "pr": [
+      "you"
+    ],
+    "j": "容",
+    "e": [
+      "appearance",
+      "container",
+      "contain"
+    ],
+    "w": 972
+  },
+  {
+    "pr": [
+      "yoku"
+    ],
+    "j": "翌",
+    "e": [
+      "following",
+      "the next"
+    ],
+    "w": 973
+  },
+  {
+    "pr": [
+      "rai",
+      "rei"
+    ],
+    "j": "礼",
+    "e": [
+      "etiquette",
+      "bow",
+      "rite"
+    ],
+    "w": 974
+  },
+  {
+    "pr": [
+      "riku"
+    ],
+    "j": "陸",
+    "e": [
+      "land"
+    ],
+    "w": 975
+  },
+  {
+    "pr": [
+      "richi",
+      "ritsu"
+    ],
+    "j": "律",
+    "e": [
+      "law",
+      "rhythm"
+    ],
+    "w": 976
+  },
+  {
+    "pr": [
+      "ryaku"
+    ],
+    "j": "略",
+    "e": [
+      "abridged",
+      "strategy"
+    ],
+    "w": 977
+  },
+  {
+    "pr": [
+      "ryou"
+    ],
+    "j": "両",
+    "e": [
+      "both"
+    ],
+    "w": 978
+  },
+  {
+    "pr": [
+      "ryou"
+    ],
+    "j": "領",
+    "e": [
+      "territory"
+    ],
+    "w": 979
+  },
+  {
+    "pr": [
+      "ryou"
+    ],
+    "j": "了",
+    "e": [
+      "finish",
+      "comprehend"
+    ],
+    "w": 980
+  },
+  {
+    "pr": [
+      "ryou"
+    ],
+    "j": "療",
+    "e": [
+      "treat",
+      "treatment"
+    ],
+    "w": 981
+  },
+  {
+    "pr": [
+      "rin",
+      "wa"
+    ],
+    "j": "輪",
+    "e": [
+      "wheel",
+      "ring"
+    ],
+    "w": 982
+  },
+  {
+    "pr": [
+      "rui"
+    ],
+    "j": "類",
+    "e": [
+      "kind",
+      "type"
+    ],
+    "w": 983
+  },
+  {
+    "pr": [
+      "rei"
+    ],
+    "j": "令",
+    "e": [
+      "command"
+    ],
+    "w": 984
+  },
+  {
+    "pr": [
+      "rei"
+    ],
+    "j": "零",
+    "e": [
+      "zero"
+    ],
+    "w": 985
+  },
+  {
+    "pr": [
+      "rei"
+    ],
+    "j": "齢",
+    "e": [
+      "age"
+    ],
+    "w": 986
+  },
+  {
+    "pr": [
+      "reki"
+    ],
+    "j": "歴",
+    "e": [
+      "personal history",
+      "history"
+    ],
+    "w": 987
+  },
+  {
+    "pr": [
+      "retsu"
+    ],
+    "j": "列",
+    "e": [
+      "row",
+      "line"
+    ],
+    "w": 988
+  },
+  {
+    "pr": [
+      "rou"
+    ],
+    "j": "労",
+    "e": [
+      "labor",
+      "effort"
+    ],
+    "w": 989
+  },
+  {
+    "pr": [
+      "roku"
+    ],
+    "j": "録",
+    "e": [
+      "record"
+    ],
+    "w": 990
+  },
+  {
+    "pr": [
+      "ron"
+    ],
+    "j": "論",
+    "e": [
+      "argue",
+      "theory"
+    ],
+    "w": 991
+  },
+  {
+    "pr": [
+      "wan"
+    ],
+    "j": "湾",
+    "e": [
+      "bay"
+    ],
+    "w": 992
+  },
+  {
+    "pr": [
+      "ta",
+      "hoka"
+    ],
+    "j": "他",
+    "e": [
+      "other",
+      "another"
+    ],
+    "w": 993
+  },
+  {
+    "pr": [
+      "den",
+      "tsutau",
+      "tsutaeru"
+    ],
+    "j": "伝",
+    "e": [
+      "transmit",
+      "report",
+      "tradition"
+    ],
+    "w": 994
+  },
+  {
+    "pr": [
+      "gan",
+      "kao"
+    ],
+    "j": "顔",
+    "e": [
+      "face"
+    ],
+    "w": 995
+  },
+  {
+    "pr": [
+      "dan",
+      "ton"
+    ],
+    "j": "団",
+    "e": [
+      "group",
+      "association"
+    ],
+    "w": 996
+  },
+  {
+    "pr": [
+      "tai",
+      "tsui"
+    ],
+    "j": "対",
+    "e": [
+      "opposite",
+      "versus",
+      "compare"
+    ],
+    "w": 997
+  },
+  {
+    "pr": [
+      "shuu",
+      "fune",
+      "funa"
+    ],
+    "j": "舟",
+    "e": [
+      "boat",
+      "ship"
+    ],
+    "w": 998
+  },
+  {
+    "pr": [
+      "wan",
+      "kumo"
+    ],
+    "j": "雲",
+    "e": [
+      "cloud"
+    ],
+    "w": 999
+  },
+  {
+    "pr": [
+      false
+    ],
+    "j": "巨",
+    "e": [
+      "big",
+      "giant"
+    ],
+    "w": 1000
+  }
+]
