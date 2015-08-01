@@ -7,9 +7,6 @@ var languages = [{ key: 'tc', name: 'Chinese (T)' },
     { key: 'e', name: 'English' }];
 
 
-Template.glyphsrows.rendered = function() {
-  window.setTimeout(nudgeColumns, 20);//bodgety bodge (shouldn't 'strictly' be necessary)
-}
 Template.glyphsrows.helpers({
   glyphs: function(e, t) {
     return glyphs.find();
@@ -19,7 +16,7 @@ Template.glyphsrows.helpers({
   }
 });
 
-function nudgeColumn(ind, nudges) {
+nudgeColumn = function(ind, nudges) {
   nudges = nudges || 1;
   for(nudged = 0; nudged < nudges; nudged++)
   {
@@ -35,8 +32,9 @@ function nudgeColumn(ind, nudges) {
       moveToCell.prepend(detached);
     });
   }
-}
-function nudgeColumns() {
+};
+
+nudgeColumns = function() {
   //glyphSet ready, randomise
   var columns = $('#glyphstable').find('tbody tr:first td');
   columns.each(function(pos, el) {
@@ -45,24 +43,29 @@ function nudgeColumns() {
 
     nudgeColumn(el.index(), nudges);
   });
-}
+};
 
-function celebrateWin(cb) {
+celebrateWin = function(cb) {
   $('.fixed-message').addClass('show');
   if(cb) {
     window.setTimeout(cb, 1000);
+  } else {
+    window.setTimeout(function() {
+      $('.fixed-message').removeClass('show');
+    }, 1000);
   }
-}
-function getNewGlyphs() {
+};
+
+getNewGlyphs = function() {
   $('#glyphstable td.incorrect').removeClass('incorrect');
   $('#glyphstable td.correct').removeClass('correct');
 
-  Session.set('loadingNewGlyphs', true);
+  //Session.set('loadingNewGlyphs', true);
   window.setTimeout(function() {
     $('.fixed-message').removeClass('show');
     Session.set("atGlyphSet", !Session.get("atGlyphSet"));
   }, 1000);
-}
+};
 
 changePlayerScore = function(by) {
   var userId = Meteor.userId();
@@ -109,7 +112,6 @@ Template.glyphstable.helpers({
     return languages
   },
   loaded: function(e, t) {
-    //This is a bit bodgy, probably want to replace by using iron:router loading template
     return !Session.get('loadingNewGlyphs');
   }
 });
@@ -156,7 +158,7 @@ Template.glyphstable.events({
     }
 
     if(pass) {
-      celebrateWin(getNewGlyphs);
+      celebrateWin(/*getNewGlyphs*/);
       changePlayerScore(1);
     }
 
@@ -186,3 +188,7 @@ Template.glyphsrows.events({
     el.parents('table').find('tbody td:nth-child(' + (ind + 1) + ')').css('background-color', '');
   },
 });
+
+Template.notFound.rendered = function() {
+  Router.go('/');
+};

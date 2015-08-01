@@ -3,6 +3,8 @@ span[lang="e"] {
 	line-height: 5em;
 	padding: 0;
 	vertical-align: middle;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 span[lang="tc"],

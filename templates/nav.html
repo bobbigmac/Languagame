@@ -16,11 +16,12 @@
 
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            {{#if isInRole 'client'}}
+            <!-- {{#if isInRole 'client'}}
               <li><a href="/upload">Upload</a></li>
-            {{/if}}
+            {{/if}} -->
+            <li><a class="btn pull-right" href="https://github.com/bobbigmac/Languagame">Github</a></li>
             {{#if isInRole 'admin'}}
-              <li><a href="/tasks">Glyphs</a></li>
+              <li><a href="/glyphs">Glyphs</a></li>
             {{/if}}
             <!-- 
             <li><a href="#about">About</a></li>

@@ -21,20 +21,18 @@ Router.route('/', {
 	data: function() {
 		
 		changePlayerScore(0);
-		Session.set('loadingNewGlyphs', true);
 
 		Tracker.autorun(function() {
+			Session.set('loadingNewGlyphs', true);
+
 		  Meteor.subscribe('glyphSet',
 		    Session.get('atGlyphSet'),
 		    Session.get('startNum'),
 		    Session.get('endNum'),
 		    function(inArg) {
 		      Session.set('loadingNewGlyphs', false);
+		      window.setTimeout(nudgeColumns, 20);
 		    });
 		});
-
-		// Meteor.startup(function() {
-		//   changePlayerScore(0);
-		// });
 	}
 });
