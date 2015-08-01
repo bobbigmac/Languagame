@@ -23,6 +23,7 @@ Router.route('/', {
 		changePlayerScore(0);
 
 		Tracker.autorun(function() {
+			$('.correct,.incorrect').removeClass('correct').removeClass('incorrect');
 			Session.set('loadingNewGlyphs', true);
 
 		  Meteor.subscribe('glyphSet',
