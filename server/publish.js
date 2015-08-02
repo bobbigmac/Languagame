@@ -1,4 +1,12 @@
 
+Meteor.publish('user-scores', function(atGlyphSet, startNum, endNum) {
+  if(Roles.userIsInRole(this.userId, ['admin'])) {
+    var users = Meteor.users.find({}, { fields: { 'emails.address': 1, 'profile.score': 1, 'profile.name': 1 }});
+    return users;
+  }
+  return this.ready();
+});
+
 Meteor.publish('glyphSet', function(atGlyphSet, startNum, endNum) {
   var minResults = 3;
 
@@ -25,6 +33,6 @@ Meteor.publish('glyphSet', function(atGlyphSet, startNum, endNum) {
     keyIds.push({ _id: 'g'+key });
   }
 
-  var matchingGlyphs = glyphs.find({ $or: keyIds });
+  var matchingGlyphs = Glyphs.find({ $or: keyIds });
   return matchingGlyphs;
 });

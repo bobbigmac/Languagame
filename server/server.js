@@ -3,7 +3,20 @@ numberOfGlyphs = 0;
 
 Meteor.startup(function () {
 
-  if(!glyphs.findOne({})) {
+  var defaultAdmins = ['admin@bobbigmac.com'];
+  defaultAdmins.forEach(function(defaultAdmin) {
+    var user = Meteor.users.findOne({
+      'emails.address': defaultAdmin
+    });
+    if(user && user._id) {
+      if(!Roles.userIsInRole(user, 'admin')) {
+        console.log('Assigning', defaultAdmin, 'to admin role');
+        Roles.addUsersToRoles(user._id, 'admin');
+      }
+    }
+  });
+
+  if(!Glyphs.findOne({})) {
     var testChars = [
       { tc: '電', sc: '电', j: '電', e: 'electricity' },
       { tc: '買', sc: '买', j: '買', e: 'buy' },
@@ -73,10 +86,10 @@ Meteor.startup(function () {
     for(var i=0; i<testChars.length; i++)
     {
       testChars[i]._id = 'g'+i;
-      glyphs.insert(testChars[i]);
+      Glyphs.insert(testChars[i]);
     }
   }
 
-  numberOfGlyphs = glyphs.find({}).count();
+  numberOfGlyphs = Glyphs.find({}).count();
   console.log('Have %d glyphs', numberOfGlyphs);
 });

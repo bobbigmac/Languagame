@@ -9,7 +9,7 @@ var languages = [{ key: 'tc', name: 'Chinese (T)' },
 
 Template.glyphsrows.helpers({
   glyphs: function(e, t) {
-    return glyphs.find();
+    return Glyphs.find();
   },
   langs: function(e, t) {
     return languages

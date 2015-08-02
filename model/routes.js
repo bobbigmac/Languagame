@@ -11,6 +11,18 @@ var currentUser = {
   }
 };
 
+if(Meteor.isClient) {
+	Router.route('/admin', {
+		template: 'admin',
+		waitOn: function() {
+			return [
+				currentUser,
+				Meteor.subscribe('user-scores')
+			];
+		}
+	});
+}
+
 Router.route('/', {
 	template: 'glyphstable',
 	waitOn: function() {
