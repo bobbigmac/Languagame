@@ -1,5 +1,4 @@
 
-
 //TODO: Move to a collection (and make it cleverer)
 var languages = [{ key: 'tc', name: 'Chinese (T)' }, 
     { key: 'sc', name: 'Chinese (S)' }, 

@@ -9,6 +9,10 @@ UI.registerHelper('not', function (val) {
 UI.registerHelper('equals', function (a, b) {
   return a == b;
 });
+UI.registerHelper('parseNumber', function (str) {
+	str = (str+'').replace(/^[^\d]*(\d+)/igm, '$1');
+	return parseInt('0'+str);
+});
 UI.registerHelper('propOfObj', function (key, obj) {
   return obj[key];
 });
@@ -22,9 +26,21 @@ var googleLangs = {
   sc: 'zh-CN',
   j: 'ja',
 };
+var languageNames = {
+	e: { name: 'English', short: 'English' },
+	tc: { name: 'Chinese: Traditional', short: 'Chinese Trad.' },
+	sc: { name: 'Chinese: Simplified', short: 'Chinese Simpl.' },
+	j: { name: 'Japanese', short: 'Japanese' },
+};
 UI.registerHelper('googleLangs', function () {
 	return googleLangs;
 });
 UI.registerHelper('googleLangOf', function (lang) {
   return googleLangs[lang];
+});
+UI.registerHelper('languageName', function (lang) {
+  return (languageNames[lang] && languageNames[lang].name);
+});
+UI.registerHelper('shortLanguageName', function (lang) {
+  return (languageNames[lang] && languageNames[lang].short);
 });

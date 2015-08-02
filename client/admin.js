@@ -24,3 +24,20 @@ Template.availableGlyphs.helpers({
 		return Glyphs.find().count();
 	}
 });
+
+Template.possibleGlyphs.events({
+	'click .save-possible-glyph': function(event, template) {
+		//TODO: Implement
+		console.log('clicked', this);
+	}
+});
+
+Template.possibleGlyphs.helpers({
+	glyphs: function() {
+		return [{e: 'test', j: 'testj', sc: 'testsc', tc: 'testtc', pos: '##'}]
+		return PossibleGlyphs.find({}/*, { sort: { _id: -1 }}*/);
+	},
+	glyphCount: function() {
+		return PossibleGlyphs.find().count();
+	}
+});

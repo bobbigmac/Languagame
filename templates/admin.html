@@ -1,7 +1,47 @@
 <template name="admin">
-	<div class="masonry-wall masonry-cap-2">
-		{{> registeredUsers}}
-		{{> availableGlyphs}}
+	{{> registeredUsers}}
+	<div class="row">
+		<div class="masonry-wall masonry-cap-2">
+			{{> availableGlyphs}}
+			{{> possibleGlyphs}}
+		</div>
+	</div>
+</template>
+
+<template name="possibleGlyphs">
+	<div class="masonry-brick">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h5 class="panel-title">Possible Glyphs: {{glyphCount}}</h5>
+			</div>
+			<table class="table table-default">
+				<thead>
+					<tr>
+						<th></th>
+						{{#each keysOf googleLangs}}
+							<th>
+								<span class="visible-sm visible-xs">{{shortLanguageName this}}</span>
+								<span class="hidden-sm hidden-xs">{{languageName this}}</span>
+							</th>
+						{{/each}}
+					</tr>
+				</thead>
+				<tbody>
+					{{#each glyphs}}
+						<tr>
+							<td>
+								<button class="btn btn-default btn-sm save-possible-glyph">
+									<i class="glyphicon glyphicon-chevron-left"></i>
+								</button>
+							</td>
+							{{#each keysOf googleLangs}}
+								<td>{{propOfObj this ..}}</td>
+							{{/each}}
+						</tr>
+					{{/each}}
+				</tbody>
+			</table>
+		</div>
 	</div>
 </template>
 
@@ -14,15 +54,19 @@
 			<table class="table table-default">
 				<thead>
 					<tr>
+						<th></th>
 						{{#each keysOf googleLangs}}
-							<th>{{this}}</th>
+							<th>
+								<span class="visible-sm visible-xs">{{shortLanguageName this}}</span>
+								<span class="hidden-sm hidden-xs">{{languageName this}}</span>
+							</th>
 						{{/each}}
 					</tr>
 				</thead>
 				<tbody>
 					{{#each glyphs}}
 						<tr>
-							{{log this}}
+							<td>{{this.pop}}</td>
 							{{#each keysOf googleLangs}}
 								<td>{{propOfObj this ..}}</td>
 							{{/each}}
@@ -35,7 +79,7 @@
 </template>
 
 <template name="registeredUsers">
-	<div class="masonry-brick">
+	<div class="row">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h5 class="panel-title">Registered users: {{userNumber}}</h5>
