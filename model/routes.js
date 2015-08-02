@@ -17,7 +17,8 @@ if(Meteor.isClient) {
 		waitOn: function() {
 			return [
 				currentUser,
-				Meteor.subscribe('user-scores')
+				Meteor.subscribe('user-scores'),
+				Meteor.subscribe('all-glyphs')
 			];
 		}
 	});

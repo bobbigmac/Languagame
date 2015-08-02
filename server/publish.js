@@ -7,6 +7,14 @@ Meteor.publish('user-scores', function(atGlyphSet, startNum, endNum) {
   return this.ready();
 });
 
+Meteor.publish('all-glyphs', function(atGlyphSet, startNum, endNum) {
+  if(Roles.userIsInRole(this.userId, ['admin'])) {
+    var glyphs = Glyphs.find({}, {});
+    return glyphs;
+  }
+  return this.ready();
+});
+
 Meteor.publish('glyphSet', function(atGlyphSet, startNum, endNum) {
   var minResults = 3;
 

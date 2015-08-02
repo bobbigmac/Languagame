@@ -1,47 +1,61 @@
 <template name="admin">
-	{{> availableGlyphs}}
-	{{> registeredUsers}}
+	<div class="masonry-wall masonry-cap-2">
+		{{> registeredUsers}}
+		{{> availableGlyphs}}
+	</div>
 </template>
 
 <template name="availableGlyphs">
-	<div class="masonry-wall">
-		<div class="masonry-brick">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h5 class="panel-title">Available Glyphs: {{glyphCount}}</h5>
-				</div>
-				<div class="panel-body">
-					Some glyphs (not built yet)
-				</div>
+	<div class="masonry-brick">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h5 class="panel-title">Available Glyphs: {{glyphCount}}</h5>
 			</div>
+			<table class="table table-default">
+				<thead>
+					<tr>
+						{{#each keysOf googleLangs}}
+							<th>{{this}}</th>
+						{{/each}}
+					</tr>
+				</thead>
+				<tbody>
+					{{#each glyphs}}
+						<tr>
+							{{log this}}
+							{{#each keysOf googleLangs}}
+								<td>{{propOfObj this ..}}</td>
+							{{/each}}
+						</tr>
+					{{/each}}
+				</tbody>
+			</table>
 		</div>
 	</div>
 </template>
 
 <template name="registeredUsers">
-	<div class="masonry-wall">
-		<div class="masonry-brick">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h5 class="panel-title">Registered users: {{userNumber}}</h5>
-				</div>
-				<table class="table table-default">
-					<thead>
-						<tr>
-							<th>Email</th>
-							<th>Score</th>
-						</tr>
-					</thead>
-					<tbody>
-						{{#each userScores}}
-							<tr>
-								<td>{{#if profile.name}}{{profile.name}}{{else}}{{#each emails}}{{address}}{{/each}}{{/if}}</td>
-								<td>{{profile.score}}</td>
-							</tr>
-						{{/each}}
-					</tbody>
-				</table>
+	<div class="masonry-brick">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h5 class="panel-title">Registered users: {{userNumber}}</h5>
 			</div>
+			<table class="table table-default">
+				<thead>
+					<tr>
+						<th>Email</th>
+						<th>Score</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each userScores}}
+						<tr>
+							<td>{{#if profile.name}}{{profile.name}}{{else}}{{#each emails}}{{address}}{{/each}}{{/if}}</td>
+							<td>{{profile.score}}</td>
+						</tr>
+					{{/each}}
+				</tbody>
+			</table>
 		</div>
 	</div>
 </template>
