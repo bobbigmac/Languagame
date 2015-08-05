@@ -18,6 +18,7 @@
 				<thead>
 					<tr>
 						<th></th>
+						<th>Pop.</th>
 						{{#each keysOf googleLangs}}
 							<th>
 								<span class="visible-sm visible-xs">{{shortLanguageName this}}</span>
@@ -34,8 +35,19 @@
 									<i class="glyphicon glyphicon-chevron-left"></i>
 								</button>
 							</td>
+							<td>
+								{{this.pop}}
+							</td>
 							{{#each keysOf googleLangs}}
-								<td>{{propOfObj this ..}}</td>
+								{{#if equals this 'e'}}
+									<td>
+										{{#with propOfObj this ..}}
+											{{englishOf this}}
+										{{/with}}
+									</td>
+								{{else}}
+									<td>{{propOfObj this ..}}</td>
+								{{/if}}
 							{{/each}}
 						</tr>
 					{{/each}}

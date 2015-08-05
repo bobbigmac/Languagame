@@ -18,7 +18,8 @@ if(Meteor.isClient) {
 			return [
 				currentUser,
 				Meteor.subscribe('user-scores'),
-				Meteor.subscribe('all-glyphs')
+				Meteor.subscribe('all-glyphs'),
+				Meteor.subscribe('possible-glyphs')
 			];
 		}
 	});

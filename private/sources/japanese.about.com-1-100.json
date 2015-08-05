@@ -2,501 +2,501 @@
   {
     "j": "日",
     "e": "sun",
-    "w": 1
+    "jpop": 1
   },
   {
     "j": "一",
     "e": "one",
-    "w": 2
+    "jpop": 2
   },
   {
     "j": "大",
     "e": "big",
-    "w": 3
+    "jpop": 3
   },
   {
     "j": "年",
     "e": "year",
-    "w": 4
+    "jpop": 4
   },
   {
     "j": "中",
     "e": "middle",
-    "w": 5
+    "jpop": 5
   },
   {
     "j": "会",
     "e": "to meet",
-    "w": 6
+    "jpop": 6
   },
   {
     "j": "人",
     "e": "human being, people",
-    "w": 7
+    "jpop": 7
   },
   {
     "j": "本",
     "e": "book",
-    "w": 8
+    "jpop": 8
   },
   {
     "j": "月",
     "e": "moon, month",
-    "w": 9
+    "jpop": 9
   },
   {
     "j": "長",
     "e": "long",
-    "w": 10
+    "jpop": 10
   },
   {
     "j": "国",
     "e": "country",
-    "w": 11
+    "jpop": 11
   },
   {
     "j": "出",
     "e": "to go out",
-    "w": 12
+    "jpop": 12
   },
   {
     "j": "上",
     "e": "up, top",
-    "w": 13
+    "jpop": 13
   },
   {
     "j": "十",
     "e": "ten",
-    "w": 14
+    "jpop": 14
   },
   {
     "j": "生",
     "e": "life",
-    "w": 15
+    "jpop": 15
   },
   {
     "j": "子",
     "e": "child",
-    "w": 16
+    "jpop": 16
   },
   {
     "j": "分",
     "e": "minute",
-    "w": 17
+    "jpop": 17
   },
   {
     "j": "東",
     "e": "east",
-    "w": 18
+    "jpop": 18
   },
   {
     "j": "三",
     "e": "three",
-    "w": 19
+    "jpop": 19
   },
   {
     "j": "行",
     "e": "to go",
-    "w": 20
+    "jpop": 20
   },
   {
     "j": "同",
     "e": "same",
-    "w": 21
+    "jpop": 21
   },
   {
     "j": "今",
     "e": "now",
-    "w": 22
+    "jpop": 22
   },
   {
     "j": "高",
     "e": "high, expensive",
-    "w": 23
+    "jpop": 23
   },
   {
     "j": "金",
     "e": "money, gold",
-    "w": 24
+    "jpop": 24
   },
   {
     "j": "時",
     "e": "time",
-    "w": 25
+    "jpop": 25
   },
   {
     "j": "手",
     "e": "hand",
-    "w": 26
+    "jpop": 26
   },
   {
     "j": "見",
     "e": "to see, to look",
-    "w": 27
+    "jpop": 27
   },
   {
     "j": "市",
     "e": "city",
-    "w": 28
+    "jpop": 28
   },
   {
     "j": "力",
     "e": "power",
-    "w": 29
+    "jpop": 29
   },
   {
     "j": "米",
     "e": "rice",
-    "w": 30
+    "jpop": 30
   },
   {
     "j": "自",
     "e": "oneself",
-    "w": 31
+    "jpop": 31
   },
   {
     "j": "前",
     "e": "before",
-    "w": 32
+    "jpop": 32
   },
   {
     "j": "円",
     "e": "Yen (Japanese currency)",
-    "w": 33
+    "jpop": 33
   },
   {
     "j": "合",
     "e": "to combine",
-    "w": 34
+    "jpop": 34
   },
   {
     "j": "立",
     "e": "to stand",
-    "w": 35
+    "jpop": 35
   },
   {
     "j": "内",
     "e": "inside",
-    "w": 36
+    "jpop": 36
   },
   {
     "j": "二",
     "e": "two",
-    "w": 37
+    "jpop": 37
   },
   {
     "j": "事",
     "e": "affair, matter",
-    "w": 38
+    "jpop": 38
   },
   {
     "j": "社",
     "e": "company, society",
-    "w": 39
+    "jpop": 39
   },
   {
     "j": "者",
     "e": "person",
-    "w": 40
+    "jpop": 40
   },
   {
     "j": "地",
     "e": "ground, place",
-    "w": 41
+    "jpop": 41
   },
   {
     "j": "京",
     "e": "capital",
-    "w": 42
+    "jpop": 42
   },
   {
     "j": "間",
     "e": "interval, between",
-    "w": 43
+    "jpop": 43
   },
   {
     "j": "田",
     "e": "rice field",
-    "w": 44
+    "jpop": 44
   },
   {
     "j": "体",
     "e": "body",
-    "w": 45
+    "jpop": 45
   },
   {
     "j": "学",
     "e": "to study",
-    "w": 46
+    "jpop": 46
   },
   {
     "j": "下",
     "e": "down, under",
-    "w": 47
+    "jpop": 47
   },
   {
     "j": "目",
     "e": "eye",
-    "w": 48
+    "jpop": 48
   },
   {
     "j": "五",
     "e": "five",
-    "w": 49
+    "jpop": 49
   },
   {
     "j": "後",
     "e": "after",
-    "w": 50
+    "jpop": 50
   },
   {
     "j": "新",
     "e": "new",
-    "w": 51
+    "jpop": 51
   },
   {
     "j": "明",
     "e": "bright, clear",
-    "w": 52
+    "jpop": 52
   },
   {
     "j": "方",
     "e": "direction",
-    "w": 53
+    "jpop": 53
   },
   {
     "j": "部",
     "e": "section",
-    "w": 54
+    "jpop": 54
   },
   {
     "j": "女",
     "e": "woman",
-    "w": 55
+    "jpop": 55
   },
   {
     "j": "八",
     "e": "eight",
-    "w": 56
+    "jpop": 56
   },
   {
     "j": "心",
     "e": "heart",
-    "w": 57
+    "jpop": 57
   },
   {
     "j": "四",
     "e": "four",
-    "w": 58
+    "jpop": 58
   },
   {
     "j": "民",
     "e": "people, nation",
-    "w": 59
+    "jpop": 59
   },
   {
     "j": "対",
     "e": "opposite",
-    "w": 60
+    "jpop": 60
   },
   {
     "j": "主",
     "e": "main, master",
-    "w": 61
+    "jpop": 61
   },
   {
     "j": "正",
     "e": "right, correct",
-    "w": 62
+    "jpop": 62
   },
   {
     "j": "代",
     "e": "to substitute, generation",
-    "w": 63
+    "jpop": 63
   },
   {
     "j": "言",
     "e": "to say",
-    "w": 64
+    "jpop": 64
   },
   {
     "j": "九",
     "e": "nine",
-    "w": 65
+    "jpop": 65
   },
   {
     "j": "小",
     "e": "small",
-    "w": 66
+    "jpop": 66
   },
   {
     "j": "思",
     "e": "to think",
-    "w": 67
+    "jpop": 67
   },
   {
     "j": "七",
     "e": "seven",
-    "w": 68
+    "jpop": 68
   },
   {
     "j": "山",
     "e": "mountain",
-    "w": 69
+    "jpop": 69
   },
   {
     "j": "実",
     "e": "real",
-    "w": 70
+    "jpop": 70
   },
   {
     "j": "入",
     "e": "to enter",
-    "w": 71
+    "jpop": 71
   },
   {
     "j": "回",
     "e": "to turn around, time",
-    "w": 72
+    "jpop": 72
   },
   {
     "j": "場",
     "e": "place",
-    "w": 73
+    "jpop": 73
   },
   {
     "j": "野",
     "e": "field",
-    "w": 74
+    "jpop": 74
   },
   {
     "j": "開",
     "e": "to open",
-    "w": 75
+    "jpop": 75
   },
   {
     "j": "万",
     "e": "ten thousand",
-    "w": 76
+    "jpop": 76
   },
   {
     "j": "全",
     "e": "whole",
-    "w": 77
+    "jpop": 77
   },
   {
     "j": "定",
     "e": "to fix",
-    "w": 78
+    "jpop": 78
   },
   {
     "j": "家",
     "e": "house",
-    "w": 79
+    "jpop": 79
   },
   {
     "j": "北",
     "e": "north",
-    "w": 80
+    "jpop": 80
   },
   {
     "j": "六",
     "e": "six",
-    "w": 81
+    "jpop": 81
   },
   {
     "j": "問",
     "e": "question",
-    "w": 82
+    "jpop": 82
   },
   {
     "j": "話",
     "e": "to speak",
-    "w": 83
+    "jpop": 83
   },
   {
     "j": "文",
     "e": "letter, writings",
-    "w": 84
+    "jpop": 84
   },
   {
     "j": "動",
     "e": "to move",
-    "w": 85
+    "jpop": 85
   },
   {
     "j": "度",
     "e": "degree, time",
-    "w": 86
+    "jpop": 86
   },
   {
     "j": "県",
     "e": "prefecture",
-    "w": 87
+    "jpop": 87
   },
   {
     "j": "水",
     "e": "water",
-    "w": 88
+    "jpop": 88
   },
   {
     "j": "安",
     "e": "inexpensive, peaceful",
-    "w": 89
+    "jpop": 89
   },
   {
     "j": "氏",
     "e": "courtesy name (Mr., Mrs.)",
-    "w": 90
+    "jpop": 90
   },
   {
     "j": "和",
     "e": "harmonious, peace",
-    "w": 91
+    "jpop": 91
   },
   {
     "j": "政",
     "e": "government, politics",
-    "w": 92
+    "jpop": 92
   },
   {
     "j": "保",
     "e": "to maintain, to keep",
-    "w": 93
+    "jpop": 93
   },
   {
     "j": "表",
     "e": "to express, surface",
-    "w": 94
+    "jpop": 94
   },
   {
     "j": "道",
     "e": "way",
-    "w": 95
+    "jpop": 95
   },
   {
     "j": "相",
     "e": "phase, mutual",
-    "w": 96
+    "jpop": 96
   },
   {
     "j": "意",
     "e": "mind, meaning",
-    "w": 97
+    "jpop": 97
   },
   {
     "j": "発",
     "e": "to start, to emit",
-    "w": 98
+    "jpop": 98
   },
   {
     "j": "不",
     "e": "not, un~, in~",
-    "w": 99
+    "jpop": 99
   },
   {
     "j": "党",
     "e": "political party",
-    "w": 100
+    "jpop": 100
   }
 ]

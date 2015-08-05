@@ -36,4 +36,10 @@ $('#collapsibleTable0 tr').get().map(function(el) { el=$(el); var ja=el.find('sp
 $('#collapsibleTable0 tr').get().map(function(el) { el=$(el); var ja=el.find('span[lang="ja"] a').text(); var e=el.find('td:nth-child(4)').text(); var ex=el.find('td:nth-child(6)').text(); return { e: e, ja: ja, ex: ex.split(/\s*/igm), hira: el.find('td:nth-child(3)').text() }}).filter(function(a){ return a.e && a.ja; });
 
 
+//Traditional vs Simplified
+//http://www.sayjack.com/chinese/simplified-to-traditional-chinese-conversion-table/
+$('dd a').get().map(function(el) { el=$(el); tc=el.text(); sc=el.parents('dl').find('dt a').text(); return { tc: tc, sc: sc }});
+//also see http://www.sayjack.com/simplified/chinese/characters/page:1/
+
+
 }

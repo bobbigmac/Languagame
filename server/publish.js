@@ -17,8 +17,14 @@ Meteor.publish('all-glyphs', function() {
 
 Meteor.publish('possible-glyphs', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
-    var glyphs = PossibleGlyphs.find({}, {});
-    return glyphs;
+    var glyphs = PossibleGlyphs.find({ pop: { $gt: 0 }, tc: { $exists: true }, sc: { $exists: true }, e: { $exists: true }, j: { $exists: true }}, { sort: { pop: 1, cpop: 1, jpop: 1 }, fields: { _id: 1 }});
+    var totalCount = glyphs.fetch().length;
+
+    var limitGlyphs = PossibleGlyphs.find({ pop: { $gt: 0 }, tc: { $exists: true }, sc: { $exists: true }, e: { $exists: true }, j: { $exists: true }}, { limit: 100, sort: { pop: 1, cpop: 1, jpop: 1 }});
+    var limitCount = limitGlyphs.fetch().length;
+
+    console.log('Publishing', limitCount, 'from total of', totalCount, 'possible glyphs');
+    return limitGlyphs;
   }
   return this.ready();
 });

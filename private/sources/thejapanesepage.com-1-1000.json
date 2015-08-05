@@ -1,6 +1,6 @@
 [
   {
-    "pr": [
+    "jpr": [
       "ichi",
       "hitotsu"
     ],
@@ -10,10 +10,10 @@
       "1",
       "first"
     ],
-    "w": 1
+    "jpop": 1
   },
   {
-    "pr": [
+    "jpr": [
       "ni",
       "futatsu"
     ],
@@ -23,10 +23,10 @@
       "2",
       "second"
     ],
-    "w": 2
+    "jpop": 2
   },
   {
-    "pr": [
+    "jpr": [
       "san",
       "mi",
       "mitsu"
@@ -37,10 +37,10 @@
       "3",
       "third"
     ],
-    "w": 3
+    "jpop": 3
   },
   {
-    "pr": [
+    "jpr": [
       "yon",
       "shi",
       "yotsu"
@@ -51,10 +51,10 @@
       "4",
       "forth"
     ],
-    "w": 4
+    "jpop": 4
   },
   {
-    "pr": [
+    "jpr": [
       "go",
       "itsutsu"
     ],
@@ -64,10 +64,10 @@
       "5",
       "fifth"
     ],
-    "w": 5
+    "jpop": 5
   },
   {
-    "pr": [
+    "jpr": [
       "roku",
       "mutsu",
       "mui"
@@ -78,10 +78,10 @@
       "6",
       "sixth"
     ],
-    "w": 6
+    "jpop": 6
   },
   {
-    "pr": [
+    "jpr": [
       "shichi",
       "nanatsu",
       "nano"
@@ -92,10 +92,10 @@
       "7",
       "seventh"
     ],
-    "w": 7
+    "jpop": 7
   },
   {
-    "pr": [
+    "jpr": [
       "hachi",
       "yatsu",
       "you"
@@ -106,10 +106,10 @@
       "8",
       "eighth"
     ],
-    "w": 8
+    "jpop": 8
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "ku",
       "kokonotsu"
@@ -120,10 +120,10 @@
       "9",
       "ninth"
     ],
-    "w": 9
+    "jpop": 9
   },
   {
-    "pr": [
+    "jpr": [
       "juu",
       "tou",
       "ju"
@@ -134,10 +134,10 @@
       "10",
       "tenth"
     ],
-    "w": 10
+    "jpop": 10
   },
   {
-    "pr": [
+    "jpr": [
       "hyaku"
     ],
     "j": "百",
@@ -145,10 +145,10 @@
       "hundred",
       "100"
     ],
-    "w": 11
+    "jpop": 11
   },
   {
-    "pr": [
+    "jpr": [
       "sen",
       "chi"
     ],
@@ -157,10 +157,10 @@
       "thousand",
       "1000"
     ],
-    "w": 12
+    "jpop": 12
   },
   {
-    "pr": [
+    "jpr": [
       false
     ],
     "j": "万",
@@ -168,10 +168,10 @@
       "ten thousand",
       "10,000"
     ],
-    "w": 13
+    "jpop": 13
   },
   {
-    "pr": [
+    "jpr": [
       "fu",
       "chichi",
       "tou"
@@ -181,10 +181,10 @@
       "father",
       "dad"
     ],
-    "w": 14
+    "jpop": 14
   },
   {
-    "pr": [
+    "jpr": [
       "bo",
       "haha",
       "kaa"
@@ -194,10 +194,10 @@
       "mother",
       "mom"
     ],
-    "w": 15
+    "jpop": 15
   },
   {
-    "pr": [
+    "jpr": [
       "yuu",
       "tomo"
     ],
@@ -205,10 +205,10 @@
     "e": [
       "friend"
     ],
-    "w": 16
+    "jpop": 16
   },
   {
-    "pr": [
+    "jpr": [
       "jo",
       "onna"
     ],
@@ -217,10 +217,10 @@
       "woman",
       "female"
     ],
-    "w": 17
+    "jpop": 17
   },
   {
-    "pr": [
+    "jpr": [
       "dan",
       "otoko"
     ],
@@ -229,10 +229,10 @@
       "man",
       "male"
     ],
-    "w": 18
+    "jpop": 18
   },
   {
-    "pr": [
+    "jpr": [
       "jin",
       "nin",
       "hito"
@@ -243,10 +243,10 @@
       "people",
       "man"
     ],
-    "w": 19
+    "jpop": 19
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "ko"
     ],
@@ -256,10 +256,10 @@
       "children",
       "kid"
     ],
-    "w": 20
+    "jpop": 20
   },
   {
-    "pr": [
+    "jpr": [
       "jitsu",
       "nichi",
       "hi"
@@ -269,10 +269,10 @@
       "sun",
       "day"
     ],
-    "w": 21
+    "jpop": 21
   },
   {
-    "pr": [
+    "jpr": [
       "gatsu",
       "getsu",
       "tsuki"
@@ -282,10 +282,10 @@
       "month",
       "moon"
     ],
-    "w": 22
+    "jpop": 22
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "hi"
     ],
@@ -294,10 +294,10 @@
       "fire",
       "light"
     ],
-    "w": 23
+    "jpop": 23
   },
   {
-    "pr": [
+    "jpr": [
       "sui",
       "mizu"
     ],
@@ -305,10 +305,10 @@
     "e": [
       "water"
     ],
-    "w": 24
+    "jpop": 24
   },
   {
-    "pr": [
+    "jpr": [
       "moku",
       "boku",
       "ki"
@@ -318,10 +318,10 @@
       "tree",
       "wood"
     ],
-    "w": 25
+    "jpop": 25
   },
   {
-    "pr": [
+    "jpr": [
       "kin",
       "kon",
       "kane"
@@ -331,10 +331,10 @@
       "gold",
       "money"
     ],
-    "w": 26
+    "jpop": 26
   },
   {
-    "pr": [
+    "jpr": [
       "do",
       "to",
       "tsuchi"
@@ -345,10 +345,10 @@
       "ground",
       "soil"
     ],
-    "w": 27
+    "jpop": 27
   },
   {
-    "pr": [
+    "jpr": [
       "hon"
     ],
     "j": "本",
@@ -356,10 +356,10 @@
       "book",
       "counter for long, slender objects"
     ],
-    "w": 28
+    "jpop": 28
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "yasumi",
       "yasumu"
@@ -369,10 +369,10 @@
       "vacation",
       "rest"
     ],
-    "w": 29
+    "jpop": 29
   },
   {
-    "pr": [
+    "jpr": [
       "go",
       "kataru",
       "katari"
@@ -383,10 +383,10 @@
       "language",
       "speech"
     ],
-    "w": 30
+    "jpop": 30
   },
   {
-    "pr": [
+    "jpr": [
       "nen",
       "toshi"
     ],
@@ -394,20 +394,20 @@
     "e": [
       "year"
     ],
-    "w": 31
+    "jpop": 31
   },
   {
-    "pr": [
+    "jpr": [
       "go"
     ],
     "j": "午",
     "e": [
       "noon"
     ],
-    "w": 32
+    "jpop": 32
   },
   {
-    "pr": [
+    "jpr": [
       "zen",
       "mae"
     ],
@@ -417,10 +417,10 @@
       "in front of",
       "previous"
     ],
-    "w": 33
+    "jpop": 33
   },
   {
-    "pr": [
+    "jpr": [
       "go",
       "kou",
       "ushiro"
@@ -430,10 +430,10 @@
       "behind",
       "after"
     ],
-    "w": 34
+    "jpop": 34
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "toki"
     ],
@@ -441,10 +441,10 @@
     "e": [
       "time"
     ],
-    "w": 35
+    "jpop": 35
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "aida",
       "ma"
@@ -455,20 +455,20 @@
       "space",
       "room"
     ],
-    "w": 36
+    "jpop": 36
   },
   {
-    "pr": [
+    "jpr": [
       "mai"
     ],
     "j": "毎",
     "e": [
       "every"
     ],
-    "w": 37
+    "jpop": 37
   },
   {
-    "pr": [
+    "jpr": [
       "sen",
       "saki"
     ],
@@ -477,10 +477,10 @@
       "previous",
       "ahead"
     ],
-    "w": 38
+    "jpop": 38
   },
   {
-    "pr": [
+    "jpr": [
       "kon",
       "kin",
       "ima"
@@ -490,10 +490,10 @@
       "now",
       "present"
     ],
-    "w": 39
+    "jpop": 39
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "nan",
       "nani"
@@ -503,10 +503,10 @@
       "what",
       "how many"
     ],
-    "w": 40
+    "jpop": 40
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "ue"
     ],
@@ -516,10 +516,10 @@
       "above",
       "up"
     ],
-    "w": 41
+    "jpop": 41
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "ge",
       "shita"
@@ -530,10 +530,10 @@
       "bottom",
       "down"
     ],
-    "w": 42
+    "jpop": 42
   },
   {
-    "pr": [
+    "jpr": [
       "sa",
       "hidari"
     ],
@@ -541,10 +541,10 @@
     "e": [
       "left"
     ],
-    "w": 43
+    "jpop": 43
   },
   {
-    "pr": [
+    "jpr": [
       "yuu",
       "migi",
       "u"
@@ -553,10 +553,10 @@
     "e": [
       "right"
     ],
-    "w": 44
+    "jpop": 44
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "higashi"
     ],
@@ -564,10 +564,10 @@
     "e": [
       "east"
     ],
-    "w": 45
+    "jpop": 45
   },
   {
-    "pr": [
+    "jpr": [
       "sei",
       "sai",
       "nishi"
@@ -576,10 +576,10 @@
     "e": [
       "west"
     ],
-    "w": 46
+    "jpop": 46
   },
   {
-    "pr": [
+    "jpr": [
       "nan",
       "minami"
     ],
@@ -587,10 +587,10 @@
     "e": [
       "south"
     ],
-    "w": 47
+    "jpop": 47
   },
   {
-    "pr": [
+    "jpr": [
       "hoku",
       "kita"
     ],
@@ -598,10 +598,10 @@
     "e": [
       "north"
     ],
-    "w": 48
+    "jpop": 48
   },
   {
-    "pr": [
+    "jpr": [
       "gai",
       "hoka",
       "soto"
@@ -612,10 +612,10 @@
       "foreign",
       "other"
     ],
-    "w": 49
+    "jpop": 49
   },
   {
-    "pr": [
+    "jpr": [
       "mei",
       "myou",
       "na"
@@ -626,10 +626,10 @@
       "famous",
       "fame"
     ],
-    "w": 50
+    "jpop": 50
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "takai"
     ],
@@ -639,10 +639,10 @@
       "expensive",
       "tall"
     ],
-    "w": 51
+    "jpop": 51
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "ko",
       "chiisai"
@@ -652,10 +652,10 @@
       "small",
       "little"
     ],
-    "w": 52
+    "jpop": 52
   },
   {
-    "pr": [
+    "jpr": [
       "chuu",
       "naka"
     ],
@@ -665,10 +665,10 @@
       "inside",
       "center"
     ],
-    "w": 53
+    "jpop": 53
   },
   {
-    "pr": [
+    "jpr": [
       "dai",
       "tai",
       "ooki"
@@ -679,10 +679,10 @@
       "large",
       "great"
     ],
-    "w": 54
+    "jpop": 54
   },
   {
-    "pr": [
+    "jpr": [
       "chou",
       "nagai"
     ],
@@ -691,20 +691,20 @@
       "leader",
       "long"
     ],
-    "w": 55
+    "jpop": 55
   },
   {
-    "pr": [
+    "jpr": [
       "han"
     ],
     "j": "半",
     "e": [
       "half"
     ],
-    "w": 56
+    "jpop": 56
   },
   {
-    "pr": [
+    "jpr": [
       "fun",
       "bun",
       "wakaru"
@@ -715,10 +715,10 @@
       "share",
       "part"
     ],
-    "w": 57
+    "jpop": 57
   },
   {
-    "pr": [
+    "jpr": [
       "gaku",
       "manabu"
     ],
@@ -728,20 +728,20 @@
       "learn",
       "science"
     ],
-    "w": 58
+    "jpop": 58
   },
   {
-    "pr": [
+    "jpr": [
       "kou"
     ],
     "j": "校",
     "e": [
       "school"
     ],
-    "w": 59
+    "jpop": 59
   },
   {
-    "pr": [
+    "jpr": [
       "sei",
       "ikiru",
       "shou"
@@ -752,10 +752,10 @@
       "birth",
       "life"
     ],
-    "w": 60
+    "jpop": 60
   },
   {
-    "pr": [
+    "jpr": [
       "san",
       "yama"
     ],
@@ -763,10 +763,10 @@
     "e": [
       "mountain"
     ],
-    "w": 61
+    "jpop": 61
   },
   {
-    "pr": [
+    "jpr": [
       "sen",
       "kawa"
     ],
@@ -775,10 +775,10 @@
       "river",
       "stream"
     ],
-    "w": 62
+    "jpop": 62
   },
   {
-    "pr": [
+    "jpr": [
       "haku",
       "byaku",
       "shiroi"
@@ -787,10 +787,10 @@
     "e": [
       "white"
     ],
-    "w": 63
+    "jpop": 63
   },
   {
-    "pr": [
+    "jpr": [
       "ten",
       "ama",
       "ame"
@@ -800,10 +800,10 @@
       "heaven",
       "sky"
     ],
-    "w": 64
+    "jpop": 64
   },
   {
-    "pr": [
+    "jpr": [
       "u",
       "ama",
       "ame"
@@ -812,10 +812,10 @@
     "e": [
       "rain"
     ],
-    "w": 65
+    "jpop": 65
   },
   {
-    "pr": [
+    "jpr": [
       "den"
     ],
     "j": "電",
@@ -824,10 +824,10 @@
       "electric",
       "power"
     ],
-    "w": 66
+    "jpop": 66
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "ke",
       "iki"
@@ -838,10 +838,10 @@
       "energy",
       "power"
     ],
-    "w": 67
+    "jpop": 67
   },
   {
-    "pr": [
+    "jpr": [
       "sha",
       "kuruma"
     ],
@@ -851,10 +851,10 @@
       "vehicle",
       "automobile"
     ],
-    "w": 68
+    "jpop": 68
   },
   {
-    "pr": [
+    "jpr": [
       "koku",
       "kuni"
     ],
@@ -863,10 +863,10 @@
       "country",
       "nation"
     ],
-    "w": 69
+    "jpop": 69
   },
   {
-    "pr": [
+    "jpr": [
       "en",
       "marui"
     ],
@@ -876,10 +876,10 @@
       "yen",
       "money"
     ],
-    "w": 70
+    "jpop": 70
   },
   {
-    "pr": [
+    "jpr": [
       "wa",
       "hanashi",
       "hanasu"
@@ -890,10 +890,10 @@
       "topic",
       "story"
     ],
-    "w": 71
+    "jpop": 71
   },
   {
-    "pr": [
+    "jpr": [
       "bun",
       "kiku"
     ],
@@ -903,10 +903,10 @@
       "listen",
       "ask"
     ],
-    "w": 72
+    "jpop": 72
   },
   {
-    "pr": [
+    "jpr": [
       "kuu",
       "shoku",
       "taberu"
@@ -917,10 +917,10 @@
       "meal",
       "food"
     ],
-    "w": 73
+    "jpop": 73
   },
   {
-    "pr": [
+    "jpr": [
       "doku",
       "yomu"
     ],
@@ -928,10 +928,10 @@
     "e": [
       "read"
     ],
-    "w": 74
+    "jpop": 74
   },
   {
-    "pr": [
+    "jpr": [
       "rai",
       "kuru"
     ],
@@ -939,10 +939,10 @@
     "e": [
       "come"
     ],
-    "w": 75
+    "jpop": 75
   },
   {
-    "pr": [
+    "jpr": [
       "sho",
       "kaku"
     ],
@@ -952,10 +952,10 @@
       "document",
       "papers"
     ],
-    "w": 76
+    "jpop": 76
   },
   {
-    "pr": [
+    "jpr": [
       "ken",
       "miru",
       "mi"
@@ -965,10 +965,10 @@
       "see",
       "show"
     ],
-    "w": 77
+    "jpop": 77
   },
   {
-    "pr": [
+    "jpr": [
       "gyou",
       "kou",
       "iku"
@@ -978,10 +978,10 @@
       "go",
       "leave"
     ],
-    "w": 78
+    "jpop": 78
   },
   {
-    "pr": [
+    "jpr": [
       "shutsu",
       "dasu",
       "deru"
@@ -991,10 +991,10 @@
       "leave",
       "go out"
     ],
-    "w": 79
+    "jpop": 79
   },
   {
-    "pr": [
+    "jpr": [
       "nyuu",
       "iru",
       "hairu"
@@ -1005,10 +1005,10 @@
       "insert",
       "go in"
     ],
-    "w": 80
+    "jpop": 80
   },
   {
-    "pr": [
+    "jpr": [
       "kai",
       "e",
       "au"
@@ -1018,10 +1018,10 @@
       "meeting",
       "meet"
     ],
-    "w": 81
+    "jpop": 81
   },
   {
-    "pr": [
+    "jpr": [
       "sei",
       "shou",
       "aoi"
@@ -1030,10 +1030,10 @@
     "e": [
       "blue"
     ],
-    "w": 82
+    "jpop": 82
   },
   {
-    "pr": [
+    "jpr": [
       "seki",
       "shaku",
       "akai"
@@ -1042,10 +1042,10 @@
     "e": [
       "red"
     ],
-    "w": 83
+    "jpop": 83
   },
   {
-    "pr": [
+    "jpr": [
       "mei",
       "myou",
       "akarui"
@@ -1056,10 +1056,10 @@
       "bright",
       "dawn"
     ],
-    "w": 84
+    "jpop": 84
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "aki"
     ],
@@ -1068,10 +1068,10 @@
       "fall",
       "autumn"
     ],
-    "w": 85
+    "jpop": 85
   },
   {
-    "pr": [
+    "jpr": [
       "kuu",
       "kara",
       "sora"
@@ -1082,10 +1082,10 @@
       "air",
       "empty"
     ],
-    "w": 86
+    "jpop": 86
   },
   {
-    "pr": [
+    "jpr": [
       "kai",
       "hiraku",
       "akeru"
@@ -1094,10 +1094,10 @@
     "e": [
       "open"
     ],
-    "w": 87
+    "jpop": 87
   },
   {
-    "pr": [
+    "jpr": [
       "aku",
       "warui"
     ],
@@ -1106,10 +1106,10 @@
       "bad",
       "evil"
     ],
-    "w": 88
+    "jpop": 88
   },
   {
-    "pr": [
+    "jpr": [
       "chou",
       "asa"
     ],
@@ -1117,10 +1117,10 @@
     "e": [
       "morning"
     ],
-    "w": 89
+    "jpop": 89
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "aza"
     ],
@@ -1130,10 +1130,10 @@
       "character",
       "mark"
     ],
-    "w": 90
+    "jpop": 90
   },
   {
-    "pr": [
+    "jpr": [
       "ashi",
       "soku",
       "tariru"
@@ -1144,10 +1144,10 @@
       "feet",
       "sufficient"
     ],
-    "w": 91
+    "jpop": 91
   },
   {
-    "pr": [
+    "jpr": [
       "mi",
       "aji"
     ],
@@ -1156,10 +1156,10 @@
       "taste",
       "experience"
     ],
-    "w": 92
+    "jpop": 92
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "atarashii"
     ],
@@ -1168,10 +1168,10 @@
       "textframe",
       "fresh"
     ],
-    "w": 93
+    "jpop": 93
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "atsumeru"
     ],
@@ -1180,10 +1180,10 @@
       "collect",
       "gather"
     ],
-    "w": 94
+    "jpop": 94
   },
   {
-    "pr": [
+    "jpr": [
       "kei",
       "kyou",
       "ani"
@@ -1193,10 +1193,10 @@
       "brother",
       "older brother"
     ],
-    "w": 95
+    "jpop": 95
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "ane"
     ],
@@ -1205,10 +1205,10 @@
       "sister",
       "older sister"
     ],
-    "w": 96
+    "jpop": 96
   },
   {
-    "pr": [
+    "jpr": [
       "ho",
       "bu",
       "aruku"
@@ -1218,10 +1218,10 @@
       "walk",
       "step"
     ],
-    "w": 97
+    "jpop": 97
   },
   {
-    "pr": [
+    "jpr": [
       "yuu",
       "u",
       "aru"
@@ -1232,10 +1232,10 @@
       "exist",
       "be"
     ],
-    "w": 98
+    "jpop": 98
   },
   {
-    "pr": [
+    "jpr": [
       "an",
       "yasui"
     ],
@@ -1245,10 +1245,10 @@
       "peaceful",
       "safe"
     ],
-    "w": 99
+    "jpop": 99
   },
   {
-    "pr": [
+    "jpr": [
       "i"
     ],
     "j": "医",
@@ -1256,10 +1256,10 @@
       "heal",
       "cure"
     ],
-    "w": 100
+    "jpop": 100
   },
   {
-    "pr": [
+    "jpr": [
       "i"
     ],
     "j": "意",
@@ -1268,10 +1268,10 @@
       "heart",
       "attention"
     ],
-    "w": 101
+    "jpop": 101
   },
   {
-    "pr": [
+    "jpr": [
       "i"
     ],
     "j": "以",
@@ -1280,10 +1280,10 @@
       "through",
       "on account"
     ],
-    "w": 102
+    "jpop": 102
   },
   {
-    "pr": [
+    "jpr": [
       "gen",
       "koto",
       "iu"
@@ -1294,10 +1294,10 @@
       "statement",
       "word"
     ],
-    "w": 103
+    "jpop": 103
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "ya",
       "ie"
@@ -1306,10 +1306,10 @@
     "e": [
       "house"
     ],
-    "w": 104
+    "jpop": 104
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "isogu"
     ],
@@ -1318,10 +1318,10 @@
       "hurry",
       "quick"
     ],
-    "w": 105
+    "jpop": 105
   },
   {
-    "pr": [
+    "jpr": [
       "ken",
       "inu"
     ],
@@ -1329,10 +1329,10 @@
     "e": [
       "dog"
     ],
-    "w": 106
+    "jpop": 106
   },
   {
-    "pr": [
+    "jpr": [
       "mai",
       "imouto"
     ],
@@ -1341,10 +1341,10 @@
       "sister",
       "younger sister"
     ],
-    "w": 107
+    "jpop": 107
   },
   {
-    "pr": [
+    "jpr": [
       "iro",
       "shoku",
       "shiki"
@@ -1353,10 +1353,10 @@
     "e": [
       "color"
     ],
-    "w": 108
+    "jpop": 108
   },
   {
-    "pr": [
+    "jpr": [
       "oto",
       "on",
       "ne"
@@ -1365,10 +1365,10 @@
     "e": [
       "sound"
     ],
-    "w": 109
+    "jpop": 109
   },
   {
-    "pr": [
+    "jpr": [
       "in"
     ],
     "j": "員",
@@ -1376,10 +1376,10 @@
       "member",
       "official"
     ],
-    "w": 110
+    "jpop": 110
   },
   {
-    "pr": [
+    "jpr": [
       "in"
     ],
     "j": "院",
@@ -1387,10 +1387,10 @@
       "institution",
       "academy"
     ],
-    "w": 111
+    "jpop": 111
   },
   {
-    "pr": [
+    "jpr": [
       "in",
       "nomu"
     ],
@@ -1398,10 +1398,10 @@
     "e": [
       "drink"
     ],
-    "w": 112
+    "jpop": 112
   },
   {
-    "pr": [
+    "jpr": [
       "sakana",
       "gyo",
       "uo"
@@ -1410,10 +1410,10 @@
     "e": [
       "fish"
     ],
-    "w": 113
+    "jpop": 113
   },
   {
-    "pr": [
+    "jpr": [
       "ugoku",
       "dou"
     ],
@@ -1421,10 +1421,10 @@
     "e": [
       "move"
     ],
-    "w": 114
+    "jpop": 114
   },
   {
-    "pr": [
+    "jpr": [
       "gyuu",
       "ushi"
     ],
@@ -1433,10 +1433,10 @@
       "cow",
       "bull"
     ],
-    "w": 115
+    "jpop": 115
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "uta",
       "utau"
@@ -1446,10 +1446,10 @@
       "song",
       "sing"
     ],
-    "w": 116
+    "jpop": 116
   },
   {
-    "pr": [
+    "jpr": [
       "sha",
       "utsusu"
     ],
@@ -1458,10 +1458,10 @@
       "copy",
       "take a photo"
     ],
-    "w": 117
+    "jpop": 117
   },
   {
-    "pr": [
+    "jpr": [
       "ei",
       "utsuru",
       "utsusu"
@@ -1471,10 +1471,10 @@
       "reflect",
       "project"
     ],
-    "w": 118
+    "jpop": 118
   },
   {
-    "pr": [
+    "jpr": [
       "kai",
       "umi"
     ],
@@ -1483,10 +1483,10 @@
       "sea",
       "ocean"
     ],
-    "w": 119
+    "jpop": 119
   },
   {
-    "pr": [
+    "jpr": [
       "bai",
       "uri",
       "uru"
@@ -1496,10 +1496,10 @@
       "sale",
       "sell"
     ],
-    "w": 120
+    "jpop": 120
   },
   {
-    "pr": [
+    "jpr": [
       "un",
       "hakobu"
     ],
@@ -1509,10 +1509,10 @@
       "carry",
       "move"
     ],
-    "w": 121
+    "jpop": 121
   },
   {
-    "pr": [
+    "jpr": [
       "juu",
       "chou",
       "omoi"
@@ -1523,10 +1523,10 @@
       "important",
       "stress"
     ],
-    "w": 122
+    "jpop": 122
   },
   {
-    "pr": [
+    "jpr": [
       "ei"
     ],
     "j": "英",
@@ -1535,10 +1535,10 @@
       "english",
       "grand"
     ],
-    "w": 123
+    "jpop": 123
   },
   {
-    "pr": [
+    "jpr": [
       "eki"
     ],
     "j": "駅",
@@ -1546,10 +1546,10 @@
       "station",
       "(train) station"
     ],
-    "w": 124
+    "jpop": 124
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "owari",
       "tsui"
@@ -1560,10 +1560,10 @@
       "finish",
       "last"
     ],
-    "w": 125
+    "jpop": 125
   },
   {
-    "pr": [
+    "jpr": [
       "ta",
       "ooi"
     ],
@@ -1573,10 +1573,10 @@
       "much",
       "frequent"
     ],
-    "w": 126
+    "jpop": 126
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "okiru",
       "okosu"
@@ -1587,10 +1587,10 @@
       "get up",
       "rise"
     ],
-    "w": 127
+    "jpop": 127
   },
   {
-    "pr": [
+    "jpr": [
       "oku",
       "ya"
     ],
@@ -1600,10 +1600,10 @@
       "house",
       "shop"
     ],
-    "w": 128
+    "jpop": 128
   },
   {
-    "pr": [
+    "jpr": [
       "sou",
       "okuru"
     ],
@@ -1611,10 +1611,10 @@
     "e": [
       "send"
     ],
-    "w": 129
+    "jpop": 129
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "oshieru"
     ],
@@ -1624,10 +1624,10 @@
       "education",
       "faith"
     ],
-    "w": 130
+    "jpop": 130
   },
   {
-    "pr": [
+    "jpr": [
       "dai",
       "tei",
       "otouto"
@@ -1637,10 +1637,10 @@
       "brother",
       "younger brother"
     ],
-    "w": 131
+    "jpop": 131
   },
   {
-    "pr": [
+    "jpr": [
       "dou",
       "onaji"
     ],
@@ -1650,10 +1650,10 @@
       "agree",
       "equal"
     ],
-    "w": 132
+    "jpop": 132
   },
   {
-    "pr": [
+    "jpr": [
       "shu",
       "su",
       "nushi"
@@ -1664,10 +1664,10 @@
       "master",
       "principal"
     ],
-    "w": 133
+    "jpop": 133
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "omou"
     ],
@@ -1676,10 +1676,10 @@
       "think",
       "thought"
     ],
-    "w": 134
+    "jpop": 134
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "oya",
       "shitashii"
@@ -1690,10 +1690,10 @@
       "relative",
       "familiar"
     ],
-    "w": 135
+    "jpop": 135
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "ke",
       "hana"
@@ -1702,10 +1702,10 @@
     "e": [
       "flower"
     ],
-    "w": 136
+    "jpop": 136
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "natsu"
     ],
@@ -1713,10 +1713,10 @@
     "e": [
       "summer"
     ],
-    "w": 137
+    "jpop": 137
   },
   {
-    "pr": [
+    "jpr": [
       "ga",
       "kaku"
     ],
@@ -1726,20 +1726,20 @@
       "stroke",
       "stroke of kanji"
     ],
-    "w": 138
+    "jpop": 138
   },
   {
-    "pr": [
+    "jpr": [
       "kai"
     ],
     "j": "界",
     "e": [
       "world"
     ],
-    "w": 139
+    "jpop": 139
   },
   {
-    "pr": [
+    "jpr": [
       "bai",
       "kau"
     ],
@@ -1747,10 +1747,10 @@
     "e": [
       "buy"
     ],
-    "w": 140
+    "jpop": 140
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "kaeru"
     ],
@@ -1760,10 +1760,10 @@
       "arrive",
       "come home"
     ],
-    "w": 141
+    "jpop": 141
   },
   {
-    "pr": [
+    "jpr": [
       "dai",
       "yo",
       "kawaru"
@@ -1774,10 +1774,10 @@
       "substitute",
       "exchange"
     ],
-    "w": 142
+    "jpop": 142
   },
   {
-    "pr": [
+    "jpr": [
       "gaku",
       "raku",
       "tanoshii"
@@ -1788,10 +1788,10 @@
       "comfort",
       "ease"
     ],
-    "w": 143
+    "jpop": 143
   },
   {
-    "pr": [
+    "jpr": [
       "fuu",
       "fu",
       "kaze"
@@ -1802,10 +1802,10 @@
       "air",
       "style"
     ],
-    "w": 144
+    "jpop": 144
   },
   {
-    "pr": [
+    "jpr": [
       "tai",
       "kasu"
     ],
@@ -1813,10 +1813,10 @@
     "e": [
       "lend"
     ],
-    "w": 145
+    "jpop": 145
   },
   {
-    "pr": [
+    "jpr": [
       "hou",
       "kata"
     ],
@@ -1826,10 +1826,10 @@
       "way",
       "person"
     ],
-    "w": 146
+    "jpop": 146
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "kami"
     ],
@@ -1837,10 +1837,10 @@
     "e": [
       "paper"
     ],
-    "w": 147
+    "jpop": 147
   },
   {
-    "pr": [
+    "jpr": [
       "tsuu",
       "tooru",
       "toori"
@@ -1851,10 +1851,10 @@
       "traffic",
       "go through"
     ],
-    "w": 148
+    "jpop": 148
   },
   {
-    "pr": [
+    "jpr": [
       "tai",
       "karada",
       "katachi"
@@ -1864,10 +1864,10 @@
       "body",
       "object"
     ],
-    "w": 149
+    "jpop": 149
   },
   {
-    "pr": [
+    "jpr": [
       "shaku",
       "kariru"
     ],
@@ -1876,10 +1876,10 @@
       "borrow",
       "rent"
     ],
-    "w": 150
+    "jpop": 150
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "han"
     ],
@@ -1888,10 +1888,10 @@
       "china",
       "chinese"
     ],
-    "w": 151
+    "jpop": 151
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "yakata"
     ],
@@ -1900,10 +1900,10 @@
       "building",
       "palace"
     ],
-    "w": 152
+    "jpop": 152
   },
   {
-    "pr": [
+    "jpr": [
       "gen",
       "gan",
       "moto"
@@ -1913,10 +1913,10 @@
       "beginning",
       "origin"
     ],
-    "w": 153
+    "jpop": 153
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "kangaeru",
       "kangae"
@@ -1927,10 +1927,10 @@
       "consider",
       "thought"
     ],
-    "w": 154
+    "jpop": 154
   },
   {
-    "pr": [
+    "jpr": [
       "chaku",
       "jyaku",
       "kiru"
@@ -1941,10 +1941,10 @@
       "wear clothes",
       "arrive"
     ],
-    "w": 155
+    "jpop": 155
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "ku",
       "kiwameru"
@@ -1954,10 +1954,10 @@
       "research",
       "study"
     ],
-    "w": 156
+    "jpop": 156
   },
   {
-    "pr": [
+    "jpr": [
       "kyo",
       "ko",
       "saru"
@@ -1968,10 +1968,10 @@
       "gone",
       "leave"
     ],
-    "w": 157
+    "jpop": 157
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "miyako",
       "kei"
@@ -1980,10 +1980,10 @@
     "e": [
       "capital"
     ],
-    "w": 158
+    "jpop": 158
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "gou",
       "tsuyoi"
@@ -1993,10 +1993,10 @@
       "strong",
       "force"
     ],
-    "w": 159
+    "jpop": 159
   },
   {
-    "pr": [
+    "jpr": [
       "gyou",
       "gou",
       "waza"
@@ -2007,10 +2007,10 @@
       "vocation",
       "job"
     ],
-    "w": 160
+    "jpop": 160
   },
   {
-    "pr": [
+    "jpr": [
       "setsu",
       "sai",
       "kiru"
@@ -2021,10 +2021,10 @@
       "cut off",
       "slice"
     ],
-    "w": 161
+    "jpop": 161
   },
   {
-    "pr": [
+    "jpr": [
       "kin",
       "kon",
       "chikai"
@@ -2035,10 +2035,10 @@
       "early",
       "soon"
     ],
-    "w": 162
+    "jpop": 162
   },
   {
-    "pr": [
+    "jpr": [
       "gin",
       "shirogane"
     ],
@@ -2046,10 +2046,10 @@
     "e": [
       "silver"
     ],
-    "w": 163
+    "jpop": 163
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "ku",
       "kuchi"
@@ -2058,10 +2058,10 @@
     "e": [
       "mouth"
     ],
-    "w": 164
+    "jpop": 164
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "ku",
       "gu"
@@ -2071,10 +2071,10 @@
       "construction",
       "craft"
     ],
-    "w": 165
+    "jpop": 165
   },
   {
-    "pr": [
+    "jpr": [
       "koku",
       "kuro",
       "kuroi"
@@ -2083,10 +2083,10 @@
     "e": [
       "black"
     ],
-    "w": 166
+    "jpop": 166
   },
   {
-    "pr": [
+    "jpr": [
       "kei",
       "hakaru"
     ],
@@ -2095,10 +2095,10 @@
       "plan",
       "measure"
     ],
-    "w": 167
+    "jpop": 167
   },
   {
-    "pr": [
+    "jpr": [
       "ken",
       "togu"
     ],
@@ -2107,10 +2107,10 @@
       "study",
       "sharpen"
     ],
-    "w": 168
+    "jpop": 168
   },
   {
-    "pr": [
+    "jpr": [
       "ken",
       "kon",
       "tateru"
@@ -2119,10 +2119,10 @@
     "e": [
       "build"
     ],
-    "w": 169
+    "jpop": 169
   },
   {
-    "pr": [
+    "jpr": [
       "ken",
       "tamesu"
     ],
@@ -2132,10 +2132,10 @@
       "examine",
       "effect"
     ],
-    "w": 170
+    "jpop": 170
   },
   {
-    "pr": [
+    "jpr": [
       "ko",
       "furui"
     ],
@@ -2144,10 +2144,10 @@
       "old",
       "old fashioned"
     ],
-    "w": 171
+    "jpop": 171
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "hiroi",
       "hiromeru"
@@ -2158,10 +2158,10 @@
       "broad",
       "big"
     ],
-    "w": 172
+    "jpop": 172
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "kokoro"
     ],
@@ -2170,10 +2170,10 @@
       "heart",
       "mind"
     ],
-    "w": 173
+    "jpop": 173
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "kokoromiru",
       "tamesu"
@@ -2184,10 +2184,10 @@
       "try",
       "experiment"
     ],
-    "w": 174
+    "jpop": 174
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "kotaeru",
       "kotae"
@@ -2197,10 +2197,10 @@
       "solution",
       "answer"
     ],
-    "w": 175
+    "jpop": 175
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "zu",
       "koto"
@@ -2211,10 +2211,10 @@
       "matter",
       "business"
     ],
-    "w": 176
+    "jpop": 176
   },
   {
-    "pr": [
+    "jpr": [
       "ten"
     ],
     "j": "転",
@@ -2223,10 +2223,10 @@
       "turn",
       "turn around"
     ],
-    "w": 177
+    "jpop": 177
   },
   {
-    "pr": [
+    "jpr": [
       "saku",
       "sa",
       "tsukuru"
@@ -2237,10 +2237,10 @@
       "produce",
       "prepare"
     ],
-    "w": 178
+    "jpop": 178
   },
   {
-    "pr": [
+    "jpr": [
       "cha",
       "sa"
     ],
@@ -2248,10 +2248,10 @@
     "e": [
       "tea"
     ],
-    "w": 179
+    "jpop": 179
   },
   {
-    "pr": [
+    "jpr": [
       "sou",
       "hayai"
     ],
@@ -2261,10 +2261,10 @@
       "quick",
       "early"
     ],
-    "w": 180
+    "jpop": 180
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "tomaru",
       "tomeru"
@@ -2273,10 +2273,10 @@
     "e": [
       "stop"
     ],
-    "w": 181
+    "jpop": 181
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "shi",
       "mizukara"
@@ -2287,10 +2287,10 @@
       "I",
       "self"
     ],
-    "w": 182
+    "jpop": 182
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "ji",
       "tsukaeru"
@@ -2301,10 +2301,10 @@
       "serve",
       "attend"
     ],
-    "w": 183
+    "jpop": 183
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "shinu"
     ],
@@ -2314,10 +2314,10 @@
       "die",
       "dead"
     ],
-    "w": 184
+    "jpop": 184
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "hajimeru"
     ],
@@ -2327,10 +2327,10 @@
       "beginning",
       "start"
     ],
-    "w": 185
+    "jpop": 185
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "tsukau",
       "tsukai"
@@ -2339,10 +2339,10 @@
     "e": [
       "use"
     ],
-    "w": 186
+    "jpop": 186
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "watashi",
       "watakushi"
@@ -2353,10 +2353,10 @@
       "me",
       "private"
     ],
-    "w": 187
+    "jpop": 187
   },
   {
-    "pr": [
+    "jpr": [
       "chi",
       "ji"
     ],
@@ -2366,10 +2366,10 @@
       "land",
       "earth"
     ],
-    "w": 188
+    "jpop": 188
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "motsu",
       "moteru"
@@ -2380,10 +2380,10 @@
       "hold",
       "carry"
     ],
-    "w": 189
+    "jpop": 189
   },
   {
-    "pr": [
+    "jpr": [
       "shitsu"
     ],
     "j": "質",
@@ -2392,10 +2392,10 @@
       "matter",
       "substance"
     ],
-    "w": 190
+    "jpop": 190
   },
   {
-    "pr": [
+    "jpr": [
       "shitsu",
       "muro"
     ],
@@ -2404,10 +2404,10 @@
       "room",
       "chamber"
     ],
-    "w": 191
+    "jpop": 191
   },
   {
-    "pr": [
+    "jpr": [
       "hin",
       "shina"
     ],
@@ -2417,10 +2417,10 @@
       "article",
       "dignity"
     ],
-    "w": 192
+    "jpop": 192
   },
   {
-    "pr": [
+    "jpr": [
       "sha",
       "yashiro"
     ],
@@ -2430,10 +2430,10 @@
       "firm",
       "office"
     ],
-    "w": 193
+    "jpop": 193
   },
   {
-    "pr": [
+    "jpr": [
       "sha",
       "mono"
     ],
@@ -2442,10 +2442,10 @@
       "someone",
       "person"
     ],
-    "w": 194
+    "jpop": 194
   },
   {
-    "pr": [
+    "jpr": [
       "shu",
       "zu",
       "te"
@@ -2454,20 +2454,20 @@
     "e": [
       "hand"
     ],
-    "w": 195
+    "jpop": 195
   },
   {
-    "pr": [
+    "jpr": [
       "shuu"
     ],
     "j": "週",
     "e": [
       "week"
     ],
-    "w": 196
+    "jpop": 196
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "ju",
       "narau"
@@ -2476,10 +2476,10 @@
     "e": [
       "learn"
     ],
-    "w": 197
+    "jpop": 197
   },
   {
-    "pr": [
+    "jpr": [
       "juu",
       "chuu",
       "sumu"
@@ -2490,10 +2490,10 @@
       "reside",
       "dwell"
     ],
-    "w": 198
+    "jpop": 198
   },
   {
-    "pr": [
+    "jpr": [
       "shun",
       "haru"
     ],
@@ -2502,10 +2502,10 @@
       "spring",
       "spring (season)"
     ],
-    "w": 199
+    "jpop": 199
   },
   {
-    "pr": [
+    "jpr": [
       "sei",
       "shou",
       "tadashii"
@@ -2516,10 +2516,10 @@
       "right",
       "justice"
     ],
-    "w": 200
+    "jpop": 200
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "sukunai",
       "sukoshi"
@@ -2529,10 +2529,10 @@
       "few",
       "little"
     ],
-    "w": 201
+    "jpop": 201
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "chou",
       "ba"
@@ -2543,10 +2543,10 @@
       "location",
       "place"
     ],
-    "w": 202
+    "jpop": 202
   },
   {
-    "pr": [
+    "jpr": [
       "chi",
       "shiru"
     ],
@@ -2555,10 +2555,10 @@
       "know",
       "wisdom"
     ],
-    "w": 203
+    "jpop": 203
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "ma",
       "makoto"
@@ -2569,10 +2569,10 @@
       "reality",
       "truth"
     ],
-    "w": 204
+    "jpop": 204
   },
   {
-    "pr": [
+    "jpr": [
       "zu",
       "to",
       "hakaru"
@@ -2583,10 +2583,10 @@
       "drawing",
       "plan"
     ],
-    "w": 205
+    "jpop": 205
   },
   {
-    "pr": [
+    "jpr": [
       "sei",
       "se",
       "yo"
@@ -2597,10 +2597,10 @@
       "society",
       "generation"
     ],
-    "w": 206
+    "jpop": 206
   },
   {
-    "pr": [
+    "jpr": [
       "seki",
       "yuu"
     ],
@@ -2608,10 +2608,10 @@
     "e": [
       "evening"
     ],
-    "w": 207
+    "jpop": 207
   },
   {
-    "pr": [
+    "jpr": [
       "sou",
       "hashiru"
     ],
@@ -2619,10 +2619,10 @@
     "e": [
       "run"
     ],
-    "w": 208
+    "jpop": 208
   },
   {
-    "pr": [
+    "jpr": [
       "zoku"
     ],
     "j": "族",
@@ -2630,10 +2630,10 @@
       "tribe",
       "family"
     ],
-    "w": 209
+    "jpop": 209
   },
   {
-    "pr": [
+    "jpr": [
       "chuu",
       "sosogu",
       "sasu"
@@ -2644,10 +2644,10 @@
       "flow",
       "concentrate"
     ],
-    "w": 210
+    "jpop": 210
   },
   {
-    "pr": [
+    "jpr": [
       "den",
       "ta"
     ],
@@ -2657,10 +2657,10 @@
       "rice field",
       "rice patty"
     ],
-    "w": 211
+    "jpop": 211
   },
   {
-    "pr": [
+    "jpr": [
       "dai",
       "tai"
     ],
@@ -2670,10 +2670,10 @@
       "stage",
       "pedestal"
     ],
-    "w": 212
+    "jpop": 212
   },
   {
-    "pr": [
+    "jpr": [
       "tai",
       "matsu"
     ],
@@ -2682,10 +2682,10 @@
       "wait",
       "depend on"
     ],
-    "w": 213
+    "jpop": 213
   },
   {
-    "pr": [
+    "jpr": [
       "dai"
     ],
     "j": "題",
@@ -2693,10 +2693,10 @@
       "topic",
       "subject"
     ],
-    "w": 214
+    "jpop": 214
   },
   {
-    "pr": [
+    "jpr": [
       "do",
       "taku",
       "tabi"
@@ -2707,10 +2707,10 @@
       "time",
       "times occurred"
     ],
-    "w": 215
+    "jpop": 215
   },
   {
-    "pr": [
+    "jpr": [
       "ritsu",
       "ryuu",
       "tatsu"
@@ -2720,10 +2720,10 @@
       "stand",
       "stand up"
     ],
-    "w": 216
+    "jpop": 216
   },
   {
-    "pr": [
+    "jpr": [
       "ryo",
       "tabi"
     ],
@@ -2732,10 +2732,10 @@
       "trip",
       "travel"
     ],
-    "w": 217
+    "jpop": 217
   },
   {
-    "pr": [
+    "jpr": [
       "ryoku",
       "riki",
       "chikara"
@@ -2746,10 +2746,10 @@
       "strength",
       "exertion"
     ],
-    "w": 218
+    "jpop": 218
   },
   {
-    "pr": [
+    "jpr": [
       "chuu",
       "hiru"
     ],
@@ -2759,10 +2759,10 @@
       "daytime",
       "day"
     ],
-    "w": 219
+    "jpop": 219
   },
   {
-    "pr": [
+    "jpr": [
       "chou",
       "machi"
     ],
@@ -2771,10 +2771,10 @@
       "town",
       "village"
     ],
-    "w": 220
+    "jpop": 220
   },
   {
-    "pr": [
+    "jpr": [
       "chou",
       "tori"
     ],
@@ -2782,10 +2782,10 @@
     "e": [
       "bird"
     ],
-    "w": 221
+    "jpop": 221
   },
   {
-    "pr": [
+    "jpr": [
       "ten",
       "mise"
     ],
@@ -2795,10 +2795,10 @@
       "shop",
       "problem"
     ],
-    "w": 222
+    "jpop": 222
   },
   {
-    "pr": [
+    "jpr": [
       "mon",
       "tou"
     ],
@@ -2807,10 +2807,10 @@
       "question",
       "ask"
     ],
-    "w": 223
+    "jpop": 223
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "fuyu"
     ],
@@ -2820,10 +2820,10 @@
       "winter (season)",
       "course"
     ],
-    "w": 224
+    "jpop": 224
   },
   {
-    "pr": [
+    "jpr": [
       "dou",
       "tou",
       "michi"
@@ -2833,40 +2833,40 @@
       "way",
       "road"
     ],
-    "w": 225
+    "jpop": 225
   },
   {
-    "pr": [
+    "jpr": [
       "dou"
     ],
     "j": "堂",
     "e": [
       "hall"
     ],
-    "w": 226
+    "jpop": 226
   },
   {
-    "pr": [
+    "jpr": [
       "toku"
     ],
     "j": "特",
     "e": [
       "special"
     ],
-    "w": 227
+    "jpop": 227
   },
   {
-    "pr": [
+    "jpr": [
       "niku"
     ],
     "j": "肉",
     "e": [
       "meat"
     ],
-    "w": 228
+    "jpop": 228
   },
   {
-    "pr": [
+    "jpr": [
       "ya",
       "sho",
       "no"
@@ -2876,10 +2876,10 @@
       "plains",
       "field"
     ],
-    "w": 229
+    "jpop": 229
   },
   {
-    "pr": [
+    "jpr": [
       "hatsu",
       "abaku",
       "tatsu"
@@ -2890,10 +2890,10 @@
       "start",
       "happen"
     ],
-    "w": 230
+    "jpop": 230
   },
   {
-    "pr": [
+    "jpr": [
       "han",
       "meshi"
     ],
@@ -2903,10 +2903,10 @@
       "rice",
       "cooked rice"
     ],
-    "w": 231
+    "jpop": 231
   },
   {
-    "pr": [
+    "jpr": [
       "byou",
       "yamai",
       "yamu"
@@ -2916,10 +2916,10 @@
       "ill",
       "sick"
     ],
-    "w": 232
+    "jpop": 232
   },
   {
-    "pr": [
+    "jpr": [
       "fu",
       "bu"
     ],
@@ -2929,10 +2929,10 @@
       "negative",
       "bad"
     ],
-    "w": 233
+    "jpop": 233
   },
   {
-    "pr": [
+    "jpr": [
       "fuku"
     ],
     "j": "服",
@@ -2940,10 +2940,10 @@
       "clothing",
       "obey"
     ],
-    "w": 234
+    "jpop": 234
   },
   {
-    "pr": [
+    "jpr": [
       "butsu",
       "motsu",
       "mono"
@@ -2954,10 +2954,10 @@
       "matter",
       "object"
     ],
-    "w": 235
+    "jpop": 235
   },
   {
-    "pr": [
+    "jpr": [
       "bun",
       "mon",
       "fumi"
@@ -2967,10 +2967,10 @@
       "sentence",
       "literature"
     ],
-    "w": 236
+    "jpop": 236
   },
   {
-    "pr": [
+    "jpr": [
       "betsu",
       "wakareru",
       "wakeru"
@@ -2981,10 +2981,10 @@
       "another",
       "specially"
     ],
-    "w": 237
+    "jpop": 237
   },
   {
-    "pr": [
+    "jpr": [
       "ben",
       "tsutomeru"
     ],
@@ -2992,10 +2992,10 @@
     "e": [
       "exertion"
     ],
-    "w": 238
+    "jpop": 238
   },
   {
-    "pr": [
+    "jpr": [
       "moku",
       "boku",
       "me"
@@ -3004,10 +3004,10 @@
     "e": [
       "eye"
     ],
-    "w": 239
+    "jpop": 239
   },
   {
-    "pr": [
+    "jpr": [
       "you",
       "mochiiru"
     ],
@@ -3017,10 +3017,10 @@
       "service",
       "business"
     ],
-    "w": 240
+    "jpop": 240
   },
   {
-    "pr": [
+    "jpr": [
       "ya",
       "yo",
       "yoru"
@@ -3030,20 +3030,20 @@
       "night",
       "evening"
     ],
-    "w": 241
+    "jpop": 241
   },
   {
-    "pr": [
+    "jpr": [
       "you"
     ],
     "j": "曜",
     "e": [
       "weekday"
     ],
-    "w": 242
+    "jpop": 242
   },
   {
-    "pr": [
+    "jpr": [
       "you"
     ],
     "j": "洋",
@@ -3052,10 +3052,10 @@
       "western",
       "ocean"
     ],
-    "w": 243
+    "jpop": 243
   },
   {
-    "pr": [
+    "jpr": [
       "ri"
     ],
     "j": "理",
@@ -3064,10 +3064,10 @@
       "reason",
       "truth"
     ],
-    "w": 244
+    "jpop": 244
   },
   {
-    "pr": [
+    "jpr": [
       "ryou"
     ],
     "j": "料",
@@ -3075,10 +3075,10 @@
       "fee",
       "materials"
     ],
-    "w": 245
+    "jpop": 245
   },
   {
-    "pr": [
+    "jpr": [
       "ai",
       "sou",
       "shou"
@@ -3089,10 +3089,10 @@
       "appearance",
       "minister (of state)"
     ],
-    "w": 246
+    "jpop": 246
   },
   {
-    "pr": [
+    "jpr": [
       "ai"
     ],
     "j": "愛",
@@ -3100,10 +3100,10 @@
       "love",
       "affection"
     ],
-    "w": 247
+    "jpop": 247
   },
   {
-    "pr": [
+    "jpr": [
       "au",
       "gou",
       "ka (tsu)"
@@ -3114,10 +3114,10 @@
       "fit",
       "to be together"
     ],
-    "w": 248
+    "jpop": 248
   },
   {
-    "pr": [
+    "jpr": [
       "akinau",
       "shou"
     ],
@@ -3126,10 +3126,10 @@
       "sell",
       "trade"
     ],
-    "w": 249
+    "jpop": 249
   },
   {
-    "pr": [
+    "jpr": [
       "asai",
       "sen"
     ],
@@ -3138,10 +3138,10 @@
       "shallow",
       "superficial"
     ],
-    "w": 250
+    "jpop": 250
   },
   {
-    "pr": [
+    "jpr": [
       "azukaru",
       "yo",
       "azukeru"
@@ -3152,10 +3152,10 @@
       "charge",
       "deposit"
     ],
-    "w": 251
+    "jpop": 251
   },
   {
-    "pr": [
+    "jpr": [
       "ase",
       "kan"
     ],
@@ -3164,10 +3164,10 @@
       "sweat",
       "perspiration"
     ],
-    "w": 252
+    "jpop": 252
   },
   {
-    "pr": [
+    "jpr": [
       "asobu",
       "yuu"
     ],
@@ -3177,10 +3177,10 @@
       "idle",
       "playful"
     ],
-    "w": 253
+    "jpop": 253
   },
   {
-    "pr": [
+    "jpr": [
       "atai",
       "chi",
       "ne"
@@ -3191,10 +3191,10 @@
       "price",
       "to value"
     ],
-    "w": 254
+    "jpop": 254
   },
   {
-    "pr": [
+    "jpr": [
       "ataeru",
       "yo"
     ],
@@ -3204,10 +3204,10 @@
       "award",
       "assign"
     ],
-    "w": 255
+    "jpop": 255
   },
   {
-    "pr": [
+    "jpr": [
       "atatakai",
       "on"
     ],
@@ -3216,10 +3216,10 @@
       "warm",
       "temperature"
     ],
-    "w": 256
+    "jpop": 256
   },
   {
-    "pr": [
+    "jpr": [
       "atatakai",
       "dan"
     ],
@@ -3228,10 +3228,10 @@
       "warm",
       "cordial"
     ],
-    "w": 257
+    "jpop": 257
   },
   {
-    "pr": [
+    "jpr": [
       "atama",
       "tou",
       "zu"
@@ -3241,10 +3241,10 @@
       "head",
       "top"
     ],
-    "w": 258
+    "jpop": 258
   },
   {
-    "pr": [
+    "jpr": [
       "atari",
       "hen",
       "be"
@@ -3254,10 +3254,10 @@
       "vicinity",
       "neighborhood"
     ],
-    "w": 259
+    "jpop": 259
   },
   {
-    "pr": [
+    "jpr": [
       "ataru",
       "tou",
       "ateru"
@@ -3268,20 +3268,20 @@
       "win",
       "guess"
     ],
-    "w": 260
+    "jpop": 260
   },
   {
-    "pr": [
+    "jpr": [
       "atsu"
     ],
     "j": "圧",
     "e": [
       "pressure"
     ],
-    "w": 261
+    "jpop": 261
   },
   {
-    "pr": [
+    "jpr": [
       "atsui",
       "sho"
     ],
@@ -3291,10 +3291,10 @@
       "hot",
       "summer heat"
     ],
-    "w": 262
+    "jpop": 262
   },
   {
-    "pr": [
+    "jpr": [
       "atsui",
       "netsu"
     ],
@@ -3304,10 +3304,10 @@
       "hot",
       "fever"
     ],
-    "w": 263
+    "jpop": 263
   },
   {
-    "pr": [
+    "jpr": [
       "atsui",
       "kou"
     ],
@@ -3315,10 +3315,10 @@
     "e": [
       "thick"
     ],
-    "w": 264
+    "jpop": 264
   },
   {
-    "pr": [
+    "jpr": [
       "ato",
       "seki"
     ],
@@ -3328,10 +3328,10 @@
       "marks",
       "remains"
     ],
-    "w": 265
+    "jpop": 265
   },
   {
-    "pr": [
+    "jpr": [
       "abaku",
       "bou"
     ],
@@ -3341,10 +3341,10 @@
       "open",
       "violent"
     ],
-    "w": 266
+    "jpop": 266
   },
   {
-    "pr": [
+    "jpr": [
       "abiru",
       "yoku"
     ],
@@ -3352,10 +3352,10 @@
     "e": [
       "bathe"
     ],
-    "w": 267
+    "jpop": 267
   },
   {
-    "pr": [
+    "jpr": [
       "abunai",
       "ki",
       "ayaui"
@@ -3366,10 +3366,10 @@
       "unsafe",
       "unsteady"
     ],
-    "w": 268
+    "jpop": 268
   },
   {
-    "pr": [
+    "jpr": [
       "abura",
       "yu"
     ],
@@ -3377,10 +3377,10 @@
     "e": [
       "oil"
     ],
-    "w": 269
+    "jpop": 269
   },
   {
-    "pr": [
+    "jpr": [
       "abura",
       "shi"
     ],
@@ -3388,10 +3388,10 @@
     "e": [
       "fat"
     ],
-    "w": 270
+    "jpop": 270
   },
   {
-    "pr": [
+    "jpr": [
       "amai",
       "kan"
     ],
@@ -3399,10 +3399,10 @@
     "e": [
       "sweet"
     ],
-    "w": 271
+    "jpop": 271
   },
   {
-    "pr": [
+    "jpr": [
       "amasu",
       "yo",
       "amaru"
@@ -3413,10 +3413,10 @@
       "remainder",
       "to leave over"
     ],
-    "w": 272
+    "jpop": 272
   },
   {
-    "pr": [
+    "jpr": [
       "amu",
       "hen"
     ],
@@ -3425,10 +3425,10 @@
       "compile",
       "knit"
     ],
-    "w": 273
+    "jpop": 273
   },
   {
-    "pr": [
+    "jpr": [
       "ayamachi",
       "ka",
       "sugiru"
@@ -3439,10 +3439,10 @@
       "exceed",
       "pass"
     ],
-    "w": 274
+    "jpop": 274
   },
   {
-    "pr": [
+    "jpr": [
       "ayamaru",
       "go"
     ],
@@ -3451,10 +3451,10 @@
       "mistake",
       "fault"
     ],
-    "w": 275
+    "jpop": 275
   },
   {
-    "pr": [
+    "jpr": [
       "arai",
       "kou",
       "areru"
@@ -3465,10 +3465,10 @@
       "wild",
       "rough"
     ],
-    "w": 276
+    "jpop": 276
   },
   {
-    "pr": [
+    "jpr": [
       "arau",
       "sen"
     ],
@@ -3476,10 +3476,10 @@
     "e": [
       "wash"
     ],
-    "w": 277
+    "jpop": 277
   },
   {
-    "pr": [
+    "jpr": [
       "arasou",
       "sou",
       "arasoi"
@@ -3490,10 +3490,10 @@
       "quarrel",
       "dispute"
     ],
-    "w": 278
+    "jpop": 278
   },
   {
-    "pr": [
+    "jpr": [
       "aratameru",
       "aratamaru",
       "kai"
@@ -3504,10 +3504,10 @@
       "reform",
       "reformed"
     ],
-    "w": 279
+    "jpop": 279
   },
   {
-    "pr": [
+    "jpr": [
       "arawasu",
       "hyou",
       "omote"
@@ -3518,10 +3518,10 @@
       "list",
       "schedule"
     ],
-    "w": 280
+    "jpop": 280
   },
   {
-    "pr": [
+    "jpr": [
       "arawasu",
       "gen"
     ],
@@ -3530,10 +3530,10 @@
       "actual",
       "appear"
     ],
-    "w": 281
+    "jpop": 281
   },
   {
-    "pr": [
+    "jpr": [
       "arawasu",
       "cho",
       "ichijirushii"
@@ -3544,10 +3544,10 @@
       "writer",
       "remarkable"
     ],
-    "w": 282
+    "jpop": 282
   },
   {
-    "pr": [
+    "jpr": [
       "aru",
       "zai"
     ],
@@ -3557,10 +3557,10 @@
       "country",
       "suburbs"
     ],
-    "w": 283
+    "jpop": 283
   },
   {
-    "pr": [
+    "jpr": [
       "an",
       "kurai"
     ],
@@ -3568,10 +3568,10 @@
     "e": [
       "dark"
     ],
-    "w": 284
+    "jpop": 284
   },
   {
-    "pr": [
+    "jpr": [
       "i"
     ],
     "j": "委",
@@ -3579,10 +3579,10 @@
       "commit",
       "entrust"
     ],
-    "w": 285
+    "jpop": 285
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "koromo"
     ],
@@ -3591,10 +3591,10 @@
       "clothes",
       "garments"
     ],
-    "w": 286
+    "jpop": 286
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "kakomu",
       "kakou"
@@ -3604,10 +3604,10 @@
       "enclose",
       "surround"
     ],
-    "w": 287
+    "jpop": 287
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "kurai"
     ],
@@ -3617,20 +3617,20 @@
       "position",
       "about"
     ],
-    "w": 288
+    "jpop": 288
   },
   {
-    "pr": [
+    "jpr": [
       "i"
     ],
     "j": "胃",
     "e": [
       "stomach"
     ],
-    "w": 289
+    "jpop": 289
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "eki",
       "yasui"
@@ -3639,10 +3639,10 @@
     "e": [
       "easy"
     ],
-    "w": 290
+    "jpop": 290
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "utsuru",
       "utsusu"
@@ -3653,10 +3653,10 @@
       "infect",
       "move"
     ],
-    "w": 291
+    "jpop": 291
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "e"
     ],
@@ -3665,10 +3665,10 @@
       "depend",
       "depend on"
     ],
-    "w": 292
+    "jpop": 292
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "erai"
     ],
@@ -3677,10 +3677,10 @@
       "great",
       "remarkable"
     ],
-    "w": 293
+    "jpop": 293
   },
   {
-    "pr": [
+    "jpr": [
       "i",
       "chigau",
       "chigaeru"
@@ -3690,10 +3690,10 @@
       "differ",
       "wrong"
     ],
-    "w": 294
+    "jpop": 294
   },
   {
-    "pr": [
+    "jpr": [
       "ikaru",
       "do",
       "okoru"
@@ -3704,10 +3704,10 @@
       "get angry",
       "angry"
     ],
-    "w": 295
+    "jpop": 295
   },
   {
-    "pr": [
+    "jpr": [
       "iki",
       "soku"
     ],
@@ -3715,20 +3715,20 @@
     "e": [
       "breath"
     ],
-    "w": 296
+    "jpop": 296
   },
   {
-    "pr": [
+    "jpr": [
       "iki"
     ],
     "j": "域",
     "e": [
       "boundary"
     ],
-    "w": 297
+    "jpop": 297
   },
   {
-    "pr": [
+    "jpr": [
       "ikioi",
       "sei"
     ],
@@ -3736,10 +3736,10 @@
     "e": [
       "power"
     ],
-    "w": 298
+    "jpop": 298
   },
   {
-    "pr": [
+    "jpr": [
       "iku",
       "ki"
     ],
@@ -3748,10 +3748,10 @@
       "how many",
       "some"
     ],
-    "w": 299
+    "jpop": 299
   },
   {
-    "pr": [
+    "jpr": [
       "iku",
       "sodatsu",
       "sodateru"
@@ -3762,10 +3762,10 @@
       "educate",
       "grow"
     ],
-    "w": 300
+    "jpop": 300
   },
   {
-    "pr": [
+    "jpr": [
       "ikusa",
       "sen",
       "tatakau"
@@ -3774,10 +3774,10 @@
     "e": [
       "war"
     ],
-    "w": 301
+    "jpop": 301
   },
   {
-    "pr": [
+    "jpr": [
       "ike",
       "chi"
     ],
@@ -3785,10 +3785,10 @@
     "e": [
       "pond"
     ],
-    "w": 302
+    "jpop": 302
   },
   {
-    "pr": [
+    "jpr": [
       "isamu",
       "yuu"
     ],
@@ -3796,10 +3796,10 @@
     "e": [
       "brave"
     ],
-    "w": 303
+    "jpop": 303
   },
   {
-    "pr": [
+    "jpr": [
       "ishi",
       "seki",
       "shaku"
@@ -3809,10 +3809,10 @@
       "stone",
       "rock"
     ],
-    "w": 304
+    "jpop": 304
   },
   {
-    "pr": [
+    "jpr": [
       "izumi",
       "sen"
     ],
@@ -3820,10 +3820,10 @@
     "e": [
       "spring"
     ],
-    "w": 305
+    "jpop": 305
   },
   {
-    "pr": [
+    "jpr": [
       "isogashii",
       "bou"
     ],
@@ -3831,10 +3831,10 @@
     "e": [
       "busy"
     ],
-    "w": 306
+    "jpop": 306
   },
   {
-    "pr": [
+    "jpr": [
       "ita",
       "han",
       "ban"
@@ -3844,10 +3844,10 @@
       "board",
       "plate"
     ],
-    "w": 307
+    "jpop": 307
   },
   {
-    "pr": [
+    "jpr": [
       "itai",
       "tsuu",
       "itamu"
@@ -3857,10 +3857,10 @@
       "pain",
       "hurt"
     ],
-    "w": 308
+    "jpop": 308
   },
   {
-    "pr": [
+    "jpr": [
       "idaku",
       "hou",
       "daku"
@@ -3870,10 +3870,10 @@
       "hug",
       "hold"
     ],
-    "w": 309
+    "jpop": 309
   },
   {
-    "pr": [
+    "jpr": [
       "itadaki",
       "chou",
       "itadaku"
@@ -3884,10 +3884,10 @@
       "receive",
       "summit (mountain)"
     ],
-    "w": 310
+    "jpop": 310
   },
   {
-    "pr": [
+    "jpr": [
       "ichi",
       "shi"
     ],
@@ -3896,10 +3896,10 @@
       "market",
       "city"
     ],
-    "w": 311
+    "jpop": 311
   },
   {
-    "pr": [
+    "jpr": [
       "ito",
       "shi"
     ],
@@ -3907,10 +3907,10 @@
     "e": [
       "thread"
     ],
-    "w": 312
+    "jpop": 312
   },
   {
-    "pr": [
+    "jpr": [
       "itonamu",
       "ei"
     ],
@@ -3919,10 +3919,10 @@
       "manage",
       "barracks"
     ],
-    "w": 313
+    "jpop": 313
   },
   {
-    "pr": [
+    "jpr": [
       "ina",
       "hi"
     ],
@@ -3931,10 +3931,10 @@
       "no",
       "denial"
     ],
-    "w": 314
+    "jpop": 314
   },
   {
-    "pr": [
+    "jpr": [
       "inochi",
       "mei",
       "myou"
@@ -3944,10 +3944,10 @@
       "life",
       "order"
     ],
-    "w": 315
+    "jpop": 315
   },
   {
-    "pr": [
+    "jpr": [
       "inoru",
       "ki"
     ],
@@ -3957,10 +3957,10 @@
       "to pray",
       "prayer"
     ],
-    "w": 316
+    "jpop": 316
   },
   {
-    "pr": [
+    "jpr": [
       "iru",
       "you"
     ],
@@ -3969,10 +3969,10 @@
       "require",
       "necessary"
     ],
-    "w": 317
+    "jpop": 317
   },
   {
-    "pr": [
+    "jpr": [
       "iru",
       "kyo"
     ],
@@ -3980,10 +3980,10 @@
     "e": [
       "reside"
     ],
-    "w": 318
+    "jpop": 318
   },
   {
-    "pr": [
+    "jpr": [
       "iwa",
       "gan"
     ],
@@ -3992,10 +3992,10 @@
       "rock",
       "crag"
     ],
-    "w": 319
+    "jpop": 319
   },
   {
-    "pr": [
+    "jpr": [
       "iwau",
       "shuku",
       "shuu"
@@ -4004,10 +4004,10 @@
     "e": [
       "celebrate"
     ],
-    "w": 320
+    "jpop": 320
   },
   {
-    "pr": [
+    "jpr": [
       "in",
       "hiku",
       "hikeru"
@@ -4017,10 +4017,10 @@
       "draw",
       "pull"
     ],
-    "w": 321
+    "jpop": 321
   },
   {
-    "pr": [
+    "jpr": [
       "in",
       "shirushi"
     ],
@@ -4029,10 +4029,10 @@
       "sign",
       "mark"
     ],
-    "w": 322
+    "jpop": 322
   },
   {
-    "pr": [
+    "jpr": [
       "in",
       "yoru"
     ],
@@ -4040,10 +4040,10 @@
     "e": [
       "cause"
     ],
-    "w": 323
+    "jpop": 323
   },
   {
-    "pr": [
+    "jpr": [
       "u",
       "ha",
       "hane"
@@ -4053,10 +4053,10 @@
       "feather",
       "wing"
     ],
-    "w": 324
+    "jpop": 324
   },
   {
-    "pr": [
+    "jpr": [
       "u"
     ],
     "j": "宇",
@@ -4065,10 +4065,10 @@
       "eaves",
       "house"
     ],
-    "w": 325
+    "jpop": 325
   },
   {
-    "pr": [
+    "jpr": [
       "hatsu",
       "sho",
       "hajime"
@@ -4079,10 +4079,10 @@
       "beginning",
       "begin"
     ],
-    "w": 326
+    "jpop": 326
   },
   {
-    "pr": [
+    "jpr": [
       "ueru",
       "uwaru",
       "shoku"
@@ -4093,10 +4093,10 @@
       "to plant",
       "set up"
     ],
-    "w": 327
+    "jpop": 327
   },
   {
-    "pr": [
+    "jpr": [
       "ukagau",
       "shi"
     ],
@@ -4106,10 +4106,10 @@
       "visit",
       "hear"
     ],
-    "w": 328
+    "jpop": 328
   },
   {
-    "pr": [
+    "jpr": [
       "ukabu",
       "fu",
       "uku"
@@ -4120,10 +4120,10 @@
       "to float",
       "come to mind"
     ],
-    "w": 329
+    "jpop": 329
   },
   {
-    "pr": [
+    "jpr": [
       "ukaru",
       "ju",
       "ukeru"
@@ -4134,10 +4134,10 @@
       "popularity",
       "receptacle"
     ],
-    "w": 330
+    "jpop": 330
   },
   {
-    "pr": [
+    "jpr": [
       "uketamawaru",
       "shou"
     ],
@@ -4146,10 +4146,10 @@
       "hear",
       "agree"
     ],
-    "w": 331
+    "jpop": 331
   },
   {
-    "pr": [
+    "jpr": [
       "ushinau",
       "shitsu"
     ],
@@ -4158,10 +4158,10 @@
       "lose",
       "slip"
     ],
-    "w": 332
+    "jpop": 332
   },
   {
-    "pr": [
+    "jpr": [
       "usui",
       "haku"
     ],
@@ -4171,10 +4171,10 @@
       "pale",
       "weak"
     ],
-    "w": 333
+    "jpop": 333
   },
   {
-    "pr": [
+    "jpr": [
       "utagau",
       "gi",
       "utagai"
@@ -4185,10 +4185,10 @@
       "suspect",
       "suspicion"
     ],
-    "w": 334
+    "jpop": 334
   },
   {
-    "pr": [
+    "jpr": [
       "uchi",
       "nai",
       "dai"
@@ -4197,10 +4197,10 @@
     "e": [
       "inside"
     ],
-    "w": 335
+    "jpop": 335
   },
   {
-    "pr": [
+    "jpr": [
       "utsu",
       "da"
     ],
@@ -4210,10 +4210,10 @@
       "hit",
       "beat"
     ],
-    "w": 336
+    "jpop": 336
   },
   {
-    "pr": [
+    "jpr": [
       "utsukushii",
       "bi"
     ],
@@ -4222,10 +4222,10 @@
       "beautiful",
       "beauty"
     ],
-    "w": 337
+    "jpop": 337
   },
   {
-    "pr": [
+    "jpr": [
       "utsuwa",
       "ki"
     ],
@@ -4234,10 +4234,10 @@
       "vessel",
       "tool"
     ],
-    "w": 338
+    "jpop": 338
   },
   {
-    "pr": [
+    "jpr": [
       "ude",
       "wan"
     ],
@@ -4247,10 +4247,10 @@
       "talent",
       "ability"
     ],
-    "w": 339
+    "jpop": 339
   },
   {
-    "pr": [
+    "jpr": [
       "ubu",
       "san",
       "umu"
@@ -4261,10 +4261,10 @@
       "product",
       "birth"
     ],
-    "w": 340
+    "jpop": 340
   },
   {
-    "pr": [
+    "jpr": [
       "uma",
       "ba",
       "ma"
@@ -4273,10 +4273,10 @@
     "e": [
       "horse"
     ],
-    "w": 341
+    "jpop": 341
   },
   {
-    "pr": [
+    "jpr": [
       "umaru",
       "mai",
       "umeru"
@@ -4287,10 +4287,10 @@
       "fill",
       "fill up"
     ],
-    "w": 342
+    "jpop": 342
   },
   {
-    "pr": [
+    "jpr": [
       "uyamau",
       "kei"
     ],
@@ -4298,10 +4298,10 @@
     "e": [
       "respect"
     ],
-    "w": 343
+    "jpop": 343
   },
   {
-    "pr": [
+    "jpr": [
       "ura",
       "ri"
     ],
@@ -4311,10 +4311,10 @@
       "back",
       "reverse"
     ],
-    "w": 344
+    "jpop": 344
   },
   {
-    "pr": [
+    "jpr": [
       "uranau",
       "sen",
       "shimeru"
@@ -4325,10 +4325,10 @@
       "to hold (a seat)",
       "occupy"
     ],
-    "w": 345
+    "jpop": 345
   },
   {
-    "pr": [
+    "jpr": [
       "uru",
       "toku",
       "eru"
@@ -4338,10 +4338,10 @@
       "acquire",
       "gain"
     ],
-    "w": 346
+    "jpop": 346
   },
   {
-    "pr": [
+    "jpr": [
       "e",
       "kai"
     ],
@@ -4349,10 +4349,10 @@
     "e": [
       "picture"
     ],
-    "w": 347
+    "jpop": 347
   },
   {
-    "pr": [
+    "jpr": [
       "e",
       "kai",
       "mawaru"
@@ -4362,10 +4362,10 @@
       "turn",
       "to turn"
     ],
-    "w": 348
+    "jpop": 348
   },
   {
-    "pr": [
+    "jpr": [
       "ei",
       "oyogu"
     ],
@@ -4373,10 +4373,10 @@
     "e": [
       "swim"
     ],
-    "w": 349
+    "jpop": 349
   },
   {
-    "pr": [
+    "jpr": [
       "ei",
       "sakaeru",
       "hae"
@@ -4386,10 +4386,10 @@
       "glory",
       "flourish"
     ],
-    "w": 350
+    "jpop": 350
   },
   {
-    "pr": [
+    "jpr": [
       "ei",
       "nagai"
     ],
@@ -4397,10 +4397,10 @@
     "e": [
       "eternal"
     ],
-    "w": 351
+    "jpop": 351
   },
   {
-    "pr": [
+    "jpr": [
       "ei",
       "surudoi"
     ],
@@ -4408,10 +4408,10 @@
     "e": [
       "sharp"
     ],
-    "w": 352
+    "jpop": 352
   },
   {
-    "pr": [
+    "jpr": [
       "eki",
       "yaku"
     ],
@@ -4421,20 +4421,20 @@
       "duty",
       "service"
     ],
-    "w": 353
+    "jpop": 353
   },
   {
-    "pr": [
+    "jpr": [
       "eki"
     ],
     "j": "液",
     "e": [
       "liquid"
     ],
-    "w": 354
+    "jpop": 354
   },
   {
-    "pr": [
+    "jpr": [
       "eda",
       "shi"
     ],
@@ -4443,10 +4443,10 @@
       "branch",
       "tree branch"
     ],
-    "w": 355
+    "jpop": 355
   },
   {
-    "pr": [
+    "jpr": [
       "etsu",
       "koeru",
       "kosu"
@@ -4457,10 +4457,10 @@
       "cross",
       "move"
     ],
-    "w": 356
+    "jpop": 356
   },
   {
-    "pr": [
+    "jpr": [
       "emu",
       "warau",
       "shou"
@@ -4470,10 +4470,10 @@
       "laugh",
       "smile"
     ],
-    "w": 357
+    "jpop": 357
   },
   {
-    "pr": [
+    "jpr": [
       "erabu",
       "sen"
     ],
@@ -4482,10 +4482,10 @@
       "choose",
       "choice"
     ],
-    "w": 358
+    "jpop": 358
   },
   {
-    "pr": [
+    "jpr": [
       "en",
       "sono"
     ],
@@ -4493,10 +4493,10 @@
     "e": [
       "garden"
     ],
-    "w": 359
+    "jpop": 359
   },
   {
-    "pr": [
+    "jpr": [
       "en",
       "on",
       "tooi"
@@ -4505,10 +4505,10 @@
     "e": [
       "far"
     ],
-    "w": 360
+    "jpop": 360
   },
   {
-    "pr": [
+    "jpr": [
       "en",
       "shio"
     ],
@@ -4516,10 +4516,10 @@
     "e": [
       "salt"
     ],
-    "w": 361
+    "jpop": 361
   },
   {
-    "pr": [
+    "jpr": [
       "en"
     ],
     "j": "演",
@@ -4528,10 +4528,10 @@
       "perform",
       "put on a play"
     ],
-    "w": 362
+    "jpop": 362
   },
   {
-    "pr": [
+    "jpr": [
       "en",
       "nobiru",
       "nobasu"
@@ -4541,10 +4541,10 @@
       "postpone",
       "extend"
     ],
-    "w": 363
+    "jpop": 363
   },
   {
-    "pr": [
+    "jpr": [
       "en",
       "kemuri",
       "kemuru"
@@ -4554,10 +4554,10 @@
       "smoke",
       "smokey"
     ],
-    "w": 364
+    "jpop": 364
   },
   {
-    "pr": [
+    "jpr": [
       "sho",
       "cho",
       "o"
@@ -4568,10 +4568,10 @@
       "string (of a musical instrument)",
       "beginning (lineage)"
     ],
-    "w": 365
+    "jpop": 365
   },
   {
-    "pr": [
+    "jpr": [
       "o",
       "kegasu",
       "kitanai"
@@ -4582,10 +4582,10 @@
       "dirty",
       "get dirty"
     ],
-    "w": 366
+    "jpop": 366
   },
   {
-    "pr": [
+    "jpr": [
       "wa",
       "yawaraku",
       "nagomu"
@@ -4596,10 +4596,10 @@
       "Japan",
       "sum"
     ],
-    "w": 367
+    "jpop": 367
   },
   {
-    "pr": [
+    "jpr": [
       "oiru",
       "rou",
       "fukeru"
@@ -4608,10 +4608,10 @@
     "e": [
       "old"
     ],
-    "w": 368
+    "jpop": 368
   },
   {
-    "pr": [
+    "jpr": [
       "ou",
       "fu",
       "makeru"
@@ -4622,10 +4622,10 @@
       "defeated",
       "to bear"
     ],
-    "w": 369
+    "jpop": 369
   },
   {
-    "pr": [
+    "jpr": [
       "ou",
       "tsui"
     ],
@@ -4633,20 +4633,20 @@
     "e": [
       "chase"
     ],
-    "w": 370
+    "jpop": 370
   },
   {
-    "pr": [
+    "jpr": [
       "ou"
     ],
     "j": "王",
     "e": [
       "king"
     ],
-    "w": 371
+    "jpop": 371
   },
   {
-    "pr": [
+    "jpr": [
       "ou",
       "kou",
       "ki"
@@ -4655,10 +4655,10 @@
     "e": [
       "yellow"
     ],
-    "w": 372
+    "jpop": 372
   },
   {
-    "pr": [
+    "jpr": [
       "ou"
     ],
     "j": "央",
@@ -4666,10 +4666,10 @@
       "center",
       "middle"
     ],
-    "w": 373
+    "jpop": 373
   },
   {
-    "pr": [
+    "jpr": [
       "ou",
       "yoko"
     ],
@@ -4679,10 +4679,10 @@
       "width",
       "beside"
     ],
-    "w": 374
+    "jpop": 374
   },
   {
-    "pr": [
+    "jpr": [
       "ou"
     ],
     "j": "欧",
@@ -4690,10 +4690,10 @@
       "europe",
       "european"
     ],
-    "w": 375
+    "jpop": 375
   },
   {
-    "pr": [
+    "jpr": [
       "ou",
       "osu",
       "osaeru"
@@ -4702,10 +4702,10 @@
     "e": [
       "push"
     ],
-    "w": 376
+    "jpop": 376
   },
   {
-    "pr": [
+    "jpr": [
       "ou",
       "oku"
     ],
@@ -4715,10 +4715,10 @@
       "depths",
       "inner"
     ],
-    "w": 377
+    "jpop": 377
   },
   {
-    "pr": [
+    "jpr": [
       "okasu",
       "han"
     ],
@@ -4728,10 +4728,10 @@
       "offense",
       "to commit"
     ],
-    "w": 378
+    "jpop": 378
   },
   {
-    "pr": [
+    "jpr": [
       "ogamu",
       "hai"
     ],
@@ -4740,10 +4740,10 @@
       "worship",
       "humbly"
     ],
-    "w": 379
+    "jpop": 379
   },
   {
-    "pr": [
+    "jpr": [
       "oginau",
       "ho"
     ],
@@ -4753,10 +4753,10 @@
       "supplement",
       "compensate"
     ],
-    "w": 380
+    "jpop": 380
   },
   {
-    "pr": [
+    "jpr": [
       "oku",
       "chi"
     ],
@@ -4765,10 +4765,10 @@
       "place",
       "put"
     ],
-    "w": 381
+    "jpop": 381
   },
   {
-    "pr": [
+    "jpr": [
       "oku"
     ],
     "j": "億",
@@ -4776,10 +4776,10 @@
       "hundred million",
       "100,000,000"
     ],
-    "w": 382
+    "jpop": 382
   },
   {
-    "pr": [
+    "jpr": [
       "okureru",
       "chi",
       "osoi"
@@ -4789,10 +4789,10 @@
       "slow",
       "late"
     ],
-    "w": 383
+    "jpop": 383
   },
   {
-    "pr": [
+    "jpr": [
       "okuru",
       "zou",
       "sou"
@@ -4803,10 +4803,10 @@
       "present",
       "to present"
     ],
-    "w": 384
+    "jpop": 384
   },
   {
-    "pr": [
+    "jpr": [
       "osanai",
       "you"
     ],
@@ -4815,10 +4815,10 @@
       "childish",
       "young"
     ],
-    "w": 385
+    "jpop": 385
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "chi",
       "naosu"
@@ -4829,10 +4829,10 @@
       "govern",
       "cure"
     ],
-    "w": 386
+    "jpop": 386
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "osamaru"
     ],
@@ -4842,10 +4842,10 @@
       "to store",
       "pay (taxes)"
     ],
-    "w": 387
+    "jpop": 387
   },
   {
-    "pr": [
+    "jpr": [
       "osoreru",
       "kyou",
       "osoroshii"
@@ -4856,10 +4856,10 @@
       "anxiety",
       "fearful"
     ],
-    "w": 388
+    "jpop": 388
   },
   {
-    "pr": [
+    "jpr": [
       "ochiru",
       "raku",
       "otosu"
@@ -4870,10 +4870,10 @@
       "to fall",
       "drop"
     ],
-    "w": 389
+    "jpop": 389
   },
   {
-    "pr": [
+    "jpr": [
       "otto",
       "fu",
       "fuu"
@@ -4883,10 +4883,10 @@
       "husband",
       "man"
     ],
-    "w": 390
+    "jpop": 390
   },
   {
-    "pr": [
+    "jpr": [
       "otozureru",
       "hou",
       "tazuneru"
@@ -4895,10 +4895,10 @@
     "e": [
       "visit"
     ],
-    "w": 391
+    "jpop": 391
   },
   {
-    "pr": [
+    "jpr": [
       "odori",
       "you",
       "odoru"
@@ -4908,10 +4908,10 @@
       "dance",
       "to dance"
     ],
-    "w": 392
+    "jpop": 392
   },
   {
-    "pr": [
+    "jpr": [
       "onoono",
       "kaku"
     ],
@@ -4920,10 +4920,10 @@
       "each",
       "every"
     ],
-    "w": 393
+    "jpop": 393
   },
   {
-    "pr": [
+    "jpr": [
       "obi",
       "tai",
       "obiru"
@@ -4934,10 +4934,10 @@
       "region",
       "to wear"
     ],
-    "w": 394
+    "jpop": 394
   },
   {
-    "pr": [
+    "jpr": [
       "oboeru",
       "kaku"
     ],
@@ -4946,10 +4946,10 @@
       "remember",
       "understand"
     ],
-    "w": 395
+    "jpop": 395
   },
   {
-    "pr": [
+    "jpr": [
       "omo",
       "men",
       "omote"
@@ -4960,10 +4960,10 @@
       "surface",
       "front"
     ],
-    "w": 396
+    "jpop": 396
   },
   {
-    "pr": [
+    "jpr": [
       "ori",
       "setsu",
       "oru"
@@ -4973,10 +4973,10 @@
       "break",
       "fold"
     ],
-    "w": 397
+    "jpop": 397
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "furu",
       "oriru"
@@ -4987,10 +4987,10 @@
       "come down",
       "get off"
     ],
-    "w": 398
+    "jpop": 398
   },
   {
-    "pr": [
+    "jpr": [
       "on",
       "gyo",
       "go"
@@ -4999,10 +4999,10 @@
     "e": [
       "honorific prefix"
     ],
-    "w": 399
+    "jpop": 399
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "kou",
       "kaori"
@@ -5012,20 +5012,20 @@
       "fragrance",
       "smell"
     ],
-    "w": 400
+    "jpop": 400
   },
   {
-    "pr": [
+    "jpr": [
       "ka"
     ],
     "j": "科",
     "e": [
       "subject of study"
     ],
-    "w": 401
+    "jpop": 401
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "ke",
       "bakeru"
@@ -5035,10 +5035,10 @@
       "change",
       "change into"
     ],
-    "w": 402
+    "jpop": 402
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "ni"
     ],
@@ -5046,10 +5046,10 @@
     "e": [
       "load"
     ],
-    "w": 403
+    "jpop": 403
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "kuwaeru",
       "kuwawaru"
@@ -5058,10 +5058,10 @@
     "e": [
       "add"
     ],
-    "w": 404
+    "jpop": 404
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "hatasu",
       "hateru"
@@ -5071,10 +5071,10 @@
       "fruit",
       "end"
     ],
-    "w": 405
+    "jpop": 405
   },
   {
-    "pr": [
+    "jpr": [
       "ka"
     ],
     "j": "貨",
@@ -5082,10 +5082,10 @@
       "money",
       "goods"
     ],
-    "w": 406
+    "jpop": 406
   },
   {
-    "pr": [
+    "jpr": [
       "ka"
     ],
     "j": "課",
@@ -5093,10 +5093,10 @@
       "section",
       "lesson"
     ],
-    "w": 407
+    "jpop": 407
   },
   {
-    "pr": [
+    "jpr": [
       "ka"
     ],
     "j": "可",
@@ -5104,10 +5104,10 @@
       "possible",
       "approve"
     ],
-    "w": 408
+    "jpop": 408
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "kawa"
     ],
@@ -5115,10 +5115,10 @@
     "e": [
       "river"
     ],
-    "w": 409
+    "jpop": 409
   },
   {
-    "pr": [
+    "jpr": [
       "ka"
     ],
     "j": "菓",
@@ -5126,10 +5126,10 @@
       "candy",
       "confectionery"
     ],
-    "w": 410
+    "jpop": 410
   },
   {
-    "pr": [
+    "jpr": [
       "ka",
       "kutsu"
     ],
@@ -5137,10 +5137,10 @@
     "e": [
       "shoes"
     ],
-    "w": 411
+    "jpop": 411
   },
   {
-    "pr": [
+    "jpr": [
       "kai"
     ],
     "j": "貝",
@@ -5148,10 +5148,10 @@
       "shell",
       "shellfish"
     ],
-    "w": 412
+    "jpop": 412
   },
   {
-    "pr": [
+    "jpr": [
       "kai"
     ],
     "j": "階",
@@ -5159,20 +5159,20 @@
       "floor (of a building)",
       "rank"
     ],
-    "w": 413
+    "jpop": 413
   },
   {
-    "pr": [
+    "jpr": [
       "kai"
     ],
     "j": "械",
     "e": [
       "machine"
     ],
-    "w": 414
+    "jpop": 414
   },
   {
-    "pr": [
+    "jpr": [
       "kai",
       "kokoroyoi"
     ],
@@ -5180,10 +5180,10 @@
     "e": [
       "pleasant"
     ],
-    "w": 415
+    "jpop": 415
   },
   {
-    "pr": [
+    "jpr": [
       "kai",
       "tokeru",
       "toku"
@@ -5194,10 +5194,10 @@
       "solve",
       "dissolve"
     ],
-    "w": 416
+    "jpop": 416
   },
   {
-    "pr": [
+    "jpr": [
       "kai",
       "hai"
     ],
@@ -5205,10 +5205,10 @@
     "e": [
       "ashes"
     ],
-    "w": 417
+    "jpop": 417
   },
   {
-    "pr": [
+    "jpr": [
       "kai"
     ],
     "j": "介",
@@ -5217,10 +5217,10 @@
       "aid",
       "come between"
     ],
-    "w": 418
+    "jpop": 418
   },
   {
-    "pr": [
+    "jpr": [
       "kai",
       "mina"
     ],
@@ -5230,10 +5230,10 @@
       "everyone",
       "everything"
     ],
-    "w": 419
+    "jpop": 419
   },
   {
-    "pr": [
+    "jpr": [
       "gai"
     ],
     "j": "害",
@@ -5241,10 +5241,10 @@
       "harm",
       "calamity"
     ],
-    "w": 420
+    "jpop": 420
   },
   {
-    "pr": [
+    "jpr": [
       "kau",
       "kou",
       "majiru"
@@ -5255,10 +5255,10 @@
       "be mixed",
       "associate"
     ],
-    "w": 421
+    "jpop": 421
   },
   {
-    "pr": [
+    "jpr": [
       "kaesu",
       "hen",
       "kaeru"
@@ -5267,10 +5267,10 @@
     "e": [
       "return"
     ],
-    "w": 422
+    "jpop": 422
   },
   {
-    "pr": [
+    "jpr": [
       "kaerimiru",
       "sei",
       "shou"
@@ -5281,10 +5281,10 @@
       "omit",
       "reflect upon"
     ],
-    "w": 423
+    "jpop": 423
   },
   {
-    "pr": [
+    "jpr": [
       "kaeru",
       "hen",
       "kawaru"
@@ -5295,10 +5295,10 @@
       "abnormal",
       "strange"
     ],
-    "w": 424
+    "jpop": 424
   },
   {
-    "pr": [
+    "jpr": [
       "kaeru",
       "tai",
       "kawaru"
@@ -5307,10 +5307,10 @@
     "e": [
       "replace"
     ],
-    "w": 425
+    "jpop": 425
   },
   {
-    "pr": [
+    "jpr": [
       "kaeru",
       "kan",
       "kawaru"
@@ -5319,10 +5319,10 @@
     "e": [
       "exchange"
     ],
-    "w": 426
+    "jpop": 426
   },
   {
-    "pr": [
+    "jpr": [
       "kakari",
       "kei",
       "kakaru"
@@ -5332,10 +5332,10 @@
       "connect",
       "in charge"
     ],
-    "w": 427
+    "jpop": 427
   },
   {
-    "pr": [
+    "jpr": [
       "kakari",
       "kakeru",
       "kakaru"
@@ -5346,10 +5346,10 @@
       "catch",
       "call"
     ],
-    "w": 428
+    "jpop": 428
   },
   {
-    "pr": [
+    "jpr": [
       "kagiru",
       "gen"
     ],
@@ -5357,10 +5357,10 @@
     "e": [
       "limit"
     ],
-    "w": 429
+    "jpop": 429
   },
   {
-    "pr": [
+    "jpr": [
       "kaku",
       "ketsu",
       "kakeru"
@@ -5369,10 +5369,10 @@
     "e": [
       "lack"
     ],
-    "w": 430
+    "jpop": 430
   },
   {
-    "pr": [
+    "jpr": [
       "kaku",
       "kado",
       "tsuno"
@@ -5383,10 +5383,10 @@
       "corner",
       "horn"
     ],
-    "w": 431
+    "jpop": 431
   },
   {
-    "pr": [
+    "jpr": [
       "kaku",
       "kyaku"
     ],
@@ -5395,10 +5395,10 @@
       "guest",
       "customer"
     ],
-    "w": 432
+    "jpop": 432
   },
   {
-    "pr": [
+    "jpr": [
       "kaku",
       "kou"
     ],
@@ -5407,10 +5407,10 @@
       "norm",
       "status"
     ],
-    "w": 433
+    "jpop": 433
   },
   {
-    "pr": [
+    "jpr": [
       "kaku",
       "tashika",
       "tashikameru"
@@ -5420,10 +5420,10 @@
       "certain",
       "make certain"
     ],
-    "w": 434
+    "jpop": 434
   },
   {
-    "pr": [
+    "jpr": [
       "kaku",
       "kawa"
     ],
@@ -5432,10 +5432,10 @@
       "leather",
       "reform"
     ],
-    "w": 435
+    "jpop": 435
   },
   {
-    "pr": [
+    "jpr": [
       "gaku",
       "hitai"
     ],
@@ -5444,10 +5444,10 @@
       "amount",
       "forehead"
     ],
-    "w": 436
+    "jpop": 436
   },
   {
-    "pr": [
+    "jpr": [
       "kashikoi",
       "ken"
     ],
@@ -5457,10 +5457,10 @@
       "clever",
       "smart"
     ],
-    "w": 437
+    "jpop": 437
   },
   {
-    "pr": [
+    "jpr": [
       "kazu",
       "suu",
       "kazoeru"
@@ -5470,10 +5470,10 @@
       "count",
       "number"
     ],
-    "w": 438
+    "jpop": 438
   },
   {
-    "pr": [
+    "jpr": [
       "kata",
       "kei",
       "katachi"
@@ -5484,10 +5484,10 @@
       "form",
       "type"
     ],
-    "w": 439
+    "jpop": 439
   },
   {
-    "pr": [
+    "jpr": [
       "kata",
       "kei"
     ],
@@ -5495,10 +5495,10 @@
     "e": [
       "type"
     ],
-    "w": 440
+    "jpop": 440
   },
   {
-    "pr": [
+    "jpr": [
       "kata",
       "hen"
     ],
@@ -5507,10 +5507,10 @@
       "fragment",
       "onesided"
     ],
-    "w": 441
+    "jpop": 441
   },
   {
-    "pr": [
+    "jpr": [
       "kata",
       "ken"
     ],
@@ -5518,10 +5518,10 @@
     "e": [
       "shoulder"
     ],
-    "w": 442
+    "jpop": 442
   },
   {
-    "pr": [
+    "jpr": [
       "katai",
       "ko",
       "katameru"
@@ -5532,10 +5532,10 @@
       "firm",
       "hard"
     ],
-    "w": 443
+    "jpop": 443
   },
   {
-    "pr": [
+    "jpr": [
       "katai",
       "nan",
       "muzukashii"
@@ -5546,10 +5546,10 @@
       "hard",
       "disaster"
     ],
-    "w": 444
+    "jpop": 444
   },
   {
-    "pr": [
+    "jpr": [
       "katai",
       "kou"
     ],
@@ -5557,10 +5557,10 @@
     "e": [
       "hard"
     ],
-    "w": 445
+    "jpop": 445
   },
   {
-    "pr": [
+    "jpr": [
       "katai",
       "ken"
     ],
@@ -5569,10 +5569,10 @@
       "firm",
       "hard"
     ],
-    "w": 446
+    "jpop": 446
   },
   {
-    "pr": [
+    "jpr": [
       "katamuku",
       "kei",
       "katamukeru"
@@ -5582,10 +5582,10 @@
       "incline",
       "lean"
     ],
-    "w": 447
+    "jpop": 447
   },
   {
-    "pr": [
+    "jpr": [
       "katsu",
       "shou",
       "masaru"
@@ -5595,10 +5595,10 @@
       "win",
       "excel"
     ],
-    "w": 448
+    "jpop": 448
   },
   {
-    "pr": [
+    "jpr": [
       "katsu"
     ],
     "j": "活",
@@ -5607,10 +5607,10 @@
       "live",
       "activity"
     ],
-    "w": 449
+    "jpop": 449
   },
   {
-    "pr": [
+    "jpr": [
       "katsu",
       "waru",
       "saku"
@@ -5619,10 +5619,10 @@
     "e": [
       "divide"
     ],
-    "w": 450
+    "jpop": 450
   },
   {
-    "pr": [
+    "jpr": [
       "katsugu",
       "tan",
       "ninau"
@@ -5632,10 +5632,10 @@
       "bear",
       "undertake"
     ],
-    "w": 451
+    "jpop": 451
   },
   {
-    "pr": [
+    "jpr": [
       "mon",
       "kado"
     ],
@@ -5643,10 +5643,10 @@
     "e": [
       "gate"
     ],
-    "w": 452
+    "jpop": 452
   },
   {
-    "pr": [
+    "jpr": [
       "kanashii",
       "hi",
       "kanashimu"
@@ -5655,10 +5655,10 @@
     "e": [
       "sad"
     ],
-    "w": 453
+    "jpop": 453
   },
   {
-    "pr": [
+    "jpr": [
       "kanarazu",
       "hitsu"
     ],
@@ -5666,10 +5666,10 @@
     "e": [
       "without fail"
     ],
-    "w": 454
+    "jpop": 454
   },
   {
-    "pr": [
+    "jpr": [
       "kano",
       "hi",
       "kare"
@@ -5679,10 +5679,10 @@
       "he",
       "that"
     ],
-    "w": 455
+    "jpop": 455
   },
   {
-    "pr": [
+    "jpr": [
       "kamau",
       "kou",
       "kamaeru"
@@ -5693,10 +5693,10 @@
       "posture",
       "construct"
     ],
-    "w": 456
+    "jpop": 456
   },
   {
-    "pr": [
+    "jpr": [
       "kami",
       "shin",
       "jin"
@@ -5707,10 +5707,10 @@
       "god",
       "mind"
     ],
-    "w": 457
+    "jpop": 457
   },
   {
-    "pr": [
+    "jpr": [
       "kami",
       "hatsu"
     ],
@@ -5718,10 +5718,10 @@
     "e": [
       "hair"
     ],
-    "w": 458
+    "jpop": 458
   },
   {
-    "pr": [
+    "jpr": [
       "karai",
       "shin"
     ],
@@ -5731,10 +5731,10 @@
       "hot (food)",
       "hard"
     ],
-    "w": 459
+    "jpop": 459
   },
   {
-    "pr": [
+    "jpr": [
       "karasu",
       "ko",
       "kareru"
@@ -5745,10 +5745,10 @@
       "wither",
       "to dry"
     ],
-    "w": 460
+    "jpop": 460
   },
   {
-    "pr": [
+    "jpr": [
       "karamaru",
       "raku",
       "karamu"
@@ -5758,10 +5758,10 @@
       "entwine",
       "to twine around"
     ],
-    "w": 461
+    "jpop": 461
   },
   {
-    "pr": [
+    "jpr": [
       "karui",
       "kei",
       "karoyaka"
@@ -5771,10 +5771,10 @@
       "light",
       "light (weight)"
     ],
-    "w": 462
+    "jpop": 462
   },
   {
-    "pr": [
+    "jpr": [
       "kawa",
       "hi"
     ],
@@ -5782,10 +5782,10 @@
     "e": [
       "skin"
     ],
-    "w": 463
+    "jpop": 463
   },
   {
-    "pr": [
+    "jpr": [
       "kawa",
       "soku"
     ],
@@ -5793,10 +5793,10 @@
     "e": [
       "side"
     ],
-    "w": 464
+    "jpop": 464
   },
   {
-    "pr": [
+    "jpr": [
       "kawakasu",
       "kan",
       "kawaku"
@@ -5805,10 +5805,10 @@
     "e": [
       "dry"
     ],
-    "w": 465
+    "jpop": 465
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "samui"
     ],
@@ -5816,10 +5816,10 @@
     "e": [
       "cold"
     ],
-    "w": 466
+    "jpop": 466
   },
   {
-    "pr": [
+    "jpr": [
       "kan"
     ],
     "j": "感",
@@ -5828,10 +5828,10 @@
       "sense",
       "feel"
     ],
-    "w": 467
+    "jpop": 467
   },
   {
-    "pr": [
+    "jpr": [
       "kan"
     ],
     "j": "完",
@@ -5839,20 +5839,20 @@
       "complete",
       "perfect"
     ],
-    "w": 468
+    "jpop": 468
   },
   {
-    "pr": [
+    "jpr": [
       "kan"
     ],
     "j": "官",
     "e": [
       "government"
     ],
-    "w": 469
+    "jpop": 469
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "kuda"
     ],
@@ -5861,10 +5861,10 @@
       "pipe",
       "control"
     ],
-    "w": 470
+    "jpop": 470
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "seki"
     ],
@@ -5873,30 +5873,30 @@
       "concern",
       "barrier"
     ],
-    "w": 471
+    "jpop": 471
   },
   {
-    "pr": [
+    "jpr": [
       "kan"
     ],
     "j": "観",
     "e": [
       "view"
     ],
-    "w": 472
+    "jpop": 472
   },
   {
-    "pr": [
+    "jpr": [
       "kan"
     ],
     "j": "刊",
     "e": [
       "publish"
     ],
-    "w": 473
+    "jpop": 473
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "nareru",
       "narasu"
@@ -5907,10 +5907,10 @@
       "custom",
       "get used to"
     ],
-    "w": 474
+    "jpop": 474
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "hosu",
       "hiru"
@@ -5919,10 +5919,10 @@
     "e": [
       "dry"
     ],
-    "w": 475
+    "jpop": 475
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "maku",
       "maki"
@@ -5933,20 +5933,20 @@
       "volume",
       "roll"
     ],
-    "w": 476
+    "jpop": 476
   },
   {
-    "pr": [
+    "jpr": [
       "kan"
     ],
     "j": "簡",
     "e": [
       "simple"
     ],
-    "w": 477
+    "jpop": 477
   },
   {
-    "pr": [
+    "jpr": [
       "kan"
     ],
     "j": "缶",
@@ -5954,10 +5954,10 @@
       "can",
       "canned (food, drink)"
     ],
-    "w": 478
+    "jpop": 478
   },
   {
-    "pr": [
+    "jpr": [
       "kan",
       "wazurau"
     ],
@@ -5966,10 +5966,10 @@
       "sickness",
       "sick"
     ],
-    "w": 479
+    "jpop": 479
   },
   {
-    "pr": [
+    "jpr": [
       "gan",
       "maru",
       "marui"
@@ -5978,10 +5978,10 @@
     "e": [
       "round"
     ],
-    "w": 480
+    "jpop": 480
   },
   {
-    "pr": [
+    "jpr": [
       "gan",
       "kishi"
     ],
@@ -5990,10 +5990,10 @@
       "shore",
       "seashore"
     ],
-    "w": 481
+    "jpop": 481
   },
   {
-    "pr": [
+    "jpr": [
       "gan",
       "negau"
     ],
@@ -6003,10 +6003,10 @@
       "ask a favor",
       "desire"
     ],
-    "w": 482
+    "jpop": 482
   },
   {
-    "pr": [
+    "jpr": [
       "gan",
       "fukumu",
       "fukumeru"
@@ -6016,10 +6016,10 @@
       "contain",
       "include"
     ],
-    "w": 483
+    "jpop": 483
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "shirushu"
     ],
@@ -6028,10 +6028,10 @@
       "write down",
       "record"
     ],
-    "w": 484
+    "jpop": 484
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "go"
     ],
@@ -6040,10 +6040,10 @@
       "term",
       "expect"
     ],
-    "w": 485
+    "jpop": 485
   },
   {
-    "pr": [
+    "jpr": [
       "ki"
     ],
     "j": "希",
@@ -6052,10 +6052,10 @@
       "aspire",
       "desire"
     ],
-    "w": 486
+    "jpop": 486
   },
   {
-    "pr": [
+    "jpr": [
       "ki"
     ],
     "j": "季",
@@ -6063,10 +6063,10 @@
       "season",
       "season (of the year)"
     ],
-    "w": 487
+    "jpop": 487
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "yorokobu"
     ],
@@ -6075,10 +6075,10 @@
       "joy",
       "happy"
     ],
-    "w": 488
+    "jpop": 488
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "hata"
     ],
@@ -6087,10 +6087,10 @@
       "machine",
       "occation"
     ],
-    "w": 489
+    "jpop": 489
   },
   {
-    "pr": [
+    "jpr": [
       "ki"
     ],
     "j": "規",
@@ -6098,10 +6098,10 @@
       "rule",
       "regulation"
     ],
-    "w": 490
+    "jpop": 490
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "yoru",
       "yoseru"
@@ -6112,10 +6112,10 @@
       "gather",
       "contribute"
     ],
-    "w": 491
+    "jpop": 491
   },
   {
-    "pr": [
+    "jpr": [
       "ki",
       "tsukue"
     ],
@@ -6123,10 +6123,10 @@
     "e": [
       "desk"
     ],
-    "w": 492
+    "jpop": 492
   },
   {
-    "pr": [
+    "jpr": [
       "gi"
     ],
     "j": "議",
@@ -6134,10 +6134,10 @@
       "discuss",
       "debate"
     ],
-    "w": 493
+    "jpop": 493
   },
   {
-    "pr": [
+    "jpr": [
       "gi",
       "waza"
     ],
@@ -6145,10 +6145,10 @@
     "e": [
       "skill"
     ],
-    "w": 494
+    "jpop": 494
   },
   {
-    "pr": [
+    "jpr": [
       "kieru",
       "shou",
       "kesu"
@@ -6159,10 +6159,10 @@
       "put out",
       "spend"
     ],
-    "w": 495
+    "jpop": 495
   },
   {
-    "pr": [
+    "jpr": [
       "kiku",
       "ri"
     ],
@@ -6171,10 +6171,10 @@
       "advantage",
       "profit"
     ],
-    "w": 496
+    "jpop": 496
   },
   {
-    "pr": [
+    "jpr": [
       "kiku",
       "kou"
     ],
@@ -6183,10 +6183,10 @@
       "effect",
       "efficancy"
     ],
-    "w": 497
+    "jpop": 497
   },
   {
-    "pr": [
+    "jpr": [
       "kizashi",
       "chou",
       "kizasu"
@@ -6197,10 +6197,10 @@
       "sign",
       "symptom"
     ],
-    "w": 498
+    "jpop": 498
   },
   {
-    "pr": [
+    "jpr": [
       "kizamu",
       "koku"
     ],
@@ -6209,10 +6209,10 @@
       "engrave",
       "carve"
     ],
-    "w": 499
+    "jpop": 499
   },
   {
-    "pr": [
+    "jpr": [
       "kizuku",
       "chiku"
     ],
@@ -6222,10 +6222,10 @@
       "construct",
       "construction"
     ],
-    "w": 500
+    "jpop": 500
   },
   {
-    "pr": [
+    "jpr": [
       "kisou",
       "kyou",
       "kei"
@@ -6234,10 +6234,10 @@
     "e": [
       "compete (in a race)"
     ],
-    "w": 501
+    "jpop": 501
   },
   {
-    "pr": [
+    "jpr": [
       "kitsu"
     ],
     "j": "喫",
@@ -6245,10 +6245,10 @@
       "inhale",
       "drink"
     ],
-    "w": 502
+    "jpop": 502
   },
   {
-    "pr": [
+    "jpr": [
       "kitsu",
       "tsumaru",
       "tsumeru"
@@ -6258,10 +6258,10 @@
       "cram",
       "shorten"
     ],
-    "w": 503
+    "jpop": 503
   },
   {
-    "pr": [
+    "jpr": [
       "kimeru",
       "ketsu",
       "kimaru"
@@ -6271,10 +6271,10 @@
       "decide",
       "be decided"
     ],
-    "w": 504
+    "jpop": 504
   },
   {
-    "pr": [
+    "jpr": [
       "kimi",
       "kun"
     ],
@@ -6284,10 +6284,10 @@
       "ruler",
       "added to names of boys"
     ],
-    "w": 505
+    "jpop": 505
   },
   {
-    "pr": [
+    "jpr": [
       "gyaku",
       "sakarau",
       "saka"
@@ -6297,10 +6297,10 @@
       "reverse",
       "opposite"
     ],
-    "w": 506
+    "jpop": 506
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu"
     ],
     "j": "級",
@@ -6308,10 +6308,10 @@
       "grade",
       "level"
     ],
-    "w": 507
+    "jpop": 507
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "tama"
     ],
@@ -6319,10 +6319,10 @@
     "e": [
       "ball"
     ],
-    "w": 508
+    "jpop": 508
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "motomeru"
     ],
@@ -6331,10 +6331,10 @@
       "seek",
       "search"
     ],
-    "w": 509
+    "jpop": 509
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "naku"
     ],
@@ -6342,10 +6342,10 @@
     "e": [
       "cry"
     ],
-    "w": 510
+    "jpop": 510
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "sukuu"
     ],
@@ -6354,10 +6354,10 @@
       "rescue",
       "save"
     ],
-    "w": 511
+    "jpop": 511
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu"
     ],
     "j": "給",
@@ -6365,10 +6365,10 @@
       "supply",
       "pay"
     ],
-    "w": 512
+    "jpop": 512
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "ku",
       "hisashii"
@@ -6377,10 +6377,10 @@
     "e": [
       "long time"
     ],
-    "w": 513
+    "jpop": 513
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu"
     ],
     "j": "旧",
@@ -6388,10 +6388,10 @@
       "old",
       "former"
     ],
-    "w": 514
+    "jpop": 514
   },
   {
-    "pr": [
+    "jpr": [
       "kyuu",
       "suu"
     ],
@@ -6400,10 +6400,10 @@
       "suck",
       "breathe in"
     ],
-    "w": 515
+    "jpop": 515
   },
   {
-    "pr": [
+    "jpr": [
       "kyo",
       "yurusu"
     ],
@@ -6413,10 +6413,10 @@
       "pardon",
       "forgive"
     ],
-    "w": 516
+    "jpop": 516
   },
   {
-    "pr": [
+    "jpr": [
       "gyo",
       "ryou"
     ],
@@ -6424,10 +6424,10 @@
     "e": [
       "fish"
     ],
-    "w": 517
+    "jpop": 517
   },
   {
-    "pr": [
+    "jpr": [
       "kiyoi",
       "sei",
       "kyomeru"
@@ -6438,10 +6438,10 @@
       "clear",
       "pure"
     ],
-    "w": 518
+    "jpop": 518
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "hashi"
     ],
@@ -6449,10 +6449,10 @@
     "e": [
       "bridge"
     ],
-    "w": 519
+    "jpop": 519
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "tomo"
     ],
@@ -6460,20 +6460,20 @@
     "e": [
       "together"
     ],
-    "w": 520
+    "jpop": 520
   },
   {
-    "pr": [
+    "jpr": [
       "kyou"
     ],
     "j": "協",
     "e": [
       "cooperate"
     ],
-    "w": 521
+    "jpop": 521
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "heru",
       "kei"
@@ -6484,10 +6484,10 @@
       "passage",
       "circles of longitude"
     ],
-    "w": 522
+    "jpop": 522
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "kei",
       "sakai"
@@ -6497,10 +6497,10 @@
       "boundary",
       "border line"
     ],
-    "w": 523
+    "jpop": 523
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "tomo",
       "sonaeru"
@@ -6510,10 +6510,10 @@
       "attendant",
       "offer"
     ],
-    "w": 524
+    "jpop": 524
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "mune",
       "muna"
@@ -6523,10 +6523,10 @@
       "chest",
       "chest (body part)"
     ],
-    "w": 525
+    "jpop": 525
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "sakebu"
     ],
@@ -6534,10 +6534,10 @@
     "e": [
       "shout"
     ],
-    "w": 526
+    "jpop": 526
   },
   {
-    "pr": [
+    "jpr": [
       "kyou"
     ],
     "j": "況",
@@ -6545,10 +6545,10 @@
       "condition",
       "state of things"
     ],
-    "w": 527
+    "jpop": 527
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "semai",
       "sebameru"
@@ -6557,10 +6557,10 @@
     "e": [
       "narrow"
     ],
-    "w": 528
+    "jpop": 528
   },
   {
-    "pr": [
+    "jpr": [
       "kyou",
       "hasamu",
       "hasamaru"
@@ -6570,10 +6570,10 @@
       "hold between",
       "clasp"
     ],
-    "w": 529
+    "jpop": 529
   },
   {
-    "pr": [
+    "jpr": [
       "kyoku",
       "magaru",
       "mageru"
@@ -6584,10 +6584,10 @@
       "song",
       "curve"
     ],
-    "w": 530
+    "jpop": 530
   },
   {
-    "pr": [
+    "jpr": [
       "kyoku"
     ],
     "j": "局",
@@ -6595,10 +6595,10 @@
       "bureau",
       "segment"
     ],
-    "w": 531
+    "jpop": 531
   },
   {
-    "pr": [
+    "jpr": [
       "kyoku",
       "goku",
       "kiwameru"
@@ -6608,10 +6608,10 @@
       "extreme",
       "poles (north or south)"
     ],
-    "w": 532
+    "jpop": 532
   },
   {
-    "pr": [
+    "jpr": [
       "gyoku",
       "tama"
     ],
@@ -6620,10 +6620,10 @@
       "gem",
       "jewel"
     ],
-    "w": 533
+    "jpop": 533
   },
   {
-    "pr": [
+    "jpr": [
       "kiwa",
       "sai"
     ],
@@ -6632,10 +6632,10 @@
       "verge",
       "occation"
     ],
-    "w": 534
+    "jpop": 534
   },
   {
-    "pr": [
+    "jpr": [
       "kin"
     ],
     "j": "均",
@@ -6643,10 +6643,10 @@
       "even",
       "level"
     ],
-    "w": 535
+    "jpop": 535
   },
   {
-    "pr": [
+    "jpr": [
       "kin"
     ],
     "j": "禁",
@@ -6654,10 +6654,10 @@
       "prohibit",
       "not allowed"
     ],
-    "w": 536
+    "jpop": 536
   },
   {
-    "pr": [
+    "jpr": [
       "kin",
       "gon",
       "tsutomeru"
@@ -6666,10 +6666,10 @@
     "e": [
       "service"
     ],
-    "w": 537
+    "jpop": 537
   },
   {
-    "pr": [
+    "jpr": [
       "ku"
     ],
     "j": "区",
@@ -6677,10 +6677,10 @@
       "district",
       "ward"
     ],
-    "w": 538
+    "jpop": 538
   },
   {
-    "pr": [
+    "jpr": [
       "ku",
       "kurushii",
       "nigai"
@@ -6691,10 +6691,10 @@
       "bitter",
       "painful"
     ],
-    "w": 539
+    "jpop": 539
   },
   {
-    "pr": [
+    "jpr": [
       "ku",
       "ko"
     ],
@@ -6703,10 +6703,10 @@
       "storehouse",
       "warehouse"
     ],
-    "w": 540
+    "jpop": 540
   },
   {
-    "pr": [
+    "jpr": [
       "ku",
       "kou",
       "beni"
@@ -6715,10 +6715,10 @@
     "e": [
       "crimson"
     ],
-    "w": 541
+    "jpop": 541
   },
   {
-    "pr": [
+    "jpr": [
       "gu"
     ],
     "j": "具",
@@ -6727,10 +6727,10 @@
       "utensil",
       "ingredient"
     ],
-    "w": 542
+    "jpop": 542
   },
   {
-    "pr": [
+    "jpr": [
       "guu"
     ],
     "j": "偶",
@@ -6739,10 +6739,10 @@
       "even numbers",
       "by chance"
     ],
-    "w": 543
+    "jpop": 543
   },
   {
-    "pr": [
+    "jpr": [
       "guu",
       "sumi"
     ],
@@ -6751,10 +6751,10 @@
       "nook",
       "corner"
     ],
-    "w": 544
+    "jpop": 544
   },
   {
-    "pr": [
+    "jpr": [
       "kusa",
       "sou"
     ],
@@ -6762,10 +6762,10 @@
     "e": [
       "grass"
     ],
-    "w": 545
+    "jpop": 545
   },
   {
-    "pr": [
+    "jpr": [
       "kusuri",
       "yaku"
     ],
@@ -6774,10 +6774,10 @@
       "medicine",
       "drug"
     ],
-    "w": 546
+    "jpop": 546
   },
   {
-    "pr": [
+    "jpr": [
       "kutsu",
       "horu"
     ],
@@ -6785,10 +6785,10 @@
     "e": [
       "dig"
     ],
-    "w": 547
+    "jpop": 547
   },
   {
-    "pr": [
+    "jpr": [
       "kubaru",
       "hai"
     ],
@@ -6797,10 +6797,10 @@
       "distribute",
       "deliver"
     ],
-    "w": 548
+    "jpop": 548
   },
   {
-    "pr": [
+    "jpr": [
       "kubi",
       "shu"
     ],
@@ -6809,10 +6809,10 @@
       "head",
       "neck"
     ],
-    "w": 549
+    "jpop": 549
   },
   {
-    "pr": [
+    "jpr": [
       "kumi",
       "so",
       "kumu"
@@ -6822,10 +6822,10 @@
       "organize",
       "assemble"
     ],
-    "w": 550
+    "jpop": 550
   },
   {
-    "pr": [
+    "jpr": [
       "kumoru",
       "don"
     ],
@@ -6833,10 +6833,10 @@
     "e": [
       "cloudy"
     ],
-    "w": 551
+    "jpop": 551
   },
   {
-    "pr": [
+    "jpr": [
       "kura",
       "zou"
     ],
@@ -6846,10 +6846,10 @@
       "warehouse",
       "own"
     ],
-    "w": 552
+    "jpop": 552
   },
   {
-    "pr": [
+    "jpr": [
       "kurasu",
       "bo",
       "kureru"
@@ -6860,10 +6860,10 @@
       "grow dark",
       "live"
     ],
-    "w": 553
+    "jpop": 553
   },
   {
-    "pr": [
+    "jpr": [
       "kuraberu",
       "hi"
     ],
@@ -6871,20 +6871,20 @@
     "e": [
       "compare"
     ],
-    "w": 554
+    "jpop": 554
   },
   {
-    "pr": [
+    "jpr": [
       "kun"
     ],
     "j": "訓",
     "e": [
       "instruct"
     ],
-    "w": 555
+    "jpop": 555
   },
   {
-    "pr": [
+    "jpr": [
       "gun"
     ],
     "j": "軍",
@@ -6892,10 +6892,10 @@
       "army",
       "military"
     ],
-    "w": 556
+    "jpop": 556
   },
   {
-    "pr": [
+    "jpr": [
       "gun",
       "mureru",
       "mure"
@@ -6905,10 +6905,10 @@
       "group",
       "crowd"
     ],
-    "w": 557
+    "jpop": 557
   },
   {
-    "pr": [
+    "jpr": [
       "ke",
       "mou"
     ],
@@ -6916,20 +6916,20 @@
     "e": [
       "hair"
     ],
-    "w": 558
+    "jpop": 558
   },
   {
-    "pr": [
+    "jpr": [
       "kei"
     ],
     "j": "景",
     "e": [
       "scene"
     ],
-    "w": 559
+    "jpop": 559
   },
   {
-    "pr": [
+    "jpr": [
       "kei"
     ],
     "j": "警",
@@ -6937,10 +6937,10 @@
       "guard",
       "warn"
     ],
-    "w": 560
+    "jpop": 560
   },
   {
-    "pr": [
+    "jpr": [
       "gei"
     ],
     "j": "芸",
@@ -6948,10 +6948,10 @@
       "art",
       "skill"
     ],
-    "w": 561
+    "jpop": 561
   },
   {
-    "pr": [
+    "jpr": [
       "gei",
       "mukaeru"
     ],
@@ -6960,20 +6960,20 @@
       "meet",
       "welcome"
     ],
-    "w": 562
+    "jpop": 562
   },
   {
-    "pr": [
+    "jpr": [
       "geki"
     ],
     "j": "劇",
     "e": [
       "drama"
     ],
-    "w": 563
+    "jpop": 563
   },
   {
-    "pr": [
+    "jpr": [
       "ketsu",
       "chi"
     ],
@@ -6981,10 +6981,10 @@
     "e": [
       "blood"
     ],
-    "w": 564
+    "jpop": 564
   },
   {
-    "pr": [
+    "jpr": [
       "ketsu",
       "musubu",
       "yuu"
@@ -6994,10 +6994,10 @@
       "tie",
       "conclude"
     ],
-    "w": 565
+    "jpop": 565
   },
   {
-    "pr": [
+    "jpr": [
       "kewashii",
       "ken"
     ],
@@ -7006,30 +7006,30 @@
       "danger",
       "steep"
     ],
-    "w": 566
+    "jpop": 566
   },
   {
-    "pr": [
+    "jpr": [
       "ken"
     ],
     "j": "県",
     "e": [
       "prefecture"
     ],
-    "w": 567
+    "jpop": 567
   },
   {
-    "pr": [
+    "jpr": [
       "ken"
     ],
     "j": "件",
     "e": [
       "matter"
     ],
-    "w": 568
+    "jpop": 568
   },
   {
-    "pr": [
+    "jpr": [
       "ken"
     ],
     "j": "券",
@@ -7038,20 +7038,20 @@
       "certificate",
       "coupon"
     ],
-    "w": 569
+    "jpop": 569
   },
   {
-    "pr": [
+    "jpr": [
       "ken"
     ],
     "j": "検",
     "e": [
       "examine"
     ],
-    "w": 570
+    "jpop": 570
   },
   {
-    "pr": [
+    "jpr": [
       "ken"
     ],
     "j": "権",
@@ -7059,10 +7059,10 @@
       "right",
       "power"
     ],
-    "w": 571
+    "jpop": 571
   },
   {
-    "pr": [
+    "jpr": [
       "ken",
       "noki"
     ],
@@ -7070,10 +7070,10 @@
     "e": [
       "eaves"
     ],
-    "w": 572
+    "jpop": 572
   },
   {
-    "pr": [
+    "jpr": [
       "gen",
       "hara"
     ],
@@ -7082,10 +7082,10 @@
       "original",
       "plain"
     ],
-    "w": 573
+    "jpop": 573
   },
   {
-    "pr": [
+    "jpr": [
       "gen",
       "heru",
       "herasu"
@@ -7094,10 +7094,10 @@
     "e": [
       "decrease"
     ],
-    "w": 574
+    "jpop": 574
   },
   {
-    "pr": [
+    "jpr": [
       "ko",
       "fun",
       "kona"
@@ -7106,10 +7106,10 @@
     "e": [
       "powder"
     ],
-    "w": 575
+    "jpop": 575
   },
   {
-    "pr": [
+    "jpr": [
       "ko",
       "to"
     ],
@@ -7117,10 +7117,10 @@
     "e": [
       "door"
     ],
-    "w": 576
+    "jpop": 576
   },
   {
-    "pr": [
+    "jpr": [
       "ko",
       "mizuumi"
     ],
@@ -7128,20 +7128,20 @@
     "e": [
       "lake"
     ],
-    "w": 577
+    "jpop": 577
   },
   {
-    "pr": [
+    "jpr": [
       "ko"
     ],
     "j": "個",
     "e": [
       "individual"
     ],
-    "w": 578
+    "jpop": 578
   },
   {
-    "pr": [
+    "jpr": [
       "ko",
       "yobu"
     ],
@@ -7149,10 +7149,10 @@
     "e": [
       "call"
     ],
-    "w": 579
+    "jpop": 579
   },
   {
-    "pr": [
+    "jpr": [
       "ko",
       "yatou"
     ],
@@ -7161,10 +7161,10 @@
       "employ",
       "hire"
     ],
-    "w": 580
+    "jpop": 580
   },
   {
-    "pr": [
+    "jpr": [
       "go",
       "tagai"
     ],
@@ -7174,10 +7174,10 @@
       "mutual",
       "each other"
     ],
-    "w": 581
+    "jpop": 581
   },
   {
-    "pr": [
+    "jpr": [
       "koi",
       "ren",
       "koishii"
@@ -7186,10 +7186,10 @@
     "e": [
       "love"
     ],
-    "w": 582
+    "jpop": 582
   },
   {
-    "pr": [
+    "jpr": [
       "koi",
       "nou"
     ],
@@ -7197,10 +7197,10 @@
     "e": [
       "thick"
     ],
-    "w": 583
+    "jpop": 583
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "hikaru",
       "hikari"
@@ -7209,10 +7209,10 @@
     "e": [
       "light"
     ],
-    "w": 584
+    "jpop": 584
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "muku",
       "mukou"
@@ -7222,10 +7222,10 @@
       "turn toward",
       "turn"
     ],
-    "w": 585
+    "jpop": 585
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "saiwai",
       "shiawase"
@@ -7235,10 +7235,10 @@
       "happy",
       "happiness"
     ],
-    "w": 586
+    "jpop": 586
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "minato"
     ],
@@ -7247,10 +7247,10 @@
       "port",
       "harbor"
     ],
-    "w": 587
+    "jpop": 587
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "konomu",
       "suku"
@@ -7260,20 +7260,20 @@
       "like",
       "favorable"
     ],
-    "w": 588
+    "jpop": 588
   },
   {
-    "pr": [
+    "jpr": [
       "kou"
     ],
     "j": "航",
     "e": [
       "navigate"
     ],
-    "w": 589
+    "jpop": 589
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "sourou"
     ],
@@ -7282,10 +7282,10 @@
       "season",
       "serve"
     ],
-    "w": 590
+    "jpop": 590
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "tagayasu"
     ],
@@ -7295,10 +7295,10 @@
       "plow",
       "cultivate"
     ],
-    "w": 591
+    "jpop": 591
   },
   {
-    "pr": [
+    "jpr": [
       "kou"
     ],
     "j": "鉱",
@@ -7306,20 +7306,20 @@
       "ore",
       "mine"
     ],
-    "w": 592
+    "jpop": 592
   },
   {
-    "pr": [
+    "jpr": [
       "kou"
     ],
     "j": "講",
     "e": [
       "lecture"
     ],
-    "w": 593
+    "jpop": 593
   },
   {
-    "pr": [
+    "jpr": [
       "kou",
       "sara",
       "fukeru"
@@ -7330,10 +7330,10 @@
       "change",
       "reform"
     ],
-    "w": 594
+    "jpop": 594
   },
   {
-    "pr": [
+    "jpr": [
       "kou"
     ],
     "j": "肯",
@@ -7341,20 +7341,20 @@
       "assent",
       "consent"
     ],
-    "w": 595
+    "jpop": 595
   },
   {
-    "pr": [
+    "jpr": [
       "kou"
     ],
     "j": "郊",
     "e": [
       "suburb"
     ],
-    "w": 596
+    "jpop": 596
   },
   {
-    "pr": [
+    "jpr": [
       "gou"
     ],
     "j": "号",
@@ -7363,10 +7363,10 @@
       "signal",
       "sign"
     ],
-    "w": 597
+    "jpop": 597
   },
   {
-    "pr": [
+    "jpr": [
       "koumuru",
       "hi",
       "kaburu"
@@ -7376,10 +7376,10 @@
       "wear (hat)",
       "suffer (damage)"
     ],
-    "w": 598
+    "jpop": 598
   },
   {
-    "pr": [
+    "jpr": [
       "koe",
       "sei",
       "kowa"
@@ -7388,10 +7388,10 @@
     "e": [
       "voice"
     ],
-    "w": 599
+    "jpop": 599
   },
   {
-    "pr": [
+    "jpr": [
       "koeru",
       "chou",
       "kosu"
@@ -7402,10 +7402,10 @@
       "very",
       "super"
     ],
-    "w": 600
+    "jpop": 600
   },
   {
-    "pr": [
+    "jpr": [
       "koori",
       "hyou",
       "hi"
@@ -7414,10 +7414,10 @@
     "e": [
       "ice"
     ],
-    "w": 601
+    "jpop": 601
   },
   {
-    "pr": [
+    "jpr": [
       "kooru",
       "tou",
       "kogoeru"
@@ -7426,10 +7426,10 @@
     "e": [
       "freeze"
     ],
-    "w": 602
+    "jpop": 602
   },
   {
-    "pr": [
+    "jpr": [
       "koku",
       "tani"
     ],
@@ -7437,10 +7437,10 @@
     "e": [
       "valley"
     ],
-    "w": 603
+    "jpop": 603
   },
   {
-    "pr": [
+    "jpr": [
       "koku",
       "tsugeru"
     ],
@@ -7448,10 +7448,10 @@
     "e": [
       "notify"
     ],
-    "w": 604
+    "jpop": 604
   },
   {
-    "pr": [
+    "jpr": [
       "koshi",
       "you"
     ],
@@ -7460,10 +7460,10 @@
       "waist",
       "hip"
     ],
-    "w": 605
+    "jpop": 605
   },
   {
-    "pr": [
+    "jpr": [
       "kotsu",
       "hone"
     ],
@@ -7471,10 +7471,10 @@
     "e": [
       "bone"
     ],
-    "w": 606
+    "jpop": 606
   },
   {
-    "pr": [
+    "jpr": [
       "kotowaru",
       "dan",
       "tatsu"
@@ -7484,10 +7484,10 @@
       "resolve",
       "cut off"
     ],
-    "w": 607
+    "jpop": 607
   },
   {
-    "pr": [
+    "jpr": [
       "komakai",
       "sai",
       "hosoi"
@@ -7498,10 +7498,10 @@
       "slender",
       "thin"
     ],
-    "w": 608
+    "jpop": 608
   },
   {
-    "pr": [
+    "jpr": [
       "komaru",
       "kon"
     ],
@@ -7510,10 +7510,10 @@
       "trouble",
       "be in trouble"
     ],
-    "w": 609
+    "jpop": 609
   },
   {
-    "pr": [
+    "jpr": [
       "komu",
       "komeru"
     ],
@@ -7522,10 +7522,10 @@
       "crowded",
       "into"
     ],
-    "w": 610
+    "jpop": 610
   },
   {
-    "pr": [
+    "jpr": [
       "kome",
       "bei",
       "mai"
@@ -7535,10 +7535,10 @@
       "rice",
       "america"
     ],
-    "w": 611
+    "jpop": 611
   },
   {
-    "pr": [
+    "jpr": [
       "korosu",
       "satsu",
       "sai"
@@ -7547,10 +7547,10 @@
     "e": [
       "kill"
     ],
-    "w": 612
+    "jpop": 612
   },
   {
-    "pr": [
+    "jpr": [
       "kowai",
       "fu"
     ],
@@ -7560,10 +7560,10 @@
       "fearful",
       "scared"
     ],
-    "w": 613
+    "jpop": 613
   },
   {
-    "pr": [
+    "jpr": [
       "kon",
       "ne"
     ],
@@ -7571,10 +7571,10 @@
     "e": [
       "root"
     ],
-    "w": 614
+    "jpop": 614
   },
   {
-    "pr": [
+    "jpr": [
       "kon",
       "majiru",
       "mazaru"
@@ -7585,10 +7585,10 @@
       "blend",
       "associate with"
     ],
-    "w": 615
+    "jpop": 615
   },
   {
-    "pr": [
+    "jpr": [
       "kon"
     ],
     "j": "婚",
@@ -7596,10 +7596,10 @@
       "marry",
       "marriage"
     ],
-    "w": 616
+    "jpop": 616
   },
   {
-    "pr": [
+    "jpr": [
       "sa",
       "sasu"
     ],
@@ -7607,10 +7607,10 @@
     "e": [
       "difference"
     ],
-    "w": 617
+    "jpop": 617
   },
   {
-    "pr": [
+    "jpr": [
       "sa"
     ],
     "j": "査",
@@ -7618,10 +7618,10 @@
       "look into",
       "investigate"
     ],
-    "w": 618
+    "jpop": 618
   },
   {
-    "pr": [
+    "jpr": [
       "sa",
       "sha",
       "suna"
@@ -7630,10 +7630,10 @@
     "e": [
       "sand"
     ],
-    "w": 619
+    "jpop": 619
   },
   {
-    "pr": [
+    "jpr": [
       "sa",
       "sai",
       "futatabi"
@@ -7644,10 +7644,10 @@
       "again",
       "another time"
     ],
-    "w": 620
+    "jpop": 620
   },
   {
-    "pr": [
+    "jpr": [
       "za",
       "suwaru"
     ],
@@ -7657,10 +7657,10 @@
       "sit down",
       "constellation"
     ],
-    "w": 621
+    "jpop": 621
   },
   {
-    "pr": [
+    "jpr": [
       "sai"
     ],
     "j": "才",
@@ -7668,10 +7668,10 @@
       "talent",
       "age"
     ],
-    "w": 622
+    "jpop": 622
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "matsuri",
       "matsuru"
@@ -7680,10 +7680,10 @@
     "e": [
       "festival"
     ],
-    "w": 623
+    "jpop": 623
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "na"
     ],
@@ -7691,10 +7691,10 @@
     "e": [
       "vegetable"
     ],
-    "w": 624
+    "jpop": 624
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "mottomo"
     ],
@@ -7703,10 +7703,10 @@
       "most",
       "est"
     ],
-    "w": 625
+    "jpop": 625
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "tsuma"
     ],
@@ -7714,10 +7714,10 @@
     "e": [
       "wife"
     ],
-    "w": 626
+    "jpop": 626
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "toru"
     ],
@@ -7726,10 +7726,10 @@
       "pick",
       "gather"
     ],
-    "w": 627
+    "jpop": 627
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "sumu",
       "sumasu"
@@ -7739,10 +7739,10 @@
       "settle",
       "relieve"
     ],
-    "w": 628
+    "jpop": 628
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "sei"
     ],
@@ -7752,10 +7752,10 @@
       "age",
       "age suffix"
     ],
-    "w": 629
+    "jpop": 629
   },
   {
-    "pr": [
+    "jpr": [
       "sai",
       "zai"
     ],
@@ -7763,10 +7763,10 @@
     "e": [
       "wealth"
     ],
-    "w": 630
+    "jpop": 630
   },
   {
-    "pr": [
+    "jpr": [
       "zai"
     ],
     "j": "材",
@@ -7774,10 +7774,10 @@
       "timber",
       "materials"
     ],
-    "w": 631
+    "jpop": 631
   },
   {
-    "pr": [
+    "jpr": [
       "zai",
       "tsumi"
     ],
@@ -7786,10 +7786,10 @@
       "sin",
       "crime"
     ],
-    "w": 632
+    "jpop": 632
   },
   {
-    "pr": [
+    "jpr": [
       "saka",
       "han"
     ],
@@ -7797,10 +7797,10 @@
     "e": [
       "slope"
     ],
-    "w": 633
+    "jpop": 633
   },
   {
-    "pr": [
+    "jpr": [
       "sake",
       "shu"
     ],
@@ -7809,10 +7809,10 @@
       "sake",
       "alcohol"
     ],
-    "w": 634
+    "jpop": 634
   },
   {
-    "pr": [
+    "jpr": [
       "sagasu",
       "tan",
       "saguru"
@@ -7822,10 +7822,10 @@
       "probe",
       "search"
     ],
-    "w": 635
+    "jpop": 635
   },
   {
-    "pr": [
+    "jpr": [
       "sagasu",
       "sou"
     ],
@@ -7834,10 +7834,10 @@
       "look for",
       "search"
     ],
-    "w": 636
+    "jpop": 636
   },
   {
-    "pr": [
+    "jpr": [
       "sakazuki",
       "hai"
     ],
@@ -7846,10 +7846,10 @@
       "cup",
       "counter for cups"
     ],
-    "w": 637
+    "jpop": 637
   },
   {
-    "pr": [
+    "jpr": [
       "saku"
     ],
     "j": "咲",
@@ -7857,10 +7857,10 @@
       "bloom",
       "come out"
     ],
-    "w": 638
+    "jpop": 638
   },
   {
-    "pr": [
+    "jpr": [
       "saku"
     ],
     "j": "昨",
@@ -7868,10 +7868,10 @@
       "yesterday",
       "last..."
     ],
-    "w": 639
+    "jpop": 639
   },
   {
-    "pr": [
+    "jpr": [
       "saku",
       "satsu"
     ],
@@ -7881,10 +7881,10 @@
       "volume",
       "counter for books"
     ],
-    "w": 640
+    "jpop": 640
   },
   {
-    "pr": [
+    "jpr": [
       "sasaeru",
       "shi"
     ],
@@ -7893,10 +7893,10 @@
       "support",
       "branch"
     ],
-    "w": 641
+    "jpop": 641
   },
   {
-    "pr": [
+    "jpr": [
       "sasaru",
       "shi",
       "sasu"
@@ -7906,10 +7906,10 @@
       "stab",
       "stab (with a knife)"
     ],
-    "w": 642
+    "jpop": 642
   },
   {
-    "pr": [
+    "jpr": [
       "sasu",
       "shi",
       "yubi"
@@ -7919,10 +7919,10 @@
       "point",
       "finger"
     ],
-    "w": 643
+    "jpop": 643
   },
   {
-    "pr": [
+    "jpr": [
       "sadaka",
       "tei",
       "jou"
@@ -7933,10 +7933,10 @@
       "decide",
       "establish"
     ],
-    "w": 644
+    "jpop": 644
   },
   {
-    "pr": [
+    "jpr": [
       "satsu",
       "fuda"
     ],
@@ -7946,10 +7946,10 @@
       "paper money",
       "tag"
     ],
-    "w": 645
+    "jpop": 645
   },
   {
-    "pr": [
+    "jpr": [
       "satsu",
       "suru"
     ],
@@ -7957,10 +7957,10 @@
     "e": [
       "print"
     ],
-    "w": 646
+    "jpop": 646
   },
   {
-    "pr": [
+    "jpr": [
       "satsu"
     ],
     "j": "察",
@@ -7968,10 +7968,10 @@
       "inspect",
       "guess"
     ],
-    "w": 647
+    "jpop": 647
   },
   {
-    "pr": [
+    "jpr": [
       "zatsu",
       "zou"
     ],
@@ -7980,10 +7980,10 @@
       "mixed",
       "rough"
     ],
-    "w": 648
+    "jpop": 648
   },
   {
-    "pr": [
+    "jpr": [
       "sama",
       "you"
     ],
@@ -7993,10 +7993,10 @@
       "formal title",
       "Mr. / Mrs."
     ],
-    "w": 649
+    "jpop": 649
   },
   {
-    "pr": [
+    "jpr": [
       "samasu",
       "rei",
       "tsumetai"
@@ -8005,10 +8005,10 @@
     "e": [
       "cold"
     ],
-    "w": 650
+    "jpop": 650
   },
   {
-    "pr": [
+    "jpr": [
       "sara"
     ],
     "j": "皿",
@@ -8016,10 +8016,10 @@
       "plate",
       "dish"
     ],
-    "w": 651
+    "jpop": 651
   },
   {
-    "pr": [
+    "jpr": [
       "sawaru",
       "shoku",
       "fureru"
@@ -8029,20 +8029,20 @@
       "touch",
       "feel"
     ],
-    "w": 652
+    "jpop": 652
   },
   {
-    "pr": [
+    "jpr": [
       "san"
     ],
     "j": "算",
     "e": [
       "calculate"
     ],
-    "w": 653
+    "jpop": 653
   },
   {
-    "pr": [
+    "jpr": [
       "san",
       "mairu"
     ],
@@ -8050,10 +8050,10 @@
     "e": [
       "attend"
     ],
-    "w": 654
+    "jpop": 654
   },
   {
-    "pr": [
+    "jpr": [
       "san",
       "chiru",
       "chirakasu"
@@ -8062,10 +8062,10 @@
     "e": [
       "scatter"
     ],
-    "w": 655
+    "jpop": 655
   },
   {
-    "pr": [
+    "jpr": [
       "san"
     ],
     "j": "賛",
@@ -8073,10 +8073,10 @@
       "approve",
       "praise"
     ],
-    "w": 656
+    "jpop": 656
   },
   {
-    "pr": [
+    "jpr": [
       "zan",
       "nokoru",
       "nokosu"
@@ -8086,10 +8086,10 @@
       "remain",
       "ruthless"
     ],
-    "w": 657
+    "jpop": 657
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "ji",
       "tsugi"
@@ -8098,10 +8098,10 @@
     "e": [
       "next"
     ],
-    "w": 658
+    "jpop": 658
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "ha"
     ],
@@ -8109,20 +8109,20 @@
     "e": [
       "tooth"
     ],
-    "w": 659
+    "jpop": 659
   },
   {
-    "pr": [
+    "jpr": [
       "shi"
     ],
     "j": "史",
     "e": [
       "history"
     ],
-    "w": 660
+    "jpop": 660
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "ji",
       "shimesu"
@@ -8132,10 +8132,10 @@
       "show",
       "to show"
     ],
-    "w": 661
+    "jpop": 661
   },
   {
-    "pr": [
+    "jpr": [
       "shi"
     ],
     "j": "師",
@@ -8143,40 +8143,40 @@
       "master",
       "teacher"
     ],
-    "w": 662
+    "jpop": 662
   },
   {
-    "pr": [
+    "jpr": [
       "shi"
     ],
     "j": "資",
     "e": [
       "resource"
     ],
-    "w": 663
+    "jpop": 663
   },
   {
-    "pr": [
+    "jpr": [
       "shi"
     ],
     "j": "詞",
     "e": [
       "words"
     ],
-    "w": 664
+    "jpop": 664
   },
   {
-    "pr": [
+    "jpr": [
       "shi"
     ],
     "j": "誌",
     "e": [
       "magazine"
     ],
-    "w": 665
+    "jpop": 665
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "ro"
     ],
@@ -8184,10 +8184,10 @@
     "e": [
       "road"
     ],
-    "w": 666
+    "jpop": 666
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "mimi"
     ],
@@ -8195,10 +8195,10 @@
     "e": [
       "ear"
     ],
-    "w": 667
+    "jpop": 667
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "tera"
     ],
@@ -8206,10 +8206,10 @@
     "e": [
       "buddhist temple"
     ],
-    "w": 668
+    "jpop": 668
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "ni"
     ],
@@ -8217,10 +8217,10 @@
     "e": [
       "child"
     ],
-    "w": 669
+    "jpop": 669
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "yameru"
     ],
@@ -8230,10 +8230,10 @@
       "resign",
       "retire"
     ],
-    "w": 670
+    "jpop": 670
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "niru"
     ],
@@ -8242,10 +8242,10 @@
       "look like",
       "resemble"
     ],
-    "w": 671
+    "jpop": 671
   },
   {
-    "pr": [
+    "jpr": [
       "ji",
       "jo",
       "nozoku"
@@ -8254,10 +8254,10 @@
     "e": [
       "remove"
     ],
-    "w": 672
+    "jpop": 672
   },
   {
-    "pr": [
+    "jpr": [
       "shiki"
     ],
     "j": "式",
@@ -8265,20 +8265,20 @@
       "ceremony",
       "style"
     ],
-    "w": 673
+    "jpop": 673
   },
   {
-    "pr": [
+    "jpr": [
       "shiki"
     ],
     "j": "識",
     "e": [
       "know"
     ],
-    "w": 674
+    "jpop": 674
   },
   {
-    "pr": [
+    "jpr": [
       "jiki",
       "choku",
       "naosu"
@@ -8288,10 +8288,10 @@
       "straight",
       "fix"
     ],
-    "w": 675
+    "jpop": 675
   },
   {
-    "pr": [
+    "jpr": [
       "shizuka",
       "sei",
       "jou"
@@ -8300,10 +8300,10 @@
     "e": [
       "quiet"
     ],
-    "w": 676
+    "jpop": 676
   },
   {
-    "pr": [
+    "jpr": [
       "shizuku",
       "teki",
       "shitataru"
@@ -8314,10 +8314,10 @@
       "drop (of liquid)",
       "trickle"
     ],
-    "w": 677
+    "jpop": 677
   },
   {
-    "pr": [
+    "jpr": [
       "shizumu",
       "chin",
       "shizumeru"
@@ -8327,10 +8327,10 @@
       "sink",
       "to sink"
     ],
-    "w": 678
+    "jpop": 678
   },
   {
-    "pr": [
+    "jpr": [
       "shimeru",
       "shimesu"
     ],
@@ -8338,10 +8338,10 @@
     "e": [
       "damp"
     ],
-    "w": 679
+    "jpop": 679
   },
   {
-    "pr": [
+    "jpr": [
       "jitsu",
       "mi",
       "minoru"
@@ -8352,10 +8352,10 @@
       "truth",
       "fruit"
     ],
-    "w": 680
+    "jpop": 680
   },
   {
-    "pr": [
+    "jpr": [
       "shima",
       "tou"
     ],
@@ -8363,10 +8363,10 @@
     "e": [
       "island"
     ],
-    "w": 681
+    "jpop": 681
   },
   {
-    "pr": [
+    "jpr": [
       "shimeru",
       "tojiru",
       "hei"
@@ -8375,10 +8375,10 @@
     "e": [
       "close"
     ],
-    "w": 682
+    "jpop": 682
   },
   {
-    "pr": [
+    "jpr": [
       "sha",
       "suteru"
     ],
@@ -8387,10 +8387,10 @@
       "throw away",
       "discard"
     ],
-    "w": 683
+    "jpop": 683
   },
   {
-    "pr": [
+    "jpr": [
       "shaku",
       "seki",
       "mukashi"
@@ -8401,10 +8401,10 @@
       "long ago",
       "former"
     ],
-    "w": 684
+    "jpop": 684
   },
   {
-    "pr": [
+    "jpr": [
       "jaku",
       "yowai"
     ],
@@ -8413,10 +8413,10 @@
       "weak",
       "weakness"
     ],
-    "w": 685
+    "jpop": 685
   },
   {
-    "pr": [
+    "jpr": [
       "jaku",
       "wakai"
     ],
@@ -8424,10 +8424,10 @@
     "e": [
       "young"
     ],
-    "w": 686
+    "jpop": 686
   },
   {
-    "pr": [
+    "jpr": [
       "shu",
       "mamoru",
       "mori"
@@ -8438,10 +8438,10 @@
       "obey",
       "guard"
     ],
-    "w": 687
+    "jpop": 687
   },
   {
-    "pr": [
+    "jpr": [
       "shu",
       "toru"
     ],
@@ -8449,10 +8449,10 @@
     "e": [
       "take"
     ],
-    "w": 688
+    "jpop": 688
   },
   {
-    "pr": [
+    "jpr": [
       "shu",
       "tane"
     ],
@@ -8461,10 +8461,10 @@
       "seed",
       "variety"
     ],
-    "w": 689
+    "jpop": 689
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "su"
     ],
@@ -8472,10 +8472,10 @@
     "e": [
       "state"
     ],
-    "w": 690
+    "jpop": 690
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "juu",
       "hirou"
@@ -8484,10 +8484,10 @@
     "e": [
       "pick up"
     ],
-    "w": 691
+    "jpop": 691
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "mawari"
     ],
@@ -8496,10 +8496,10 @@
       "around",
       "surrounding area"
     ],
-    "w": 692
+    "jpop": 692
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "fune",
       "funa"
@@ -8509,10 +8509,10 @@
       "boat",
       "small boat"
     ],
-    "w": 693
+    "jpop": 693
   },
   {
-    "pr": [
+    "jpr": [
       "juu",
       "nyuu",
       "yawarakai"
@@ -8522,10 +8522,10 @@
       "soft",
       "soft (to the touch)"
     ],
-    "w": 694
+    "jpop": 694
   },
   {
-    "pr": [
+    "jpr": [
       "shuku",
       "yado",
       "yadoru"
@@ -8536,10 +8536,10 @@
       "lodge",
       "inn"
     ],
-    "w": 695
+    "jpop": 695
   },
   {
-    "pr": [
+    "jpr": [
       "jutsu",
       "noberu"
     ],
@@ -8548,20 +8548,20 @@
       "speak",
       "state"
     ],
-    "w": 696
+    "jpop": 696
   },
   {
-    "pr": [
+    "jpr": [
       "jutsu"
     ],
     "j": "術",
     "e": [
       "art"
     ],
-    "w": 697
+    "jpop": 697
   },
   {
-    "pr": [
+    "jpr": [
       "jun"
     ],
     "j": "順",
@@ -8570,10 +8570,10 @@
       "turn",
       "obey"
     ],
-    "w": 698
+    "jpop": 698
   },
   {
-    "pr": [
+    "jpr": [
       "jun"
     ],
     "j": "準",
@@ -8582,10 +8582,10 @@
       "rule",
       "semi"
     ],
-    "w": 699
+    "jpop": 699
   },
   {
-    "pr": [
+    "jpr": [
       "jun"
     ],
     "j": "純",
@@ -8593,10 +8593,10 @@
       "pure",
       "purity"
     ],
-    "w": 700
+    "jpop": 700
   },
   {
-    "pr": [
+    "jpr": [
       "sho",
       "tokoro"
     ],
@@ -8605,10 +8605,10 @@
       "place",
       "area"
     ],
-    "w": 701
+    "jpop": 701
   },
   {
-    "pr": [
+    "jpr": [
       "sho"
     ],
     "j": "処",
@@ -8616,30 +8616,30 @@
       "deal with",
       "manage"
     ],
-    "w": 702
+    "jpop": 702
   },
   {
-    "pr": [
+    "jpr": [
       "sho"
     ],
     "j": "署",
     "e": [
       "government office"
     ],
-    "w": 703
+    "jpop": 703
   },
   {
-    "pr": [
+    "jpr": [
       "sho"
     ],
     "j": "諸",
     "e": [
       "many"
     ],
-    "w": 704
+    "jpop": 704
   },
   {
-    "pr": [
+    "jpr": [
       "jo",
       "tasukeru",
       "tasukaru"
@@ -8648,20 +8648,20 @@
     "e": [
       "help"
     ],
-    "w": 705
+    "jpop": 705
   },
   {
-    "pr": [
+    "jpr": [
       "shou"
     ],
     "j": "章",
     "e": [
       "chapter"
     ],
-    "w": 706
+    "jpop": 706
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "yaku",
       "yakeru"
@@ -8670,10 +8670,10 @@
     "e": [
       "burn"
     ],
-    "w": 707
+    "jpop": 707
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "zou"
     ],
@@ -8682,10 +8682,10 @@
       "image",
       "elephant"
     ],
-    "w": 708
+    "jpop": 708
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "teru",
       "tereru"
@@ -8694,10 +8694,10 @@
     "e": [
       "illuminate"
     ],
-    "w": 709
+    "jpop": 709
   },
   {
-    "pr": [
+    "jpr": [
       "shou"
     ],
     "j": "賞",
@@ -8705,10 +8705,10 @@
       "prize",
       "award"
     ],
-    "w": 710
+    "jpop": 710
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "maneku"
     ],
@@ -8716,10 +8716,10 @@
     "e": [
       "invite"
     ],
-    "w": 711
+    "jpop": 711
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "sei"
     ],
@@ -8728,10 +8728,10 @@
       "nature",
       "gender"
     ],
-    "w": 712
+    "jpop": 712
   },
   {
-    "pr": [
+    "jpr": [
       "shou"
     ],
     "j": "将",
@@ -8739,10 +8739,10 @@
       "general officer",
       "general"
     ],
-    "w": 713
+    "jpop": 713
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "sou",
       "yosoou"
@@ -8753,10 +8753,10 @@
       "decoration",
       "adorn"
     ],
-    "w": 714
+    "jpop": 714
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "mesu"
     ],
@@ -8764,10 +8764,10 @@
     "e": [
       "summon"
     ],
-    "w": 715
+    "jpop": 715
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "toko",
       "yuka"
@@ -8776,10 +8776,10 @@
     "e": [
       "floor"
     ],
-    "w": 716
+    "jpop": 716
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "sei"
     ],
@@ -8788,10 +8788,10 @@
       "surname",
       "family name"
     ],
-    "w": 717
+    "jpop": 717
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "noboru"
     ],
@@ -8801,20 +8801,20 @@
       "go up",
       "rise"
     ],
-    "w": 718
+    "jpop": 718
   },
   {
-    "pr": [
+    "jpr": [
       "shou"
     ],
     "j": "紹",
     "e": [
       "intoduce"
     ],
-    "w": 719
+    "jpop": 719
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "sei",
       "hoshi"
@@ -8823,10 +8823,10 @@
     "e": [
       "star"
     ],
-    "w": 720
+    "jpop": 720
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "sei",
       "matsurigoto"
@@ -8836,10 +8836,10 @@
       "politics",
       "rule"
     ],
-    "w": 721
+    "jpop": 721
   },
   {
-    "pr": [
+    "jpr": [
       "shou",
       "sei"
     ],
@@ -8848,10 +8848,10 @@
       "refine",
       "essence"
     ],
-    "w": 722
+    "jpop": 722
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "noru",
       "noseru"
@@ -8861,10 +8861,10 @@
       "ride",
       "get on"
     ],
-    "w": 723
+    "jpop": 723
   },
   {
-    "pr": [
+    "jpr": [
       "jou"
     ],
     "j": "状",
@@ -8872,10 +8872,10 @@
       "form",
       "letter"
     ],
-    "w": 724
+    "jpop": 724
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "tsune",
       "toko"
@@ -8885,10 +8885,10 @@
       "normal",
       "regular"
     ],
-    "w": 725
+    "jpop": 725
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "sei",
       "nasake"
@@ -8898,10 +8898,10 @@
       "condition",
       "emotion"
     ],
-    "w": 726
+    "jpop": 726
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "shiro"
     ],
@@ -8909,10 +8909,10 @@
     "e": [
       "castle"
     ],
-    "w": 727
+    "jpop": 727
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "musu",
       "mureru"
@@ -8922,10 +8922,10 @@
       "evaporate",
       "steam"
     ],
-    "w": 728
+    "jpop": 728
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "tatami",
       "tatamu"
@@ -8936,10 +8936,10 @@
       "fold up",
       "fold"
     ],
-    "w": 729
+    "jpop": 729
   },
   {
-    "pr": [
+    "jpr": [
       "jou",
       "sei",
       "naru"
@@ -8950,10 +8950,10 @@
       "form",
       "achieve"
     ],
-    "w": 730
+    "jpop": 730
   },
   {
-    "pr": [
+    "jpr": [
       "shoku"
     ],
     "j": "職",
@@ -8961,10 +8961,10 @@
       "employment",
       "job"
     ],
-    "w": 731
+    "jpop": 731
   },
   {
-    "pr": [
+    "jpr": [
       "shiraberu",
       "chou",
       "totonou"
@@ -8975,10 +8975,10 @@
       "research",
       "tone"
     ],
-    "w": 732
+    "jpop": 732
   },
   {
-    "pr": [
+    "jpr": [
       "shirizoku",
       "tai",
       "shirizokeru"
@@ -8987,10 +8987,10 @@
     "e": [
       "retreat"
     ],
-    "w": 733
+    "jpop": 733
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "mori"
     ],
@@ -8998,10 +8998,10 @@
     "e": [
       "forest"
     ],
-    "w": 734
+    "jpop": 734
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "mousu"
     ],
@@ -9010,10 +9010,10 @@
       "report",
       "call"
     ],
-    "w": 735
+    "jpop": 735
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "mi"
     ],
@@ -9022,10 +9022,10 @@
       "body",
       "self"
     ],
-    "w": 736
+    "jpop": 736
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "fukai",
       "fukameru"
@@ -9034,10 +9034,10 @@
     "e": [
       "deep"
     ],
-    "w": 737
+    "jpop": 737
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "susumu",
       "susumeru"
@@ -9047,10 +9047,10 @@
       "advance",
       "move forward"
     ],
-    "w": 738
+    "jpop": 738
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "jin"
     ],
@@ -9059,10 +9059,10 @@
       "subject",
       "retainer"
     ],
-    "w": 739
+    "jpop": 739
   },
   {
-    "pr": [
+    "jpr": [
       "shin"
     ],
     "j": "信",
@@ -9070,10 +9070,10 @@
       "believe",
       "message"
     ],
-    "w": 740
+    "jpop": 740
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "hari"
     ],
@@ -9081,10 +9081,10 @@
     "e": [
       "needle"
     ],
-    "w": 741
+    "jpop": 741
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "nobiru",
       "nobosu"
@@ -9093,10 +9093,10 @@
     "e": [
       "stretch"
     ],
-    "w": 742
+    "jpop": 742
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "neru",
       "nekasu"
@@ -9106,10 +9106,10 @@
       "sleep",
       "go to sleep"
     ],
-    "w": 743
+    "jpop": 743
   },
   {
-    "pr": [
+    "jpr": [
       "shin",
       "furuu",
       "furueru"
@@ -9119,10 +9119,10 @@
       "shake",
       "quake"
     ],
-    "w": 744
+    "jpop": 744
   },
   {
-    "pr": [
+    "jpr": [
       "sui",
       "fuku"
     ],
@@ -9130,10 +9130,10 @@
     "e": [
       "blow"
     ],
-    "w": 745
+    "jpop": 745
   },
   {
-    "pr": [
+    "jpr": [
       "sue",
       "matsu",
       "batsu"
@@ -9143,10 +9143,10 @@
       "last part",
       "end"
     ],
-    "w": 746
+    "jpop": 746
   },
   {
-    "pr": [
+    "jpr": [
       "sugureru",
       "you",
       "yasashii"
@@ -9157,10 +9157,10 @@
       "kind",
       "nice"
     ],
-    "w": 747
+    "jpop": 747
   },
   {
-    "pr": [
+    "jpr": [
       "suzushii",
       "ryou",
       "suzumu"
@@ -9170,10 +9170,10 @@
       "cool",
       "cool (temp)"
     ],
-    "w": 748
+    "jpop": 748
   },
   {
-    "pr": [
+    "jpr": [
       "sumi",
       "tan"
     ],
@@ -9182,10 +9182,10 @@
       "coal",
       "charcoal"
     ],
-    "w": 749
+    "jpop": 749
   },
   {
-    "pr": [
+    "jpr": [
       "sumiyaka",
       "soku",
       "hayai"
@@ -9195,10 +9195,10 @@
       "fast",
       "quick"
     ],
-    "w": 750
+    "jpop": 750
   },
   {
-    "pr": [
+    "jpr": [
       "se",
       "hai",
       "somuku"
@@ -9208,10 +9208,10 @@
       "back",
       "back (body part)"
     ],
-    "w": 751
+    "jpop": 751
   },
   {
-    "pr": [
+    "jpr": [
       "sei",
       "hareru",
       "harasu"
@@ -9221,10 +9221,10 @@
       "fine weather",
       "sunny"
     ],
-    "w": 752
+    "jpop": 752
   },
   {
-    "pr": [
+    "jpr": [
       "sei"
     ],
     "j": "制",
@@ -9232,10 +9232,10 @@
       "system",
       "control"
     ],
-    "w": 753
+    "jpop": 753
   },
   {
-    "pr": [
+    "jpr": [
       "sei"
     ],
     "j": "製",
@@ -9243,20 +9243,20 @@
       "manufactured",
       "made in"
     ],
-    "w": 754
+    "jpop": 754
   },
   {
-    "pr": [
+    "jpr": [
       "zei"
     ],
     "j": "税",
     "e": [
       "tax"
     ],
-    "w": 755
+    "jpop": 755
   },
   {
-    "pr": [
+    "jpr": [
       "zei",
       "setsu",
       "toku"
@@ -9265,20 +9265,20 @@
     "e": [
       "explain"
     ],
-    "w": 756
+    "jpop": 756
   },
   {
-    "pr": [
+    "jpr": [
       "seki"
     ],
     "j": "席",
     "e": [
       "seat"
     ],
-    "w": 757
+    "jpop": 757
   },
   {
-    "pr": [
+    "jpr": [
       "seki",
       "tsumu"
     ],
@@ -9286,10 +9286,10 @@
     "e": [
       "accumulate"
     ],
-    "w": 758
+    "jpop": 758
   },
   {
-    "pr": [
+    "jpr": [
       "seki",
       "semeru"
     ],
@@ -9298,20 +9298,20 @@
       "burden",
       "blame"
     ],
-    "w": 759
+    "jpop": 759
   },
   {
-    "pr": [
+    "jpr": [
       "seki"
     ],
     "j": "績",
     "e": [
       "achievements"
     ],
-    "w": 760
+    "jpop": 760
   },
   {
-    "pr": [
+    "jpr": [
       "seki"
     ],
     "j": "隻",
@@ -9319,20 +9319,20 @@
       "one of a pair",
       "counter for boats"
     ],
-    "w": 761
+    "jpop": 761
   },
   {
-    "pr": [
+    "jpr": [
       "seki"
     ],
     "j": "籍",
     "e": [
       "register"
     ],
-    "w": 762
+    "jpop": 762
   },
   {
-    "pr": [
+    "jpr": [
       "setsu",
       "yuki"
     ],
@@ -9340,10 +9340,10 @@
     "e": [
       "snow"
     ],
-    "w": 763
+    "jpop": 763
   },
   {
-    "pr": [
+    "jpr": [
       "setsu",
       "moukeru"
     ],
@@ -9351,10 +9351,10 @@
     "e": [
       "set up"
     ],
-    "w": 764
+    "jpop": 764
   },
   {
-    "pr": [
+    "jpr": [
       "setsu",
       "tsugu"
     ],
@@ -9363,10 +9363,10 @@
       "contact",
       "touch"
     ],
-    "w": 765
+    "jpop": 765
   },
   {
-    "pr": [
+    "jpr": [
       "zetsu",
       "taeru",
       "tatsu"
@@ -9376,20 +9376,20 @@
       "die out",
       "cut off"
     ],
-    "w": 766
+    "jpop": 766
   },
   {
-    "pr": [
+    "jpr": [
       "sen"
     ],
     "j": "線",
     "e": [
       "line"
     ],
-    "w": 767
+    "jpop": 767
   },
   {
-    "pr": [
+    "jpr": [
       "sen",
       "mobbara"
     ],
@@ -9398,10 +9398,10 @@
       "exclusive",
       "sole"
     ],
-    "w": 768
+    "jpop": 768
   },
   {
-    "pr": [
+    "jpr": [
       "zen",
       "mattaku"
     ],
@@ -9409,10 +9409,10 @@
     "e": [
       "whole"
     ],
-    "w": 769
+    "jpop": 769
   },
   {
-    "pr": [
+    "jpr": [
       "zen",
       "nen"
     ],
@@ -9422,20 +9422,20 @@
       "however",
       "but"
     ],
-    "w": 770
+    "jpop": 770
   },
   {
-    "pr": [
+    "jpr": [
       "so"
     ],
     "j": "祖",
     "e": [
       "ancestor"
     ],
-    "w": 771
+    "jpop": 771
   },
   {
-    "pr": [
+    "jpr": [
       "so",
       "sou"
     ],
@@ -9445,10 +9445,10 @@
       "image",
       "imagination"
     ],
-    "w": 772
+    "jpop": 772
   },
   {
-    "pr": [
+    "jpr": [
       "sou"
     ],
     "j": "総",
@@ -9456,10 +9456,10 @@
       "total",
       "general"
     ],
-    "w": 773
+    "jpop": 773
   },
   {
-    "pr": [
+    "jpr": [
       "sou",
       "mado"
     ],
@@ -9467,10 +9467,10 @@
     "e": [
       "window"
     ],
-    "w": 774
+    "jpop": 774
   },
   {
-    "pr": [
+    "jpr": [
       "sou"
     ],
     "j": "層",
@@ -9478,10 +9478,10 @@
       "stratum",
       "layer"
     ],
-    "w": 775
+    "jpop": 775
   },
   {
-    "pr": [
+    "jpr": [
       "sou",
       "futa"
     ],
@@ -9491,10 +9491,10 @@
       "twin",
       "double"
     ],
-    "w": 776
+    "jpop": 776
   },
   {
-    "pr": [
+    "jpr": [
       "sou",
       "haku"
     ],
@@ -9502,20 +9502,20 @@
     "e": [
       "sweep"
     ],
-    "w": 777
+    "jpop": 777
   },
   {
-    "pr": [
+    "jpr": [
       "sou"
     ],
     "j": "燥",
     "e": [
       "dry up"
     ],
-    "w": 778
+    "jpop": 778
   },
   {
-    "pr": [
+    "jpr": [
       "zou",
       "tsukuru"
     ],
@@ -9524,10 +9524,10 @@
       "make",
       "create"
     ],
-    "w": 779
+    "jpop": 779
   },
   {
-    "pr": [
+    "jpr": [
       "zou",
       "masu",
       "fueru"
@@ -9536,30 +9536,30 @@
     "e": [
       "increase"
     ],
-    "w": 780
+    "jpop": 780
   },
   {
-    "pr": [
+    "jpr": [
       "zou"
     ],
     "j": "像",
     "e": [
       "image"
     ],
-    "w": 781
+    "jpop": 781
   },
   {
-    "pr": [
+    "jpr": [
       "zou"
     ],
     "j": "臓",
     "e": [
       "internal organ"
     ],
-    "w": 782
+    "jpop": 782
   },
   {
-    "pr": [
+    "jpr": [
       "zou",
       "nikui",
       "nikumu"
@@ -9569,10 +9569,10 @@
       "hate",
       "dislike"
     ],
-    "w": 783
+    "jpop": 783
   },
   {
-    "pr": [
+    "jpr": [
       "soku",
       "taba"
     ],
@@ -9581,10 +9581,10 @@
       "tie",
       "bundle"
     ],
-    "w": 784
+    "jpop": 784
   },
   {
-    "pr": [
+    "jpr": [
       "soku"
     ],
     "j": "則",
@@ -9593,10 +9593,10 @@
       "law",
       "act on"
     ],
-    "w": 785
+    "jpop": 785
   },
   {
-    "pr": [
+    "jpr": [
       "soku",
       "hakaru"
     ],
@@ -9604,10 +9604,10 @@
     "e": [
       "measure"
     ],
-    "w": 786
+    "jpop": 786
   },
   {
-    "pr": [
+    "jpr": [
       "zoku",
       "tsuzuku",
       "tsuzukeru"
@@ -9616,10 +9616,10 @@
     "e": [
       "continue"
     ],
-    "w": 787
+    "jpop": 787
   },
   {
-    "pr": [
+    "jpr": [
       "soko",
       "tei"
     ],
@@ -9627,10 +9627,10 @@
     "e": [
       "bottom"
     ],
-    "w": 788
+    "jpop": 788
   },
   {
-    "pr": [
+    "jpr": [
       "sokonau",
       "son",
       "sokoneru"
@@ -9640,20 +9640,20 @@
       "loss",
       "damage"
     ],
-    "w": 789
+    "jpop": 789
   },
   {
-    "pr": [
+    "jpr": [
       "sotsu"
     ],
     "j": "卒",
     "e": [
       "graduate"
     ],
-    "w": 790
+    "jpop": 790
   },
   {
-    "pr": [
+    "jpr": [
       "sotsu",
       "ritsu",
       "hikiiru"
@@ -9664,10 +9664,10 @@
       "percentage",
       "lead"
     ],
-    "w": 791
+    "jpop": 791
   },
   {
-    "pr": [
+    "jpr": [
       "sonaeru",
       "bi",
       "sonawaru"
@@ -9676,10 +9676,10 @@
     "e": [
       "provide"
     ],
-    "w": 792
+    "jpop": 792
   },
   {
-    "pr": [
+    "jpr": [
       "sorasu",
       "han",
       "tan"
@@ -9689,10 +9689,10 @@
       "counter",
       "against"
     ],
-    "w": 793
+    "jpop": 793
   },
   {
-    "pr": [
+    "jpr": [
       "son",
       "mura"
     ],
@@ -9700,10 +9700,10 @@
     "e": [
       "village"
     ],
-    "w": 794
+    "jpop": 794
   },
   {
-    "pr": [
+    "jpr": [
       "son",
       "mago"
     ],
@@ -9711,10 +9711,10 @@
     "e": [
       "grandchild"
     ],
-    "w": 795
+    "jpop": 795
   },
   {
-    "pr": [
+    "jpr": [
       "son",
       "zon"
     ],
@@ -9722,10 +9722,10 @@
     "e": [
       "exist"
     ],
-    "w": 796
+    "jpop": 796
   },
   {
-    "pr": [
+    "jpr": [
       "son",
       "toutobu",
       "tattobu"
@@ -9735,10 +9735,10 @@
       "honor",
       "respect"
     ],
-    "w": 797
+    "jpop": 797
   },
   {
-    "pr": [
+    "jpr": [
       "ta",
       "futoi",
       "tai"
@@ -9749,10 +9749,10 @@
       "thick",
       "become fat"
     ],
-    "w": 798
+    "jpop": 798
   },
   {
-    "pr": [
+    "jpr": [
       "tai",
       "fukuro"
     ],
@@ -9761,10 +9761,10 @@
       "sack",
       "bag"
     ],
-    "w": 799
+    "jpop": 799
   },
   {
-    "pr": [
+    "jpr": [
       "dai"
     ],
     "j": "第",
@@ -9772,10 +9772,10 @@
       "rank",
       "no. ~"
     ],
-    "w": 800
+    "jpop": 800
   },
   {
-    "pr": [
+    "jpr": [
       "taira",
       "hei",
       "byou"
@@ -9785,10 +9785,10 @@
       "flat",
       "calm"
     ],
-    "w": 801
+    "jpop": 801
   },
   {
-    "pr": [
+    "jpr": [
       "taosu",
       "tou"
     ],
@@ -9797,10 +9797,10 @@
       "topple",
       "fall over"
     ],
-    "w": 802
+    "jpop": 802
   },
   {
-    "pr": [
+    "jpr": [
       "takara",
       "hou"
     ],
@@ -9808,10 +9808,10 @@
     "e": [
       "treasure"
     ],
-    "w": 803
+    "jpop": 803
   },
   {
-    "pr": [
+    "jpr": [
       "taku"
     ],
     "j": "宅",
@@ -9819,20 +9819,20 @@
       "house",
       "home"
     ],
-    "w": 804
+    "jpop": 804
   },
   {
-    "pr": [
+    "jpr": [
       "taku"
     ],
     "j": "濯",
     "e": [
       "rinse"
     ],
-    "w": 805
+    "jpop": 805
   },
   {
-    "pr": [
+    "jpr": [
       "take",
       "chiku"
     ],
@@ -9840,10 +9840,10 @@
     "e": [
       "bamboo"
     ],
-    "w": 806
+    "jpop": 806
   },
   {
-    "pr": [
+    "jpr": [
       "tatsu",
       "tachi"
     ],
@@ -9853,10 +9853,10 @@
       "arrive",
       "plural marker"
     ],
-    "w": 807
+    "jpop": 807
   },
   {
-    "pr": [
+    "jpr": [
       "tatoeru",
       "rei"
     ],
@@ -9864,10 +9864,10 @@
     "e": [
       "example"
     ],
-    "w": 808
+    "jpop": 808
   },
   {
-    "pr": [
+    "jpr": [
       "tanomu",
       "rai",
       "tanomoshii"
@@ -9877,10 +9877,10 @@
       "rely on",
       "ask"
     ],
-    "w": 809
+    "jpop": 809
   },
   {
-    "pr": [
+    "jpr": [
       "tamago",
       "ran"
     ],
@@ -9888,10 +9888,10 @@
     "e": [
       "egg"
     ],
-    "w": 810
+    "jpop": 810
   },
   {
-    "pr": [
+    "jpr": [
       "tami",
       "min"
     ],
@@ -9899,10 +9899,10 @@
     "e": [
       "people"
     ],
-    "w": 811
+    "jpop": 811
   },
   {
-    "pr": [
+    "jpr": [
       "tayori",
       "ben",
       "bin"
@@ -9912,10 +9912,10 @@
       "post",
       "convenient"
     ],
-    "w": 812
+    "jpop": 812
   },
   {
-    "pr": [
+    "jpr": [
       "tan",
       "mijikai"
     ],
@@ -9923,40 +9923,40 @@
     "e": [
       "short"
     ],
-    "w": 813
+    "jpop": 813
   },
   {
-    "pr": [
+    "jpr": [
       "tan"
     ],
     "j": "単",
     "e": [
       "single"
     ],
-    "w": 814
+    "jpop": 814
   },
   {
-    "pr": [
+    "jpr": [
       "dan"
     ],
     "j": "談",
     "e": [
       "talk"
     ],
-    "w": 815
+    "jpop": 815
   },
   {
-    "pr": [
+    "jpr": [
       "dan"
     ],
     "j": "段",
     "e": [
       "step"
     ],
-    "w": 816
+    "jpop": 816
   },
   {
-    "pr": [
+    "jpr": [
       "chi",
       "nyuu",
       "chichi"
@@ -9965,10 +9965,10 @@
     "e": [
       "milk"
     ],
-    "w": 817
+    "jpop": 817
   },
   {
-    "pr": [
+    "jpr": [
       "chi",
       "hajiru",
       "hazukashii"
@@ -9978,20 +9978,20 @@
       "shy",
       "shame"
     ],
-    "w": 818
+    "jpop": 818
   },
   {
-    "pr": [
+    "jpr": [
       "chiku"
     ],
     "j": "畜",
     "e": [
       "livestock"
     ],
-    "w": 819
+    "jpop": 819
   },
   {
-    "pr": [
+    "jpr": [
       "chuu",
       "mushi"
     ],
@@ -9999,10 +9999,10 @@
     "e": [
       "insect"
     ],
-    "w": 820
+    "jpop": 820
   },
   {
-    "pr": [
+    "jpr": [
       "chuu",
       "hashira"
     ],
@@ -10010,10 +10010,10 @@
     "e": [
       "pillar"
     ],
-    "w": 821
+    "jpop": 821
   },
   {
-    "pr": [
+    "jpr": [
       "chuu",
       "naka"
     ],
@@ -10021,10 +10021,10 @@
     "e": [
       "intermediary"
     ],
-    "w": 822
+    "jpop": 822
   },
   {
-    "pr": [
+    "jpr": [
       "chuu"
     ],
     "j": "宙",
@@ -10032,20 +10032,20 @@
       "outer space",
       "space"
     ],
-    "w": 823
+    "jpop": 823
   },
   {
-    "pr": [
+    "jpr": [
       "chuu"
     ],
     "j": "駐",
     "e": [
       "stationed"
     ],
-    "w": 824
+    "jpop": 824
   },
   {
-    "pr": [
+    "jpr": [
       "cho"
     ],
     "j": "貯",
@@ -10053,20 +10053,20 @@
       "lay up",
       "store"
     ],
-    "w": 825
+    "jpop": 825
   },
   {
-    "pr": [
+    "jpr": [
       "chou"
     ],
     "j": "庁",
     "e": [
       "government agency"
     ],
-    "w": 826
+    "jpop": 826
   },
   {
-    "pr": [
+    "jpr": [
       "chin",
       "mezurashii"
     ],
@@ -10074,10 +10074,10 @@
     "e": [
       "rare"
     ],
-    "w": 827
+    "jpop": 827
   },
   {
-    "pr": [
+    "jpr": [
       "shi",
       "to",
       "miyako"
@@ -10087,10 +10087,10 @@
       "metropolis",
       "city"
     ],
-    "w": 828
+    "jpop": 828
   },
   {
-    "pr": [
+    "jpr": [
       "tsuieru",
       "hi",
       "tsuiyasu"
@@ -10099,10 +10099,10 @@
     "e": [
       "expense"
     ],
-    "w": 829
+    "jpop": 829
   },
   {
-    "pr": [
+    "jpr": [
       "tsukamaru",
       "ho",
       "toru"
@@ -10112,10 +10112,10 @@
       "catch",
       "arrest"
     ],
-    "w": 830
+    "jpop": 830
   },
   {
-    "pr": [
+    "jpr": [
       "tsukareru",
       "hi"
     ],
@@ -10123,10 +10123,10 @@
     "e": [
       "tired"
     ],
-    "w": 831
+    "jpop": 831
   },
   {
-    "pr": [
+    "jpr": [
       "tsuku",
       "fu",
       "tsukeru"
@@ -10136,10 +10136,10 @@
       "attach",
       "add"
     ],
-    "w": 832
+    "jpop": 832
   },
   {
-    "pr": [
+    "jpr": [
       "tsuku",
       "totsu"
     ],
@@ -10148,10 +10148,10 @@
       "dash",
       "thrust"
     ],
-    "w": 833
+    "jpop": 833
   },
   {
-    "pr": [
+    "jpr": [
       "tsutsumu",
       "hou"
     ],
@@ -10160,10 +10160,10 @@
       "envelop",
       "wrap"
     ],
-    "w": 834
+    "jpop": 834
   },
   {
-    "pr": [
+    "jpr": [
       "tsutomeru",
       "do"
     ],
@@ -10171,10 +10171,10 @@
     "e": [
       "exert"
     ],
-    "w": 835
+    "jpop": 835
   },
   {
-    "pr": [
+    "jpr": [
       "tsutomeru",
       "mu"
     ],
@@ -10182,10 +10182,10 @@
     "e": [
       "duty"
     ],
-    "w": 836
+    "jpop": 836
   },
   {
-    "pr": [
+    "jpr": [
       "tsunoru",
       "bo"
     ],
@@ -10193,10 +10193,10 @@
     "e": [
       "raise"
     ],
-    "w": 837
+    "jpop": 837
   },
   {
-    "pr": [
+    "jpr": [
       "tsubu",
       "ryuu"
     ],
@@ -10204,10 +10204,10 @@
     "e": [
       "grain"
     ],
-    "w": 838
+    "jpop": 838
   },
   {
-    "pr": [
+    "jpr": [
       "tsuraneru",
       "ren",
       "tsureru"
@@ -10217,10 +10217,10 @@
       "link",
       "succession"
     ],
-    "w": 839
+    "jpop": 839
   },
   {
-    "pr": [
+    "jpr": [
       "tei",
       "niwa"
     ],
@@ -10229,10 +10229,10 @@
       "court",
       "garden"
     ],
-    "w": 840
+    "jpop": 840
   },
   {
-    "pr": [
+    "jpr": [
       "tei",
       "hikui",
       "hikumeru"
@@ -10241,10 +10241,10 @@
     "e": [
       "low"
     ],
-    "w": 841
+    "jpop": 841
   },
   {
-    "pr": [
+    "jpr": [
       "tei"
     ],
     "j": "停",
@@ -10252,10 +10252,10 @@
       "stop",
       "halt"
     ],
-    "w": 842
+    "jpop": 842
   },
   {
-    "pr": [
+    "jpr": [
       "tei",
       "hodo"
     ],
@@ -10265,10 +10265,10 @@
       "span",
       "degree"
     ],
-    "w": 843
+    "jpop": 843
   },
   {
-    "pr": [
+    "jpr": [
       "tei",
       "doro"
     ],
@@ -10276,10 +10276,10 @@
     "e": [
       "mud"
     ],
-    "w": 844
+    "jpop": 844
   },
   {
-    "pr": [
+    "jpr": [
       "teki",
       "mato"
     ],
@@ -10289,30 +10289,30 @@
       "target",
       "suffix for making adj"
     ],
-    "w": 845
+    "jpop": 845
   },
   {
-    "pr": [
+    "jpr": [
       "teki"
     ],
     "j": "適",
     "e": [
       "suitable"
     ],
-    "w": 846
+    "jpop": 846
   },
   {
-    "pr": [
+    "jpr": [
       "tetsu"
     ],
     "j": "鉄",
     "e": [
       "iron"
     ],
-    "w": 847
+    "jpop": 847
   },
   {
-    "pr": [
+    "jpr": [
       "ten"
     ],
     "j": "点",
@@ -10321,10 +10321,10 @@
       "mark",
       "dot"
     ],
-    "w": 848
+    "jpop": 848
   },
   {
-    "pr": [
+    "jpr": [
       "ten",
       "den",
       "dono"
@@ -10334,10 +10334,10 @@
       "palace",
       "lord"
     ],
-    "w": 849
+    "jpop": 849
   },
   {
-    "pr": [
+    "jpr": [
       "to",
       "tou",
       "noboru"
@@ -10346,30 +10346,30 @@
     "e": [
       "climb"
     ],
-    "w": 850
+    "jpop": 850
   },
   {
-    "pr": [
+    "jpr": [
       "to"
     ],
     "j": "徒",
     "e": [
       "follower"
     ],
-    "w": 851
+    "jpop": 851
   },
   {
-    "pr": [
+    "jpr": [
       "to"
     ],
     "j": "途",
     "e": [
       "way"
     ],
-    "w": 852
+    "jpop": 852
   },
   {
-    "pr": [
+    "jpr": [
       "to",
       "wataru",
       "watasu"
@@ -10379,10 +10379,10 @@
       "cross",
       "go across"
     ],
-    "w": 853
+    "jpop": 853
   },
   {
-    "pr": [
+    "jpr": [
       "to",
       "nutsu"
     ],
@@ -10390,10 +10390,10 @@
     "e": [
       "apply on a surface"
     ],
-    "w": 854
+    "jpop": 854
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "nageru"
     ],
@@ -10401,10 +10401,10 @@
     "e": [
       "throw"
     ],
-    "w": 855
+    "jpop": 855
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "hitoshii"
     ],
@@ -10413,10 +10413,10 @@
       "equal",
       "class"
     ],
-    "w": 856
+    "jpop": 856
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "yu"
     ],
@@ -10424,10 +10424,10 @@
     "e": [
       "hot water"
     ],
-    "w": 857
+    "jpop": 857
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "hi"
     ],
@@ -10435,10 +10435,10 @@
     "e": [
       "lamp"
     ],
-    "w": 858
+    "jpop": 858
   },
   {
-    "pr": [
+    "jpr": [
       "tou"
     ],
     "j": "党",
@@ -10447,20 +10447,20 @@
       "sect",
       "group"
     ],
-    "w": 859
+    "jpop": 859
   },
   {
-    "pr": [
+    "jpr": [
       "tou"
     ],
     "j": "到",
     "e": [
       "arrive"
     ],
-    "w": 860
+    "jpop": 860
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "nigeru",
       "nogasu"
@@ -10469,10 +10469,10 @@
     "e": [
       "escape"
     ],
-    "w": 861
+    "jpop": 861
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "nusumu"
     ],
@@ -10480,10 +10480,10 @@
     "e": [
       "steal"
     ],
-    "w": 862
+    "jpop": 862
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "tsutsu"
     ],
@@ -10491,20 +10491,20 @@
     "e": [
       "tube"
     ],
-    "w": 863
+    "jpop": 863
   },
   {
-    "pr": [
+    "jpr": [
       "tou"
     ],
     "j": "塔",
     "e": [
       "tower"
     ],
-    "w": 864
+    "jpop": 864
   },
   {
-    "pr": [
+    "jpr": [
       "dou",
       "warabe"
     ],
@@ -10512,10 +10512,10 @@
     "e": [
       "child"
     ],
-    "w": 865
+    "jpop": 865
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "hataraku"
     ],
@@ -10523,10 +10523,10 @@
     "e": [
       "work"
     ],
-    "w": 866
+    "jpop": 866
   },
   {
-    "pr": [
+    "jpr": [
       "dou"
     ],
     "j": "銅",
@@ -10534,10 +10534,10 @@
       "copper",
       "bronze"
     ],
-    "w": 867
+    "jpop": 867
   },
   {
-    "pr": [
+    "jpr": [
       "tou",
       "michibiku"
     ],
@@ -10546,10 +10546,10 @@
       "lead",
       "guide"
     ],
-    "w": 868
+    "jpop": 868
   },
   {
-    "pr": [
+    "jpr": [
       "toku",
       "you",
       "tokeru"
@@ -10559,20 +10559,20 @@
       "dissolve",
       "melt"
     ],
-    "w": 869
+    "jpop": 869
   },
   {
-    "pr": [
+    "jpr": [
       "doku"
     ],
     "j": "毒",
     "e": [
       "poison"
     ],
-    "w": 870
+    "jpop": 870
   },
   {
-    "pr": [
+    "jpr": [
       "doku",
       "hitori"
     ],
@@ -10580,10 +10580,10 @@
     "e": [
       "alone"
     ],
-    "w": 871
+    "jpop": 871
   },
   {
-    "pr": [
+    "jpr": [
       "todoku",
       "todokeru"
     ],
@@ -10592,10 +10592,10 @@
       "deliver",
       "reach"
     ],
-    "w": 872
+    "jpop": 872
   },
   {
-    "pr": [
+    "jpr": [
       "tobasu",
       "hi",
       "tobu"
@@ -10604,10 +10604,10 @@
     "e": [
       "fly"
     ],
-    "w": 873
+    "jpop": 873
   },
   {
-    "pr": [
+    "jpr": [
       "tomeru",
       "ryuu",
       "ru"
@@ -10617,10 +10617,10 @@
       "stay",
       "keep"
     ],
-    "w": 874
+    "jpop": 874
   },
   {
-    "pr": [
+    "jpr": [
       "tomaru",
       "tomeru",
       "haku"
@@ -10630,10 +10630,10 @@
       "stay overnight",
       "stay"
     ],
-    "w": 875
+    "jpop": 875
   },
   {
-    "pr": [
+    "jpr": [
       "fuu",
       "fu",
       "tomu"
@@ -10642,10 +10642,10 @@
     "e": [
       "rich"
     ],
-    "w": 876
+    "jpop": 876
   },
   {
-    "pr": [
+    "jpr": [
       "don",
       "nibui",
       "niburu"
@@ -10654,10 +10654,10 @@
     "e": [
       "dull"
     ],
-    "w": 877
+    "jpop": 877
   },
   {
-    "pr": [
+    "jpr": [
       "nai",
       "mu",
       "bu"
@@ -10667,10 +10667,10 @@
       "without",
       "nothing"
     ],
-    "w": 878
+    "jpop": 878
   },
   {
-    "pr": [
+    "jpr": [
       "nai",
       "bou",
       "mou"
@@ -10680,10 +10680,10 @@
       "decease",
       "dead"
     ],
-    "w": 879
+    "jpop": 879
   },
   {
-    "pr": [
+    "jpr": [
       "nagasu",
       "ryuu",
       "nagareru"
@@ -10693,10 +10693,10 @@
       "flow",
       "current"
     ],
-    "w": 880
+    "jpop": 880
   },
   {
-    "pr": [
+    "jpr": [
       "naku",
       "mei",
       "naru"
@@ -10706,10 +10706,10 @@
       "cry",
       "sound (from a bird...)"
     ],
-    "w": 881
+    "jpop": 881
   },
   {
-    "pr": [
+    "jpr": [
       "nami",
       "ha"
     ],
@@ -10717,10 +10717,10 @@
     "e": [
       "wave"
     ],
-    "w": 882
+    "jpop": 882
   },
   {
-    "pr": [
+    "jpr": [
       "nami",
       "hei",
       "naraberu"
@@ -10730,10 +10730,10 @@
       "line up",
       "line"
     ],
-    "w": 883
+    "jpop": 883
   },
   {
-    "pr": [
+    "jpr": [
       "namida",
       "rui"
     ],
@@ -10742,10 +10742,10 @@
       "tear",
       "teardrop"
     ],
-    "w": 884
+    "jpop": 884
   },
   {
-    "pr": [
+    "jpr": [
       "nayamasu",
       "nou",
       "nayamu"
@@ -10755,10 +10755,10 @@
       "suffer",
       "worry"
     ],
-    "w": 885
+    "jpop": 885
   },
   {
-    "pr": [
+    "jpr": [
       "nan",
       "yawaraka",
       "yawarakai"
@@ -10767,10 +10767,10 @@
     "e": [
       "soft"
     ],
-    "w": 886
+    "jpop": 886
   },
   {
-    "pr": [
+    "jpr": [
       "nin",
       "makaseru",
       "makasu"
@@ -10780,10 +10780,10 @@
       "office",
       "entrust"
     ],
-    "w": 887
+    "jpop": 887
   },
   {
-    "pr": [
+    "jpr": [
       "nin",
       "mitomeru"
     ],
@@ -10791,10 +10791,10 @@
     "e": [
       "recognize"
     ],
-    "w": 888
+    "jpop": 888
   },
   {
-    "pr": [
+    "jpr": [
       "nuku",
       "batsu",
       "nukeru"
@@ -10804,10 +10804,10 @@
       "pullout",
       "stand out"
     ],
-    "w": 889
+    "jpop": 889
   },
   {
-    "pr": [
+    "jpr": [
       "nuno",
       "fu"
     ],
@@ -10815,10 +10815,10 @@
     "e": [
       "cloth"
     ],
-    "w": 890
+    "jpop": 890
   },
   {
-    "pr": [
+    "jpr": [
       "neko",
       "byou"
     ],
@@ -10826,10 +10826,10 @@
     "e": [
       "cat"
     ],
-    "w": 891
+    "jpop": 891
   },
   {
-    "pr": [
+    "jpr": [
       "nemui",
       "min",
       "nemuru"
@@ -10838,10 +10838,10 @@
     "e": [
       "sleep"
     ],
-    "w": 892
+    "jpop": 892
   },
   {
-    "pr": [
+    "jpr": [
       "neru",
       "ren"
     ],
@@ -10850,10 +10850,10 @@
       "to train",
       "training"
     ],
-    "w": 893
+    "jpop": 893
   },
   {
-    "pr": [
+    "jpr": [
       "nen"
     ],
     "j": "念",
@@ -10861,10 +10861,10 @@
       "thoughts",
       "remembering"
     ],
-    "w": 894
+    "jpop": 894
   },
   {
-    "pr": [
+    "jpr": [
       "nen",
       "moeru",
       "moyasu"
@@ -10873,10 +10873,10 @@
     "e": [
       "burn"
     ],
-    "w": 895
+    "jpop": 895
   },
   {
-    "pr": [
+    "jpr": [
       "nou"
     ],
     "j": "農",
@@ -10884,30 +10884,30 @@
       "farming",
       "farm"
     ],
-    "w": 896
+    "jpop": 896
   },
   {
-    "pr": [
+    "jpr": [
       "nou"
     ],
     "j": "能",
     "e": [
       "ability"
     ],
-    "w": 897
+    "jpop": 897
   },
   {
-    "pr": [
+    "jpr": [
       "nou"
     ],
     "j": "脳",
     "e": [
       "brain"
     ],
-    "w": 898
+    "jpop": 898
   },
   {
-    "pr": [
+    "jpr": [
       "nozomu",
       "bou",
       "mou"
@@ -10918,10 +10918,10 @@
       "desire",
       "expect"
     ],
-    "w": 899
+    "jpop": 899
   },
   {
-    "pr": [
+    "jpr": [
       "ha",
       "you"
     ],
@@ -10930,10 +10930,10 @@
       "leaf",
       "leaves"
     ],
-    "w": 900
+    "jpop": 900
   },
   {
-    "pr": [
+    "jpr": [
       "ha",
       "yaburu",
       "yabureru"
@@ -10943,10 +10943,10 @@
       "tear",
       "break"
     ],
-    "w": 901
+    "jpop": 901
   },
   {
-    "pr": [
+    "jpr": [
       "hai",
       "yabureru"
     ],
@@ -10954,10 +10954,10 @@
     "e": [
       "defeated"
     ],
-    "w": 902
+    "jpop": 902
   },
   {
-    "pr": [
+    "jpr": [
       "bai"
     ],
     "j": "倍",
@@ -10965,10 +10965,10 @@
       "times X",
       "double"
     ],
-    "w": 903
+    "jpop": 903
   },
   {
-    "pr": [
+    "jpr": [
       "hakaru",
       "ryou"
     ],
@@ -10976,10 +10976,10 @@
     "e": [
       "quantity"
     ],
-    "w": 904
+    "jpop": 904
   },
   {
-    "pr": [
+    "jpr": [
       "baku",
       "mugi"
     ],
@@ -10987,30 +10987,30 @@
     "e": [
       "wheat"
     ],
-    "w": 905
+    "jpop": 905
   },
   {
-    "pr": [
+    "jpr": [
       "baku"
     ],
     "j": "爆",
     "e": [
       "explode"
     ],
-    "w": 906
+    "jpop": 906
   },
   {
-    "pr": [
+    "jpr": [
       "hako"
     ],
     "j": "箱",
     "e": [
       "box"
     ],
-    "w": 907
+    "jpop": 907
   },
   {
-    "pr": [
+    "jpr": [
       "hata",
       "hatake"
     ],
@@ -11018,20 +11018,20 @@
     "e": [
       "field"
     ],
-    "w": 908
+    "jpop": 908
   },
   {
-    "pr": [
+    "jpr": [
       "hada"
     ],
     "j": "肌",
     "e": [
       "skin"
     ],
-    "w": 909
+    "jpop": 909
   },
   {
-    "pr": [
+    "jpr": [
       "hatsu",
       "hou",
       "hotsu"
@@ -11040,10 +11040,10 @@
     "e": [
       "law"
     ],
-    "w": 910
+    "jpop": 910
   },
   {
-    "pr": [
+    "jpr": [
       "hana",
       "bi"
     ],
@@ -11051,10 +11051,10 @@
     "e": [
       "nose"
     ],
-    "w": 911
+    "jpop": 911
   },
   {
-    "pr": [
+    "jpr": [
       "hanasu",
       "hou",
       "hanatsu"
@@ -11064,10 +11064,10 @@
       "let go",
       "separate"
     ],
-    "w": 912
+    "jpop": 912
   },
   {
-    "pr": [
+    "jpr": [
       "haba",
       "fuku"
     ],
@@ -11075,10 +11075,10 @@
     "e": [
       "width"
     ],
-    "w": 913
+    "jpop": 913
   },
   {
-    "pr": [
+    "jpr": [
       "hayashi",
       "rin"
     ],
@@ -11087,10 +11087,10 @@
       "woods",
       "forest"
     ],
-    "w": 914
+    "jpop": 914
   },
   {
-    "pr": [
+    "jpr": [
       "hara",
       "fuku"
     ],
@@ -11099,10 +11099,10 @@
       "belly",
       "stomach"
     ],
-    "w": 915
+    "jpop": 915
   },
   {
-    "pr": [
+    "jpr": [
       "harau",
       "futsu"
     ],
@@ -11111,10 +11111,10 @@
       "pay",
       "clear away"
     ],
-    "w": 916
+    "jpop": 916
   },
   {
-    "pr": [
+    "jpr": [
       "han",
       "ban"
     ],
@@ -11122,10 +11122,10 @@
     "e": [
       "judge"
     ],
-    "w": 917
+    "jpop": 917
   },
   {
-    "pr": [
+    "jpr": [
       "han"
     ],
     "j": "版",
@@ -11133,10 +11133,10 @@
       "print",
       "publishing"
     ],
-    "w": 918
+    "jpop": 918
   },
   {
-    "pr": [
+    "jpr": [
       "han"
     ],
     "j": "般",
@@ -11144,20 +11144,20 @@
       "sort",
       "generally"
     ],
-    "w": 919
+    "jpop": 919
   },
   {
-    "pr": [
+    "jpr": [
       "han"
     ],
     "j": "販",
     "e": [
       "sell"
     ],
-    "w": 920
+    "jpop": 920
   },
   {
-    "pr": [
+    "jpr": [
       "ban"
     ],
     "j": "番",
@@ -11166,20 +11166,20 @@
       "turn",
       "watch"
     ],
-    "w": 921
+    "jpop": 921
   },
   {
-    "pr": [
+    "jpr": [
       "ban"
     ],
     "j": "晩",
     "e": [
       "evening"
     ],
-    "w": 922
+    "jpop": 922
   },
   {
-    "pr": [
+    "jpr": [
       "hi"
     ],
     "j": "非",
@@ -11187,10 +11187,10 @@
       "not",
       "not good"
     ],
-    "w": 923
+    "jpop": 923
   },
   {
-    "pr": [
+    "jpr": [
       "hiki",
       "hitsu"
     ],
@@ -11199,10 +11199,10 @@
       "equal",
       "counter for small animals"
     ],
-    "w": 924
+    "jpop": 924
   },
   {
-    "pr": [
+    "jpr": [
       "hitsu",
       "fude"
     ],
@@ -11211,10 +11211,10 @@
       "brush",
       "writing"
     ],
-    "w": 925
+    "jpop": 925
   },
   {
-    "pr": [
+    "jpr": [
       "hyou",
       "hei"
     ],
@@ -11222,20 +11222,20 @@
     "e": [
       "soldier"
     ],
-    "w": 926
+    "jpop": 926
   },
   {
-    "pr": [
+    "jpr": [
       "byou"
     ],
     "j": "秒",
     "e": [
       "second"
     ],
-    "w": 927
+    "jpop": 927
   },
   {
-    "pr": [
+    "jpr": [
       "hin",
       "bin",
       "mazushii"
@@ -11245,10 +11245,10 @@
       "poor",
       "poverty"
     ],
-    "w": 928
+    "jpop": 928
   },
   {
-    "pr": [
+    "jpr": [
       "bin",
       "kame"
     ],
@@ -11257,10 +11257,10 @@
       "bottle",
       "vase"
     ],
-    "w": 929
+    "jpop": 929
   },
   {
-    "pr": [
+    "jpr": [
       "fu"
     ],
     "j": "府",
@@ -11268,30 +11268,30 @@
       "prefecture",
       "agency"
     ],
-    "w": 930
+    "jpop": 930
   },
   {
-    "pr": [
+    "jpr": [
       "fu"
     ],
     "j": "婦",
     "e": [
       "woman"
     ],
-    "w": 931
+    "jpop": 931
   },
   {
-    "pr": [
+    "jpr": [
       "fu"
     ],
     "j": "符",
     "e": [
       "symbol"
     ],
-    "w": 932
+    "jpop": 932
   },
   {
-    "pr": [
+    "jpr": [
       "fu"
     ],
     "j": "普",
@@ -11300,20 +11300,20 @@
       "universal",
       "general"
     ],
-    "w": 933
+    "jpop": 933
   },
   {
-    "pr": [
+    "jpr": [
       "fu"
     ],
     "j": "膚",
     "e": [
       "skin"
     ],
-    "w": 934
+    "jpop": 934
   },
   {
-    "pr": [
+    "jpr": [
       "bu"
     ],
     "j": "部",
@@ -11321,10 +11321,10 @@
       "department",
       "section"
     ],
-    "w": 935
+    "jpop": 935
   },
   {
-    "pr": [
+    "jpr": [
       "bu",
       "mu"
     ],
@@ -11332,10 +11332,10 @@
     "e": [
       "military"
     ],
-    "w": 936
+    "jpop": 936
   },
   {
-    "pr": [
+    "jpr": [
       "bu",
       "mau",
       "mai"
@@ -11344,10 +11344,10 @@
     "e": [
       "dance"
     ],
-    "w": 937
+    "jpop": 937
   },
   {
-    "pr": [
+    "jpr": [
       "fuu",
       "hou"
     ],
@@ -11355,30 +11355,30 @@
     "e": [
       "seal"
     ],
-    "w": 938
+    "jpop": 938
   },
   {
-    "pr": [
+    "jpr": [
       "fuku"
     ],
     "j": "福",
     "e": [
       "fortune"
     ],
-    "w": 939
+    "jpop": 939
   },
   {
-    "pr": [
+    "jpr": [
       "fuku"
     ],
     "j": "副",
     "e": [
       "secondary"
     ],
-    "w": 940
+    "jpop": 940
   },
   {
-    "pr": [
+    "jpr": [
       "fuku"
     ],
     "j": "復",
@@ -11387,10 +11387,10 @@
       "again",
       "return to"
     ],
-    "w": 941
+    "jpop": 941
   },
   {
-    "pr": [
+    "jpr": [
       "fuku"
     ],
     "j": "複",
@@ -11398,10 +11398,10 @@
       "compound",
       "complex"
     ],
-    "w": 942
+    "jpop": 942
   },
   {
-    "pr": [
+    "jpr": [
       "fusegu",
       "bou"
     ],
@@ -11409,10 +11409,10 @@
     "e": [
       "prevent"
     ],
-    "w": 943
+    "jpop": 943
   },
   {
-    "pr": [
+    "jpr": [
       "futsu",
       "waku",
       "wakasu"
@@ -11421,10 +11421,10 @@
     "e": [
       "boil"
     ],
-    "w": 944
+    "jpop": 944
   },
   {
-    "pr": [
+    "jpr": [
       "butsu",
       "hotoke"
     ],
@@ -11433,10 +11433,10 @@
       "buddha",
       "france"
     ],
-    "w": 945
+    "jpop": 945
   },
   {
-    "pr": [
+    "jpr": [
       "hou",
       "mukuiru"
     ],
@@ -11445,10 +11445,10 @@
       "inform",
       "information"
     ],
-    "w": 946
+    "jpop": 946
   },
   {
-    "pr": [
+    "jpr": [
       "hou",
       "yutaka"
     ],
@@ -11457,20 +11457,20 @@
       "plentiful",
       "abundance"
     ],
-    "w": 947
+    "jpop": 947
   },
   {
-    "pr": [
+    "jpr": [
       "bou"
     ],
     "j": "貿",
     "e": [
       "trade"
     ],
-    "w": 948
+    "jpop": 948
   },
   {
-    "pr": [
+    "jpr": [
       "bou",
       "wasureru"
     ],
@@ -11478,10 +11478,10 @@
     "e": [
       "forget"
     ],
-    "w": 949
+    "jpop": 949
   },
   {
-    "pr": [
+    "jpr": [
       "bou"
     ],
     "j": "棒",
@@ -11489,10 +11489,10 @@
       "stick",
       "rod"
     ],
-    "w": 950
+    "jpop": 950
   },
   {
-    "pr": [
+    "jpr": [
       "bou",
       "botsu"
     ],
@@ -11501,10 +11501,10 @@
       "boy",
       "priest"
     ],
-    "w": 951
+    "jpop": 951
   },
   {
-    "pr": [
+    "jpr": [
       "bou"
     ],
     "j": "帽",
@@ -11512,10 +11512,10 @@
       "headgear",
       "headwear"
     ],
-    "w": 952
+    "jpop": 952
   },
   {
-    "pr": [
+    "jpr": [
       "hoshii",
       "yoku",
       "hossuru"
@@ -11525,10 +11525,10 @@
       "desire",
       "want"
     ],
-    "w": 953
+    "jpop": 953
   },
   {
-    "pr": [
+    "jpr": [
       "ma",
       "magaku"
     ],
@@ -11537,20 +11537,20 @@
       "polish",
       "brush (teeth)"
     ],
-    "w": 954
+    "jpop": 954
   },
   {
-    "pr": [
+    "jpr": [
       "mai"
     ],
     "j": "枚",
     "e": [
       "counter for sheets (paper)"
     ],
-    "w": 955
+    "jpop": 955
   },
   {
-    "pr": [
+    "jpr": [
       "mayou",
       "mei"
     ],
@@ -11559,10 +11559,10 @@
       "perplexed",
       "lost"
     ],
-    "w": 956
+    "jpop": 956
   },
   {
-    "pr": [
+    "jpr": [
       "man",
       "michiru",
       "mitasu"
@@ -11571,10 +11571,10 @@
     "e": [
       "full"
     ],
-    "w": 957
+    "jpop": 957
   },
   {
-    "pr": [
+    "jpr": [
       "mi"
     ],
     "j": "未",
@@ -11582,10 +11582,10 @@
       "not yet",
       "still to come"
     ],
-    "w": 958
+    "jpop": 958
   },
   {
-    "pr": [
+    "jpr": [
       "midasu",
       "ran",
       "midareru"
@@ -11594,10 +11594,10 @@
     "e": [
       "disordered"
     ],
-    "w": 959
+    "jpop": 959
   },
   {
-    "pr": [
+    "jpr": [
       "midori",
       "ryoku"
     ],
@@ -11605,10 +11605,10 @@
     "e": [
       "green"
     ],
-    "w": 960
+    "jpop": 960
   },
   {
-    "pr": [
+    "jpr": [
       "mu",
       "yume"
     ],
@@ -11616,10 +11616,10 @@
     "e": [
       "dream"
     ],
-    "w": 961
+    "jpop": 961
   },
   {
-    "pr": [
+    "jpr": [
       "musume"
     ],
     "j": "娘",
@@ -11627,10 +11627,10 @@
       "daughter",
       "girl"
     ],
-    "w": 962
+    "jpop": 962
   },
   {
-    "pr": [
+    "jpr": [
       "men",
       "wata"
     ],
@@ -11638,10 +11638,10 @@
     "e": [
       "cotton"
     ],
-    "w": 963
+    "jpop": 963
   },
   {
-    "pr": [
+    "jpr": [
       "modosu",
       "rei",
       "modoru"
@@ -11650,10 +11650,10 @@
     "e": [
       "return"
     ],
-    "w": 964
+    "jpop": 964
   },
   {
-    "pr": [
+    "jpr": [
       "yaku"
     ],
     "j": "約",
@@ -11661,10 +11661,10 @@
       "promise",
       "contract"
     ],
-    "w": 965
+    "jpop": 965
   },
   {
-    "pr": [
+    "jpr": [
       "yu",
       "yuu",
       "yoshi"
@@ -11673,40 +11673,40 @@
     "e": [
       "reason"
     ],
-    "w": 966
+    "jpop": 966
   },
   {
-    "pr": [
+    "jpr": [
       "yu"
     ],
     "j": "輸",
     "e": [
       "transport"
     ],
-    "w": 967
+    "jpop": 967
   },
   {
-    "pr": [
+    "jpr": [
       "yuu"
     ],
     "j": "郵",
     "e": [
       "mail"
     ],
-    "w": 968
+    "jpop": 968
   },
   {
-    "pr": [
+    "jpr": [
       "yo"
     ],
     "j": "予",
     "e": [
       "advance"
     ],
-    "w": 969
+    "jpop": 969
   },
   {
-    "pr": [
+    "jpr": [
       "yoi",
       "ryou"
     ],
@@ -11714,10 +11714,10 @@
     "e": [
       "good"
     ],
-    "w": 970
+    "jpop": 970
   },
   {
-    "pr": [
+    "jpr": [
       "you"
     ],
     "j": "陽",
@@ -11725,10 +11725,10 @@
       "sun",
       "positive"
     ],
-    "w": 971
+    "jpop": 971
   },
   {
-    "pr": [
+    "jpr": [
       "you"
     ],
     "j": "容",
@@ -11737,10 +11737,10 @@
       "container",
       "contain"
     ],
-    "w": 972
+    "jpop": 972
   },
   {
-    "pr": [
+    "jpr": [
       "yoku"
     ],
     "j": "翌",
@@ -11748,10 +11748,10 @@
       "following",
       "the next"
     ],
-    "w": 973
+    "jpop": 973
   },
   {
-    "pr": [
+    "jpr": [
       "rai",
       "rei"
     ],
@@ -11761,20 +11761,20 @@
       "bow",
       "rite"
     ],
-    "w": 974
+    "jpop": 974
   },
   {
-    "pr": [
+    "jpr": [
       "riku"
     ],
     "j": "陸",
     "e": [
       "land"
     ],
-    "w": 975
+    "jpop": 975
   },
   {
-    "pr": [
+    "jpr": [
       "richi",
       "ritsu"
     ],
@@ -11783,10 +11783,10 @@
       "law",
       "rhythm"
     ],
-    "w": 976
+    "jpop": 976
   },
   {
-    "pr": [
+    "jpr": [
       "ryaku"
     ],
     "j": "略",
@@ -11794,30 +11794,30 @@
       "abridged",
       "strategy"
     ],
-    "w": 977
+    "jpop": 977
   },
   {
-    "pr": [
+    "jpr": [
       "ryou"
     ],
     "j": "両",
     "e": [
       "both"
     ],
-    "w": 978
+    "jpop": 978
   },
   {
-    "pr": [
+    "jpr": [
       "ryou"
     ],
     "j": "領",
     "e": [
       "territory"
     ],
-    "w": 979
+    "jpop": 979
   },
   {
-    "pr": [
+    "jpr": [
       "ryou"
     ],
     "j": "了",
@@ -11825,10 +11825,10 @@
       "finish",
       "comprehend"
     ],
-    "w": 980
+    "jpop": 980
   },
   {
-    "pr": [
+    "jpr": [
       "ryou"
     ],
     "j": "療",
@@ -11836,10 +11836,10 @@
       "treat",
       "treatment"
     ],
-    "w": 981
+    "jpop": 981
   },
   {
-    "pr": [
+    "jpr": [
       "rin",
       "wa"
     ],
@@ -11848,10 +11848,10 @@
       "wheel",
       "ring"
     ],
-    "w": 982
+    "jpop": 982
   },
   {
-    "pr": [
+    "jpr": [
       "rui"
     ],
     "j": "類",
@@ -11859,40 +11859,40 @@
       "kind",
       "type"
     ],
-    "w": 983
+    "jpop": 983
   },
   {
-    "pr": [
+    "jpr": [
       "rei"
     ],
     "j": "令",
     "e": [
       "command"
     ],
-    "w": 984
+    "jpop": 984
   },
   {
-    "pr": [
+    "jpr": [
       "rei"
     ],
     "j": "零",
     "e": [
       "zero"
     ],
-    "w": 985
+    "jpop": 985
   },
   {
-    "pr": [
+    "jpr": [
       "rei"
     ],
     "j": "齢",
     "e": [
       "age"
     ],
-    "w": 986
+    "jpop": 986
   },
   {
-    "pr": [
+    "jpr": [
       "reki"
     ],
     "j": "歴",
@@ -11900,10 +11900,10 @@
       "personal history",
       "history"
     ],
-    "w": 987
+    "jpop": 987
   },
   {
-    "pr": [
+    "jpr": [
       "retsu"
     ],
     "j": "列",
@@ -11911,10 +11911,10 @@
       "row",
       "line"
     ],
-    "w": 988
+    "jpop": 988
   },
   {
-    "pr": [
+    "jpr": [
       "rou"
     ],
     "j": "労",
@@ -11922,20 +11922,20 @@
       "labor",
       "effort"
     ],
-    "w": 989
+    "jpop": 989
   },
   {
-    "pr": [
+    "jpr": [
       "roku"
     ],
     "j": "録",
     "e": [
       "record"
     ],
-    "w": 990
+    "jpop": 990
   },
   {
-    "pr": [
+    "jpr": [
       "ron"
     ],
     "j": "論",
@@ -11943,20 +11943,20 @@
       "argue",
       "theory"
     ],
-    "w": 991
+    "jpop": 991
   },
   {
-    "pr": [
+    "jpr": [
       "wan"
     ],
     "j": "湾",
     "e": [
       "bay"
     ],
-    "w": 992
+    "jpop": 992
   },
   {
-    "pr": [
+    "jpr": [
       "ta",
       "hoka"
     ],
@@ -11965,10 +11965,10 @@
       "other",
       "another"
     ],
-    "w": 993
+    "jpop": 993
   },
   {
-    "pr": [
+    "jpr": [
       "den",
       "tsutau",
       "tsutaeru"
@@ -11979,10 +11979,10 @@
       "report",
       "tradition"
     ],
-    "w": 994
+    "jpop": 994
   },
   {
-    "pr": [
+    "jpr": [
       "gan",
       "kao"
     ],
@@ -11990,10 +11990,10 @@
     "e": [
       "face"
     ],
-    "w": 995
+    "jpop": 995
   },
   {
-    "pr": [
+    "jpr": [
       "dan",
       "ton"
     ],
@@ -12002,10 +12002,10 @@
       "group",
       "association"
     ],
-    "w": 996
+    "jpop": 996
   },
   {
-    "pr": [
+    "jpr": [
       "tai",
       "tsui"
     ],
@@ -12015,10 +12015,10 @@
       "versus",
       "compare"
     ],
-    "w": 997
+    "jpop": 997
   },
   {
-    "pr": [
+    "jpr": [
       "shuu",
       "fune",
       "funa"
@@ -12028,10 +12028,10 @@
       "boat",
       "ship"
     ],
-    "w": 998
+    "jpop": 998
   },
   {
-    "pr": [
+    "jpr": [
       "wan",
       "kumo"
     ],
@@ -12039,10 +12039,10 @@
     "e": [
       "cloud"
     ],
-    "w": 999
+    "jpop": 999
   },
   {
-    "pr": [
+    "jpr": [
       false
     ],
     "j": "巨",
@@ -12050,6 +12050,6 @@
       "big",
       "giant"
     ],
-    "w": 1000
+    "jpop": 1000
   }
 ]
