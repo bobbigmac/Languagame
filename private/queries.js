@@ -42,4 +42,13 @@ $('dd a').get().map(function(el) { el=$(el); tc=el.text(); sc=el.parents('dl').f
 //also see http://www.sayjack.com/simplified/chinese/characters/page:1/
 
 
+//pdf from http://www.korea.net/NewsFocus/Culture/view?articleId=110141
+
+
+
+//Good breakdown of katakana vs hiragana vs traditional japanese:
+//http://www.omniglot.com/writing/japanese_katakana.htm
+//http://www.omniglot.com/writing/japanese_hiragana.htm
+
+
 }

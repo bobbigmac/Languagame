@@ -25,12 +25,14 @@ var googleLangs = {
   tc: 'zh-TW',
   sc: 'zh-CN',
   j: 'ja',
+  //k: 'ko',
 };
 var languageNames = {
-	e: { name: 'English', short: 'English' },
-	tc: { name: 'Chinese: Traditional', short: 'Chinese Trad.' },
-	sc: { name: 'Chinese: Simplified', short: 'Chinese Simpl.' },
-	j: { name: 'Japanese', short: 'Japanese' },
+	e: { name: 'English', short: 'English', tiny: 'E' },
+	tc: { name: 'Chinese: Traditional', short: 'Chinese Trad.', tiny: 'CT' },
+	sc: { name: 'Chinese: Simplified', short: 'Chinese Simpl.', tiny: 'CS' },
+  j: { name: 'Japanese', short: 'Japanese', tiny: 'J' },
+	k: { name: 'Korean', short: 'Korean', tiny: 'K' },
 };
 UI.registerHelper('googleLangs', function () {
 	return googleLangs;
@@ -43,4 +45,7 @@ UI.registerHelper('languageName', function (lang) {
 });
 UI.registerHelper('shortLanguageName', function (lang) {
   return (languageNames[lang] && languageNames[lang].short);
+});
+UI.registerHelper('tinyLanguageName', function (lang) {
+  return (languageNames[lang] && languageNames[lang].tiny);
 });

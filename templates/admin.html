@@ -1,15 +1,13 @@
 <template name="admin">
 	{{> registeredUsers}}
 	<div class="row">
-		<div class="masonry-wall masonry-cap-2">
-			{{> availableGlyphs}}
-			{{> possibleGlyphs}}
-		</div>
+		{{> availableGlyphs}}
+		{{> possibleGlyphs}}
 	</div>
 </template>
 
 <template name="possibleGlyphs">
-	<div class="masonry-brick">
+	<div class="col-sm-7 column">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h5 class="panel-title">Possible Glyphs: {{glyphCount}}</h5>
@@ -18,11 +16,11 @@
 				<thead>
 					<tr>
 						<th></th>
-						<th>Pop.</th>
+						<th>P.</th>
 						{{#each keysOf googleLangs}}
 							<th>
-								<span class="visible-sm visible-xs">{{shortLanguageName this}}</span>
-								<span class="hidden-sm hidden-xs">{{languageName this}}</span>
+								<span class="visible-sm visible-xs">{{tinyLanguageName this}}</span>
+								<span class="hidden-sm hidden-xs">{{shortLanguageName this}}</span>
 							</th>
 						{{/each}}
 					</tr>
@@ -40,13 +38,17 @@
 							</td>
 							{{#each keysOf googleLangs}}
 								{{#if equals this 'e'}}
-									<td>
+									<td class="eng-cell" lang="en">
 										{{#with propOfObj this ..}}
-											{{englishOf this}}
+											{{> englishCell engs=this}}
+											{{> englishCell engs=../../ej text='J:'}}
+											{{> englishCell engs=../../ec text='C:'}}
+											{{> englishCell engs=../../ek text='K:'}}
+											{{> englishCell engs=../../ekan text='Kan:'}}
 										{{/with}}
 									</td>
 								{{else}}
-									<td>{{propOfObj this ..}}</td>
+									<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>
 								{{/if}}
 							{{/each}}
 						</tr>
@@ -57,8 +59,20 @@
 	</div>
 </template>
 
+<template name="englishCell">
+	{{#if engs}}
+		{{#each engs}}
+			<div>
+				<a class="btn btn-link save-potential">
+					{{#if ../text}}{{../text}} {{/if}}{{this}}
+				</a>
+			</div>
+		{{/each}}
+	{{/if}}
+</template>
+
 <template name="availableGlyphs">
-	<div class="masonry-brick">
+	<div class="col-sm-5 column">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h5 class="panel-title">Available Glyphs: {{glyphCount}}</h5>
@@ -69,8 +83,8 @@
 						<th></th>
 						{{#each keysOf googleLangs}}
 							<th>
-								<span class="visible-sm visible-xs">{{shortLanguageName this}}</span>
-								<span class="hidden-sm hidden-xs">{{languageName this}}</span>
+								<span class="visible-sm visible-xs">{{tinyLanguageName this}}</span>
+								<span class="hidden-sm hidden-xs">{{shortLanguageName this}}</span>
 							</th>
 						{{/each}}
 					</tr>
@@ -80,7 +94,7 @@
 						<tr>
 							<td>{{this.pop}}</td>
 							{{#each keysOf googleLangs}}
-								<td>{{propOfObj this ..}}</td>
+								<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>
 							{{/each}}
 						</tr>
 					{{/each}}

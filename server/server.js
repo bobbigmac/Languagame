@@ -16,27 +16,6 @@ Meteor.startup(function () {
     }
   });
 
-  //Set pop (popularity field for all glyphs, by numeric index parse)
-  /*var noPopFilter = { pop: { $exists: false }}
-  if(Glyphs.findOne(noPopFilter)) {
-    Glyphs.find(noPopFilter, { fields: { _id: 1, e: 1, pop: 1 }}).fetch().forEach(function(gl) {
-      var pop = (gl._id+'').replace(/^[^\d]*(\d+)/igm, '$1');
-      if(pop || pop === 0) {
-        Glyphs.update(gl._id, {
-          $set: {
-            pop: parseInt(pop)
-          }
-        }, function(err, updated) {
-          if(!err && updated === 1) {
-            console.log('Updated', gl.e, 'with pop', pop);
-          } else {
-            console.log(err);
-          }
-        });
-      }
-    });
-  }*/
-
   numberOfGlyphs = Glyphs.find({}).count();
   console.log('Have %d glyphs', numberOfGlyphs);
 
@@ -44,6 +23,39 @@ Meteor.startup(function () {
     'import-possibles': function(limit) {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         return importPossibles(limit);
+      }
+    },
+    'test-kanji': function() {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        var dict = loadKanjiDictionary();
+        if(dict && dict instanceof Array) {
+          return dict.length;
+        }
+        else if(dict && typeof dict === 'object') {
+          return Object.keys(dict).length;
+        }
+      }
+    },
+    'potential-report': function() {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        console.log('Traditional... ', PossibleGlyphs.find({ tc: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('Simplified... ', PossibleGlyphs.find({ sc: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('Japanese... ', PossibleGlyphs.find({ j: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('Korean... ', PossibleGlyphs.find({ k: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('English... ', PossibleGlyphs.find({ e: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('Spanish... ', PossibleGlyphs.find({ es: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('French... ', PossibleGlyphs.find({ fr: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('Portuguese... ', PossibleGlyphs.find({ pt: { $exists: true }}, { fields: { _id: 1}}).fetch().length);
+        console.log('ALLLLL: ', PossibleGlyphs.find({
+          tc: { $exists: true },
+          sc: { $exists: true },
+          j: { $exists: true },
+          k: { $exists: true },
+          e: { $exists: true },
+          es: { $exists: true },
+          fr: { $exists: true },
+          pt: { $exists: true }
+        }, { fields: { _id: 1}}).fetch().length);
       }
     }
   });

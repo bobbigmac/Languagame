@@ -18,7 +18,7 @@ Template.registeredUsers.helpers({
 
 Template.availableGlyphs.helpers({
 	glyphs: function() {
-		return Glyphs.find();
+		return Glyphs.find({}, {});
 	},
 	glyphCount: function() {
 		return Glyphs.find().count();
@@ -34,15 +34,9 @@ Template.possibleGlyphs.events({
 
 Template.possibleGlyphs.helpers({
 	glyphs: function() {
-		//return [{e: 'test', j: 'testj', sc: 'testsc', tc: 'testtc', pos: '##'}]
-		return PossibleGlyphs.find({}, { sort: { pop: 1 }});
+		return PossibleGlyphs.find({}, { sort: { pop: 1 } });
 	},
 	glyphCount: function() {
 		return PossibleGlyphs.find().count();
-	},
-	englishOf: function(eng) {
-		var main = ((eng.c || eng.j) || eng);
-		main = (main instanceof Array ? main[0] : main);
-		return (main instanceof Array ? main[0] : main);
 	}
 });

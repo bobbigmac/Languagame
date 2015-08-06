@@ -84,12 +84,12 @@ span[lang="e"] {
 	background-color: #2ecc71;
 }
 
-span::selection{ background-color: transparent; }
-span::moz-selection{ background-color: transparent; }
-span::webkit-selection{ background-color: transparent; }
-td::selection{ background-color: transparent; }
-td::moz-selection{ background-color: transparent; }
-td::webkit-selection{ background-color: transparent; }
+#glyphstable span::selection{ background-color: transparent; }
+#glyphstable span::moz-selection{ background-color: transparent; }
+#glyphstable span::webkit-selection{ background-color: transparent; }
+#glyphstable td::selection{ background-color: transparent; }
+#glyphstable td::moz-selection{ background-color: transparent; }
+#glyphstable td::webkit-selection{ background-color: transparent; }
 
 /*table {
 	-webkit-touch-callout: none;
@@ -99,3 +99,16 @@ td::webkit-selection{ background-color: transparent; }
 	-ms-user-select: none;
 	user-select: none;
 }*/
+
+.eng-cell div {
+	white-space: normal;
+}
+
+.column table td div {
+	/*max-width: 200px;*/
+	overflow:hidden;
+}
+.column table td div a {
+	white-space: normal;
+	max-width: 100%;
+}
