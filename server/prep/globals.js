@@ -1,5 +1,22 @@
 
 loadKanjiDictionary = function() {
+  var radicalsStr = Assets.getText('sources/'+'khangxi-radicals-official.json');
+  var radicals = {};
+  var radicalNums = {};
+  if(radicalsStr) {
+    var rawRadicals = JSON.parse(radicalsStr);
+    rawRadicals.forEach(function(radical, pos) {
+      //num/rad
+      radicals[''+radical.num] = radical.rad.filter(function(str) {
+        if(str) {
+          radicalNums[''+str] = radical.num;
+          return true;
+        }
+      });
+    });
+    //console.log(JSON.stringify(radicals));
+  }
+
   var str = Assets.getText('sources/'+'kanjidic2-lite.xml');
   console.log('Parsing kanjidic2', str.length);
 
@@ -9,7 +26,7 @@ loadKanjiDictionary = function() {
     var dict = result.kanjidic2.character;
     var obj = {};
     if(dict) {
-      //var warned = 0;
+      var warned = 0;
       dict.forEach(function(cha, pos) {
         var literal = ((cha.literal && cha.literal instanceof Array && cha.literal[0]) || cha.literal);
         if(literal) {
@@ -63,14 +80,32 @@ loadKanjiDictionary = function() {
               });
             }
 
+            var radicalNum = false;
+            var radicalRads = false;
+            var radValues = (cha.radical && cha.radical.length && cha.radical[0] && cha.radical[0].rad_value);
+            if(radValues && radValues.length) {
+              radValues.forEach(function(radical) {
+                if(typeof radical === 'object') {
+                  if(radical._ && radical.$.rad_type === 'classical') {
+                    radicalNum = parseInt(radical._);
+                  }
+                }
+              });
+            }
+
+            if(radicalNums && radicalNums[literal]) {
+              literalEntry.isRadical = radicalNums[literal];
+            } else if(radicalNum !== false) {
+              literalEntry.hasRadical = radicalNum;//radicals[''+radicalNum];
+            }
+
+            // if(warned < 20 && (literalEntry.hasRadical)) {
+            //   console.log(literal, literalEntry);
+            //   warned++;
+            // }
+
             obj[literal] = literalEntry;
           }
-
-          // if(warned < 10) {
-          //   console.log(pos, literal, obj[literal]);
-
-          //   warned++;
-          // }
         }
       });
       return obj;

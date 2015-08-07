@@ -42,6 +42,14 @@ $('dd a').get().map(function(el) { el=$(el); tc=el.text(); sc=el.parents('dl').f
 //also see http://www.sayjack.com/simplified/chinese/characters/page:1/
 
 
+//ALL Kangxi radicals (with meaning)
+//https://en.wikipedia.org/wiki/Kangxi_radical
+$('table#collapsibleTable0 tr').get().map(function(el) { el=$(el); var num=el.find('td:first a').text(); var rad=el.find('span[lang="zh-Hant"]:first').text(); return (num && { num: parseInt(num), rad: rad.trim().replace('(', ' ').replace(')', ' ').replace(',', ' ').split(/\s+/) }); }).filter(function(el){ return !!el; });
+
+
+
+
+
 //pdf from http://www.korea.net/NewsFocus/Culture/view?articleId=110141
 
 
