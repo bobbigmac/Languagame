@@ -6,9 +6,9 @@ var languages = [{ key: 'tc', name: 'Chinese (T)' },
     { key: 'e', name: 'English' }];
 
 
-Template.glyphsrows.helpers({
-  glyphs: function(e, t) {
-    return Glyphs.find();
+Template.glyphsetsrows.helpers({
+  glyphsets: function(e, t) {
+    return Glyphsets.find();
   },
   langs: function(e, t) {
     return languages
@@ -19,7 +19,7 @@ nudgeColumn = function(ind, nudges) {
   nudges = nudges || 1;
   for(nudged = 0; nudged < nudges; nudged++)
   {
-    var columnCells = $('#glyphstable').find('tbody td:nth-child(' + (ind + 1) + ')');
+    var columnCells = $('#glyphsetstable').find('tbody td:nth-child(' + (ind + 1) + ')');
     columnCells.each(function(pos, el) {
       var span = $(columnCells[pos]).children('span:last');
       var moveTo = pos + 1;
@@ -34,8 +34,8 @@ nudgeColumn = function(ind, nudges) {
 };
 
 nudgeColumns = function() {
-  //glyphSet ready, randomise
-  var columns = $('#glyphstable').find('tbody tr:first td');
+  //glyphsetSet ready, randomise
+  var columns = $('#glyphsetstable').find('tbody tr:first td');
   columns.each(function(pos, el) {
     el = $(el);
     var nudges = Math.floor(Math.random() * (columns.length * 2));
@@ -55,11 +55,11 @@ celebrateWin = function(cb) {
   }
 };
 
-getNewGlyphs = function() {
-  $('#glyphstable td.incorrect').removeClass('incorrect');
-  $('#glyphstable td.correct').removeClass('correct');
+getNewGlyphsets = function() {
+  $('#glyphsetstable td.incorrect').removeClass('incorrect');
+  $('#glyphsetstable td.correct').removeClass('correct');
 
-  //Session.set('loadingNewGlyphs', true);
+  //Session.set('loadingNewGlyphsets', true);
   window.setTimeout(function() {
     $('.fixed-message').removeClass('show');
     Session.set("atGlyphSet", !Session.get("atGlyphSet"));
@@ -88,7 +88,7 @@ changePlayerScore = function(by) {
   Session.set('endNum', endNum);
 }
 
-Template.glyphstable.rendered = function() {
+Template.glyphsetstable.rendered = function() {
   $(document).keypress(function(e) {
     //console.log('e.which', e.which);
     if(e.which >= 49 && e.which <= 52) {
@@ -100,7 +100,7 @@ Template.glyphstable.rendered = function() {
   });
 }
 
-Template.glyphstable.helpers({
+Template.glyphsetstable.helpers({
   endNum: function(e, t) {
     return Session.get('endNum')||5;
   },
@@ -111,22 +111,22 @@ Template.glyphstable.helpers({
     return languages
   },
   loaded: function(e, t) {
-    return !Session.get('loadingNewGlyphs');
+    return !Session.get('loadingNewGlyphsets');
   }
 });
 
-Template.glyphstable.events({
+Template.glyphsetstable.events({
   'click .checkresults': function (e, t) {
-    var rows = $('tr.glyphrow td:last-child span').map(function(pos, el) {
+    var rows = $('tr.glyphsetrow td:last-child span').map(function(pos, el) {
       el = $(el);
-      var glyphId = $(el).attr('glyphid');
+      var glyphsetId = $(el).attr('glyphsetid');
 
-      var res = $(el).parents('tr').find('td span[glyphid]').map(function(sPos, sEl) {
+      var res = $(el).parents('tr').find('td span[glyphsetid]').map(function(sPos, sEl) {
         sEl = $(sEl);
         var sParent = sEl.parent();
-        var sGlyphId = sEl.attr('glyphId');
+        var sGlyphsetId = sEl.attr('glyphsetId');
 
-        var matches = (sGlyphId == glyphId);
+        var matches = (sGlyphsetId == glyphsetId);
         sParent.removeClass('correct');
         sParent.removeClass('incorrect');
         if(matches) {
@@ -157,7 +157,7 @@ Template.glyphstable.events({
     }
 
     if(pass) {
-      celebrateWin(/*getNewGlyphs*/);
+      celebrateWin(/*getNewGlyphsets*/);
       changePlayerScore(1);
     }
 
@@ -167,7 +167,7 @@ Template.glyphstable.events({
   },
 });
 
-Template.glyphsrows.events({
+Template.glyphsetsrows.events({
   'click td': function (e, t) {
     var el = $(e.currentTarget);
     var ind = el.index();

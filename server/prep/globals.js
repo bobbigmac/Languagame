@@ -1,6 +1,35 @@
 
 loadKanjiDictionary = function() {
-  var radicalsStr = Assets.getText('sources/'+'khangxi-radicals-official.json');
+  //load sub/parent glyphs
+  var subGlyphsStr = Assets.getText('sources/kradfile.utf8');
+  var subGlyphs = {};
+  var parentGlyphs = {};
+  if(subGlyphsStr) {
+    var rawSubGlyphs = subGlyphsStr.split(/\n+/);
+    rawSubGlyphs.forEach(function(subRowText, pos) {
+      if(!(subRowText[0] === '#')) {
+        var subRowArray = subRowText.split(/\s+:\s+/);
+        var parentGlyph = subRowArray[0];
+
+        subGlyphs[parentGlyph] = subRowArray[1].split(/\s+/).map(function(subGlyph) {
+          subGlyph = subGlyph.trim();
+          if(subGlyph) {
+            if(!parentGlyphs[subGlyph]) {
+              parentGlyphs[subGlyph] = [];
+            }
+            parentGlyphs[subGlyph].push(parentGlyph);
+            return subGlyph;
+          }
+        }).filter(function(subGlyph) {
+          return !!subGlyph;
+        });
+
+      }
+    });
+  }
+
+  //load main radical
+  var radicalsStr = Assets.getText('sources/khangxi-radicals-official.json');
   var radicals = {};
   var radicalNums = {};
   if(radicalsStr) {
@@ -17,15 +46,14 @@ loadKanjiDictionary = function() {
     //console.log(JSON.stringify(radicals));
   }
 
-  var str = Assets.getText('sources/'+'kanjidic2-lite.xml');
-  console.log('Parsing kanjidic2', str.length);
-
+  var str = Assets.getText('sources/kanjidic2-lite.xml');
   var result = xml2js.parseStringSync(str);
 
   if(result && typeof result == 'object' && result.kanjidic2 && result.kanjidic2.character && result.kanjidic2.character instanceof Array) {
     var dict = result.kanjidic2.character;
     var obj = {};
     if(dict) {
+      console.log('Parsing kanjidic2', str.length, 'bytes...', dict.length, 'entries');
       var warned = 0;
       dict.forEach(function(cha, pos) {
         var literal = ((cha.literal && cha.literal instanceof Array && cha.literal[0]) || cha.literal);
@@ -96,13 +124,12 @@ loadKanjiDictionary = function() {
             if(radicalNums && radicalNums[literal]) {
               literalEntry.isRadical = radicalNums[literal];
             } else if(radicalNum !== false) {
-              literalEntry.hasRadical = radicalNum;//radicals[''+radicalNum];
+              literalEntry.hasRadical = radicalNum;
             }
 
-            // if(warned < 20 && (literalEntry.hasRadical)) {
-            //   console.log(literal, literalEntry);
-            //   warned++;
-            // }
+            if(subGlyphs && subGlyphs[literal]) {
+              literalEntry.sub
+            }
 
             obj[literal] = literalEntry;
           }
@@ -280,7 +307,7 @@ importPossibles = function(limit) {
   var warned = 0;
   console.log('Saving', possibles.length, 'possibles');
   if(possibles.length) {
-    PossibleGlyphs.remove({});
+    PossibleGlyphsets.remove({});
 
     var keyLangs = ['j', 'tc', 'sc'];
     possibles.forEach(function(possible, pos) {
@@ -365,7 +392,7 @@ importPossibles = function(limit) {
             }
           }
 
-          var active = Glyphs.findOne(filter, { fields: { _id: 1 }});
+          var active = Glyphsets.findOne(filter, { fields: { _id: 1 }});
           if(active) {
             possible.active = active._id;
           }
@@ -390,13 +417,13 @@ importPossibles = function(limit) {
             }
           }
 
-          var existing = PossibleGlyphs.findOne(filter, { fields: { _id: 1 }});
+          var existing = PossibleGlyphsets.findOne(filter, { fields: { _id: 1 }});
           if(existing) {
             //console.log('Updating', existing._id, 'with', Object.keys(possible));
-            PossibleGlyphs.update({ _id: existing._id }, { $set: possible });
+            PossibleGlyphsets.update({ _id: existing._id }, { $set: possible });
           } else {
             //console.log('Inserting new', Object.keys(possible));
-            PossibleGlyphs.insert(possible);
+            PossibleGlyphsets.insert(possible);
           }
         } else {
           console.log('No key matches for ', possible);

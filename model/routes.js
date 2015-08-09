@@ -18,15 +18,15 @@ if(Meteor.isClient) {
 			return [
 				currentUser,
 				Meteor.subscribe('user-scores'),
-				Meteor.subscribe('all-glyphs'),
-				Meteor.subscribe('possible-glyphs')
+				Meteor.subscribe('all-glyphsets'),
+				Meteor.subscribe('possible-glyphsets')
 			];
 		}
 	});
 }
 
 Router.route('/', {
-	template: 'glyphstable',
+	template: 'glyphsetstable',
 	waitOn: function() {
 		return [
 			currentUser
@@ -38,14 +38,14 @@ Router.route('/', {
 
 		Tracker.autorun(function() {
 			$('.correct,.incorrect').removeClass('correct').removeClass('incorrect');
-			Session.set('loadingNewGlyphs', true);
+			Session.set('loadingNewGlyphsets', true);
 
-		  Meteor.subscribe('glyphSet',
+		  Meteor.subscribe('glyphsetSet',
 		    Session.get('atGlyphSet'),
 		    Session.get('startNum'),
 		    Session.get('endNum'),
 		    function(inArg) {
-		      Session.set('loadingNewGlyphs', false);
+		      Session.set('loadingNewGlyphsets', false);
 		      window.setTimeout(nudgeColumns, 20);
 		    });
 		});

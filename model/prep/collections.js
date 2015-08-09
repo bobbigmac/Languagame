@@ -1,2 +1,4 @@
-Glyphs = new Meteor.Collection('glyphs');
-PossibleGlyphs = new Meteor.Collection('possible-glyphs');
+Glyphsets = new Meteor.Collection('glyphs');
+PossibleGlyphsets = new Meteor.Collection('possible-glyphs');
+
+//Symbols = new Meteor.Collection('symbols');

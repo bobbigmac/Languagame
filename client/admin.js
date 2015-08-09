@@ -16,27 +16,27 @@ Template.registeredUsers.helpers({
 	}
 });
 
-Template.availableGlyphs.helpers({
-	glyphs: function() {
-		return Glyphs.find({}, {});
+Template.availableGlyphsets.helpers({
+	glyphsets: function() {
+		return Glyphsets.find({}, {});
 	},
-	glyphCount: function() {
-		return Glyphs.find().count();
+	glyphsetCount: function() {
+		return Glyphsets.find().count();
 	}
 });
 
-Template.possibleGlyphs.events({
-	'click .save-possible-glyph': function(event, template) {
+Template.possibleGlyphsets.events({
+	'click .save-possible-glyphset': function(event, template) {
 		//TODO: Implement
 		console.log('clicked', this);
 	}
 });
 
-Template.possibleGlyphs.helpers({
-	glyphs: function() {
-		return PossibleGlyphs.find({}, { sort: { pop: 1 } });
+Template.possibleGlyphsets.helpers({
+	glyphsets: function() {
+		return PossibleGlyphsets.find({}, { sort: { pop: 1 } });
 	},
-	glyphCount: function() {
-		return PossibleGlyphs.find().count();
+	glyphsetCount: function() {
+		return PossibleGlyphsets.find().count();
 	}
 });

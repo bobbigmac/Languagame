@@ -65,11 +65,11 @@ span[lang="sc"] {
 	-webkit-transition: all 1s;
 }
 
-#glyphstable td:hover span {
+#glyphsetstable td:hover span {
 	opacity: 1;
 	cursor: pointer;
 }
-#glyphstable td span {
+#glyphsetstable td span {
 	opacity: 0.8;
 	transition: opacity 0.5s;
 	-webkit-transition: opacity 0.5s;
@@ -77,19 +77,19 @@ span[lang="sc"] {
 span[lang="e"] {
 	opacity: 1;
 }
-#glyphstable td.incorrect {
+#glyphsetstable td.incorrect {
 	background-color: #e74c3c;
 }
-#glyphstable td.correct {
+#glyphsetstable td.correct {
 	background-color: #2ecc71;
 }
 
-#glyphstable span::selection{ background-color: transparent; }
-#glyphstable span::moz-selection{ background-color: transparent; }
-#glyphstable span::webkit-selection{ background-color: transparent; }
-#glyphstable td::selection{ background-color: transparent; }
-#glyphstable td::moz-selection{ background-color: transparent; }
-#glyphstable td::webkit-selection{ background-color: transparent; }
+#glyphsetstable span::selection{ background-color: transparent; }
+#glyphsetstable span::moz-selection{ background-color: transparent; }
+#glyphsetstable span::webkit-selection{ background-color: transparent; }
+#glyphsetstable td::selection{ background-color: transparent; }
+#glyphsetstable td::moz-selection{ background-color: transparent; }
+#glyphsetstable td::webkit-selection{ background-color: transparent; }
 
 /*table {
 	-webkit-touch-callout: none;

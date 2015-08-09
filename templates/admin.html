@@ -1,16 +1,16 @@
 <template name="admin">
 	{{> registeredUsers}}
 	<div class="row">
-		{{> availableGlyphs}}
-		{{> possibleGlyphs}}
+		{{> availableGlyphsets}}
+		{{> possibleGlyphsets}}
 	</div>
 </template>
 
-<template name="possibleGlyphs">
+<template name="possibleGlyphsets">
 	<div class="col-sm-7 column">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h5 class="panel-title">Possible Glyphs: {{glyphCount}}</h5>
+				<h5 class="panel-title">Possible Glyphsets: {{glyphsetCount}}</h5>
 			</div>
 			<table class="table table-default">
 				<thead>
@@ -23,13 +23,14 @@
 								<span class="hidden-sm hidden-xs">{{shortLanguageName this}}</span>
 							</th>
 						{{/each}}
+						<th>Pro.</th>
 					</tr>
 				</thead>
 				<tbody>
-					{{#each glyphs}}
+					{{#each glyphsets}}
 						<tr>
 							<td>
-								<button class="btn btn-default btn-sm save-possible-glyph">
+								<button class="btn btn-default btn-sm save-possible-glyphset">
 									<i class="glyphicon glyphicon-chevron-left"></i>
 								</button>
 							</td>
@@ -51,6 +52,13 @@
 									<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>
 								{{/if}}
 							{{/each}}
+							<td class="eng-cell">
+								{{> pronounceCell langs=this.hira text='H:'}}
+								{{> pronounceCell langs=this.kata text='K:'}}
+								{{> pronounceCell langs=this.pinyin text='P:'}}
+								{{> pronounceCell langs=this.ko_h text='Kh:'}}
+								{{> pronounceCell langs=this.ko_r text='Kr:'}}
+							</td>
 						</tr>
 					{{/each}}
 				</tbody>
@@ -71,11 +79,21 @@
 	{{/if}}
 </template>
 
-<template name="availableGlyphs">
+<template name="pronounceCell">
+	{{#if langs}}
+		{{#each langs}}
+			<div>
+				{{#if ../text}}{{../text}} {{/if}}{{this}}
+			</div>
+		{{/each}}
+	{{/if}}
+</template>
+
+<template name="availableGlyphsets">
 	<div class="col-sm-5 column">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h5 class="panel-title">Available Glyphs: {{glyphCount}}</h5>
+				<h5 class="panel-title">Available Glyphsets: {{glyphsetCount}}</h5>
 			</div>
 			<table class="table table-default">
 				<thead>
@@ -90,7 +108,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					{{#each glyphs}}
+					{{#each glyphsets}}
 						<tr>
 							<td>{{this.pop}}</td>
 							{{#each keysOf googleLangs}}
