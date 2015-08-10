@@ -1,0 +1,44 @@
+ㄱ	ㄴ	ㄷ	ㄹ	ㅁ	ㅂ	ㅅ	ㅇ	ㅈ	ㅊ	ㅋ	ㅌ	ㅍ	ㅎ
+k/g	n	d	r/l	m	b	s	-	j	ch	k	t	p	h
+
+ㄲ	　	ㄸ	　	　	ㅃ	ㅆ	　	ㅉ	
+kk		tt			pp	ss		jj	
+
+ㅏ	ㅓ	ㅗ	ㅜ	ㅡ	ㅣ		ㅐ	ㅔ	ㅚ	ㅟ	ㅢ
+a	eo	o	u	eu	i		ae	e	oe	ui	eui
+
+ㅑ	ㅕ	ㅛ	ㅠ				ㅒ	ㅖ	
+ya	yeo	yo	yu	 	 		yae	ye	 
+ㅘ	ㅝ						ㅙ	ㅞ	
+wa	weo						wae	we	
+
+ㄱ	ㄴ	ㄷ	ㄹ	ㅁ	ㅂ	ㅅ	ㅇ 	ㅈ	ㅊ	ㅋ	ㅌ	ㅍ	ㅎ
+g	n	d	l	m	b	s	ng	j	ch	k	t	p	h
+ㄲ	ㄵ	　	ㄺ 	　	ㅄ 	ㅆ	　	　	　	　	　	　	　
+kk	nj		lg		bs	ss							
+ㄳ 	ㄶ	　	ㄻ 	　	　	　	　	　	　	　	　	　	　
+gs	nh		lm										
+　	　	　	ㄼ	　	　	　	　	　	　	　	　	　	　
+lb										
+　	　	　	 ㄽ 	　	　	　	　	　	　	　	　	　	　
+ls										
+　	　	　	ㄾ	　	　	　	　	　	　	　	　	　	　
+lt										
+　	　	　	ㄿ	　	　	　	　	　	　	　	　	　	　
+lp										
+　	　	　	ㅀ	　	　	　	　	　	　	　	　	　	　
+lh										
+
+
+
+
+
+
+
+//https://en.wikipedia.org/wiki/Revised_Romanization_of_Korean
+Hangul	ㅏ	ㅐ	ㅑ	ㅒ	ㅓ	ㅔ	ㅕ	ㅖ	ㅗ	ㅘ	ㅙ	ㅚ	ㅛ	ㅜ	ㅝ	ㅞ	ㅟ	ㅠ	ㅡ	ㅢ	ㅣ
+Romanization	a	ae	ya	yae	eo	e	yeo	ye	o	wa	wae	oe	yo	u	wo	we	wi	yu	eu	ui	i
+Consonant letters[edit]
+Hangul	ㄱ	ㄲ	ㄴ	ㄷ	ㄸ	ㄹ	ㅁ	ㅂ	ㅃ	ㅅ	ㅆ	ㅇ	ㅈ	ㅉ	ㅊ	ㅋ	ㅌ	ㅍ	ㅎ
+Romanization	Initial	g	kk	n	d	tt	r	m	b	pp	s	ss	-	j	jj	ch	k	t	p	h
+Final	k	k	n	t	-	l	m	p	-	t	t	ng	t	-	t	k	t	p	t

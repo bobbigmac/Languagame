@@ -1,5 +1,64 @@
 
 loadKanjiDictionary = function() {
+  var dictionary = {};
+
+  //load hiragana
+  var hiraganaStr = Assets.getText('sources/hiragana-pronounce.json');
+  var hiragana = {};
+  if(hiraganaStr) {
+    var hiraganaArr = JSON.parse(hiraganaStr);
+    hiraganaArr.forEach(function(pair) {
+      hiragana[pair.hira] = pair.pro;
+      dictionary[pair.hira] = {
+        type: 'hira',
+        pro: pair.pro
+      }
+    });
+  }
+  //console.log('hiragana', hiragana);
+
+  //load katakana and map to hiragana
+  var katakanaStr = Assets.getText('sources/katakana-pronounce.json');
+  var katakana = {};
+  if(katakanaStr) {
+    var katakanaArr = JSON.parse(katakanaStr);
+    katakanaArr.forEach(function(pair) {
+      katakana[pair.kata] = pair.pro;
+      dictionary[pair.kata] = {
+        type: 'kata',
+        pro: pair.pro,
+        hira: Object.keys(hiragana).map(function(hira) {
+          return (hiragana[hira] === pair.pro ? hira : false);
+        }).filter(function(val) { return !!val; }).join()
+      }
+    });
+  }
+  //console.log('katakana', katakana);
+
+  //set katakana for each hiragana
+  Object.keys(hiragana).forEach(function(hira) {
+    dictionary[hira].kata = Object.keys(katakana).map(function(kata) {
+      return (katakana[kata] === hiragana[hira] ? kata : false);
+    }).filter(function(val) { return !!val; }).join()
+  });
+  //console.log('dictionary', dictionary);
+
+  //load katakana and map to hiragana
+  var hangulStr = Assets.getText('sources/hangul-pronounce.json');
+  var hangul = {};
+  if(hangulStr) {
+    var hangulArr = JSON.parse(hangulStr);
+    hangulArr.forEach(function(pair) {
+      hangul[pair['char']] = pair.pro;
+      dictionary[pair['char']] = {
+        type: 'hang',
+        pro: pair.pro,
+        usage: pair.hang
+      }
+    });
+  }
+  //console.log('hangul', hangul);
+  
   //load sub/parent glyphs
   var subGlyphsStr = Assets.getText('sources/kradfile.utf8');
   var subGlyphs = {};
@@ -49,9 +108,9 @@ loadKanjiDictionary = function() {
   var str = Assets.getText('sources/kanjidic2-lite.xml');
   var result = xml2js.parseStringSync(str);
 
+  //load full kanjidic
   if(result && typeof result == 'object' && result.kanjidic2 && result.kanjidic2.character && result.kanjidic2.character instanceof Array) {
     var dict = result.kanjidic2.character;
-    var obj = {};
     if(dict) {
       console.log('Parsing kanjidic2', str.length, 'bytes...', dict.length, 'entries');
       var warned = 0;
@@ -89,9 +148,11 @@ loadKanjiDictionary = function() {
                     var type = reading.$.r_type;
                     if(type == 'ja_on') {
                       type = 'kata';
+                      //TODO: could add romano pronounciation
                     }
                     if(type == 'ja_kun') {
                       type = 'hira';
+                      //TODO: could add romano pronounciation
                     }
                     if(type == 'korean_r') {
                       type = 'ko_r';
@@ -128,14 +189,15 @@ loadKanjiDictionary = function() {
             }
 
             if(subGlyphs && subGlyphs[literal]) {
-              literalEntry.sub
+              literalEntry.sub;
             }
 
-            obj[literal] = literalEntry;
+            literalEntry.type = 'kan';
+            dictionary[literal] = literalEntry;
           }
         }
       });
-      return obj;
+      return dictionary;
     }
   } else {
     console.log('Parsed kanjidic2 but did not get kanjidic2 root element or type was incorrect.');
@@ -401,11 +463,19 @@ importPossibles = function(limit) {
           if(kanjiDic && kanji) {
             var details = kanjiDic[kanji];
             if(details) {
+
+
+
+              //TODO: Don't think I want to merge all keys directly onto possible.
+              //      Most belong on the glyph, rather than on the glyphset.
               for(var key in details) {
                 if(details[key] && !possible[key]) {
                   possible[key] = details[key];
                 }
               }
+
+
+
               //If I have a japanese pronunciation, but no possible.j, add this glyph for japanese too
               if(!possible.j && (possible.e || possible.ekan || possible.ej || possible.ec) && (possible.kata || possible.hira)) {
                 possible.j = kanji;

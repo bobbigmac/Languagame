@@ -70,6 +70,15 @@ chunk($('.kanatable .seion,.kanatable .yoon,.kanatable .dakuon,.kanatable .yooda
 JSON.stringify(keyed);
 
 
+//Hangul
+//https://www.zkorean.com/hangul/appearance
+
+
+
+//Complete list of hangul (not mapped to aanything)
+//http://lcweb2.loc.gov/diglib/codetables/9.3.html
+$('table[summary] td[style]').get().map(function(el) { el=$(el); return { hang: el.text() }});
+
 
 //pdf from http://www.korea.net/NewsFocus/Culture/view?articleId=110141
 
