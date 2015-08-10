@@ -49,12 +49,14 @@ Meteor.publish('glyphsetSet', function(atGlyphSet, startNum, endNum) {
     }
   }
 
-  //console.log(keys)
   var keyIds = [];
   for(var key in keys) {
     keyIds.push({ _id: 'g'+key });
   }
 
   var matchingGlyphsets = Glyphsets.find({ $or: keyIds });
-  return matchingGlyphsets;
+  if(matchingGlyphsets && matchingGlyphsets.count()) {
+    return matchingGlyphsets;
+  }
+  //return this.stop();
 });

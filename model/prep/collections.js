@@ -1,4 +1,7 @@
-Glyphsets = new Meteor.Collection('glyphs');
-PossibleGlyphsets = new Meteor.Collection('possible-glyphs');
+Glyphsets = new Mongo.Collection('glyphsets');
+PossibleGlyphsets = new Mongo.Collection('possible-glyphsets');
+//Glyphs = new Mongo.Collection('glyphs');
 
-//Symbols = new Meteor.Collection('symbols');
+
+OldPossibleGlyphs = new Mongo.Collection('possible-glyphs');
+OldGlyphs = new Mongo.Collection('glyphs');

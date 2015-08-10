@@ -20,6 +20,16 @@ Meteor.startup(function () {
   console.log('Have %d glyphsets', numberOfGlyphsets);
 
   Meteor.methods({
+    'reset-collections': function() {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        if(typeof OldPossibleGlyphs !== 'undefined') {
+          OldPossibleGlyphs.remove({});
+        }
+        if(typeof OldGlyphs !== 'undefined') {
+          OldGlyphs.remove({});
+        }
+      }
+    },
     'import-possibles': function(limit) {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         return importPossibles(limit);

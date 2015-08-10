@@ -48,6 +48,27 @@ $('table#collapsibleTable0 tr').get().map(function(el) { el=$(el); var num=el.fi
 
 
 
+//Hiragana and Katakana
+//https://www.coscom.co.jp/hiragana-katakana/kanatable.html
+if(typeof(jQuery) === 'undefined') { var scr = document.createElement('script'); scr.src = 'https://code.jquery.com/jquery-2.1.4.min.js'; $('head').appendChild(scr); };
+function chunk(arr, n) {
+    return arr.slice(0,(arr.length+n-1)/n|0).
+           map(function(c,i) { return arr.slice(n*i,n*i+n); });
+};
+var keyed = {};
+chunk($('.kanatable .seion,.kanatable .yoon,.kanatable .dakuon,.kanatable .yoodakuon,.kanatable .romaji').get().map(function(el){ el=$(el); return el.text(); }), 10).map(function(arr) { var both = chunk(arr, 5); return both[0].map(function(jap, pos) { if(jap && jap != '-' && both[1][pos] != '-') { keyed[jap] = both[1][pos]; return { jap: jap, e: both[1][pos] }}; }).filter(function(ex){ return !!ex; }); });
+//keyed;
+//
+// similar, but flattened array
+if(typeof(jQuery) === 'undefined') { var scr = document.createElement('script'); scr.src = 'https://code.jquery.com/jquery-2.1.4.min.js'; $('head').appendChild(scr); };
+function chunk(arr, n) {
+    return arr.slice(0,(arr.length+n-1)/n|0).
+           map(function(c,i) { return arr.slice(n*i,n*i+n); });
+};
+var keyed = [];
+chunk($('.kanatable .seion,.kanatable .yoon,.kanatable .dakuon,.kanatable .yoodakuon,.kanatable .romaji').get().map(function(el){ el=$(el); return el.text(); }), 10).map(function(arr) { var both = chunk(arr, 5); return both[0].map(function(jap, pos) { if(jap && jap != '-' && both[1][pos] != '-') { keyed[jap] = both[1][pos]; return { jap: jap, e: both[1][pos] }}; }).filter(function(ex){ return !!ex; }); }).map(function(arr) { keyed = keyed.concat(arr); return arr; });
+JSON.stringify(keyed);
+
 
 
 //pdf from http://www.korea.net/NewsFocus/Culture/view?articleId=110141

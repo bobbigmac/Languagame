@@ -1,0 +1,270 @@
+[
+  {
+    "pro": "a",
+    "kata": "ア"
+  },
+  {
+    "pro": "i",
+    "kata": "イ"
+  },
+  {
+    "pro": "u",
+    "kata": "ウ"
+  },
+  {
+    "pro": "e",
+    "kata": "エ"
+  },
+  {
+    "pro": "o",
+    "kata": "オ"
+  },
+  {
+    "pro": "ka",
+    "kata": "カ"
+  },
+  {
+    "pro": "ki",
+    "kata": "キ"
+  },
+  {
+    "pro": "ku",
+    "kata": "ク"
+  },
+  {
+    "pro": "ke",
+    "kata": "ケ"
+  },
+  {
+    "pro": "ko",
+    "kata": "コ"
+  },
+  {
+    "pro": "sa",
+    "kata": "サ"
+  },
+  {
+    "pro": "shi",
+    "kata": "シ"
+  },
+  {
+    "pro": "su",
+    "kata": "ス"
+  },
+  {
+    "pro": "se",
+    "kata": "セ"
+  },
+  {
+    "pro": "so",
+    "kata": "ソ"
+  },
+  {
+    "pro": "ta",
+    "kata": "タ"
+  },
+  {
+    "pro": "chi",
+    "kata": "チ"
+  },
+  {
+    "pro": "tsu",
+    "kata": "ツ"
+  },
+  {
+    "pro": "te",
+    "kata": "テ"
+  },
+  {
+    "pro": "to",
+    "kata": "ト"
+  },
+  {
+    "pro": "na",
+    "kata": "ナ"
+  },
+  {
+    "pro": "ni",
+    "kata": "ニ"
+  },
+  {
+    "pro": "nu",
+    "kata": "ヌ"
+  },
+  {
+    "pro": "ne",
+    "kata": "ネ"
+  },
+  {
+    "pro": "no",
+    "kata": "ノ"
+  },
+  {
+    "pro": "ha",
+    "kata": "ハ"
+  },
+  {
+    "pro": "hi",
+    "kata": "ヒ"
+  },
+  {
+    "pro": "fu",
+    "kata": "フ"
+  },
+  {
+    "pro": "he",
+    "kata": "ヘ"
+  },
+  {
+    "pro": "ho",
+    "kata": "ホ"
+  },
+  {
+    "pro": "ma",
+    "kata": "マ"
+  },
+  {
+    "pro": "mi",
+    "kata": "ミ"
+  },
+  {
+    "pro": "mu",
+    "kata": "ム"
+  },
+  {
+    "pro": "me",
+    "kata": "メ"
+  },
+  {
+    "pro": "mo",
+    "kata": "モ"
+  },
+  {
+    "pro": "ya",
+    "kata": "ヤ"
+  },
+  {
+    "pro": "yu",
+    "kata": "ユ"
+  },
+  {
+    "pro": "yo",
+    "kata": "ヨ"
+  },
+  {
+    "pro": "ra",
+    "kata": "ラ"
+  },
+  {
+    "pro": "ri",
+    "kata": "リ"
+  },
+  {
+    "pro": "ru",
+    "kata": "ル"
+  },
+  {
+    "pro": "re",
+    "kata": "レ"
+  },
+  {
+    "pro": "ro",
+    "kata": "ロ"
+  },
+  {
+    "pro": "wa",
+    "kata": "ワ"
+  },
+  {
+    "pro": "o (wo)",
+    "kata": "ヲ"
+  },
+  {
+    "pro": "n",
+    "kata": "ン"
+  },
+  {
+    "pro": "kya",
+    "kata": "キャ"
+  },
+  {
+    "pro": "kyu",
+    "kata": "キュ"
+  },
+  {
+    "pro": "kyo",
+    "kata": "キョ"
+  },
+  {
+    "pro": "sha",
+    "kata": "シャ"
+  },
+  {
+    "pro": "shu",
+    "kata": "シュ"
+  },
+  {
+    "pro": "sho",
+    "kata": "ショ"
+  },
+  {
+    "pro": "cha",
+    "kata": "チャ"
+  },
+  {
+    "pro": "chu",
+    "kata": "チュ"
+  },
+  {
+    "pro": "cho",
+    "kata": "チョ"
+  },
+  {
+    "pro": "nya",
+    "kata": "ニャ"
+  },
+  {
+    "pro": "nyu",
+    "kata": "ニュ"
+  },
+  {
+    "pro": "nyo",
+    "kata": "ニョ"
+  },
+  {
+    "pro": "hya",
+    "kata": "ヒャ"
+  },
+  {
+    "pro": "hyu",
+    "kata": "ヒュ"
+  },
+  {
+    "pro": "hyo",
+    "kata": "ヒョ"
+  },
+  {
+    "pro": "mya",
+    "kata": "ミャ"
+  },
+  {
+    "pro": "myu",
+    "kata": "ミュ"
+  },
+  {
+    "pro": "myo",
+    "kata": "ミョ"
+  },
+  {
+    "pro": "rya",
+    "kata": "リャ"
+  },
+  {
+    "pro": "ryu",
+    "kata": "リュ"
+  },
+  {
+    "pro": "ryo",
+    "kata": "リョ"
+  }
+]

@@ -1,10 +1,13 @@
 
-//TODO: Move to a collection (and make it cleverer)
-var languages = [{ key: 'tc', name: 'Chinese (T)' }, 
-    { key: 'sc', name: 'Chinese (S)' }, 
-    { key: 'j', name: 'Japanese' }, 
-    { key: 'e', name: 'English' }];
-
+//TODO: Should work with package- yogiben:tts. Needs to be integrated into glyph manager
+//TODO: http://translate.google.com/translate_tts?ie=utf-8&tl=ja&q=%E3%81%AA.%E3%82%81%E3%82%8B
+// Speak = function(what, lang, site) {
+//   what = what||'tell me what to say';
+//   lang = lang||'en';
+//   site = site||'com';
+//   console.log('speaking', what, lang, site);
+//   tts.speak(what, lang, site);
+// }
 
 Template.glyphsetsrows.helpers({
   glyphsets: function(e, t) {
