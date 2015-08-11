@@ -14,6 +14,14 @@ languages.forEach(function(lang) {
   languageNames[lang.key] = lang;
 });
 
+btnPrimaryOnEnter = function(event, template) {
+  if(event && event.which === 13) {
+    if(template && template.$) {
+      template.$(template.find('.btn-primary:last')).trigger('click');
+    }
+  }
+};
+
 UI.registerHelper('log', function (val) {
 	console.log(val);
 });

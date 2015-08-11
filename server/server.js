@@ -30,6 +30,10 @@ Meteor.startup(function () {
         }
       }
     },
+    'import-possible': function(_id, params) {
+      //TODO: Implement
+      console.log('want to import', _id, params);
+    },
     'import-possibles': function(limit) {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         return importPossibles(limit);

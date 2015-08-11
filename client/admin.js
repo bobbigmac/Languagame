@@ -25,26 +25,64 @@ Template.availableGlyphsets.helpers({
 	}
 });
 
+
+
+var pronunciationsSummary = function() {
+	var proSummary = '';
+	proSummary += (this.hira && this.hira.length && 'Hira:'+this.hira.length+"\n") || '';
+	proSummary += (this.kata && this.kata.length && 'Kata:'+this.kata.length+"\n") || '';
+	proSummary += (this.pinyin && this.pinyin.length && 'Piny:'+this.pinyin.length+"\n") || '';
+	proSummary += (this.ko_h && this.ko_h.length && 'Ko_h:'+this.ko_h.length+"\n") || '';
+	proSummary += (this.ko_r && this.ko_r.length && 'Ko_r:'+this.ko_r.length+"\n") || '';
+	return proSummary ? proSummary.split("\n").filter(function(str){ return !!str }).join("\n") : false;
+};
+
+var pronunciations = function() {
+	var proCount = 0;
+	proCount += (this.hira && this.hira.length) || 0;
+	proCount += (this.kata && this.kata.length) || 0;
+	proCount += (this.pinyin && this.pinyin.length) || 0;
+	proCount += (this.ko_h && this.ko_h.length) || 0;
+	proCount += (this.ko_r && this.ko_r.length) || 0;
+	return proCount;
+};
+
 function savePotential(_id, eng) {
 	if(_id) {
 		var params = {};
 		if(eng) {
 			params.eng = eng;
 		}
-		Meteor.call('import-possible', this._id, params);
+		Meteor.call('import-possible', _id, params);
 	}
 }
 
 Template.englishCell.events({
 	'click .save-potential': function(event, template) {
-		var parentData = Template.parentData(3);
-		savePotential(parentData._id, ''+this);
+		if(this) {
+			var parentData = Template.parentData(3) || Template.parentData(2) || Template.parentData();
+			if(parentData && parentData._id) {
+				savePotential(parentData._id, ''+this);
+			}
+		}
+		$('#adding-glyph-modal:visible').modal('hide');
+	}
+});
+
+Template.addingModal.events({
+	'keypress': btnPrimaryOnEnter,
+	'click .save-new-glyph': function(event, template) {
+		var text = (template.find('.new-glyph-english').value);
+		if(text) {
+			savePotential(this._id, ''+text);
+			template.$(template.find('.btn-default:last')).trigger('click');
+		}
 	}
 });
 
 Template.possibleGlyphsets.events({
 	'click .save-possible-glyphset': function(event, template) {
-		savePotential(this._id);
+		Session.set('newGlyphId', this._id);
 	}
 });
 
@@ -55,94 +93,21 @@ Template.possibleGlyphsets.helpers({
 	glyphsetCount: function() {
 		return PossibleGlyphsets.find().count();
 	},
-	pronunciationsSummary: function() {
-		var proSummary = '';
-		proSummary += (this.hira && this.hira.length && 'Hira:'+this.hira.length+"\n") || '';
-		proSummary += (this.kata && this.kata.length && 'Kata:'+this.kata.length+"\n") || '';
-		proSummary += (this.pinyin && this.pinyin.length && 'Piny:'+this.pinyin.length+"\n") || '';
-		proSummary += (this.ko_h && this.ko_h.length && 'Ko_h:'+this.ko_h.length+"\n") || '';
-		proSummary += (this.ko_r && this.ko_r.length && 'Ko_r:'+this.ko_r.length+"\n") || '';
-		return proSummary ? proSummary.split("\n").filter(function(str){ return !!str }).join("\n") : false;
-	},
-	pronunciations: function() {
-		var proCount = 0;
-		proCount += (this.hira && this.hira.length) || 0;
-		proCount += (this.kata && this.kata.length) || 0;
-		proCount += (this.pinyin && this.pinyin.length) || 0;
-		proCount += (this.ko_h && this.ko_h.length) || 0;
-		proCount += (this.ko_r && this.ko_r.length) || 0;
-		return proCount;
-	},
-	allEngs: function() {
-		var set = Template.parentData();
-		var engKeys = ['e', 'ej', 'ec', 'ek', 'ekat'];
+	pronunciationsSummary: pronunciationsSummary,
+	pronunciations: pronunciations,
+	allEngs: function() { return allEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); },
+	bestEngs: function() { return bestEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); }
+});
 
-		var engs = {};
-		engKeys.forEach(function(lang) {
-			if(set[lang]) {
-				if(typeof set[lang] == 'string') {
-					var eng = set[lang];
-					engs[eng] = (engs[eng] || 0);
-					engs[eng]++;
-				}
-				else if(set[lang] instanceof Array) {
-					set[lang].forEach(function(eng) {
-						if(eng.indexOf('surname') === -1) {
-							engs[eng] = (engs[eng] || 0);
-							engs[eng]++;
-						}
-					});
-				}
-			}
-		});
-
-		var bestEngs = false;
-		var keys = Object.keys(engs).sort(function(a, b) {
-			return engs[a] > engs[b] ? 1 : -1;
-		});
-
-		return keys;
-	},
-	bestEngs: function() {
-		var set = Template.parentData();
-		var engKeys = ['e', 'ej', 'ec', 'ek', 'ekat'];
-
-		var engs = {};
-		engKeys.forEach(function(lang) {
-			if(set[lang]) {
-				if(typeof set[lang] == 'string') {
-					var eng = set[lang];
-					engs[eng] = (engs[eng] || 0);
-					engs[eng]++;
-				}
-				else if(set[lang] instanceof Array) {
-					set[lang].forEach(function(eng) {
-						engs[eng] = (engs[eng] || 0);
-						engs[eng]++;
-					});
-				}
-			}
-		});
-
-		var bestEngs = false;
-		var keys = Object.keys(engs).sort(function(a, b) {
-			return engs[a] > engs[b] ? -1 : 1;
-		});
-
-		if(keys.length === 1) {
-			bestEngs = [keys[0]];
+Template.addingModal.helpers({
+	newGlyph: function() {
+		var _id = Session.get('newGlyphId');
+		if(_id) {
+			return PossibleGlyphsets.findOne({ _id: _id });
 		}
-		else if(keys.length > 1) {
-			if(engs[keys[0]] > engs[keys[1]]) {
-				bestEngs = [keys[0]];
-			}
-			else if(keys.length > 2) {
-				if(engs[keys[1]] > engs[keys[2]]) {
-					bestEngs = [keys[0], keys[1]];
-				}
-			}
-		}
-
-		return bestEngs;
-	}
+	},
+	pronunciationsSummary: pronunciationsSummary,
+	pronunciations: pronunciations,
+	allEngs: function() { return allEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); },
+	bestEngs: function() { return bestEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); }
 });

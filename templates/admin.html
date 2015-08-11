@@ -4,6 +4,7 @@
 		{{> availableGlyphsets}}
 		{{> possibleGlyphsets}}
 	</div>
+	{{> addingModal}}
 </template>
 
 <template name="possibleGlyphsets">
@@ -31,7 +32,8 @@
 					{{#each glyphsets}}
 						<tr>
 							<td>
-								<button class="btn btn-default btn-sm save-possible-glyphset">
+								<button class="btn btn-default btn-sm save-possible-glyphset"
+									data-toggle="modal" data-target=".adding-glyph-modal">
 									<i class="glyphicon glyphicon-chevron-left"></i>
 								</button>
 							</td>
@@ -73,6 +75,34 @@
 				</tbody>
 			</table>
 		</div>
+	</div>
+</template>
+
+<template name="addingModal">
+	<div id="adding-glyph-modal" class="modal fade adding-glyph-modal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog">
+			{{#with newGlyph}}
+		    <div class="modal-content">
+		    	<div class="modal-body">
+						<div class="input-group">
+							<label class="input-group-addon">Manual:</label>
+							{{#if equals bestEngs.length 1}}
+								<input type="text" class="form-control new-glyph-english" placeholder="Enter main english key manually..." value="{{bestEngs}}" />
+							{{else}}
+								<input type="text" class="form-control new-glyph-english" placeholder="Enter main english key manually..." />
+							{{/if}}
+						</div>
+						<div class="english-list text-center">
+							{{> englishCell engs=allEngs _id=../_id}}
+						</div>
+		    	</div>
+			    <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary save-new-glyph">Save changes</button>
+			  	</div>
+		    </div>
+			{{/with}}
+	  </div>
 	</div>
 </template>
 
