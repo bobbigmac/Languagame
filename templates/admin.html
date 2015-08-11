@@ -124,6 +124,7 @@
 				<thead>
 					<tr>
 						<th></th>
+						<th></th>
 						{{#each keysOf googleLangs}}
 							<th>
 								<span class="visible-sm visible-xs">{{tinyLanguageName this}}</span>
@@ -134,7 +135,18 @@
 				</thead>
 				<tbody>
 					{{#each glyphsets}}
-						<tr>
+						<tr class="{{#unless this.live}}danger{{/unless}}">
+							<td>
+								{{#if this.live}}
+									<button class="btn btn-danger btn-sm delete-glyphset">
+										<i class="glyphicon glyphicon-trash"></i>
+									</button>
+								{{else}}
+									<button class="btn btn-warning btn-sm revive-glyphset">
+										<i class="glyphicon glyphicon-flash"></i>
+									</button>
+								{{/if}}
+							</td>
 							<td>{{this.pop}}</td>
 							{{#each keysOf googleLangs}}
 								<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>

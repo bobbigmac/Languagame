@@ -1,9 +1,69 @@
 
-kanjiDic = false;
+saveOrUpdateGlyphset = function(glyphset) {
+  if(glyphset) {
+    var matchLangs = ['j', 'sc', 'tc', 'k'];
 
+    var filter = {};
+    matchLangs.forEach(function(lang) {
+      if(glyphset[lang]) {
+        filter[lang] = glyphset[lang];
+      }
+    });
+
+    if(!glyphset.live) {
+      glyphset.live = true;
+    }
+    if(!glyphset.created) {
+      glyphset.created = (new Date());
+    }
+    glyphset.modified = (new Date());
+
+    var existing = Glyphsets.findOne(filter);
+    if(existing) {
+      return Glyphsets.update({ _id: existing._id }, { $set: glyphset });
+    } else {
+      return Glyphsets.insert(glyphset);
+    }
+  }
+};
+
+saveOrUpdateGlyph = function(glyph) {
+  if(glyph) {
+    var filter = {};
+    if(glyph._id) {
+      filter._id = glyph._id;
+    }
+    else if(glyph.value) {
+      filter.value = glyph.value;
+    }
+
+    var existing = Glyphs.findOne(filter);
+    if(existing) {
+      return Glyphs.update({ _id: existing._id }, { $set: glyph });
+    } else {
+      return Glyphs.insert(glyph);
+    }
+  }
+};
+
+kanjiDic = false;
+var unloadKanjiDicTimer = false;
 loadKanjiDictionary = function() {
   var dictionary = {};
 
+  if(unloadKanjiDicTimer) {
+    Meteor.clearTimeout(unloadKanjiDicTimer);
+    unloadKanjiDicTimer = false;
+  }
+  unloadKanjiDicTimer = Meteor.setTimeout(function() {
+    console.log('Unloading kanjiDic');
+    kanjiDic = false;
+  }, 60*60*1000);
+
+  if(kanjiDic) {
+    return kanjiDic;
+  }
+  
   //load hiragana
   var hiraganaStr = Assets.getText('sources/hiragana-pronounce.json');
   var hiragana = {};
@@ -191,7 +251,7 @@ loadKanjiDictionary = function() {
             }
 
             if(subGlyphs && subGlyphs[literal]) {
-              literalEntry.sub;
+              literalEntry.sub = subGlyphs[literal];
             }
 
             literalEntry.type = 'kan';
@@ -483,6 +543,12 @@ importPossibles = function(limit) {
               symbols[possible.sc] = [];
             }
             symbols[possible.sc].push('sc');
+          }
+          if(possible.k) {
+            if(!symbols[possible.k]) {
+              symbols[possible.k] = [];
+            }
+            symbols[possible.k].push('k');
           }
 
           Object.keys(symbols).forEach(function(kanji) {

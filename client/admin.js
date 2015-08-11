@@ -16,6 +16,19 @@ Template.registeredUsers.helpers({
 	}
 });
 
+Template.availableGlyphsets.events({
+	'click .revive-glyphset': function() {
+		if(this._id) {
+			Glyphsets.update({ _id: this._id }, { $set: { live: true }});
+		}
+	},
+	'click .delete-glyphset': function() {
+		if(this._id) {
+			Glyphsets.update({ _id: this._id }, { $set: { live: false }});
+		}
+	},
+});
+
 Template.availableGlyphsets.helpers({
 	glyphsets: function() {
 		return Glyphsets.find({}, {});

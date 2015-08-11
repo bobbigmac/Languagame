@@ -19,6 +19,11 @@ Meteor.publish('all-glyphsets', function() {
 
 Meteor.publish('possible-glyphsets', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
+    if(typeof kanjiDic == 'undefined' || !kanjiDic) {
+      console.log('Loading kanji dictionary globally...');
+      kanjiDic = loadKanjiDictionary();
+      console.log('Loaded kanji dictionary globally');
+    }
     //var glyphsets = PossibleGlyphsets.find({ pop: { $gt: 0 }, active: { $exists: false }, tc: { $exists: true }, sc: { $exists: true }, e: { $exists: true }, j: { $exists: true }}, { sort: { pop: 1, cpop: 1, jpop: 1 }, fields: { _id: 1 }});
     //var totalCount = glyphsets.fetch().length;
 
