@@ -21,6 +21,9 @@ UI.registerHelper('log', function (val) {
 UI.registerHelper('not', function (val) {
   return !val;
 });
+UI.registerHelper('reverse', function (arr) {
+  return (arr && arr instanceof Array && arr.reverse()) || arr;
+});
 UI.registerHelper('equals', function (a, b) {
   return a == b;
 });

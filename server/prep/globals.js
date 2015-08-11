@@ -43,7 +43,7 @@ loadKanjiDictionary = function() {
   });
   //console.log('dictionary', dictionary);
 
-  //load katakana and map to hiragana
+  //load hangul
   var hangulStr = Assets.getText('sources/hangul-pronounce.json');
   var hangul = {};
   if(hangulStr) {
@@ -293,6 +293,8 @@ importPossibles = function(limit) {
             var matches = [];
             possibles.forEach(function(possible, pos) {
 
+              //TODO: This matches method needs some tweak, it's letting some 
+              //  characters through on multiple sets (see 10,000)
               var langs = Object.keys(d);
               langs.forEach(function(lang) {
                 if(possible[lang] === d[lang]) {

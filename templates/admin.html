@@ -43,18 +43,14 @@
 									<td class="eng-cell" lang="en">
 										{{#if equals bestEngs.length 1}}
 											{{#if equals allEngs.length 1}}
-												{{> englishCell engs=bestEngs}}
+												<strong>{{> englishCell engs=bestEngs}}</strong>
 											{{else}}
-												{{> englishCell engs=bestEngs text='BEST:' title=allEngs}}
+												<strong>{{> englishCell engs=bestEngs title=allEngs}}</strong>
 											{{/if}}
 										{{else}}
 											{{> englishCell engs=bestEngs text='BESTS:'}}
-											{{#with propOfObj this ..}}
+											{{#with allEngs}}
 												{{> englishCell engs=this _id=../../_id}}
-												{{> englishCell engs=../../ej text='J:' _id=../../_id}}
-												{{> englishCell engs=../../ec text='C:' _id=../../_id}}
-												{{> englishCell engs=../../ek text='K:' _id=../../_id}}
-												{{> englishCell engs=../../ekan text='Kan:' _id=../../_id}}
 											{{/with}}
 										{{/if}}
 									</td>
@@ -62,16 +58,15 @@
 										{{allEngs.length}}
 									</td>
 								{{else}}
-									<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>
+									<td lang="{{googleLangOf this}}">
+										<a href="https://translate.google.com/#auto/en/{{propOfObj this ..}}" target="_blank">
+											{{propOfObj this ..}}
+										</a>
+									</td>
 								{{/if}}
 							{{/each}}
 							<td title={{pronunciationsSummary}}>
 								{{pronunciations}}
-								<!-- {{> pronounceCell langs=this.hira text='H:'}}
-								{{> pronounceCell langs=this.kata text='K:'}}
-								{{> pronounceCell langs=this.pinyin text='P:'}}
-								{{> pronounceCell langs=this.ko_h text='Kh:'}}
-								{{> pronounceCell langs=this.ko_r text='Kr:'}} -->
 							</td>
 						</tr>
 					{{/each}}

@@ -87,8 +87,10 @@ Template.possibleGlyphsets.helpers({
 				}
 				else if(set[lang] instanceof Array) {
 					set[lang].forEach(function(eng) {
-						engs[eng] = (engs[eng] || 0);
-						engs[eng]++;
+						if(eng.indexOf('surname') === -1) {
+							engs[eng] = (engs[eng] || 0);
+							engs[eng]++;
+						}
 					});
 				}
 			}
@@ -96,7 +98,7 @@ Template.possibleGlyphsets.helpers({
 
 		var bestEngs = false;
 		var keys = Object.keys(engs).sort(function(a, b) {
-			return engs[a] > engs[b] ? -1 : 1;
+			return engs[a] > engs[b] ? 1 : -1;
 		});
 
 		return keys;
