@@ -23,6 +23,7 @@
 								<span class="hidden-sm hidden-xs">{{shortLanguageName this}}</span>
 							</th>
 						{{/each}}
+						<th>Engs.</th>
 						<th>Pro.</th>
 					</tr>
 				</thead>
@@ -40,24 +41,33 @@
 							{{#each keysOf googleLangs}}
 								{{#if equals this 'e'}}
 									<td class="eng-cell" lang="en">
-										{{#with propOfObj this ..}}
-											{{> englishCell engs=this}}
-											{{> englishCell engs=../../ej text='J:'}}
-											{{> englishCell engs=../../ec text='C:'}}
-											{{> englishCell engs=../../ek text='K:'}}
-											{{> englishCell engs=../../ekan text='Kan:'}}
-										{{/with}}
+										{{#if equals bestEngs.length 1}}
+											{{> englishCell engs=bestEngs text='BEST:' title=allEngs}}
+										{{else}}
+											{{> englishCell engs=bestEngs text='BESTS:'}}
+											{{#with propOfObj this ..}}
+												{{> englishCell engs=this _id=../../_id}}
+												{{> englishCell engs=../../ej text='J:' _id=../../_id}}
+												{{> englishCell engs=../../ec text='C:' _id=../../_id}}
+												{{> englishCell engs=../../ek text='K:' _id=../../_id}}
+												{{> englishCell engs=../../ekan text='Kan:' _id=../../_id}}
+											{{/with}}
+										{{/if}}
+									</td>
+									<td>
+										{{allEngs.length}}
 									</td>
 								{{else}}
 									<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>
 								{{/if}}
 							{{/each}}
-							<td class="eng-cell">
-								{{> pronounceCell langs=this.hira text='H:'}}
+							<td>
+								{{pronunciations}}
+								<!-- {{> pronounceCell langs=this.hira text='H:'}}
 								{{> pronounceCell langs=this.kata text='K:'}}
 								{{> pronounceCell langs=this.pinyin text='P:'}}
 								{{> pronounceCell langs=this.ko_h text='Kh:'}}
-								{{> pronounceCell langs=this.ko_r text='Kr:'}}
+								{{> pronounceCell langs=this.ko_r text='Kr:'}} -->
 							</td>
 						</tr>
 					{{/each}}
@@ -71,7 +81,7 @@
 	{{#if engs}}
 		{{#each engs}}
 			<div>
-				<a class="btn btn-link save-potential">
+				<a class="btn btn-link save-potential" title={{../title}}>
 					{{#if ../text}}{{../text}} {{/if}}{{this}}
 				</a>
 			</div>
