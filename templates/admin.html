@@ -42,7 +42,11 @@
 								{{#if equals this 'e'}}
 									<td class="eng-cell" lang="en">
 										{{#if equals bestEngs.length 1}}
-											{{> englishCell engs=bestEngs text='BEST:' title=allEngs}}
+											{{#if equals allEngs.length 1}}
+												{{> englishCell engs=bestEngs}}
+											{{else}}
+												{{> englishCell engs=bestEngs text='BEST:' title=allEngs}}
+											{{/if}}
 										{{else}}
 											{{> englishCell engs=bestEngs text='BESTS:'}}
 											{{#with propOfObj this ..}}
@@ -54,14 +58,14 @@
 											{{/with}}
 										{{/if}}
 									</td>
-									<td>
+									<td title={{allEngs}}>
 										{{allEngs.length}}
 									</td>
 								{{else}}
 									<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>
 								{{/if}}
 							{{/each}}
-							<td>
+							<td title={{pronunciationsSummary}}>
 								{{pronunciations}}
 								<!-- {{> pronounceCell langs=this.hira text='H:'}}
 								{{> pronounceCell langs=this.kata text='K:'}}
