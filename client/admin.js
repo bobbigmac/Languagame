@@ -25,27 +25,25 @@ Template.availableGlyphsets.helpers({
 	}
 });
 
+// var pronunciationsSummary = function() {
+// 	var proSummary = '';
+// 	proSummary += (this.hira && this.hira.length && 'Hira:'+this.hira.length+"\n") || '';
+// 	proSummary += (this.kata && this.kata.length && 'Kata:'+this.kata.length+"\n") || '';
+// 	proSummary += (this.pinyin && this.pinyin.length && 'Piny:'+this.pinyin.length+"\n") || '';
+// 	proSummary += (this.ko_h && this.ko_h.length && 'Ko_h:'+this.ko_h.length+"\n") || '';
+// 	proSummary += (this.ko_r && this.ko_r.length && 'Ko_r:'+this.ko_r.length+"\n") || '';
+// 	return proSummary ? proSummary.split("\n").filter(function(str){ return !!str }).join("\n") : false;
+// };
 
-
-var pronunciationsSummary = function() {
-	var proSummary = '';
-	proSummary += (this.hira && this.hira.length && 'Hira:'+this.hira.length+"\n") || '';
-	proSummary += (this.kata && this.kata.length && 'Kata:'+this.kata.length+"\n") || '';
-	proSummary += (this.pinyin && this.pinyin.length && 'Piny:'+this.pinyin.length+"\n") || '';
-	proSummary += (this.ko_h && this.ko_h.length && 'Ko_h:'+this.ko_h.length+"\n") || '';
-	proSummary += (this.ko_r && this.ko_r.length && 'Ko_r:'+this.ko_r.length+"\n") || '';
-	return proSummary ? proSummary.split("\n").filter(function(str){ return !!str }).join("\n") : false;
-};
-
-var pronunciations = function() {
-	var proCount = 0;
-	proCount += (this.hira && this.hira.length) || 0;
-	proCount += (this.kata && this.kata.length) || 0;
-	proCount += (this.pinyin && this.pinyin.length) || 0;
-	proCount += (this.ko_h && this.ko_h.length) || 0;
-	proCount += (this.ko_r && this.ko_r.length) || 0;
-	return proCount;
-};
+// var pronunciations = function() {
+// 	var proCount = 0;
+// 	proCount += (this.hira && this.hira.length) || 0;
+// 	proCount += (this.kata && this.kata.length) || 0;
+// 	proCount += (this.pinyin && this.pinyin.length) || 0;
+// 	proCount += (this.ko_h && this.ko_h.length) || 0;
+// 	proCount += (this.ko_r && this.ko_r.length) || 0;
+// 	return proCount;
+// };
 
 function savePotential(_id, eng) {
 	if(_id) {
@@ -93,8 +91,8 @@ Template.possibleGlyphsets.helpers({
 	glyphsetCount: function() {
 		return PossibleGlyphsets.find().count();
 	},
-	pronunciationsSummary: pronunciationsSummary,
-	pronunciations: pronunciations,
+	//pronunciationsSummary: pronunciationsSummary,
+	//pronunciations: pronunciations,
 	allEngs: function() { return allEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); },
 	bestEngs: function() { return bestEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); }
 });
@@ -106,8 +104,8 @@ Template.addingModal.helpers({
 			return PossibleGlyphsets.findOne({ _id: _id });
 		}
 	},
-	pronunciationsSummary: pronunciationsSummary,
-	pronunciations: pronunciations,
+	//pronunciationsSummary: pronunciationsSummary,
+	//pronunciations: pronunciations,
 	allEngs: function() { return allEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); },
 	bestEngs: function() { return bestEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); }
 });

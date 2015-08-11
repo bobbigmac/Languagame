@@ -31,8 +31,22 @@ Meteor.startup(function () {
       }
     },
     'import-possible': function(_id, params) {
-      //TODO: Implement
-      console.log('want to import', _id, params);
+      if(typeof kanjiDic == 'undefined' || !kanjiDic) {
+        kanjiDic = loadKanjiDictionary();
+        console.log('Loaded kanji dictionary globally');
+      }
+
+      if(_id) {
+        var poss = PossibleGlyphsets.findOne(_id);
+        if(poss) {
+          console.log(Object.keys(poss));
+          var eng = ((params && params.eng) || bestEnglishFromPossibleGlyphset(poss));
+          while(eng instanceof Array) {
+            eng = eng[0];
+          }
+          console.log('will key against', eng, poss.j, poss.tc, poss.sc, poss.k);
+        }
+      }
     },
     'import-possibles': function(limit) {
       if(Roles.userIsInRole(this.userId, ['admin'])) {

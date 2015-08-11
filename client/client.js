@@ -12,9 +12,6 @@
 Template.glyphsetsrows.helpers({
   glyphsets: function(e, t) {
     return Glyphsets.find();
-  },
-  langs: function(e, t) {
-    return languages
   }
 });
 
@@ -109,9 +106,6 @@ Template.glyphsetstable.helpers({
   },
   score: function(e, t) {
     return Session.get('playerScore')||0;
-  },
-  langs: function(e, t) {
-    return languages
   },
   loaded: function(e, t) {
     return !Session.get('loadingNewGlyphsets');

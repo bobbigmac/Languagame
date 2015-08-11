@@ -1,4 +1,6 @@
 
+kanjiDic = false;
+
 loadKanjiDictionary = function() {
   var dictionary = {};
 
@@ -253,7 +255,9 @@ importPossibles = function(limit) {
     return a;
   }
 
-  var kanjiDic = loadKanjiDictionary();
+  if(!kanjiDic) {
+    kanjiDic = loadKanjiDictionary();
+  }
 
   usePaths.forEach(function (filename, pos) {
     try {
@@ -461,34 +465,66 @@ importPossibles = function(limit) {
             possible.active = active._id;
           }
 
-          var kanji = (possible.j || possible.tc || possible.sc);
-          if(kanjiDic && kanji) {
-            var details = kanjiDic[kanji];
-            if(details) {
-
-
-
-              //TODO: Don't think I want to merge all keys directly onto possible.
-              //      Most belong on the glyph, rather than on the glyphset.
-              for(var key in details) {
-                if(details[key] && !possible[key]) {
-                  possible[key] = details[key];
-                }
-              }
-
-
-
-              //If I have a japanese pronunciation, but no possible.j, add this glyph for japanese too
-              if(!possible.j && (possible.e || possible.ekan || possible.ej || possible.ec) && (possible.kata || possible.hira)) {
-                possible.j = kanji;
-              }
-              //If I have a korean pronunciation, but no possible.k, add this glyph for korean too
-              if(!possible.k && (possible.e || possible.ekan || possible.ej || possible.ec) && (possible.ko_r || possible.ko_h)) {
-                possible.k = kanji;
-              }
+          var symbols = {};
+          if(possible.j) {
+            if(!symbols[possible.j]) {
+              symbols[possible.j] = [];
             }
+            symbols[possible.j].push('j');
+          }
+          if(possible.tc) {
+            if(!symbols[possible.tc]) {
+              symbols[possible.tc] = [];
+            }
+            symbols[possible.tc].push('tc');
+          }
+          if(possible.sc) {
+            if(!symbols[possible.sc]) {
+              symbols[possible.sc] = [];
+            }
+            symbols[possible.sc].push('sc');
           }
 
+          Object.keys(symbols).forEach(function(kanji) {
+            //var kanji = (possible.j || possible.tc || possible.sc);
+            if(kanjiDic && kanji) {
+              var details = kanjiDic[kanji];
+              if(details) {
+
+                if(details.ekan) {
+                  if(!possible.ekan) {
+                    possible.ekan = [];
+                  }
+                  possible.ekan = possible.ekan.concat(details.ekan);
+                }
+
+
+                symbols[kanji].forEach(function(lang) {
+                  possible['meta_'+lang] = details;
+                });
+                //TODO: Don't think I want to merge all keys directly onto possible.
+                //      Most belong on the glyph, rather than on the glyphset.
+                // for(var key in details) {
+                //   if(details[key] && !possible[key]) {
+                //     possible[key] = details[key];
+                //   }
+                // }
+
+
+
+                //If I have a japanese pronunciation, but no possible.j, add this glyph for japanese too
+                if(!possible.j && (details.kata || details.hira)) {
+                  possible.j = kanji;
+                }
+                //If I have a korean pronunciation, but no possible.k, add this glyph for korean too
+                if(!possible.k && (details.ko_r || details.ko_h)) {
+                  possible.k = kanji;
+                }
+              }
+            }
+          });
+
+          possible.live = false;
           var existing = PossibleGlyphsets.findOne(filter, { fields: { _id: 1 }});
           if(existing) {
             //console.log('Updating', existing._id, 'with', Object.keys(possible));
@@ -503,5 +539,9 @@ importPossibles = function(limit) {
       }
     });
   }
+
+  //console.log('Done saving all possibles, now may publish')
+  PossibleGlyphsets.update({ live: false }, { $set: { live: true }}, { multi: true });
+
   return possibles.length;
 }

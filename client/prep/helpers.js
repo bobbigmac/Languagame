@@ -46,6 +46,9 @@ UI.registerHelper('keysOf', function (obj) {
 	return Object.keys(obj);
 });
 
+UI.registerHelper('langs', function () {
+  return languages;
+});
 UI.registerHelper('googleLangs', function () {
 	return googleLangs;
 });
