@@ -31,32 +31,12 @@ Template.availableGlyphsets.events({
 
 Template.availableGlyphsets.helpers({
 	glyphsets: function() {
-		return Glyphsets.find({}, {});
+		return Glyphsets.find({}, { sort: { created: -1, pop: 1 }});
 	},
 	glyphsetCount: function() {
 		return Glyphsets.find().count();
 	}
 });
-
-// var pronunciationsSummary = function() {
-// 	var proSummary = '';
-// 	proSummary += (this.hira && this.hira.length && 'Hira:'+this.hira.length+"\n") || '';
-// 	proSummary += (this.kata && this.kata.length && 'Kata:'+this.kata.length+"\n") || '';
-// 	proSummary += (this.pinyin && this.pinyin.length && 'Piny:'+this.pinyin.length+"\n") || '';
-// 	proSummary += (this.ko_h && this.ko_h.length && 'Ko_h:'+this.ko_h.length+"\n") || '';
-// 	proSummary += (this.ko_r && this.ko_r.length && 'Ko_r:'+this.ko_r.length+"\n") || '';
-// 	return proSummary ? proSummary.split("\n").filter(function(str){ return !!str }).join("\n") : false;
-// };
-
-// var pronunciations = function() {
-// 	var proCount = 0;
-// 	proCount += (this.hira && this.hira.length) || 0;
-// 	proCount += (this.kata && this.kata.length) || 0;
-// 	proCount += (this.pinyin && this.pinyin.length) || 0;
-// 	proCount += (this.ko_h && this.ko_h.length) || 0;
-// 	proCount += (this.ko_r && this.ko_r.length) || 0;
-// 	return proCount;
-// };
 
 function savePotential(_id, eng) {
 	if(_id) {
@@ -88,6 +68,9 @@ Template.addingModal.events({
 			savePotential(this._id, ''+text);
 			template.$(template.find('.btn-default:last')).trigger('click');
 		}
+	},
+	'shown.bs.modal': function(event, template) {
+		template.$('input[type="text"]:first').focus();
 	}
 });
 

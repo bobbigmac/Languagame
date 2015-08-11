@@ -10,8 +10,17 @@ Meteor.publish('user-scores', function(atGlyphSet, startNum, endNum) {
 
 Meteor.publish('all-glyphsets', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
-    var glyphsets = Glyphsets.find({}, {});
+    var glyphsets = Glyphsets.find({}, { sort: { created: 1, pop: 1 }});
     return glyphsets;
+  }
+  this.ready();
+  return;
+});
+
+Meteor.publish('all-glyphs', function() {
+  if(Roles.userIsInRole(this.userId, ['admin'])) {
+    var glyphs = Glyphs.find({}, { sort: { created: 1, pop: 1 }});
+    return glyphs;
   }
   this.ready();
   return;
