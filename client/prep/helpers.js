@@ -32,6 +32,9 @@ UI.registerHelper('not', function (val) {
 UI.registerHelper('reverse', function (arr) {
   return (arr && arr instanceof Array && arr.reverse()) || arr;
 });
+UI.registerHelper('arrayContains', function (a, b) {
+  return (a && a instanceof Array && a.indexOf(b) > -1);
+});
 UI.registerHelper('equals', function (a, b) {
   return a == b;
 });

@@ -3,6 +3,19 @@ numberOfGlyphsets = 0;
 
 Meteor.startup(function () {
 
+  var superAdmins = ['admin@bobbigmac.com'];
+  superAdmins.forEach(function(superAdmin) {
+    var user = Meteor.users.findOne({
+      'emails.address': superAdmin
+    });
+    if(user && user._id) {
+      if(!Roles.userIsInRole(user, 'superadmin')) {
+        console.log('Assigning', superAdmin, 'to superadmin role');
+        Roles.addUsersToRoles(user._id, 'superadmin');
+      }
+    }
+  });
+
   var defaultAdmins = ['admin@bobbigmac.com'];
   defaultAdmins.forEach(function(defaultAdmin) {
     var user = Meteor.users.findOne({

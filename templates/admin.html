@@ -168,6 +168,9 @@
 			<table class="table table-default">
 				<thead>
 					<tr>
+						{{#if isInRole 'superadmin'}}
+							<th></th>
+						{{/if}}
 						<th>Email</th>
 						<th>Score</th>
 					</tr>
@@ -175,6 +178,21 @@
 				<tbody>
 					{{#each userScores}}
 						<tr>
+							{{#if isInRole 'superadmin'}}
+								<td>
+									{{#unless equals currentUser._id this._id}}
+										{{#if arrayContains this.roles 'admin'}}
+											<button class="btn btn-danger demote-user-admin">
+												Demote Admin
+											</button>
+										{{else}}
+											<button class="btn btn-warning make-user-admin">
+												Make Admin
+											</button>
+										{{/if}}
+									{{/unless}}
+								</td>
+							{{/if}}
 							<td>{{#if profile.name}}{{profile.name}}{{else}}{{#each emails}}{{address}}{{/each}}{{/if}}</td>
 							<td>{{profile.score}}</td>
 						</tr>

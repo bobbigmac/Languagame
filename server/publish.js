@@ -1,7 +1,7 @@
 
 Meteor.publish('user-scores', function(atGlyphSet, startNum, endNum) {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
-    var users = Meteor.users.find({}, { fields: { 'emails.address': 1, 'profile.score': 1, 'profile.name': 1 }});
+    var users = Meteor.users.find({}, { fields: { 'emails.address': 1, 'profile.score': 1, 'profile.name': 1, 'roles': 1 }});
     return users;
   }
   this.ready();

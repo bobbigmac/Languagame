@@ -1,4 +1,13 @@
 
+Template.registeredUsers.events({
+	'click .make-user-admin': function(event, template) {
+		Meteor.users.update(this._id, { $addToSet: { roles: 'admin' }});
+	},
+	'click .demote-user-admin': function(event, template) {
+		Meteor.users.update(this._id, { $pull: { roles: 'admin' }});
+	}
+});
+
 Template.registeredUsers.helpers({
 	userScores: function() {
 		var filter = {};
