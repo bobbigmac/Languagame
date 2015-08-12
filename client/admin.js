@@ -28,19 +28,20 @@ Template.registeredUsers.helpers({
 Template.availableGlyphsets.events({
 	'click .revive-glyphset': function() {
 		if(this._id) {
-			Glyphsets.update({ _id: this._id }, { $set: { live: true }});
+			Glyphsets.update({ _id: this._id }, { $set: { live: true }, $unset: { rank: "" }});
 		}
 	},
 	'click .delete-glyphset': function() {
 		if(this._id) {
 			Glyphsets.update({ _id: this._id }, { $set: { live: false }});
+			Meteor.call('recalc-ranks');
 		}
 	},
 });
 
 Template.availableGlyphsets.helpers({
 	glyphsets: function() {
-		return Glyphsets.find({}, { sort: { created: -1, pop: 1 }});
+		return Glyphsets.find({}, { sort: { rank: 1 }});
 	},
 	glyphsetCount: function() {
 		return Glyphsets.find().count();
@@ -79,7 +80,7 @@ Template.addingModal.events({
 		}
 	},
 	'shown.bs.modal': function(event, template) {
-		template.$('input[type="text"]:first').focus();
+		template.$('input[type="text"]:first').focus().select();
 	}
 });
 

@@ -33,6 +33,11 @@ Meteor.startup(function () {
   console.log('Have %d glyphsets', numberOfGlyphsets);
 
   Meteor.methods({
+    'reset-ranks': function() {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        Glyphsets.update({}, { $unset: { rank: "" }}, { multi: true });
+      }
+    },
     'reset-collections': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         if(typeof OldPossibleGlyphs !== 'undefined') {

@@ -28,7 +28,7 @@ Meteor.publish('all-glyphs', function() {
 
 Meteor.publish('possible-glyphsets', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
-    if(typeof kanjiDic == 'undefined' || !kanjiDic) {
+    if(false && (typeof kanjiDic == 'undefined' || !kanjiDic)) {
       console.log('Loading kanji dictionary globally...');
       kanjiDic = loadKanjiDictionary();
       console.log('Loaded kanji dictionary globally');
