@@ -1,6 +1,7 @@
 
 Meteor.startup(function() {
 	recalcRanks = function() {
+
   	var arr = Glyphsets.find({
   		live: true
   	}, {
@@ -9,6 +10,8 @@ Meteor.startup(function() {
   	}).fetch();
 
   	if(arr.length) {
+	  	numberOfGlyphsets = arr.length;
+
 	  	//console.log('Checking rank on', arr.length, 'glyphsets');
 	  	var reranked = 0;
 	  	arr.forEach(function(glyphset, pos) {

@@ -3,6 +3,20 @@ numberOfGlyphsets = 0;
 
 Meteor.startup(function () {
 
+  //index
+  Glyphsets._ensureIndex({ rank: 1, live: 1 });
+
+  if(typeof appDump !== 'undefined') {
+    appDump.allow(function() {
+      if(Roles.userIsInRole(this.userId, ['superadmin'])) {
+        return true;
+      }
+    });
+  }
+
+  numberOfGlyphsets = Glyphsets.find({ live: true }).count();
+
+  //superadmins
   var superAdmins = ['admin@bobbigmac.com'];
   superAdmins.forEach(function(superAdmin) {
     var user = Meteor.users.findOne({
@@ -16,6 +30,7 @@ Meteor.startup(function () {
     }
   });
 
+  //admins
   var defaultAdmins = ['admin@bobbigmac.com'];
   defaultAdmins.forEach(function(defaultAdmin) {
     var user = Meteor.users.findOne({
@@ -29,9 +44,7 @@ Meteor.startup(function () {
     }
   });
 
-  numberOfGlyphsets = Glyphsets.find({}).count();
-  console.log('Have %d glyphsets', numberOfGlyphsets);
-
+  //methods
   Meteor.methods({
     'reset-ranks': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {

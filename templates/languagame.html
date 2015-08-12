@@ -38,22 +38,16 @@
 			</tr>
 		</thead>
 		<tbody>
-			{{#if loaded}}
-				{{> glyphsetsrows}}
-			{{/if}}
+			{{> glyphsetsrows}}
   	</tbody>
   </table>
 	<div class="well well-lg">
 		<div class="row text-center">
 			<span class="col-xs-8">
-				{{#if loaded}}
-					<a class="btn btn-primary btn-block btn-lg checkresults">
-						<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
-						Test Matches
-					</a>
-				{{else}}
-					Loading...
-				{{/if}}
+				<a class="btn btn-primary btn-block btn-lg checkresults">
+					<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
+					Test Matches
+				</a>
 			</span>
 			<span class="col-xs-2 text-center"><div>Score</div><div>{{score}}</div></span>
 			<span class="col-xs-2 text-center"><div>Glyphsets</div><div>{{endNum}}</div></span>

@@ -11,7 +11,10 @@
 
 Template.glyphsetsrows.helpers({
   glyphsets: function(e, t) {
-    return Glyphsets.find();
+    var setsCursor = Glyphsets.find();
+    if(setsCursor.count() === 3) {
+      return setsCursor;
+    }
   }
 });
 
@@ -90,7 +93,6 @@ changePlayerScore = function(by) {
 
 Template.glyphsetstable.rendered = function() {
   $(document).keypress(function(e) {
-    //console.log('e.which', e.which);
     if(e.which >= 49 && e.which <= 52) {
       nudgeColumn(e.which - 49, 1);
     }
@@ -106,9 +108,6 @@ Template.glyphsetstable.helpers({
   },
   score: function(e, t) {
     return Session.get('playerScore')||0;
-  },
-  loaded: function(e, t) {
-    return !Session.get('loadingNewGlyphsets');
   }
 });
 

@@ -8,6 +8,16 @@ Meteor.publish('user-scores', function(atGlyphSet, startNum, endNum) {
   return;
 });
 
+Meteor.publish('admin-stats', function() {
+  if(Roles.userIsInRole(this.userId, ['admin'])) {
+    Counts.publish(this, 'count-glyphsets', Glyphsets.find({ live: true }));
+    Counts.publish(this, 'count-glyphs', Glyphs.find({ }));
+    Counts.publish(this, 'count-possible-glyphsets', PossibleGlyphsets.find());
+  }
+  this.ready();
+  return;
+});
+
 Meteor.publish('all-glyphsets', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
     var glyphsets = Glyphsets.find({}, { sort: { created: 1, pop: 1 }});
@@ -33,8 +43,6 @@ Meteor.publish('possible-glyphsets', function() {
       kanjiDic = loadKanjiDictionary();
       console.log('Loaded kanji dictionary globally');
     }
-    //var glyphsets = PossibleGlyphsets.find({ pop: { $gt: 0 }, active: { $exists: false }, tc: { $exists: true }, sc: { $exists: true }, e: { $exists: true }, j: { $exists: true }}, { sort: { pop: 1, cpop: 1, jpop: 1 }, fields: { _id: 1 }});
-    //var totalCount = glyphsets.fetch().length;
 
     var limitGlyphsets = PossibleGlyphsets.find({ live: true, pop: { $gt: 0 }, active: { $exists: false }, tc: { $exists: true }, sc: { $exists: true }, e: { $exists: true }, j: { $exists: true }}, { limit: 100, sort: { pop: 1, cpop: 1, jpop: 1 }});
     var limitCount = limitGlyphsets.fetch().length;
@@ -46,15 +54,17 @@ Meteor.publish('possible-glyphsets', function() {
   return;
 });
 
-Meteor.publish('glyphsetSet', function(atGlyphSet, startNum, endNum) {
+Meteor.publish('glyphsetSet', function(atGlyphSet, startNum, endNum, langs) {
   var minResults = 3;
+  var langs = (langs && langs instanceof Array && langs.length ? langs : ['e', 'j', 'tc', 'sc']);
 
   startNum = startNum >= 0 && startNum <= endNum - minResults ? startNum : 0;
+  startNum += 1;
   endNum = endNum >= 0 && endNum >= startNum + minResults ? endNum : minResults;
   
   startNum = startNum > endNum - minResults ? endNum - minResults : startNum;
   endNum = endNum > numberOfGlyphsets ? numberOfGlyphsets : endNum;
-  
+
   var keys = {};
   var setKeys = 0;
 
@@ -66,15 +76,22 @@ Meteor.publish('glyphsetSet', function(atGlyphSet, startNum, endNum) {
     }
   }
 
-  var keyIds = [];
-  for(var key in keys) {
-    keyIds.push({ _id: 'g'+key });
-  }
+  var ranks = Object.keys(keys).map(function(val) {
+    return parseInt(val);
+  });
 
-  var matchingGlyphsets = Glyphsets.find({ $or: keyIds });
+  var filter = { rank: { $in: ranks }};
+  var options = { fields: { _id: 1 }, limit: minResults };
+  langs.forEach(function (lang) {
+    options.fields[lang] = 1;
+  });
+
+  var matchingGlyphsets = Glyphsets.find(filter, options);
+  //console.log(filter, matchingGlyphsets.count())
   if(matchingGlyphsets && matchingGlyphsets.count()) {
     return matchingGlyphsets;
   }
+
   this.ready();
   return;
 });

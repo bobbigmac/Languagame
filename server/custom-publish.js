@@ -16,10 +16,10 @@ Meteor.publish('custom', function(score) {
 	this.onStop(function() {
 		if(incCounterTimeout) {
 			Meteor.clearInterval(incCounterTimeout);
-			console.log('stopped');
+			//console.log('stopped');
 		}
 	});//cleanup
-	
+
 	//this.error();//report
 	//this.stop();
 

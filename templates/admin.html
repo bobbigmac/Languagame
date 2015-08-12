@@ -159,46 +159,69 @@
 	</div>
 </template>
 
-<template name="registeredUsers">
-	<div class="row">
+<template name="adminStats">
+	<div class="col-sm-4">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h5 class="panel-title">Registered users: {{userNumber}}</h5>
+				<h5 class="panel-title">Admin Stats</h5>
 			</div>
 			<table class="table table-default">
-				<thead>
-					<tr>
-						{{#if isInRole 'superadmin'}}
-							<th></th>
-						{{/if}}
-						<th>Email</th>
-						<th>Score</th>
-					</tr>
-				</thead>
 				<tbody>
-					{{#each userScores}}
-						<tr>
-							{{#if isInRole 'superadmin'}}
-								<td>
-									{{#unless equals currentUser._id this._id}}
-										{{#if arrayContains this.roles 'admin'}}
-											<button class="btn btn-danger demote-user-admin">
-												Demote Admin
-											</button>
-										{{else}}
-											<button class="btn btn-warning make-user-admin">
-												Make Admin
-											</button>
-										{{/if}}
-									{{/unless}}
-								</td>
-							{{/if}}
-							<td>{{#if profile.name}}{{profile.name}}{{else}}{{#each emails}}{{address}}{{/each}}{{/if}}</td>
-							<td>{{profile.score}}</td>
-						</tr>
-					{{/each}}
+					<tr><td>Users</td><td>{{userCount}}</td></tr>
+					<tr><td>Glyphs</td><td>{{glyphCount}}</td></tr>
+					<tr><td>Glyphsets</td><td>{{glyphsetCount}}</td></tr>
+					<tr><td>Possibles</td><td>{{possibleCount}}</td></tr>
 				</tbody>
 			</table>
 		</div>
+	</div>
+</template>
+
+<template name="registeredUsers">
+	<div class="row">
+		<div class="{{#if isInRole 'superadmin'}}col-sm-8{{else}}col-sm-12{{/if}}">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h5 class="panel-title">Registered users</h5>
+				</div>
+				<table class="table table-default">
+					<thead>
+						<tr>
+							{{#if isInRole 'superadmin'}}
+								<th></th>
+							{{/if}}
+							<th>Email</th>
+							<th>Score</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#each userScores}}
+							<tr>
+								{{#if isInRole 'superadmin'}}
+									<td>
+										{{#unless equals currentUser._id this._id}}
+											{{#if arrayContains this.roles 'admin'}}
+												<button class="btn btn-danger demote-user-admin">
+													Demote Admin
+												</button>
+											{{else}}
+												<button class="btn btn-warning make-user-admin">
+													Make Admin
+												</button>
+											{{/if}}
+										{{/unless}}
+									</td>
+								{{/if}}
+								<td>{{#if profile.name}}{{profile.name}}{{else}}{{#each emails}}{{address}}{{/each}}{{/if}}</td>
+								<td>{{profile.score}}</td>
+							</tr>
+						{{/each}}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		{{#if isInRole 'superadmin'}}
+			{{>adminStats}}
+		{{/if}}
 	</div>
 </template>

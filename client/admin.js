@@ -8,6 +8,21 @@ Template.registeredUsers.events({
 	}
 });
 
+Template.adminStats.helpers({
+	glyphCount: function() {
+		return Counts.get('count-glyphs')||0;
+	},
+	glyphsetCount: function() {
+		return Counts.get('count-glyphsets')||0;
+	},
+	possibleCount: function() {
+		return Counts.get('count-possible-glyphsets')||0;
+	},
+	userCount: function() {
+		return Meteor.users.find().count();
+	}
+});
+
 Template.registeredUsers.helpers({
 	userScores: function() {
 		var filter = {};
@@ -15,13 +30,6 @@ Template.registeredUsers.helpers({
 			//filter['_id'] = { $ne: Meteor.userId() };
 		}
 		return Meteor.users.find(filter, { sort: { 'profile.score': -1 }});
-	},
-	userNumber: function() {
-		var filter = {};
-		if(Meteor.userId()) {
-			//filter['_id'] = { $ne: Meteor.userId() };
-		}
-		return Meteor.users.find(filter).count();
 	}
 });
 

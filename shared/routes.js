@@ -17,6 +17,7 @@ if(Meteor.isClient) {
 		waitOn: function() {
 			return [
 				currentUser,
+				Meteor.subscribe('admin-stats'),
 				Meteor.subscribe('user-scores'),
 				Meteor.subscribe('all-glyphs'),
 				Meteor.subscribe('all-glyphsets'),
@@ -26,35 +27,36 @@ if(Meteor.isClient) {
 	});
 }
 
-if(Meteor.isClient) {
-	Customs = new Mongo.Collection('customs');
-}
+// if(Meteor.isClient) {
+// 	Customs = new Mongo.Collection('customs');
+// }
 
 Router.route('/', {
 	template: 'glyphsetstable',
 	waitOn: function() {
-		customSubHandle = Meteor.subscribe('custom', Session.get("playerScore"));
+
+		//customSubHandle = Meteor.subscribe('custom', Session.get("playerScore"));
 		return [
 			currentUser,
-			customSubHandle
+			//customSubHandle
 		];
 	},
 	data: function() {
-		
-		changePlayerScore(0);
 
+		changePlayerScore(0);
+		
 		Tracker.autorun(function() {
 			$('.correct,.incorrect').removeClass('correct').removeClass('incorrect');
-			Session.set('loadingNewGlyphsets', true);
 
 		  Meteor.subscribe('glyphsetSet',
 		    Session.get('atGlyphSet'),
 		    Session.get('startNum'),
 		    Session.get('endNum'),
-		    function(inArg) {
-		      Session.set('loadingNewGlyphsets', false);
+		    false,
+		    function() {
 		      window.setTimeout(nudgeColumns, 20);
-		    });
+		    }
+		  );
 		});
 	}
 });
