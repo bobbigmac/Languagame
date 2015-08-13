@@ -152,14 +152,15 @@ Meteor.startup(function () {
               //Add the set popularity
               set[lang] = poss[lang];
               if(poss.pop) {
-                set.pop = poss.pop;
+                set.pop = parseInt(poss.pop);
               } else if(poss.xpop) {
-                set.pop = poss.xpop;
+                set.pop = parseInt(poss.xpop);
               } else if(poss.jpop && poss.cpop) {
                 set.pop = Math.floor((parseFloat(poss.jpop) + parseFloat(poss.cpop)) / 2);
               } else if(poss.jpop || poss.cpop) {
                 set.pop = (parseInt(poss.jpop||'0') || parseInt(poss.cpop||'0'));
               }
+              
               if(typeof set.pop !== 'undefined' && !set.pop) {
                 delete set.pop;
               }
@@ -191,7 +192,23 @@ Meteor.startup(function () {
           if(res) {
             //Unflag poss as live
             if(poss._id) {
-              PossibleGlyphsets.update({ _id: poss._id }, { $set: { live: false }});
+              var update = { live: false };
+
+
+              var keyLangs = ['j', 'tc', 'sc'];
+              var filter = {};
+              keyLangs.forEach(function(lang) {
+                if(poss[lang]) {
+                  filter[lang] = poss[lang];
+                }
+              });
+
+              var active = Glyphsets.findOne(filter, { fields: { _id: 1 }});
+              if(active) {
+                update.active = active._id;
+              }
+
+              PossibleGlyphsets.update({ _id: poss._id }, { $set: update });
             }
           }
         }

@@ -20,7 +20,7 @@ Meteor.publish('admin-stats', function() {
 
 Meteor.publish('all-glyphsets', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
-    var glyphsets = Glyphsets.find({}, { sort: { created: 1, pop: 1 }});
+    var glyphsets = Glyphsets.find({}, { sort: { pop: 1 }});
     return glyphsets;
   }
   this.ready();
@@ -29,7 +29,7 @@ Meteor.publish('all-glyphsets', function() {
 
 Meteor.publish('all-glyphs', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
-    var glyphs = Glyphs.find({}, { sort: { created: 1, pop: 1 }});
+    var glyphs = Glyphs.find({}, { sort: { pop: 1 }});
     return glyphs;
   }
   this.ready();
@@ -47,10 +47,10 @@ Meteor.publish('possible-glyphsets', function() {
     var limitGlyphsets = PossibleGlyphsets.find({
       live: true, 
       pop: { $gt: 0 }, 
-      active: { $exists: false }, 
-      tc: { $exists: true }, 
-      sc: { $exists: true }, 
-      e: { $exists: true }, 
+      active: { $exists: false },
+      tc: { $exists: true },
+      sc: { $exists: true },
+      e: { $exists: true },
       j: { $exists: true },
       $or: [
         { hide: { $ne: true }},
