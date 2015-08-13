@@ -44,7 +44,20 @@ Meteor.publish('possible-glyphsets', function() {
       console.log('Loaded kanji dictionary globally');
     }
 
-    var limitGlyphsets = PossibleGlyphsets.find({ live: true, pop: { $gt: 0 }, active: { $exists: false }, tc: { $exists: true }, sc: { $exists: true }, e: { $exists: true }, j: { $exists: true }}, { limit: 100, sort: { pop: 1, cpop: 1, jpop: 1 }});
+    var limitGlyphsets = PossibleGlyphsets.find({
+      live: true, 
+      pop: { $gt: 0 }, 
+      active: { $exists: false }, 
+      tc: { $exists: true }, 
+      sc: { $exists: true }, 
+      e: { $exists: true }, 
+      j: { $exists: true },
+      $or: [
+        { hide: { $ne: true }},
+        { hide: { $exists: false }},
+      ]
+    }, { limit: 100, sort: { pop: 1, cpop: 1, jpop: 1 }});
+
     var limitCount = limitGlyphsets.fetch().length;
 
     console.log('Publishing', limitCount, 'possible inactive glyphsets');
@@ -60,7 +73,7 @@ Meteor.publish('glyphsetSet', function(atGlyphSet, startNum, endNum, langs) {
 
   startNum = startNum >= 0 && startNum <= endNum - minResults ? startNum : 0;
   startNum += 1;
-  endNum = endNum >= 0 && endNum >= startNum + minResults ? endNum : minResults;
+  endNum = endNum >= 0 && endNum >= startNum + minResults ? endNum : (minResults+1);
   
   startNum = startNum > endNum - minResults ? endNum - minResults : startNum;
   endNum = endNum > numberOfGlyphsets ? numberOfGlyphsets : endNum;
@@ -80,7 +93,7 @@ Meteor.publish('glyphsetSet', function(atGlyphSet, startNum, endNum, langs) {
     return parseInt(val);
   });
 
-  var filter = { rank: { $in: ranks }};
+  var filter = { live: true, rank: { $in: ranks }};
   var options = { fields: { _id: 1 }, limit: minResults };
   langs.forEach(function (lang) {
     options.fields[lang] = 1;

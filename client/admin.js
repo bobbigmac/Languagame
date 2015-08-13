@@ -80,6 +80,12 @@ Template.englishCell.events({
 
 Template.addingModal.events({
 	'keypress': btnPrimaryOnEnter,
+	'click .delete-possible-glyph': function(event, template) {
+		PossibleGlyphsets.update({ _id: this._id }, { $set: {
+			hide: true
+		}});
+		template.$(template.find('.btn-default:last')).trigger('click');
+	},
 	'click .save-new-glyph': function(event, template) {
 		var text = (template.find('.new-glyph-english').value);
 		if(text) {

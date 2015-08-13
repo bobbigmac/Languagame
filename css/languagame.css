@@ -109,3 +109,7 @@ span[lang="e"] {
 	white-space: normal;
 	max-width: 100%;
 }
+.open-create-account {
+	cursor: pointer;
+	text-align: right;
+}

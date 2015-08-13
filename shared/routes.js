@@ -19,7 +19,7 @@ if(Meteor.isClient) {
 				currentUser,
 				Meteor.subscribe('admin-stats'),
 				Meteor.subscribe('user-scores'),
-				Meteor.subscribe('all-glyphs'),
+				//Meteor.subscribe('all-glyphs'),
 				Meteor.subscribe('all-glyphsets'),
 				Meteor.subscribe('possible-glyphsets')
 			];
@@ -30,6 +30,16 @@ if(Meteor.isClient) {
 // if(Meteor.isClient) {
 // 	Customs = new Mongo.Collection('customs');
 // }
+
+Router.route('/test', {
+	template: 'test',
+	waitOn: function() {
+		return [currentUser]
+	},
+	data: function() {
+		//doing nothing
+	}
+});
 
 Router.route('/', {
 	template: 'glyphsetstable',

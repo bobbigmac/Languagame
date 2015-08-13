@@ -161,6 +161,9 @@ Template.glyphsetstable.events({
 
     return pass;
   },
+  // 'click .open-create-account': function() {
+  //   $('#login-dropdown-list .dropdown-toggle').dropdown('toggle');
+  // }
 });
 
 Template.glyphsetsrows.events({

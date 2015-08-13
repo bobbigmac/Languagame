@@ -17,9 +17,12 @@ saveOrUpdateGlyphset = function(glyphset) {
       glyphset.created = (new Date());
     }
     glyphset.modified = (new Date());
-
+    
     var existing = Glyphsets.findOne(filter);
     if(existing) {
+      if(glyphset._id) {
+        delete glyphset._id;
+      }
       return Glyphsets.update({ _id: existing._id }, { $set: glyphset });
     } else {
       return Glyphsets.insert(glyphset);
@@ -39,6 +42,9 @@ saveOrUpdateGlyph = function(glyph) {
 
     var existing = Glyphs.findOne(filter);
     if(existing) {
+      if(glyph._id) {
+        delete glyph._id;
+      }
       return Glyphs.update({ _id: existing._id }, { $set: glyph });
     } else {
       return Glyphs.insert(glyph);
@@ -63,7 +69,7 @@ loadKanjiDictionary = function() {
   if(kanjiDic) {
     return kanjiDic;
   }
-  
+
   //load hiragana
   var hiraganaStr = Assets.getText('sources/hiragana-pronounce.json');
   var hiragana = {};

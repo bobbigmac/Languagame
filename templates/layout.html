@@ -1,0 +1,29 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" sizes="16x16" href="/favicon.png?v=2">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Languagame - Learn chinese/japanese words/characters</title>
+</head>
+
+<body>
+</body>
+
+<template name="loading">
+	Loading...
+</template>
+
+<template name="notFound">
+	Not Found. Redirecting...
+</template>
+
+<template name="layout">
+	{{> nav}}
+	<div class="container-fluid">
+	  <div class="row-fluid">
+	    <div class="col-sm-12">
+				{{> yield}}
+	    </div>
+	  </div>
+	</div>
+</template>

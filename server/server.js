@@ -6,46 +6,55 @@ Meteor.startup(function () {
   //index
   Glyphsets._ensureIndex({ rank: 1, live: 1 });
 
-  if(typeof appDump !== 'undefined') {
-    appDump.allow(function() {
-      if(Roles.userIsInRole(this.userId, ['superadmin'])) {
-        return true;
-      }
-    });
-  }
+  // if(typeof appDump !== 'undefined') {
+  //   appDump.allow(function() {
+  //     if(Roles.userIsInRole(this.userId, ['superadmin'])) {
+  //       return true;
+  //     }
+  //   });
+  // }
 
   numberOfGlyphsets = Glyphsets.find({ live: true }).count();
 
-  //superadmins
-  var superAdmins = ['admin@bobbigmac.com'];
-  superAdmins.forEach(function(superAdmin) {
-    var user = Meteor.users.findOne({
-      'emails.address': superAdmin
-    });
-    if(user && user._id) {
-      if(!Roles.userIsInRole(user, 'superadmin')) {
-        console.log('Assigning', superAdmin, 'to superadmin role');
-        Roles.addUsersToRoles(user._id, 'superadmin');
-      }
-    }
-  });
-
-  //admins
-  var defaultAdmins = ['admin@bobbigmac.com'];
-  defaultAdmins.forEach(function(defaultAdmin) {
-    var user = Meteor.users.findOne({
-      'emails.address': defaultAdmin
-    });
-    if(user && user._id) {
-      if(!Roles.userIsInRole(user, 'admin')) {
-        console.log('Assigning', defaultAdmin, 'to admin role');
-        Roles.addUsersToRoles(user._id, 'admin');
-      }
-    }
-  });
 
   //methods
   Meteor.methods({
+    'cleanup-duplicate-glyphs': function() {
+      return false;
+      //THIS FUNC DOES NOT REALLY WORK.
+      //cleanup duplicate glyphs
+      var coss = {};
+      Glyphs.find({}).fetch().forEach(function(g) {
+        delete g._id;
+
+        var key = JSON.stringify(g);
+        coss[key] = coss[key]||[];
+        coss[key].push(g);
+      });
+
+      var mults = 0, readded = 0;
+      Object.keys(coss).forEach(function(c) {
+        if(coss[c] && coss[c].length > 1) {
+          var base = coss[c][0];
+          delete base._id;
+
+          mults++;
+          
+          Glyphs.remove(base);
+
+          base._id = base.value;
+          if(Glyphs.insert(base)) {
+            readded++;
+          }
+        }
+      });
+
+      if(mults) {
+        console.log('Found duplicated glyph entries', mults, 'readded', readded);
+      } else {
+        console.log('No duplicated glyph entries');
+      }
+    },
     'reset-ranks': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         Glyphsets.update({}, { $unset: { rank: "" }}, { multi: true });
@@ -53,6 +62,10 @@ Meteor.startup(function () {
     },
     'reset-collections': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
+        
+        Glyphsets.remove({});
+        Glyphs.remove({});
+
         if(typeof OldPossibleGlyphs !== 'undefined') {
           OldPossibleGlyphs.remove({});
         }
@@ -91,7 +104,7 @@ Meteor.startup(function () {
           makeGlyphs.forEach(function(lang) {
             if(poss[lang]) {
               var glyph = {};
-              glyph._id = (poss[lang]+'').toLowerCase();
+              glyph._id = (lang+'_'+poss[lang]+'').toLowerCase();
               glyph.value = glyph._id;
               glyph['is_'+lang] = true;
 
@@ -158,7 +171,7 @@ Meteor.startup(function () {
                     var altValues = dict[altLang];
                     if(altValues instanceof Array && altValues.length && altValues[0]) {
                       var altValue = (altValues[0]+'').toLowerCase();
-                      var altGlyph = { _id: altValue, value: altValue, values: altValues };
+                      var altGlyph = { _id: altLang+'_'+altValue, value: altValue, values: altValues };
 
                       altGlyph['is_'+altLang] = true;
                       
@@ -221,6 +234,39 @@ Meteor.startup(function () {
           pt: { $exists: true }
         }, { fields: { _id: 1}}).fetch().length);
       }
+    },
+    'setup-admins': function() {
+      //superadmins
+      var superAdmins = ['admin@bobbigmac.com'];
+      superAdmins.forEach(function(superAdmin) {
+        var user = Meteor.users.findOne({
+          'emails.address': superAdmin
+        });
+        if(user && user._id) {
+          if(!Roles.userIsInRole(user, 'superadmin')) {
+            console.log('Assigning', superAdmin, 'to superadmin role');
+            Roles.addUsersToRoles(user._id, 'superadmin');
+          }
+        }
+      });
+
+      //admins
+      var defaultAdmins = ['admin@bobbigmac.com'];
+      defaultAdmins.forEach(function(defaultAdmin) {
+        var user = Meteor.users.findOne({
+          'emails.address': defaultAdmin
+        });
+        if(user && user._id) {
+          if(!Roles.userIsInRole(user, 'admin')) {
+            console.log('Assigning', defaultAdmin, 'to admin role');
+            Roles.addUsersToRoles(user._id, 'admin');
+          }
+        }
+      });
     }
   });
+
+  Meteor.call('setup-admins');
+  //Meteor.call('cleanup-duplicate-glyphs');
+
 });
