@@ -29,6 +29,19 @@ if(Meteor.isClient) {
 
 if(Meteor.isClient) {
 	Glyphsetsets = new Mongo.Collection('glyphsetsets');
+	if(Meteor.isClient) {
+		Glyphsetsets.find().observe({
+			added: function (gss) {
+				Session.set('loading', false);
+			},
+			changed: function (gss, oldGss) {
+				Session.set('loading', false);
+			},
+			removed: function (gss, oldGss) {
+				Session.set('loading', false);
+			}
+		});
+	}
 }
 
 Router.route('/', {

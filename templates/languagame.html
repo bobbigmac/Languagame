@@ -18,7 +18,11 @@
 			</tr>
 		</thead>
 		<tbody>
-			{{> glyphsetsrows}}
+			{{#if loading}}
+				<tr><td>Loading...</td></tr>
+			{{else}}
+				{{> glyphsetsrows glyphsets=glyphsets}}
+			{{/if}}
   	</tbody>
   </table>
 	<div class="well well-lg">
@@ -35,6 +39,12 @@
 	<div class="fixed-message"><div>Well Done!</div></div>
 </template>
 
+<template name="glyphsetsrows">
+	{{#each glyphsets}}
+		{{> glyphsetsrow}}
+	{{/each}}
+</template>
+
 <template name="glyphsetsrow">
 	<tr class="glyphsetrow">
 		{{#each langs}}
@@ -48,10 +58,4 @@
 			</td>
 		{{/each}}
 	</tr>
-</template>
-
-<template name="glyphsetsrows">
-	{{#each glyphsets}}
-		{{> glyphsetsrow}}
-	{{/each}}
 </template>

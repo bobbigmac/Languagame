@@ -48,16 +48,6 @@ celebrateWin = function(cb) {
   }
 };
 
-// getNewGlyphsets = function() {
-//   $('#glyphsetstable td.incorrect').removeClass('incorrect');
-//   $('#glyphsetstable td.correct').removeClass('correct');
-
-//   window.setTimeout(function() {
-//     $('.fixed-message').removeClass('show');
-//     Session.set("atGlyphSet", !Session.get("atGlyphSet"));
-//   }, 1000);
-// };
-
 changePlayerScore = function(by) {
   var userId = Meteor.userId();
   var score = 0;
@@ -91,11 +81,19 @@ Template.glyphsetstable.rendered = function() {
 Template.glyphsetstable.helpers({
   score: function(e, t) {
     return Session.get('playerScore')||0;
+  },
+  glyphsets: function(e, t) {
+    var glyphsetset = Glyphsetsets.findOne();
+    return (glyphsetset && glyphsetset.sets);
+  },
+  loading: function() {
+    return Session.get('loading');
   }
 });
 
 Template.glyphsetstable.events({
   'click .checkresults': function (e, t) {
+    var self = this;
     //TODO: want to have this work from data-model
     var rows = $('tr.glyphsetrow td:last-child span').map(function(pos, el) {
       el = $(el);
@@ -137,6 +135,7 @@ Template.glyphsetstable.events({
     }
 
     if(pass) {
+      Session.set('loading', true);
       celebrateWin();
       changePlayerScore(1);
     }
@@ -166,12 +165,8 @@ Template.glyphsetsrows.events({
   },
 });
 
-Template.glyphsetsrows.helpers({
-  glyphsets: function(e, t) {
-    var glyphsetset = Glyphsetsets.findOne();
-    return (glyphsetset && glyphsetset.sets);
-  }
-});
+// Template.glyphsetsrows.helpers({
+// });
 
 var nudgeColumnsTimer = false;
 Template.glyphsetsrow.rendered = function() {
