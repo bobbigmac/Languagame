@@ -27,28 +27,15 @@ if(Meteor.isClient) {
 	});
 }
 
-// if(Meteor.isClient) {
-// 	Customs = new Mongo.Collection('customs');
-// }
-
-Router.route('/test', {
-	template: 'test',
-	waitOn: function() {
-		return [currentUser]
-	},
-	data: function() {
-		//doing nothing
-	}
-});
+if(Meteor.isClient) {
+	Glyphsetsets = new Mongo.Collection('glyphsetsets');
+}
 
 Router.route('/', {
 	template: 'glyphsetstable',
 	waitOn: function() {
-
-		//customSubHandle = Meteor.subscribe('custom', Session.get("playerScore"));
 		return [
-			currentUser,
-			//customSubHandle
+			currentUser
 		];
 	},
 	data: function() {
@@ -56,17 +43,14 @@ Router.route('/', {
 		changePlayerScore(0);
 		
 		Tracker.autorun(function() {
-			$('.correct,.incorrect').removeClass('correct').removeClass('incorrect');
+			var userId = Meteor.userId();
+			if(userId) {
+				customSubHandle = Meteor.subscribe('tumbler');
+			} else {
+				customSubHandle = Meteor.subscribe('tumbler', Session.get("playerScore"));
+			}
 
-		  Meteor.subscribe('glyphsetSet',
-		    Session.get('atGlyphSet'),
-		    Session.get('startNum'),
-		    Session.get('endNum'),
-		    false,
-		    function() {
-		      window.setTimeout(nudgeColumns, 20);
-		    }
-		  );
+			$('.correct,.incorrect').removeClass('correct').removeClass('incorrect');
 		});
 	}
 });

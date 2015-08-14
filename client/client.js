@@ -9,15 +9,6 @@
 //   tts.speak(what, lang, site);
 // }
 
-Template.glyphsetsrows.helpers({
-  glyphsets: function(e, t) {
-    var setsCursor = Glyphsets.find();
-    if(setsCursor.count() === 3) {
-      return setsCursor;
-    }
-  }
-});
-
 nudgeColumn = function(ind, nudges) {
   nudges = nudges || 1;
   for(nudged = 0; nudged < nudges; nudged++)
@@ -37,7 +28,6 @@ nudgeColumn = function(ind, nudges) {
 };
 
 nudgeColumns = function() {
-  //glyphsetSet ready, randomise
   var columns = $('#glyphsetstable').find('tbody tr:first td');
   columns.each(function(pos, el) {
     el = $(el);
@@ -58,16 +48,15 @@ celebrateWin = function(cb) {
   }
 };
 
-getNewGlyphsets = function() {
-  $('#glyphsetstable td.incorrect').removeClass('incorrect');
-  $('#glyphsetstable td.correct').removeClass('correct');
+// getNewGlyphsets = function() {
+//   $('#glyphsetstable td.incorrect').removeClass('incorrect');
+//   $('#glyphsetstable td.correct').removeClass('correct');
 
-  //Session.set('loadingNewGlyphsets', true);
-  window.setTimeout(function() {
-    $('.fixed-message').removeClass('show');
-    Session.set("atGlyphSet", !Session.get("atGlyphSet"));
-  }, 1000);
-};
+//   window.setTimeout(function() {
+//     $('.fixed-message').removeClass('show');
+//     Session.set("atGlyphSet", !Session.get("atGlyphSet"));
+//   }, 1000);
+// };
 
 changePlayerScore = function(by) {
   var userId = Meteor.userId();
@@ -86,9 +75,6 @@ changePlayerScore = function(by) {
 
   score = Session.get('playerScore');
   score = score <= 0 ? 1 : score;
-
-  var endNum = (Session.get('startNum') + ((score * 2) + 4));
-  Session.set('endNum', endNum);
 }
 
 Template.glyphsetstable.rendered = function() {
@@ -103,9 +89,6 @@ Template.glyphsetstable.rendered = function() {
 }
 
 Template.glyphsetstable.helpers({
-  endNum: function(e, t) {
-    return Session.get('endNum')||5;
-  },
   score: function(e, t) {
     return Session.get('playerScore')||0;
   }
@@ -113,6 +96,7 @@ Template.glyphsetstable.helpers({
 
 Template.glyphsetstable.events({
   'click .checkresults': function (e, t) {
+    //TODO: want to have this work from data-model
     var rows = $('tr.glyphsetrow td:last-child span').map(function(pos, el) {
       el = $(el);
       var glyphsetId = $(el).attr('glyphsetid');
@@ -153,17 +137,12 @@ Template.glyphsetstable.events({
     }
 
     if(pass) {
-      celebrateWin(/*getNewGlyphsets*/);
+      celebrateWin();
       changePlayerScore(1);
     }
 
-    //changePlayerScore(pass ? 1 : -1);
-
     return pass;
-  },
-  // 'click .open-create-account': function() {
-  //   $('#login-dropdown-list .dropdown-toggle').dropdown('toggle');
-  // }
+  }
 });
 
 Template.glyphsetsrows.events({
@@ -187,6 +166,18 @@ Template.glyphsetsrows.events({
   },
 });
 
-Template.notFound.rendered = function() {
-  Router.go('/');
+Template.glyphsetsrows.helpers({
+  glyphsets: function(e, t) {
+    var glyphsetset = Glyphsetsets.findOne();
+    return (glyphsetset && glyphsetset.sets);
+  }
+});
+
+var nudgeColumnsTimer = false;
+Template.glyphsetsrow.rendered = function() {
+  if(nudgeColumnsTimer) {
+    Meteor.clearTimeout(nudgeColumnsTimer);
+    nudgeColumnsTimer = false;
+  }
+  nudgeColumnsTimer = Meteor.setTimeout(nudgeColumns, 20);
 };

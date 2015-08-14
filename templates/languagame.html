@@ -23,32 +23,35 @@
   </table>
 	<div class="well well-lg">
 		<div class="row text-center">
-			<span class="col-xs-8">
+			<span class="col-xs-10">
 				<a class="btn btn-primary btn-block btn-lg checkresults">
 					<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
 					Test Matches
 				</a>
 			</span>
 			<span class="col-xs-2 text-center"><div>Score</div><div>{{score}}</div></span>
-			<span class="col-xs-2 text-center"><div>Glyphsets</div><div>{{endNum}}</div></span>
 		</div>
 	</div>
 	<div class="fixed-message"><div>Well Done!</div></div>
 </template>
 
+<template name="glyphsetsrow">
+	<tr class="glyphsetrow">
+		{{#each langs}}
+  		<td>
+  			<span id="{{key}}{{../_id}}" lang="{{key}}" glyphsetid="{{../_id}}">{{propOfObj key ..}}</span>
+  			<!--{{#if equals key 'e'}}
+	  		<audio controls="controls">  
+			  	<source src="http://translate.google.com/translate_tts?ie=utf-8&amp;tl={{googleLangOf key}}&amp;q={{propOfObj key ..}}" type="audio/mp3" />  
+				</audio>
+				{{/if}}-->
+			</td>
+		{{/each}}
+	</tr>
+</template>
+
 <template name="glyphsetsrows">
 	{{#each glyphsets}}
-		<tr class="glyphsetrow">
-  		{{#each langs}}
-	  		<td>
-	  			<span id="{{key}}{{../_id}}" lang="{{key}}" glyphsetid="{{../_id}}">{{propOfObj key ..}}</span>
-	  			<!--{{#if equals key 'e'}}
-		  		<audio controls="controls">  
-				  	<source src="http://translate.google.com/translate_tts?ie=utf-8&amp;tl={{googleLangOf key}}&amp;q={{propOfObj key ..}}" type="audio/mp3" />  
-					</audio>
-					{{/if}}-->
-				</td>
-  		{{/each}}
-		</tr>
+		{{> glyphsetsrow}}
 	{{/each}}
 </template>

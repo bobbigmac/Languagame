@@ -5,56 +5,10 @@ Meteor.startup(function () {
 
   //index
   Glyphsets._ensureIndex({ rank: 1, live: 1 });
-
-  // if(typeof appDump !== 'undefined') {
-  //   appDump.allow(function() {
-  //     if(Roles.userIsInRole(this.userId, ['superadmin'])) {
-  //       return true;
-  //     }
-  //   });
-  // }
-
   numberOfGlyphsets = Glyphsets.find({ live: true }).count();
-
 
   //methods
   Meteor.methods({
-    'cleanup-duplicate-glyphs': function() {
-      return false;
-      //THIS FUNC DOES NOT REALLY WORK.
-      //cleanup duplicate glyphs
-      var coss = {};
-      Glyphs.find({}).fetch().forEach(function(g) {
-        delete g._id;
-
-        var key = JSON.stringify(g);
-        coss[key] = coss[key]||[];
-        coss[key].push(g);
-      });
-
-      var mults = 0, readded = 0;
-      Object.keys(coss).forEach(function(c) {
-        if(coss[c] && coss[c].length > 1) {
-          var base = coss[c][0];
-          delete base._id;
-
-          mults++;
-          
-          Glyphs.remove(base);
-
-          base._id = base.value;
-          if(Glyphs.insert(base)) {
-            readded++;
-          }
-        }
-      });
-
-      if(mults) {
-        console.log('Found duplicated glyph entries', mults, 'readded', readded);
-      } else {
-        console.log('No duplicated glyph entries');
-      }
-    },
     'reset-ranks': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         Glyphsets.update({}, { $unset: { rank: "" }}, { multi: true });
@@ -179,7 +133,6 @@ Meteor.startup(function () {
                       saveOrUpdateGlyph(altGlyph);
 
                       set[altLang] = altValue;
-                      //console.log(altLang, 'altGlyph', altGlyph);
                     }
                   }
                 });
@@ -284,6 +237,4 @@ Meteor.startup(function () {
   });
 
   Meteor.call('setup-admins');
-  //Meteor.call('cleanup-duplicate-glyphs');
-
 });

@@ -83,7 +83,6 @@ loadKanjiDictionary = function() {
       }
     });
   }
-  //console.log('hiragana', hiragana);
 
   //load katakana and map to hiragana
   var katakanaStr = Assets.getText('sources/katakana-pronounce.json');
@@ -101,7 +100,6 @@ loadKanjiDictionary = function() {
       }
     });
   }
-  //console.log('katakana', katakana);
 
   //set katakana for each hiragana
   Object.keys(hiragana).forEach(function(hira) {
@@ -109,7 +107,6 @@ loadKanjiDictionary = function() {
       return (katakana[kata] === hiragana[hira] ? kata : false);
     }).filter(function(val) { return !!val; }).join()
   });
-  //console.log('dictionary', dictionary);
 
   //load hangul
   var hangulStr = Assets.getText('sources/hangul-pronounce.json');
@@ -125,7 +122,6 @@ loadKanjiDictionary = function() {
       }
     });
   }
-  //console.log('hangul', hangul);
   
   //load sub/parent glyphs
   var subGlyphsStr = Assets.getText('sources/kradfile.utf8');
@@ -170,7 +166,6 @@ loadKanjiDictionary = function() {
         }
       });
     });
-    //console.log(JSON.stringify(radicals));
   }
 
   var str = Assets.getText('sources/kanjidic2-lite.xml');
@@ -431,7 +426,6 @@ importPossibles = function(limit) {
     tradSimpPairs = JSON.parse(bonusSimplToTradText);
     if(tradSimpPairs && tradSimpPairs.length) {
       tradToSimp = {};
-      //console.log('tradSimpPairs', tradSimpPairs.length);
       tradSimpPairs.forEach(function(pair) {
         tradToSimp[pair.tc] = pair.sc;
       });
@@ -558,7 +552,6 @@ importPossibles = function(limit) {
           }
 
           Object.keys(symbols).forEach(function(kanji) {
-            //var kanji = (possible.j || possible.tc || possible.sc);
             if(kanjiDic && kanji) {
               var details = kanjiDic[kanji];
               if(details) {
@@ -574,14 +567,6 @@ importPossibles = function(limit) {
                 symbols[kanji].forEach(function(lang) {
                   possible['meta_'+lang] = details;
                 });
-                //TODO: Don't think I want to merge all keys directly onto possible.
-                //      Most belong on the glyph, rather than on the glyphset.
-                // for(var key in details) {
-                //   if(details[key] && !possible[key]) {
-                //     possible[key] = details[key];
-                //   }
-                // }
-
 
 
                 //If I have a japanese pronunciation, but no possible.j, add this glyph for japanese too
@@ -599,10 +584,8 @@ importPossibles = function(limit) {
           possible.live = false;
           var existing = PossibleGlyphsets.findOne(filter, { fields: { _id: 1 }});
           if(existing) {
-            //console.log('Updating', existing._id, 'with', Object.keys(possible));
             PossibleGlyphsets.update({ _id: existing._id }, { $set: possible });
           } else {
-            //console.log('Inserting new', Object.keys(possible));
             PossibleGlyphsets.insert(possible);
           }
         } else {
@@ -612,7 +595,6 @@ importPossibles = function(limit) {
     });
   }
 
-  //console.log('Done saving all possibles, now may publish')
   PossibleGlyphsets.update({ live: false }, { $set: { live: true }}, { multi: true });
 
   return possibles.length;
