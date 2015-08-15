@@ -59,3 +59,37 @@
 		{{/each}}
 	</tr>
 </template>
+
+<template name="strengths">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Word Strength</h3>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Strength</th>
+					{{#each langs}}
+						<th>{{name}}</th>
+					{{/each}}
+				</tr>
+			</thead>
+			<tbody>
+				{{#each this}}
+					<tr>
+				  	<td>
+				  		{{this.e.strength}}
+				  	</td>
+						{{#each langs}}
+				  		<td>
+				  			{{#with propOfObj key ..}}
+				  				<span>{{this.word}}</span>
+				  			{{/with}}
+				  		</td>
+				  	{{/each}}
+					</tr>
+				{{/each}}
+			</tbody>
+		</table>
+	</div>
+</template>

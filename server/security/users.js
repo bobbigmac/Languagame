@@ -14,7 +14,7 @@ Security.permit('insert')
 // Allow user to update their own account profile properties
 Security.permit('update')
 	.collections([Meteor.users])
-	.onlyProps(['profile'])
+	.onlyProps(['profile', 'strength'])
 	.idIsLoggedInUser()
 	.apply();
 

@@ -67,3 +67,39 @@ Router.route('/', {
 		});
 	}
 });
+
+Router.route('/strengths', {
+	template: 'strengths',
+	waitOn: function() {
+		return [
+			currentUser,
+			Meteor.subscribe('my-strengths'),
+			Meteor.subscribe('my-glyphsets')
+		];
+	},
+	data: function() {
+		var userId = Meteor.userId();
+		if(userId) {
+			var user = Meteor.user();
+			var strength = (user && user.strength);
+			if(strength) {
+
+				var sets = Glyphsets.find({ _id: { $in: Object.keys(strength) }}).fetch();
+				sets = sets.map(function(set) {
+					var newSet = {};
+					var str = strength[set._id];
+					Object.keys(str).forEach(function(lang) {
+						newSet[lang] = { word: set[lang], strength: str[lang], lang: lang };
+					});
+					return newSet;
+				});
+
+				sets.sort(function(a, b) {
+					return (a.e.strength > b.e.strength ? -1 : 1);
+				});
+
+				return sets;
+			}
+		}
+	}
+});
