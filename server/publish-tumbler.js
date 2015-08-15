@@ -1,26 +1,88 @@
 
+rankCache = {};
+var defaultLangs = ['e', 'j', 'tc', 'sc'];
+
 function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
+  langs = (langs && langs instanceof Array && langs.length ? langs : defaultLangs);
   minResults = (typeof minResults == 'number' && minResults) || 3;
   startNum = (typeof startNum == 'number' && startNum) || 1;
   endNum = (typeof endNum == 'number' && endNum) || 10;
 
-  //TODO: Randomise by weighted, based on strength
-  console.log('strength', (strength && Object.keys(strength).length)||0, 'strengths found for user', userId);
+  var ranks = [];
+  if(strength) {
+	  //Get all the ranks for strength keys, then upweight/downweight by language strength
+	  var cacheRankIds = [], userAvgStrengths = {};
+	  Object.keys(strength).forEach(function(gsId) {
+	  	if(!rankCache) {
+	  		rankCache = {};
+	  	}
+	  	if(!rankCache[gsId]) {
+	  		cacheRankIds.push(gsId);
+	  	}
+	  	userAvgStrengths[gsId] = (langs.reduce(function(prev, lang) {
+	  		return prev+strength[gsId][lang];
+	  	}, 0) / langs.length);
+	  });
 
-  var keys = {};
-  var setKeys = 0;
+	  if(cacheRankIds.length) {
+	  	Glyphsets.find({ _id: { $in: cacheRankIds }}, { fields: { _id: 1, rank: 1 }}).fetch().forEach(function(gs) {
+	  		rankCache[gs._id] = gs.rank;
+	  	});
+	  }
 
-  while(setKeys < minResults) {
-    var random = startNum + Math.floor(Math.random() * (endNum - startNum));
-    if(!keys[random]) {
-      keys[random] = true;
-      setKeys++;
-    }
-  }
+	  var userRanks = [];
+	  var userStrengthIds = Object.keys(userAvgStrengths);
+	  var totalStrength = 0;
+	  var maxStrength = 0;
+	  userStrengthIds.forEach(function(gsId) {
+	  	var rank = rankCache[gsId];
+	  	var score = userAvgStrengths[gsId];
+	  	totalStrength += score;
+	  	if(score > maxStrength) {
+	  		maxStrength = score;
+	  	}
+	  	userRanks[rank] = (0-score);
+	  });
 
-  var ranks = Object.keys(keys).map(function(val) {
-    return parseInt(val);
-  });
+	  var boost = 7;//Number of additional entries to consider available
+
+	  var unknowns = 0;
+	  for(var i=1; i<userStrengthIds.length+boost; i++) {
+	  	if(!userRanks[i]) {
+	  		unknowns++;
+	  	} else {
+	  		userRanks[i] = userRanks[i] + (maxStrength+1);
+	  	}
+	  }
+
+	  var avgStrength = (totalStrength / userStrengthIds.length);
+	  var newStrength = Math.round((totalStrength / (unknowns * 0.5)) * 100) / 100;
+	  for(var i=1; i<userStrengthIds.length+boost; i++) {
+	  	if(!userRanks[i]) {
+	  		userRanks[i] = newStrength + 1;
+	  	}
+	  }
+
+	  //Randomise by weighted, based on strength
+	  var pairs = userRanks.map(function(chance, rank) { return rank && chance > 0 ? [rank, chance||0] : false; }).filter(function(val) { return !!val; });
+	  ranks = (new WeightedList(pairs)).peek(minResults).map(function(rank){ return parseInt(rank); });
+	  //console.log('ranks', ranks);
+	} else {
+	  var keys = {};
+	  var setKeys = 0;
+
+	  while(setKeys < minResults) {
+	    var random = startNum + Math.floor(Math.random() * (endNum - startNum));
+	    if(!keys[random]) {
+	      keys[random] = true;
+	      setKeys++;
+	    }
+	  }
+
+	  ranks = Object.keys(keys).map(function(val) {
+	    return parseInt(val);
+	  });
+	}
 
   var filter = { live: true, rank: { $in: ranks }};
   var options = { fields: { _id: 1 }, limit: minResults };
@@ -35,10 +97,10 @@ function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
   }
 };
 
-Meteor.publish('tumbler', function(score, minResults) {
+Meteor.publish('tumbler', function(score, minResults, langs) {
 	var self = this;
 	var collection = "glyphsetsets";
-  var langs = (langs && langs instanceof Array && langs.length ? langs : ['e', 'j', 'tc', 'sc']);
+  langs = (langs && langs instanceof Array && langs.length ? langs : defaultLangs);
   minResults = (typeof minResults == 'number' && minResults) || 3;
 
 	var _id = Random.id();
