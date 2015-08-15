@@ -48,7 +48,7 @@ celebrateWin = function(cb) {
   }
 };
 
-changePlayerScore = function(by) {
+changePlayerScore = function(by, scoreLangs) {
   var userId = Meteor.userId();
   var score = 0;
 
@@ -56,7 +56,23 @@ changePlayerScore = function(by) {
     var user = Meteor.user();
     score = ((user && user.profile && user.profile.score)||score)+(by||0);
     
-    Meteor.users.update(userId, { $set: { 'profile.score': score }});
+    var update = {
+      $set: { 'profile.score': score }
+    };
+    var incs = {}, incCount = 0;
+    if(scoreLangs) {
+      Object.keys(scoreLangs).forEach(function(gsId) {
+        Object.keys(scoreLangs[gsId]).forEach(function(lang) {
+          incs['strength.'+gsId+'.'+lang] = scoreLangs[gsId][lang];
+          incCount++;
+        });
+      });
+    }
+    if(incCount) {
+      update['$inc'] = incs;
+    }
+
+    Meteor.users.update(userId, update);
 
     Session.set("playerScore", score);
   } else {
@@ -65,7 +81,7 @@ changePlayerScore = function(by) {
 
   score = Session.get('playerScore');
   score = score <= 0 ? 1 : score;
-}
+};
 
 Template.glyphsetstable.rendered = function() {
   $(document).keypress(function(e) {
@@ -135,9 +151,25 @@ Template.glyphsetstable.events({
     }
 
     if(pass) {
+      var glyphsetsets = Glyphsetsets.findOne();
+      var sets = glyphsetsets && glyphsetsets.sets;
+      var langKeys = ['j', 'k', 'e', 'sc', 'tc', 'pt', 'es', 'fr'];
+      var scoreLangs = false;
+
+      if(sets) {
+        scoreLangs = {};
+        sets.forEach(function(set) {
+          var langs = _.intersection(langKeys, Object.keys(set));
+          scoreLangs[set._id] = {};
+          langs.forEach(function(lang) {
+            scoreLangs[set._id][lang] = 1;
+          });
+        });
+      }
+
       Session.set('loading', true);
       celebrateWin();
-      changePlayerScore(1);
+      changePlayerScore(1, scoreLangs);
     }
 
     return pass;
@@ -164,9 +196,6 @@ Template.glyphsetsrows.events({
     el.parents('table').find('tbody td:nth-child(' + (ind + 1) + ')').css('background-color', '');
   },
 });
-
-// Template.glyphsetsrows.helpers({
-// });
 
 var nudgeColumnsTimer = false;
 Template.glyphsetsrow.rendered = function() {

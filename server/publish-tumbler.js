@@ -1,8 +1,11 @@
 
-function pullGlyphsets(langs, minResults, startNum, endNum) {
+function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
   minResults = (typeof minResults == 'number' && minResults) || 3;
   startNum = (typeof startNum == 'number' && startNum) || 1;
   endNum = (typeof endNum == 'number' && endNum) || 10;
+
+  //TODO: Randomise by weighted, based on strength
+  console.log('strength', (strength && Object.keys(strength).length)||0, 'strengths found for user', userId);
 
   var keys = {};
   var setKeys = 0;
@@ -41,13 +44,13 @@ Meteor.publish('tumbler', function(score, minResults) {
 	var _id = Random.id();
 	var startNum = 1, endNum = startNum + minResults;
 	
-	var addRandomSets = function(mode) {
+	var addRandomSets = function(mode, strength) {
 		endNum = startNum + (((score||1) * 2) + 4);
 
 	  startNum = (startNum > (endNum - minResults) ? (endNum - minResults) : startNum);
 	  endNum = endNum > numberOfGlyphsets ? numberOfGlyphsets : endNum;
 
-		var setsCursor = pullGlyphsets(langs, minResults, startNum, endNum);
+		var setsCursor = pullGlyphsets(langs, minResults, startNum, endNum, strength, self.userId);
 
 		self[mode == 'added' ? 'added' : 'changed'](collection, _id, {
 			sets: (setsCursor && setsCursor.fetch && setsCursor.fetch()),
@@ -65,11 +68,13 @@ Meteor.publish('tumbler', function(score, minResults) {
 		}).observeChanges({
 			added: function (id, fields) {
 				score = ((fields && fields.profile && fields.profile.score) || score);
-				addRandomSets('added');
+				strength = (fields && fields.strength);
+				addRandomSets('added', strength);
 			},
 			changed: function (id, fields) {
 				score = ((fields && fields.profile && fields.profile.score) || score);
-				addRandomSets('changed');
+				strength = (fields && fields.strength);
+				addRandomSets('changed', strength);
 			}
 		});
 	} else {
