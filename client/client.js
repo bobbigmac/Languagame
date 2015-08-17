@@ -84,6 +84,7 @@ changePlayerScore = function(by, scoreLangs) {
 };
 
 Template.glyphsetstable.rendered = function() {
+  $(document).off('keypress');
   $(document).keypress(function(e) {
     if(e.which >= 49 && e.which <= 57) {
       nudgeColumn(e.which - 49, 1);

@@ -30,6 +30,7 @@ Meteor.startup(function () {
     'reset-ranks': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         Glyphsets.update({}, { $unset: { rank: "" }}, { multi: true });
+        resetGlyphsetRankCache();
       }
     },
     'reset-collections': function() {

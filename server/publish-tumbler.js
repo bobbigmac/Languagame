@@ -1,5 +1,4 @@
 
-rankCache = {};
 var defaultLangs = ['e', 'j', 'tc', 'sc'];
 
 function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
@@ -11,31 +10,19 @@ function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
   var ranks = [];
   if(strength) {
 	  //Get all the ranks for strength keys, then upweight/downweight by language strength
-	  var cacheRankIds = [], userAvgStrengths = {};
+	  var userAvgStrengths = {};
 	  Object.keys(strength).forEach(function(gsId) {
-	  	if(!rankCache) {
-	  		rankCache = {};
-	  	}
-	  	if(!rankCache[gsId]) {
-	  		cacheRankIds.push(gsId);
-	  	}
 	  	userAvgStrengths[gsId] = (langs.reduce(function(prev, lang) {
 	  		return (prev||0)+(strength[gsId][lang]||0);
 	  	}, 0) / langs.length);
 	  });
-
-	  if(cacheRankIds.length) {
-	  	Glyphsets.find({ _id: { $in: cacheRankIds }}, { fields: { _id: 1, rank: 1 }}).fetch().forEach(function(gs) {
-	  		rankCache[gs._id] = gs.rank;
-	  	});
-	  }
 
 	  var userRanks = [];
 	  var userStrengthIds = Object.keys(userAvgStrengths);
 	  var totalStrength = 0;
 	  var maxStrength = 0;
 	  userStrengthIds.forEach(function(gsId) {
-	  	var rank = rankCache[gsId];
+	  	var rank = getGlyphsetRank(gsId);//rankCache[gsId];
 	  	var score = userAvgStrengths[gsId];
 	  	totalStrength += score;
 	  	if(score > maxStrength) {
