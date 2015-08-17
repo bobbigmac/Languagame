@@ -5,7 +5,6 @@ Template.words.events({
   'click .toggle-details': function() {
     var detailedWords = Session.get('words-detail');
     var wordPos = detailedWords.indexOf(this._id);
-    //console.log(this._id, wordPos, this);
     if(wordPos > -1) {
       detailedWords.splice(wordPos, 1);
     } else {

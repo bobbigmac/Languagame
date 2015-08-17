@@ -1,4 +1,6 @@
 
+defaultLangs = ['e', 'j', 'tc', 'sc'];
+
 saveOrUpdateGlyphset = function(glyphset) {
   if(glyphset) {
     var matchLangs = ['j', 'sc', 'tc', 'k'];

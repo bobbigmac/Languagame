@@ -18,3 +18,5 @@ peerlibrary:xml2js
 tmeasday:publish-counts
 meteorhacks:kadira
 yang2007chun:js-weighted-list
+cfs:standard-packages
+cfs:gridfs

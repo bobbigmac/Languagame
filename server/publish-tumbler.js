@@ -1,6 +1,4 @@
 
-var defaultLangs = ['e', 'j', 'tc', 'sc'];
-
 function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
   langs = (langs && langs instanceof Array && langs.length ? langs : defaultLangs);
   minResults = (typeof minResults == 'number' && minResults) || 3;
@@ -82,7 +80,6 @@ function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
   });
 
   var matchingGlyphsets = Glyphsets.find(filter, options);
-  //console.log(startNum, endNum, 'in custom-publish', filter, matchingGlyphsets.count());
   if(matchingGlyphsets && matchingGlyphsets.count()) {
     return matchingGlyphsets;
   }

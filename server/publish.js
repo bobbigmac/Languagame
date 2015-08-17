@@ -34,6 +34,7 @@ Meteor.publish('admin-stats', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
     Counts.publish(this, 'count-glyphsets', Glyphsets.find({ live: true }));
     Counts.publish(this, 'count-glyphs', Glyphs.find({ }));
+    Counts.publish(this, 'count-unaudio-glyphs', Glyphs.find({ a: { $exists: false }}));
     Counts.publish(this, 'count-possible-glyphsets', PossibleGlyphsets.find());
   }
   this.ready();
@@ -49,7 +50,6 @@ Meteor.publish('all-glyphsets', function() {
   return;
 });
 
-var defaultLangs = ['e', 'j', 'tc', 'sc'];
 Meteor.publish('detailed-glyphs', function(glyphs, langs) {
   langs = (langs && langs instanceof Array && langs.length && langs)||defaultLangs;
   
@@ -76,6 +76,24 @@ Meteor.publish('detailed-glyphs', function(glyphs, langs) {
 Meteor.publish('all-glyphs', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
     var glyphs = Glyphs.find({}, { sort: { pop: 1 }});
+    return glyphs;
+  }
+  this.ready();
+  return;
+});
+
+Meteor.publish('unaudio-glyphs', function(langs) {
+  langs = (langs && langs instanceof Array && langs.length && langs)||defaultLangs;
+
+  if(Roles.userIsInRole(this.userId, ['admin'])) {
+    var or = [];
+    langs.forEach(function(lang) {
+      var test = {};
+      test['is_'+lang] = true;
+      or.push(test);
+    });
+    var filter = { a: { $exists: false }, $or: or };
+    var glyphs = Glyphs.find(filter, { sort: { pop: 1 }, limit: 100 });
     return glyphs;
   }
   this.ready();

@@ -8,7 +8,7 @@ var languages = [
   { key: 'e', name: 'English', google: 'en', full: 'English', short: 'English', tiny: 'E' }
 ];
 
-var googleLangs = {};
+googleLangs = {};
 var languageNames = {};
 var languageKeys = [];
 languages.forEach(function(lang) {

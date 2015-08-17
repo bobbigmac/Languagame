@@ -7,6 +7,28 @@
 	{{> addingModal}}
 </template>
 
+<template name="unaudioGlyphs">
+	<div class="col-sm-12 column">
+		<div class="alert alert-warning">This page is a hack. To get it to work you'll need to use <a href="https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin?hl=en" target="_blank">the Referer Control extension</a> and run chrome with command: <pre>google-chrome --disable-web-security</pre></div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h5 class="panel-title">Unaudioed Glyphs: {{unaudioCount}}</h5>
+			</div>
+			<div class="panel-body text-left">
+				{{#each unaudioGlyphs}}
+					<a class="btn btn-link frame-audio" href="{{ttsUrl}}" download="{{lang}}_{{value}}.mp3">
+						{{lang}}: {{value}}
+					</a>
+				{{/each}}
+			</div>
+			<div class="panel-footer">
+				<audio class="my-audio"></audio>
+				<iframe class="my-frame"></iframe>
+			</div>
+		</div>
+	</div>
+</template>
+
 <template name="possibleGlyphsets">
 	<div class="col-sm-7 column">
 		<div class="panel panel-default">
@@ -24,7 +46,7 @@
 								<span class="hidden-sm hidden-xs">{{shortLanguageName this}}</span>
 							</th>
 						{{/each}}
-						<th>Engs.</th>
+						<th>Es.</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -125,7 +147,7 @@
 				<thead>
 					<tr>
 						<th></th>
-						<th></th>
+						<!-- <th></th> -->
 						{{#each keysOf googleLangs}}
 							<th>
 								<span class="visible-sm visible-xs">{{tinyLanguageName this}}</span>
@@ -148,7 +170,7 @@
 									</button>
 								{{/if}}
 							</td>
-							<td>{{this.pop}}</td>
+							<!-- <td>{{this.pop}}</td> -->
 							{{#each keysOf googleLangs}}
 								<td lang="{{googleLangOf this}}">{{propOfObj this ..}}</td>
 							{{/each}}
@@ -170,6 +192,7 @@
 				<tbody>
 					<tr><td>Users</td><td>{{userCount}}</td></tr>
 					<tr><td>Glyphs</td><td>{{glyphCount}}</td></tr>
+					<tr><td><a href="{{pathFor 'unaudioGlyphs'}}">w/o Audio</a></td><td><a href="{{pathFor 'unaudioGlyphs'}}">{{unaudioCount}}</a></td></tr>
 					<tr><td>Glyphsets</td><td>{{glyphsetCount}}</td></tr>
 					<tr><td>Possibles</td><td>{{possibleCount}}</td></tr>
 				</tbody>

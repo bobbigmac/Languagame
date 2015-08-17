@@ -8,9 +8,119 @@ Template.registeredUsers.events({
 	}
 });
 
+Template.unaudioGlyphs.events({
+  'click .frame-audio': function(event, template) {
+  	var glyphId = this._id;
+  	// console.log('glyphId', glyphId, this);
+  	// return false;
+
+    var audio = $('.my-audio').get(0);
+    var anchor = $(event.currentTarget);
+    if(anchor) {
+      var url = anchor.attr('href');
+      var filename = anchor.attr('download');
+      if(url && filename) {
+        if(!$('.my-frame').length) {
+          $(document).append('<iframe class="my-frame"></iframe>');
+        }
+        var $frame = $('.my-frame');
+        var frame = $frame.get(0);
+        frame.src = url;
+      }
+
+      $('.my-frame').off('load');
+      $('.my-frame').on('load', function() {
+      	videoElement = frame.contentDocument.querySelector('html /deep/ video');
+      	if(videoElement) {
+	      	videoElement.addEventListener('ended', function(e) {
+	      		var xhr = new XMLHttpRequest();
+						xhr.onreadystatechange = function() {
+							if (this.readyState == 4 && this.status == 200) {
+								//console.log(this);
+	        			var fileUrl = window.URL.createObjectURL(this.response);
+	        			audio.src = fileUrl;
+
+					      var saved = Audios.insert(this.response, function (err, fileObj) {
+					      	if(err) {
+					      		console.log('error', err, 'removing', saved._id);
+					      		if(saved && saved._id) {
+						      		Audios.remove({ _id: saved._id });
+						      	}
+					      	} else {
+					      		var glyphIds = [glyphId];
+					      		if(glyphId.indexOf('sc_') === 0) {
+					      			glyphIds.push(glyphId.replace('sc_', 'tc_'));
+					      		}
+					      		if(glyphId.indexOf('tc_') === 0) {
+					      			glyphIds.push(glyphId.replace('tc_', 'sc_'));
+					      		}
+					      		
+					      		var updates = glyphIds.reduce(function(prev, glyphId) {
+							        if(Glyphs.update({ _id: glyphId }, {
+							        	$set: {
+							        		a: fileObj._id
+							        	}
+							        })) {
+								        return prev+1;
+								      }
+								      return prev;
+					      		}, 0);
+
+						        if(updates) {
+			        				audio.play();//verify sound file by playing it (again)
+			        			}
+		        			}
+					      });
+							}
+						};
+						xhr.open('GET', e.srcElement.currentSrc);
+	          xhr.setRequestHeader("Accept", "audio/mpeg");
+						xhr.responseType = 'blob';
+						xhr.send();
+					});
+				} else {
+					console.log('No video element, try that one again');
+				}
+      });
+    }
+    //TODO: Want to catch document-level error for 'refused to display [url] in a frame'
+    
+    //To allow downloads, need to run with:
+    //  google-chrome --disable-web-security 
+    //Also needs to block referer: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin?hl=en
+    //return false;
+  }
+});
+
+Template.unaudioGlyphs.helpers({
+	unaudioGlyphs: function() {
+		return Glyphs.find({ a: { $exists: false }}, { sort: { pop: 1 }});
+	},
+	unaudioCount: function() {
+		return Counts.get('count-unaudio-glyphs')||0;
+	},
+	lang: function() {
+		var lang = (this._id+'').split('_')[0];
+		if(lang == 'sc' || lang == 'tc') {
+			return 'cn';
+		}
+		return lang;
+	},
+  ttsUrl: function() {
+		var lang = (this._id+'').split('_')[0];
+    var gLang = googleLangs[lang];
+    if(gLang) {
+      return 'https://translate.google.com/translate_tts?ie=UTF-8&q='+this.value+'&tl='+gLang+'&total=1&idx=0&client=t&prev=input';
+    }
+  }
+});
+
 Template.adminStats.helpers({
 	glyphCount: function() {
 		return Counts.get('count-glyphs')||0;
+	},
+	unaudioCount: function() {
+		return Counts.get('count-unaudio-glyphs')||0;
 	},
 	glyphsetCount: function() {
 		return Counts.get('count-glyphsets')||0;
@@ -49,7 +159,7 @@ Template.availableGlyphsets.events({
 
 Template.availableGlyphsets.helpers({
 	glyphsets: function() {
-		return Glyphsets.find({}, { sort: { rank: 1 }});
+		return Glyphsets.find({}, { sort: { rank: -1 }});
 	},
 	glyphsetCount: function() {
 		return Glyphsets.find().count();

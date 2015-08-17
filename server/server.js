@@ -5,6 +5,7 @@ Meteor.startup(function () {
 
   //index
   Glyphsets._ensureIndex({ rank: 1, live: 1 });
+  Glyphs._ensureIndex({ a: 1 });
   numberOfGlyphsets = Glyphsets.find({ live: true }).count();
 
   //methods
