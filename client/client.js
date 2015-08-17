@@ -85,7 +85,7 @@ changePlayerScore = function(by, scoreLangs) {
 
 Template.glyphsetstable.rendered = function() {
   $(document).keypress(function(e) {
-    if(e.which >= 49 && e.which <= 52) {
+    if(e.which >= 49 && e.which <= 57) {
       nudgeColumn(e.which - 49, 1);
     }
     if(e.which == 13) {
@@ -203,7 +203,7 @@ Template.glyphsetsrow.rendered = function() {
     Meteor.clearTimeout(nudgeColumnsTimer);
     nudgeColumnsTimer = false;
   }
-  nudgeColumnsTimer = Meteor.setTimeout(nudgeColumns, 20);
+  nudgeColumnsTimer = Meteor.setTimeout(nudgeColumns, 30);
 };
 
 

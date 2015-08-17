@@ -51,8 +51,8 @@ Meteor.publish('all-glyphsets', function() {
 
 var defaultLangs = ['e', 'j', 'tc', 'sc'];
 Meteor.publish('detailed-glyphs', function(glyphs, langs) {
-  langs = (langs && langs instanceof Array && langs.length)||defaultLangs;
-
+  langs = (langs && langs instanceof Array && langs.length && langs)||defaultLangs;
+  
   if(glyphs && glyphs instanceof Array && glyphs.length) {
     var glyphsets = Glyphsets.find({ _id: { $in: glyphs }});
     if(glyphsets && glyphsets.count()) {
@@ -82,27 +82,31 @@ Meteor.publish('all-glyphs', function() {
   return;
 });
 
-Meteor.publish('possible-glyphsets', function() {
+Meteor.publish('possible-glyphsets', function(filter, sort) {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
     if(false && (typeof kanjiDic == 'undefined' || !kanjiDic)) {
       console.log('Loading kanji dictionary globally...');
       kanjiDic = loadKanjiDictionary();
       console.log('Loaded kanji dictionary globally');
     }
-
-    var limitGlyphsets = PossibleGlyphsets.find({
-      live: true, 
+    filter = (typeof filter == 'object' && filter) || {
       pop: { $gt: 0 }, 
-      active: { $exists: false },
       tc: { $exists: true },
       sc: { $exists: true },
       e: { $exists: true },
       j: { $exists: true },
-      $or: [
-        { hide: { $ne: true }},
-        { hide: { $exists: false }},
-      ]
-    }, { limit: 100, sort: { pop: 1, cpop: 1, jpop: 1 }});
+      //k: { $exists: true }
+    };
+
+    filter['$or'] = [
+      { hide: { $ne: true }},
+      { hide: { $exists: false }},
+    ];
+    filter.live = true;
+    filter.active = { $exists: false };
+
+    sort = sort || { pop: 1, cpop: 1, jpop: 1 };
+    var limitGlyphsets = PossibleGlyphsets.find(filter, { limit: 100, sort: sort });
 
     var limitCount = limitGlyphsets.fetch().length;
 

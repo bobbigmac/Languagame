@@ -21,7 +21,7 @@ if(Meteor.isClient) {
 				Meteor.subscribe('user-scores'),
 				//Meteor.subscribe('all-glyphs'),
 				Meteor.subscribe('all-glyphsets'),
-				Meteor.subscribe('possible-glyphsets')
+				Meteor.subscribe('possible-glyphsets', Session.get('possible-filter'), Session.get('possible-sort'))
 			];
 		}
 	});
@@ -56,11 +56,12 @@ Router.route('/', {
 		changePlayerScore(0);
 		
 		Tracker.autorun(function() {
+			var langs = Session.get('langs');
 			var userId = Meteor.userId();
 			if(userId) {
-				customSubHandle = Meteor.subscribe('tumbler');
+				customSubHandle = Meteor.subscribe('tumbler', false, 3, langs);
 			} else {
-				customSubHandle = Meteor.subscribe('tumbler', Session.get("playerScore"));
+				customSubHandle = Meteor.subscribe('tumbler', Session.get("playerScore"), 3, langs);
 			}
 
 			$('.correct,.incorrect').removeClass('correct').removeClass('incorrect');
@@ -85,7 +86,7 @@ Router.route('/words', {
 			if(strength) {
 
 				Tracker.autorun(function () {
-					Meteor.subscribe('detailed-glyphs', Session.get('words-detail'));
+					Meteor.subscribe('detailed-glyphs', Session.get('words-detail'), Session.get('langs'));
 				});
 
 				var sets = Glyphsets.find({ _id: { $in: Object.keys(strength) }}).fetch();

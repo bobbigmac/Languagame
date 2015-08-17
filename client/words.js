@@ -22,8 +22,10 @@ Template.words.helpers({
     return (detailedWords.indexOf(_id) > -1);
   },
   glyphFor: function(lang, strength) {
-    var gId = (lang+'_'+strength[lang].word).toLowerCase();
-    var glyph = Glyphs.findOne({ _id: gId });
-    return glyph;
+    if(lang && strength && strength[lang]) {
+      var gId = (lang+'_'+strength[lang].word).toLowerCase();
+      var glyph = Glyphs.findOne({ _id: gId });
+      return glyph;
+    }
   }
 });

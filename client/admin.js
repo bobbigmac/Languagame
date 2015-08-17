@@ -111,8 +111,6 @@ Template.possibleGlyphsets.helpers({
 	glyphsetCount: function() {
 		return PossibleGlyphsets.find().count();
 	},
-	//pronunciationsSummary: pronunciationsSummary,
-	//pronunciations: pronunciations,
 	allEngs: function() { return allEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); },
 	bestEngs: function() { return bestEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); }
 });
@@ -124,8 +122,6 @@ Template.addingModal.helpers({
 			return PossibleGlyphsets.findOne({ _id: _id });
 		}
 	},
-	//pronunciationsSummary: pronunciationsSummary,
-	//pronunciations: pronunciations,
 	allEngs: function() { return allEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); },
 	bestEngs: function() { return bestEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); }
 });

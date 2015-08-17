@@ -20,7 +20,7 @@ function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
 	  		cacheRankIds.push(gsId);
 	  	}
 	  	userAvgStrengths[gsId] = (langs.reduce(function(prev, lang) {
-	  		return prev+strength[gsId][lang];
+	  		return (prev||0)+(strength[gsId][lang]||0);
 	  	}, 0) / langs.length);
 	  });
 
@@ -45,9 +45,6 @@ function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
 	  });
 
 	  var boost = 7;//Number of additional entries to consider available
-	  // if((userStrengthIds.length+boost) > numberOfGlyphsets) {
-	  // 	boost = 
-	  // }
 
 	  var unknowns = 0;
 	  for(var i=1; i<userStrengthIds.length+boost; i++) {
@@ -108,6 +105,7 @@ Meteor.publish('tumbler', function(score, minResults, langs) {
 	var self = this;
 	var collection = "glyphsetsets";
   langs = (langs && langs instanceof Array && langs.length ? langs : defaultLangs);
+  
   minResults = (typeof minResults == 'number' && minResults) || 3;
 
 	var _id = Random.id();

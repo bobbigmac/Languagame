@@ -10,10 +10,14 @@ var languages = [
 
 var googleLangs = {};
 var languageNames = {};
+var languageKeys = [];
 languages.forEach(function(lang) {
   googleLangs[lang.key] = lang.google;
   languageNames[lang.key] = lang;
+  languageKeys.push(lang.key);
 });
+
+Session.setDefault("langs", languageKeys);
 
 btnPrimaryOnEnter = function(event, template) {
   if(event && event.which === 13) {
@@ -38,6 +42,9 @@ UI.registerHelper('arrayContains', function (a, b) {
 });
 UI.registerHelper('equals', function (a, b) {
   return a == b;
+});
+UI.registerHelper('gt', function (a, b) {
+  return a > b;
 });
 UI.registerHelper('either', function (a, b) {
   return a || b;
