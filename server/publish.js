@@ -49,6 +49,30 @@ Meteor.publish('all-glyphsets', function() {
   return;
 });
 
+var defaultLangs = ['e', 'j', 'tc', 'sc'];
+Meteor.publish('detailed-glyphs', function(glyphs, langs) {
+  langs = (langs && langs instanceof Array && langs.length)||defaultLangs;
+
+  if(glyphs && glyphs instanceof Array && glyphs.length) {
+    var glyphsets = Glyphsets.find({ _id: { $in: glyphs }});
+    if(glyphsets && glyphsets.count()) {
+      var glyphIds = [];
+      glyphsets.fetch().forEach(function(gs) {
+        langs.forEach(function(lang) {
+          if(gs[lang]) {
+            glyphIds.push((lang+'_'+gs[lang]+'').toLowerCase());
+          }
+        });
+      });
+      if(glyphIds && glyphIds.length) {
+        return Glyphs.find({ _id: { $in: glyphIds }});
+      }
+    }
+  }
+  this.ready();
+  return;
+});
+
 Meteor.publish('all-glyphs', function() {
   if(Roles.userIsInRole(this.userId, ['admin'])) {
     var glyphs = Glyphs.find({}, { sort: { pop: 1 }});

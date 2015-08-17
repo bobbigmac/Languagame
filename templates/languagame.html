@@ -60,7 +60,7 @@
 	</tr>
 </template>
 
-<template name="strengths">
+<template name="words">
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title">Word Strength</h3>
@@ -72,6 +72,7 @@
 					{{#each langs}}
 						<th>{{name}}</th>
 					{{/each}}
+					<th></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -83,13 +84,79 @@
 						{{#each langs}}
 				  		<td>
 				  			{{#with propOfObj key ..}}
-				  				<span>{{this.word}}</span>
+				  				<div>{{this.word}}</div>
 				  			{{/with}}
+								{{#if detailsVisible ../_id}}
+									<div>
+						  			{{#with glyphFor key ..}}
+						  				{{> glyph this}}
+						  			{{/with}}
+									</div>
+								{{/if}}
 				  		</td>
 				  	{{/each}}
+				  	<td>
+				  		<button class="btn btn-info toggle-details">Details</button>
+				  	</td>
 					</tr>
+					<!-- {{#if detailsVisible}}
+						<tr>
+							<td></td>
+							{{#each langs}}
+								<td>
+					  			{{#with glyphFor key ..}}
+					  				{{> glyph this lang=../key}}
+					  			{{/with}}
+					  		</td>
+							{{/each}}
+				  		<td></td>
+						</tr>
+					{{/if}} -->
 				{{/each}}
 			</tbody>
 		</table>
 	</div>
+</template>
+
+<template name="glyph">
+	{{log this}}
+	{{#if is_j}}
+		{{#each hira}}
+			<div>Hira: {{this}}</div>
+		{{/each}}
+		{{#each kata}}
+			<div>Kata: {{this}}</div>
+		{{/each}}
+	{{/if}}
+	{{#if is_k}}
+		{{#each ko_h}}
+			<div>Hang: {{this}}</div>
+		{{/each}}
+		{{#each ko_r}}
+			<div>Romani: {{this}}</div>
+		{{/each}}
+	{{/if}}
+	{{#if either is_sc is_tc}}
+		{{#if isRadical}}
+			<div>Is Radical {{isRadical}}</div>
+		{{/if}}
+		{{#if hasRadical}}
+			<div>Radical:{{#each radicalByNumber hasRadical}} {{this}}{{/each}}</div>
+		{{/if}}
+		{{#each pinyin}}
+			<div>Pinyin: {{this}}</div>
+		{{/each}}
+		{{#each sub}}
+			{{#unless equals ../../value this}}
+				<div>Sub: {{this}}</div>
+			{{/unless}}
+		{{/each}}
+	{{/if}}
+	{{#if values}}
+		{{#each values}}
+			{{#unless equals ../../value this}}
+				<div>{{this}}</div>
+			{{/unless}}
+		{{/each}}
+	{{/if}}
 </template>

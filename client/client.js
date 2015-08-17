@@ -205,3 +205,5 @@ Template.glyphsetsrow.rendered = function() {
   }
   nudgeColumnsTimer = Meteor.setTimeout(nudgeColumns, 20);
 };
+
+

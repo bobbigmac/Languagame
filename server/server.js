@@ -9,6 +9,24 @@ Meteor.startup(function () {
 
   //methods
   Meteor.methods({
+    'fix-glyph-values': function() {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        var glyphs = Glyphs.find({ $where: "this._id == this.value" });
+        if(glyphs.count()) {
+          console.log('Broken glyphs: ', glyphs.count());
+          var fixed = 0;
+          glyphs.fetch().forEach(function(g) {
+            if(g.value.indexOf('_') > -1) {
+              var val = g.value.split('_')[1];
+              if(Glyphs.update({ _id: g._id }, { $set: { value: val }})) {
+                fixed++;
+              }
+            }
+          });
+          console.log('Fixed glyphs', fixed);
+        }
+      }
+    },
     'reset-ranks': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         Glyphsets.update({}, { $unset: { rank: "" }}, { multi: true });
@@ -59,7 +77,7 @@ Meteor.startup(function () {
             if(poss[lang]) {
               var glyph = {};
               glyph._id = (lang+'_'+poss[lang]+'').toLowerCase();
-              glyph.value = glyph._id;
+              glyph.value = poss[lang];
               glyph['is_'+lang] = true;
 
               var dict = kanjiDic[poss[lang]];

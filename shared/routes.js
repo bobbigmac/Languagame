@@ -68,8 +68,8 @@ Router.route('/', {
 	}
 });
 
-Router.route('/strengths', {
-	template: 'strengths',
+Router.route('/words', {
+	template: 'words',
 	waitOn: function() {
 		return [
 			currentUser,
@@ -84,6 +84,10 @@ Router.route('/strengths', {
 			var strength = (user && user.strength);
 			if(strength) {
 
+				Tracker.autorun(function () {
+					Meteor.subscribe('detailed-glyphs', Session.get('words-detail'));
+				});
+
 				var sets = Glyphsets.find({ _id: { $in: Object.keys(strength) }}).fetch();
 				sets = sets.map(function(set) {
 					var newSet = {};
@@ -91,6 +95,7 @@ Router.route('/strengths', {
 					Object.keys(str).forEach(function(lang) {
 						newSet[lang] = { word: set[lang], strength: str[lang], lang: lang };
 					});
+					newSet._id = set._id;
 					return newSet;
 				});
 

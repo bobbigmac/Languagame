@@ -45,6 +45,9 @@ function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
 	  });
 
 	  var boost = 7;//Number of additional entries to consider available
+	  // if((userStrengthIds.length+boost) > numberOfGlyphsets) {
+	  // 	boost = 
+	  // }
 
 	  var unknowns = 0;
 	  for(var i=1; i<userStrengthIds.length+boost; i++) {
@@ -58,9 +61,13 @@ function pullGlyphsets(langs, minResults, startNum, endNum, strength, userId) {
 	  var avgStrength = (totalStrength / userStrengthIds.length);
 	  var newStrength = Math.round((totalStrength / (unknowns * 0.5)) * 100) / 100;
 	  for(var i=1; i<userStrengthIds.length+boost; i++) {
-	  	if(!userRanks[i]) {
-	  		userRanks[i] = newStrength + 1;
-	  	}
+	  	if(i > numberOfGlyphsets) {
+	  		userRanks[i] = 0;
+	  	} else {
+		  	if(!userRanks[i]) {
+		  		userRanks[i] = newStrength + 1;
+		  	}
+		  }
 	  }
 
 	  //Randomise by weighted, based on strength

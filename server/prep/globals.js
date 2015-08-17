@@ -168,6 +168,8 @@ loadKanjiDictionary = function() {
     });
   }
 
+  //console.log(JSON.stringify(radicals));
+
   var str = Assets.getText('sources/kanjidic2-lite.xml');
   var result = xml2js.parseStringSync(str);
 
