@@ -27,7 +27,16 @@
   </table>
 	<div class="well well-lg">
 		<div class="row text-center">
-			<span class="col-xs-10">
+			<span class="col-xs-2">
+				<button class="btn btn-link btn-lg mute-audio">
+					{{#if muted}}
+						<i class="glyphicon glyphicon-volume-off"></i>
+					{{else}}
+						<i class="glyphicon glyphicon-volume-up"></i>
+					{{/if}}
+				</button>
+			</span>
+			<span class="col-xs-8">
 				<a class="btn btn-primary btn-block btn-lg checkresults">
 					<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
 					Test Matches
@@ -40,6 +49,7 @@
 </template>
 
 <template name="glyphsetsrows">
+	<audio class="global-audio"></audio>
 	{{#each glyphsets}}
 		{{> glyphsetsrow}}
 	{{/each}}
@@ -49,12 +59,13 @@
 	<tr class="glyphsetrow">
 		{{#each langs}}
   		<td>
-  			<span id="{{key}}{{../_id}}" lang="{{key}}" glyphsetid="{{../_id}}">{{propOfObj key ..}}</span>
-  			<!--{{#if equals key 'e'}}
-	  		<audio controls="controls">  
-			  	<source src="http://translate.google.com/translate_tts?ie=utf-8&amp;tl={{googleLangOf key}}&amp;q={{propOfObj key ..}}" type="audio/mp3" />  
-				</audio>
-				{{/if}}-->
+  			<span id="{{key}}{{../_id}}" lang="{{key}}" glyphsetid="{{../_id}}" audio="{{propOfObj key ../audio}}">
+  				{{propOfObj key ..}}
+  				<!-- <audio>
+				  	<source src="{{propOfObj key ../audio}}" type="audio/mpeg" />
+					</audio> -->
+  			</span>
+				
 			</td>
 		{{/each}}
 	</tr>

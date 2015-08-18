@@ -102,9 +102,26 @@ Meteor.publish('tumbler', function(score, minResults, langs) {
 	  endNum = endNum > numberOfGlyphsets ? numberOfGlyphsets : endNum;
 
 		var setsCursor = pullGlyphsets(langs, minResults, startNum, endNum, strength, self.userId);
+		var sets = (setsCursor && setsCursor.fetch && setsCursor.fetch());
+
+		sets.forEach(function(set) {
+			langs.forEach(function(lang) {
+				//TODO: This might give a performance improvement if queries are bundled
+				var glyph = Glyphs.findOne({ _id: lang+'_'+set[lang] }, { fields: { _id: 1, a: 1 }});
+				if(glyph && glyph.a) {
+					if(!set.audio) {
+						set.audio = {};
+					}
+					var audio = Audios.findOne({ _id: glyph.a });
+					if(audio) {
+						set.audio[lang] = audio.url();
+					}
+				}
+			});
+		});
 
 		self[mode == 'added' ? 'added' : 'changed'](collection, _id, {
-			sets: (setsCursor && setsCursor.fetch && setsCursor.fetch()),
+			sets: sets,
 			score: score, startNum: startNum, endNum: endNum
 		});
 	};

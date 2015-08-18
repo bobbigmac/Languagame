@@ -14,11 +14,18 @@ span[lang="sc"] {
 	font-size: 4em;
 }
 
+.table td span.playing {
+	color: blue;
+	/*font-weight: bold;*/
+	text-shadow: 2px 2px 2px white;
+}
+
 .table th, 
 .table td {
-   text-align: center;
+  text-align: center;
 	transition: background-color 0.5s;
 	-webkit-transition: background-color 0.5s;
+	cursor: pointer;
 }
 .table .btn {
 	padding: 1px 5px 1px;

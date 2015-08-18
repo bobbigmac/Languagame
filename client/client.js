@@ -9,13 +9,43 @@
 //   tts.speak(what, lang, site);
 // }
 
-nudgeColumn = function(ind, nudges) {
+playAudioForSpan = function(span) {
+  //console.log('want to play', span.attr('audio'));
+  if(span && !Session.get('mute-audio')) {
+    span.parents('table').find('span.playing').removeClass('playing');
+
+    var audioUrl = span.attr('audio');
+    if(audioUrl) {
+      var $audio = $('.global-audio');
+      var audio = $audio.get(0);
+      if(audio) {
+        audio.src = audioUrl;
+        //TODO: Might need to setup load binding once live
+        $audio.off('playing');
+        $audio.on('playing', function() {
+          span.addClass('playing');
+        });
+        $audio.off('ended suspend error emptied interruptbegin pause seeked waiting');
+        $audio.on('ended suspend error emptied interruptbegin pause seeked waiting', function(e) {
+          span.removeClass('playing');
+        });
+        
+        audio.play();
+      }
+    }
+  }
+};
+
+nudgeColumn = function(ind, nudges, playAudio) {
   nudges = nudges || 1;
   for(nudged = 0; nudged < nudges; nudged++)
   {
     var columnCells = $('#glyphsetstable').find('tbody td:nth-child(' + (ind + 1) + ')');
     columnCells.each(function(pos, el) {
       var span = $(columnCells[pos]).children('span:last');
+      if(playAudio && pos === 0) {
+        playAudioForSpan(span);
+      }
       var moveTo = pos + 1;
       moveTo = (moveTo >= columnCells.length ? 0 : moveTo);
 
@@ -87,7 +117,7 @@ Template.glyphsetstable.rendered = function() {
   $(document).off('keypress');
   $(document).keypress(function(e) {
     if(e.which >= 49 && e.which <= 57) {
-      nudgeColumn(e.which - 49, 1);
+      nudgeColumn(e.which - 49, 1, true);
     }
     if(e.which == 13) {
       $('.checkresults').trigger('click');
@@ -105,10 +135,17 @@ Template.glyphsetstable.helpers({
   },
   loading: function() {
     return Session.get('loading');
+  },
+  muted: function() {
+    return Session.get('mute-audio');
   }
 });
 
 Template.glyphsetstable.events({
+  'click .mute-audio': function (e, t) {
+    Session.set('mute-audio', !Session.get('mute-audio'));
+    return Session.get('mute-audio');
+  },
   'click .checkresults': function (e, t) {
     var self = this;
     //TODO: want to have this work from data-model
@@ -181,6 +218,9 @@ Template.glyphsetsrows.events({
   'click td': function (e, t) {
     var el = $(e.currentTarget);
     var ind = el.index();
+
+    var span = el.find('span[audio]');
+    playAudioForSpan(span);
 
     nudgeColumn(ind, 1);
   },
