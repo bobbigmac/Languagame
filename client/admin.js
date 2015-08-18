@@ -8,6 +8,12 @@ Template.registeredUsers.events({
 	}
 });
 
+Template.unaudioGlyphs.rendered = function() {
+	// $(document).off('error');
+	// $(document).on('error', function(e) {
+	// 	console.log('error event', e);
+	// });
+}
 Template.unaudioGlyphs.events({
   'click .frame-audio': function(event, template) {
   	var glyphId = this._id;
@@ -68,6 +74,13 @@ Template.unaudioGlyphs.events({
 
 						        if(updates) {
 			        				audio.play();//verify sound file by playing it (again)
+
+			        				//Next one...
+			        				var seconds = (12+(12*Math.random()));
+			        				console.log('got that one, getting another in', seconds, 'seconds');
+			        				Meteor.setTimeout(function() {
+			        					$('.frame-audio:first').trigger('click');
+			        				}, seconds*1000);
 			        			}
 		        			}
 					      });

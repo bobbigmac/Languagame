@@ -578,8 +578,8 @@ importPossibles = function(limit) {
                   possible.j = kanji;
                 }
                 //If I have a korean pronunciation, but no possible.k, add this glyph for korean too
-                if(!possible.k && (details.ko_r || details.ko_h)) {
-                  possible.k = kanji;
+                if(!possible.k && details.ko_h && details.ko_h.join) {
+                  possible.k = details.ko_h.join(' / ');//kanji;
                 }
               }
             }

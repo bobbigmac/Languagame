@@ -4,7 +4,7 @@ var languages = [
   { key: 'tc', name: 'Chinese (T)', google: 'zh-TW', full: 'Chinese: Traditional', short: 'Chinese Trad.', tiny: 'CT' },
   { key: 'sc', name: 'Chinese (S)', google: 'zh-CN', full: 'Chinese: Simplified', short: 'Chinese Simpl.', tiny: 'CS' },
   { key: 'j', name: 'Japanese', google: 'ja', full: 'Japanese', short: 'Japanese', tiny: 'J' },
-  //{ key: 'k', name: 'Korean', google: 'ko', full: 'Korean', short: 'Korean', tiny: 'K' },
+  { key: 'k', name: 'Korean', google: 'ko', full: 'Korean', short: 'Korean', tiny: 'K' },
   { key: 'e', name: 'English', google: 'en', full: 'English', short: 'English', tiny: 'E' }
 ];
 

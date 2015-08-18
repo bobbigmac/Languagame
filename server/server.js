@@ -192,6 +192,93 @@ Meteor.startup(function () {
         return importPossibles(limit);
       }
     },
+    'review-hangul': function() {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        var dict = loadKanjiDictionary();
+        if(dict && dict instanceof Array) {
+          return dict.length;
+        }
+        else if(dict && typeof dict === 'object') {
+          var keys = Object.keys(dict);
+          if(keys.length) {
+            var coss = {};
+            keys.forEach(function(key) {
+              if(dict[key].ko_h && dict[key].ko_h.length > 2) {
+                var hang = dict[key].ko_h.join(' / ');
+                coss[hang] = coss[hang]||0;
+                coss[hang]++;
+              }
+            });
+            var mults = Object.keys(coss).map(function(key) { var val=coss[key]; if(val > 1) { return { key: key, occ: coss[key] }; }}).filter(function(val){ return !!val; });
+            console.log(mults);
+          }
+          return mults;
+        }
+      }
+    },
+    'fix-hangul': function() {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        console.log('fixing hangul glyphs');
+
+        var glyphsCursor = Glyphs.find({ is_k: true, oldId: { $exists: false }});
+        glyphsCursor.fetch().forEach(function(g) {
+
+          var oldValue = g.value;
+          var oldId = g._id;
+
+          if(g.ko_h) {
+            var newValue = g.ko_h.join(' / ');
+            var newId = 'k_'+newValue;
+            console.log('Want to set', oldId, 'to', newId);
+            
+            var newGlyph = g;
+            newGlyph._id = newId;
+            newGlyph.value = newValue;
+            newGlyph.values = g.ko_h;
+            newGlyph.oldId = oldId;
+            newGlyph.oldValue = oldValue;
+
+            var okay = false;
+            if(!Glyphs.findOne({ _id: newGlyph._id })) {
+              if(Glyphs.insert(newGlyph)) {
+                okay = true;
+              }
+            } else {
+              okay = true;
+            }
+          } else {
+            okay = true;
+          }
+
+          if(okay) {
+            if(Glyphs.remove({ _id: oldId })) {
+              console.log('Removed', oldId);
+              if(newValue) {
+                if(Glyphsets.update({ k: oldValue }, { $set: { k: newValue }})) {
+                  console.log('Updated', oldId, 'to', newId);
+                }
+              }
+            }
+          }
+        });
+
+        PossibleGlyphsets.find({ k: { $exists: true }}).fetch().forEach(function(pg) {
+          
+          var newValue = (pg && pg.k && pg.meta_k && pg.meta_k.ko_h && pg.meta_k.ko_h.join && pg.meta_k.ko_h.join(' / '));
+          if(newValue) {
+            if(PossibleGlyphsets.update({ _id: pg._id }, { $set: {
+              k: newValue
+            }})) {
+              console.log('Updated possible for', pg.k, 'to', newValue);
+            }
+          } else {
+            if(PossibleGlyphsets.update({ _id: pg._id }, { $unset: { k: "" }})) {
+              console.log('Unset k for', pg.k);
+            }
+          }
+        });
+      }
+    },
     'test-kanji': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         var dict = loadKanjiDictionary();
@@ -199,7 +286,20 @@ Meteor.startup(function () {
           return dict.length;
         }
         else if(dict && typeof dict === 'object') {
-          return Object.keys(dict).length;
+          var keys = Object.keys(dict);
+          // if(keys.length) {
+          //   var coss = {};
+          //   keys.forEach(function(key) {
+          //     if(dict[key].ko_h && dict[key].ko_h.length > 2) {
+          //       var hang = dict[key].ko_h.join(' / ');
+          //       coss[hang] = coss[hang]||0;
+          //       coss[hang]++;
+          //     }
+          //   });
+          //   var mults = Object.keys(coss).map(function(key) { var val=coss[key]; if(val > 1) { return { key: key, occ: coss[key] }; }}).filter(function(val){ return !!val; });
+          //   console.log(mults);
+          // }
+          return keys.length;
         }
       }
     },
