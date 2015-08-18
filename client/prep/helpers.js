@@ -54,7 +54,7 @@ UI.registerHelper('parseNumber', function (str) {
 	return parseInt('0'+str);
 });
 UI.registerHelper('propOfObj', function (key, obj) {
-  return obj[key];
+  return (obj && obj[key]);
 });
 UI.registerHelper('keysOf', function (obj) {
 	return Object.keys(obj);
