@@ -11,6 +11,15 @@ var currentUser = {
   }
 };
 
+loadUserLangs = function() {
+  var user = Meteor.user();
+  if(user) {
+  	if(user && user.profile && user.profile.langs && user.profile.langs instanceof Array) {
+  		Session.set('langs', user.profile.langs);
+  	}
+  }
+}
+
 if(Meteor.isClient) {
 
 	Router.route('/admin', {
@@ -24,6 +33,9 @@ if(Meteor.isClient) {
 				//Meteor.subscribe('all-glyphsets'),
 				Meteor.subscribe('possible-glyphsets', Session.get('possible-filter'), Session.get('possible-sort'))
 			];
+		},
+		data: function() {
+			loadUserLangs();
 		}
 	});
 
@@ -36,6 +48,9 @@ if(Meteor.isClient) {
 				Meteor.subscribe('admin-stats'),
 				Meteor.subscribe('unaudio-glyphs', Session.get('langs'))
 			]
+		},
+		data: function() {
+			loadUserLangs();
 		}
 	});
 }
@@ -65,6 +80,7 @@ Router.route('/', {
 		];
 	},
 	data: function() {
+		loadUserLangs();
 
 		changePlayerScore(0);
 		
@@ -94,6 +110,8 @@ Router.route('/words', {
 	data: function() {
 		var userId = Meteor.userId();
 		if(userId) {
+			loadUserLangs();
+			
 			var user = Meteor.user();
 			var strength = (user && user.strength);
 			if(strength) {

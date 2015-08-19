@@ -237,6 +237,11 @@ Template.languageSelection.events({
     } else {
       langs.push(lang);
     }
+
+    var userId = Meteor.userId();
+    if(userId) {
+      Meteor.users.update(userId, { $set: { 'profile.langs': langs }});
+    }
     Session.set('langs', langs);
   }
 });
