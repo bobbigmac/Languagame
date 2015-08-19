@@ -1,3 +1,21 @@
+/*html, body {
+	height: 100%;
+}
+.navbar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-height: 60px;
+}
+.container-fluid {
+	height: 100%;
+}
+.container-fluid .row-fluid > .col-sm-12 {
+	height: 100%;
+}
+.container-fluid .row-fluid {
+	height: 100%;
+}*/
 
 span[lang="fr"],
 span[lang="pt"],

@@ -21,7 +21,7 @@ if(Meteor.isClient) {
 				Meteor.subscribe('admin-stats'),
 				Meteor.subscribe('user-scores'),
 				//Meteor.subscribe('all-glyphs'),
-				Meteor.subscribe('all-glyphsets'),
+				//Meteor.subscribe('all-glyphsets'),
 				Meteor.subscribe('possible-glyphsets', Session.get('possible-filter'), Session.get('possible-sort'))
 			];
 		}

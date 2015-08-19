@@ -75,6 +75,16 @@ UI.registerHelper('langs', function () {
   }));
   return useLangs;
 });
+UI.registerHelper('activeGoogleLangs', function () {
+  var langs = Session.get('langs');
+  var filtered = {};
+  langs.forEach(function(lang) {
+    if(googleLangs[lang]) {
+      filtered[lang] = googleLangs[lang];
+    }
+  });
+  return filtered;
+});
 UI.registerHelper('googleLangs', function () {
 	return googleLangs;
 });

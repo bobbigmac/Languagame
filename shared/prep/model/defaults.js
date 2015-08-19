@@ -1,1 +1,1 @@
-defaultLangs = ['e', 'j', 'tc', 'sc'];
+defaultLangs = ['j', 'tc', 'sc', 'e'];

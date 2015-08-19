@@ -1,7 +1,7 @@
 <template name="admin">
 	{{> registeredUsers}}
 	<div class="row">
-		{{> availableGlyphsets}}
+		<!-- {{> availableGlyphsets}} -->
 		{{> possibleGlyphsets}}
 	</div>
 	{{> addingModal}}
@@ -30,7 +30,7 @@
 </template>
 
 <template name="possibleGlyphsets">
-	<div class="col-sm-7 column">
+	<div class="col-sm-12 column">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h5 class="panel-title">Possible Glyphsets: {{glyphsetCount}}</h5>
@@ -40,7 +40,7 @@
 					<tr>
 						<th></th>
 						<th>P.</th>
-						{{#each keysOf googleLangs}}
+						{{#each keysOf activeGoogleLangs}}
 							<th>
 								<span class="visible-sm visible-xs">{{tinyLanguageName this}}</span>
 								<span class="hidden-sm hidden-xs">{{shortLanguageName this}}</span>
@@ -61,7 +61,7 @@
 							<td>
 								{{this.pop}}
 							</td>
-							{{#each keysOf googleLangs}}
+							{{#each keysOf activeGoogleLangs}}
 								{{#if equals this 'e'}}
 									<td class="eng-cell" lang="en">
 										{{#if equals bestEngs.length 1}}
