@@ -9,6 +9,7 @@
 //   tts.speak(what, lang, site);
 // }
 
+var audioTimeout = false;
 playAudioForSpan = function(span) {
   //console.log('want to play', span.attr('audio'));
   if(span && !Session.get('mute-audio')) {
@@ -44,7 +45,13 @@ nudgeColumn = function(ind, nudges, playAudio) {
     columnCells.each(function(pos, el) {
       var span = $(columnCells[pos]).children('span:last');
       if(playAudio && pos === 0) {
-        playAudioForSpan(span);
+        if(audioTimeout) {
+          Meteor.clearTimeout(audioTimeout);
+          audioTimeout = false;
+        }
+        audioTimeout = Meteor.setTimeout(function() {
+          playAudioForSpan(span);
+        }, 200);
       }
       var moveTo = pos + 1;
       moveTo = (moveTo >= columnCells.length ? 0 : moveTo);
@@ -214,6 +221,7 @@ Template.glyphsetstable.events({
   }
 });
 
+
 Template.glyphsetsrows.events({
   'click td': function (e, t) {
     var el = $(e.currentTarget);
@@ -225,9 +233,15 @@ Template.glyphsetsrows.events({
 
     nudgeColumn(ind, 1);
 
-    //This plays the glyph that was moved into the place that was clicked (so the one that plays is the one the mouse pointer is over)
-    var span = el.find('span[audio]');
-    playAudioForSpan(span);
+    if(audioTimeout) {
+      Meteor.clearTimeout(audioTimeout);
+      audioTimeout = false;
+    }
+    audioTimeout = Meteor.setTimeout(function() {
+      //This plays the glyph that was moved into the place that was clicked (so the one that plays is the one the mouse pointer is over)
+      var span = el.find('span[audio]');
+      playAudioForSpan(span);
+    }, 200);
   },
   'mouseover td': function (e, t) {
     var el = $(e.currentTarget);
