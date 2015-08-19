@@ -51,7 +51,7 @@ nudgeColumn = function(ind, nudges, playAudio) {
         }
         audioTimeout = Meteor.setTimeout(function() {
           playAudioForSpan(span);
-        }, 200);
+        }, 300);
       }
       var moveTo = pos + 1;
       moveTo = (moveTo >= columnCells.length ? 0 : moveTo);
@@ -241,7 +241,7 @@ Template.glyphsetsrows.events({
       //This plays the glyph that was moved into the place that was clicked (so the one that plays is the one the mouse pointer is over)
       var span = el.find('span[audio]');
       playAudioForSpan(span);
-    }, 200);
+    }, 300);
   },
   'mouseover td': function (e, t) {
     var el = $(e.currentTarget);
