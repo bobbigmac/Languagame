@@ -76,7 +76,7 @@ Template.unaudioGlyphs.events({
 			        				audio.play();//verify sound file by playing it (again)
 
 			        				//Next one...
-			        				var seconds = (16+(13*Math.random()));
+			        				var seconds = (21+(17*Math.random()));
 			        				console.log('got that one, getting another in', seconds, 'seconds');
 			        				Meteor.setTimeout(function() {
 			        					$('.frame-audio:first').trigger('click');
