@@ -114,7 +114,9 @@ Router.route('/words', {
 				});
 
 				sets.sort(function(a, b) {
-					return (a.e.strength > b.e.strength ? -1 : 1);
+					if(a.e && b.e) {
+						return (a.e.strength > b.e.strength ? -1 : 1);
+					}
 				});
 
 				return sets;

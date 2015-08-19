@@ -37,15 +37,36 @@
 				</button>
 			</span>
 			<span class="col-xs-8">
-				<a class="btn btn-primary btn-block btn-lg checkresults">
-					<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
-					Test Matches
-				</a>
+				{{#if glyphsets.length}}
+					<a class="btn btn-primary btn-block btn-lg checkresults">
+						<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
+						Test Matches
+					</a>
+				{{else}}
+					Loading...
+				{{/if}}
 			</span>
 			<span class="col-xs-2 text-center"><div>Score</div><div>{{score}}</div></span>
 		</div>
 	</div>
+	{{> languageSelection}}
 	<div class="fixed-message"><div>Well Done!</div></div>
+</template>
+
+<template name="languageSelection">
+	<div class="well text-center">
+		{{#each keysOf googleLangs}}
+			{{#if arrayContains sessionLangs this}}
+				<button class="btn btn-success toggle-language">
+					{{shortLanguageName this}}
+				</button>
+			{{else}}
+				<button class="btn btn-default toggle-language">
+					{{shortLanguageName this}}
+				</button>
+			{{/if}}
+		{{/each}}
+	</div>
 </template>
 
 <template name="glyphsetsrows">
@@ -61,11 +82,7 @@
   		<td>
   			<span id="{{key}}{{../_id}}" lang="{{key}}" glyphsetid="{{../_id}}" audio="{{propOfObj key ../audio}}">
   				{{propOfObj key ..}}
-  				<!-- <audio>
-				  	<source src="{{propOfObj key ../audio}}" type="audio/mpeg" />
-					</audio> -->
   			</span>
-				
 			</td>
 		{{/each}}
 	</tr>

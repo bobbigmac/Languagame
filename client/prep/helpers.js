@@ -64,6 +64,14 @@ UI.registerHelper('keysOf', function (obj) {
 	return Object.keys(obj);
 });
 
+UI.registerHelper('sessionLangs', function () {
+  var langs = Session.get('langs');
+  if(!langs || !(langs instanceof Array)) {
+    Session.set('langs', defaultLangs);
+    langs = Session.get('langs');
+  }
+  return langs;
+});
 UI.registerHelper('langs', function () {
   var langs = Session.get('langs');
   if(!langs || !(langs instanceof Array)) {

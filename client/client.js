@@ -188,11 +188,16 @@ Template.glyphsetstable.events({
       return pass;
     });
 
-    var pass = true;
+    var pass = (rows.length > 1 ? true : false);
     for(var i=0; i<rows.length && pass; i++) {
       if(!rows[i]) {
         pass = false;
       }
+    }
+
+    var langs = Session.get('langs');
+    if(!langs || (langs && langs.length < 2)) {
+      pass = false;
     }
 
     if(pass) {
@@ -221,6 +226,20 @@ Template.glyphsetstable.events({
   }
 });
 
+
+Template.languageSelection.events({
+  'click .toggle-language': function(e, t) {
+    var lang = (''+this);
+    var langs = Session.get('langs');
+    var langPos = (langs && langs.indexOf && langs.indexOf(lang));
+    if(langPos > -1) {
+      langs.splice(langPos, 1);
+    } else {
+      langs.push(lang);
+    }
+    Session.set('langs', langs);
+  }
+});
 
 Template.glyphsetsrows.events({
   'click td': function (e, t) {
