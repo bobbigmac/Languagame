@@ -1,5 +1,5 @@
 
-defaultLangs = ['e', 'j', 'tc', 'sc'];
+
 
 saveOrUpdateGlyphset = function(glyphset) {
   if(glyphset) {

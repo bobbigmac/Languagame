@@ -5,7 +5,10 @@ var languages = [
   { key: 'sc', name: 'Chinese (S)', google: 'zh-CN', full: 'Chinese: Simplified', short: 'Chinese Simpl.', tiny: 'CS' },
   { key: 'j', name: 'Japanese', google: 'ja', full: 'Japanese', short: 'Japanese', tiny: 'J' },
   { key: 'k', name: 'Korean', google: 'ko', full: 'Korean', short: 'Korean', tiny: 'K' },
-  { key: 'e', name: 'English', google: 'en', full: 'English', short: 'English', tiny: 'E' }
+  { key: 'e', name: 'English', google: 'en', full: 'English', short: 'English', tiny: 'E' },
+  { key: 'fr', name: 'French', google: 'fr', full: 'French', short: 'French', tiny: 'F' },
+  { key: 'pt', name: 'Portuguese', google: 'pt-PT', full: 'Portuguese', short: 'Portu.', tiny: 'P' },
+  { key: 'es', name: 'Spanish', google: 'es', full: 'Spanish', short: 'Spanish', tiny: 'S' }
 ];
 
 googleLangs = {};
@@ -17,7 +20,8 @@ languages.forEach(function(lang) {
   languageKeys.push(lang.key);
 });
 
-Session.setDefault("langs", languageKeys);
+//Session.setDefault("langs", languageKeys);
+Session.setDefault("langs", defaultLangs);
 
 btnPrimaryOnEnter = function(event, template) {
   if(event && event.which === 13) {
@@ -61,7 +65,15 @@ UI.registerHelper('keysOf', function (obj) {
 });
 
 UI.registerHelper('langs', function () {
-  return languages;
+  var langs = Session.get('langs');
+  if(!langs || !(langs instanceof Array)) {
+    Session.set('langs', defaultLangs);
+    langs = Session.get('langs');
+  }
+  var useLangs = (languages && languages.filter(function(langObj) {
+    return (langs && langs.indexOf(langObj.key) > -1);
+  }));
+  return useLangs;
 });
 UI.registerHelper('googleLangs', function () {
 	return googleLangs;

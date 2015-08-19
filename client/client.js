@@ -29,7 +29,7 @@ playAudioForSpan = function(span) {
         $audio.on('ended suspend error emptied interruptbegin pause seeked waiting', function(e) {
           span.removeClass('playing');
         });
-        
+
         audio.play();
       }
     }
@@ -219,10 +219,15 @@ Template.glyphsetsrows.events({
     var el = $(e.currentTarget);
     var ind = el.index();
 
-    var span = el.find('span[audio]');
-    playAudioForSpan(span);
+    //This plays the glyph that was clicked.
+    //var span = el.find('span[audio]');
+    //playAudioForSpan(span);
 
     nudgeColumn(ind, 1);
+
+    //This plays the glyph that was moved into the place that was clicked (so the one that plays is the one the mouse pointer is over)
+    var span = el.find('span[audio]');
+    playAudioForSpan(span);
   },
   'mouseover td': function (e, t) {
     var el = $(e.currentTarget);

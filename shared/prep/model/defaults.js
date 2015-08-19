@@ -1,0 +1,1 @@
+defaultLangs = ['e', 'j', 'tc', 'sc'];
