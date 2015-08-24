@@ -111,6 +111,9 @@ Meteor.publish('pairs', function(score, minResults, langs /*, lastGlyphset*/) {
 			sets: liveCandidates,
 			score: score, startNum: startNum, endNum: endNum, numResults: numResults
 		});
+		if(mode == 'added') {
+			self.ready();
+		}
 	};
 
 	var observeHandle = false;
@@ -123,13 +126,13 @@ Meteor.publish('pairs', function(score, minResults, langs /*, lastGlyphset*/) {
 		}).observeChanges({
 			added: function (id, fields) {
 				score = ((fields && fields.profile && fields.profile.score) || score);
-				lastPair = ((fields && fields.profile && fields.profile.lastPair) || lastPair);
+				var lastPair = (fields && fields.profile && fields.profile.lastPair);
 				strength = (fields && fields.strength);
 				addRandomSets('added', strength, lastPair);
 			},
 			changed: function (id, fields) {
 				score = ((fields && fields.profile && fields.profile.score) || score);
-				lastPair = ((fields && fields.profile && fields.profile.lastPair) || lastPair);
+				var lastPair = (fields && fields.profile && fields.profile.lastPair);
 				strength = (fields && fields.strength);
 				addRandomSets('changed', strength, lastPair);
 			}
@@ -148,5 +151,5 @@ Meteor.publish('pairs', function(score, minResults, langs /*, lastGlyphset*/) {
 	//this.error();//report
 	//this.stop();
 
-	this.ready();
+	//this.ready();
 });
