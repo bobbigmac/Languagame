@@ -1,4 +1,6 @@
 
+var resetFailedTimeout = false;
+
 Template.pairGlyph.events({
 	'click .pair-glyph': function(event, template) {
 		var lastGlyph = Session.get('lastGlyph');
@@ -10,6 +12,11 @@ Template.pairGlyph.events({
 
 		Session.set('failedGlyph', false);
 		Session.set('matchingGlyph', false);
+
+		if(resetFailedTimeout) {
+			Meteor.clearTimeout(resetFailedTimeout);
+			resetFailedTimeout = false;
+		}
 
 		var parentData = Template.parentData(1);
 		var sets = (parentData && parentData.sets);
@@ -52,6 +59,9 @@ Template.pairGlyph.events({
 				}
 			} else {
 				Session.set('failedGlyph', lastGlyph);
+				resetFailedTimeout = Meteor.setTimeout(function(){
+					Session.set('failedGlyph', false);
+				}, 1000);
 
 				// Downrank the strength for these two glyphs (against gsId, for given langs)
 				if(sets) {
