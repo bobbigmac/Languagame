@@ -14,7 +14,7 @@ Template.pairGlyph.events({
 		var parentData = Template.parentData(1);
 		var sets = (parentData && parentData.sets);
 
-		if(lastGlyph) {
+		if(lastGlyph && this._id !== lastGlyph) {
 			if(lastGlyph !== this._id && lastGlyphset == this.gsId) {
 				var gsId = this.gsId;
 				Session.set('matchingGlyph', lastGlyph)
@@ -23,7 +23,29 @@ Template.pairGlyph.events({
 					var scoreLangs = {};
 					scoreLangs[gsId] = {};
 					sets.forEach(function(set) { if(set && set.gsId === gsId) { scoreLangs[gsId][set.lang] = 1; }});
-					changePlayerScore(1, scoreLangs, gsId);
+					var setCount = sets.reduce(function(prev, set, pos){
+						if(set.gsId === lastGlyphset) {
+							sets[pos] = false;
+						}
+						return prev+(sets[pos]? 1 : 0);
+					}, 0);
+
+					if(Meteor.userId()) {
+						changePlayerScore(1, scoreLangs, gsId);
+					} else {
+						if(!setCount) {
+							changePlayerScore(1);
+							Session.set('unreactiveSets', false);
+							Session.set('lastGlyph', false);
+							Session.set('lastGlyphset', false);
+						} else {
+							Session.set('unreactiveSets', sets);
+						}
+					}
+
+					if(!setCount) {
+      			celebrateWin();
+					}
 
 					Session.set('lastGlyph', false);
 					//Session.set('lastGlyphset', false);
@@ -55,7 +77,9 @@ Template.pairGlyph.events({
 							}
 						});
 						if(scoreChanges) {
-							changePlayerScore(0, scoreLangs);
+							if(Meteor.userId()) {
+								changePlayerScore(0, scoreLangs);
+							}
 						}
 					}
 				}
@@ -96,10 +120,15 @@ Template.pairs.rendered = function() {
 	Session.set('matchingGlyph', false);
 	Session.set('lastGlyph', false);
 	Session.set('lastGlyphset', false);
+	Session.set('unreactiveSets', false);
 };
 
 Template.pairs.helpers({
 	glyphpairs: function() {
+		var unreactive = Session.get('unreactiveSets');
+		if(!Meteor.userId() && unreactive && unreactive.length) {
+			return unreactive;
+		}
 		if(this && this.sets && this.sets.length === 24) {
 			return this.sets;
 		}
