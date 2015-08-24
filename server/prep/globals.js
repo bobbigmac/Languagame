@@ -1,4 +1,88 @@
 
+pullGlyphsets = function(langs, minResults, startNum, endNum, strength, userId, boost) {
+  langs = (langs && langs instanceof Array && langs.length ? langs : defaultLangs);
+  minResults = (typeof minResults == 'number' && minResults) || 3;
+  boost = (typeof boost == 'number' && boost) || 7;//Number of additional entries to consider available
+  startNum = (typeof startNum == 'number' && startNum) || 1;
+  endNum = (typeof endNum == 'number' && endNum) || 10;
+
+  var ranks = [];
+  if(strength) {
+    //Get all the ranks for strength keys, then upweight/downweight by language strength
+    var userAvgStrengths = {};
+    Object.keys(strength).forEach(function(gsId) {
+      userAvgStrengths[gsId] = (langs.reduce(function(prev, lang) {
+        return (prev||0)+(strength[gsId][lang]||0);
+      }, 0) / langs.length);
+    });
+
+    var userRanks = [];
+    var userStrengthIds = Object.keys(userAvgStrengths);
+    var totalStrength = 0;
+    var maxStrength = 0;
+    userStrengthIds.forEach(function(gsId) {
+      var rank = getGlyphsetRank(gsId);//rankCache[gsId];
+      var score = userAvgStrengths[gsId];
+      totalStrength += score;
+      if(score > maxStrength) {
+        maxStrength = score;
+      }
+      userRanks[rank] = (0-score);
+    });
+
+    var unknowns = 0;
+    for(var i=1; i<userStrengthIds.length+boost; i++) {
+      if(!userRanks[i]) {
+        unknowns++;
+      } else {
+        userRanks[i] = userRanks[i] + (maxStrength+1);
+      }
+    }
+
+    var avgStrength = (totalStrength / userStrengthIds.length);
+    var newStrength = Math.round((totalStrength / (unknowns * 0.5)) * 100) / 100;
+    for(var i=1; i<userStrengthIds.length+boost; i++) {
+      if(i > numberOfGlyphsets) {
+        userRanks[i] = 0;
+      } else {
+        if(!userRanks[i]) {
+          userRanks[i] = newStrength + 1;
+        }
+      }
+    }
+
+    //Randomise by weighted, based on strength
+    var pairs = userRanks.map(function(chance, rank) { return rank && chance > 0 ? [rank, chance||0] : false; }).filter(function(val) { return !!val; });
+    ranks = (new WeightedList(pairs)).peek(minResults).map(function(rank){ return parseInt(rank); });
+    //console.log('ranks', ranks);
+  } else {
+    var keys = {};
+    var setKeys = 0;
+
+    while(setKeys < minResults) {
+      var random = startNum + Math.floor(Math.random() * (endNum - startNum));
+      if(!keys[random]) {
+        keys[random] = true;
+        setKeys++;
+      }
+    }
+
+    ranks = Object.keys(keys).map(function(val) {
+      return parseInt(val);
+    });
+  }
+
+  var filter = { live: true, rank: { $in: ranks }};
+  var options = { fields: { _id: 1 }, limit: minResults };
+  langs.forEach(function (lang) {
+    options.fields[lang] = 1;
+  });
+
+  var matchingGlyphsets = Glyphsets.find(filter, options);
+  if(matchingGlyphsets && matchingGlyphsets.count()) {
+    return matchingGlyphsets;
+  }
+};
 
 
 saveOrUpdateGlyphset = function(glyphset) {

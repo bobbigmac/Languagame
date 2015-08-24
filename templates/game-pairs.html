@@ -1,0 +1,16 @@
+
+<template name="pairs">
+	<audio class="global-audio"></audio>
+	<div class="row pair-glyph-panel">
+		{{#each glyphpairs}}
+			{{> pairGlyph}}
+		{{/each}}
+	</div>
+	<div class="fixed-message"><div>Well Done!</div></div>
+</template>
+
+<template name="pairGlyph">
+	<button class="col-xs-2 btn {{#if matched}}btn-success{{else}}{{#if failed}}btn-danger{{else}}{{#if selected}}btn-info{{else}}btn-default{{/if}}{{/if}}{{/if}} pair-glyph" lang="{{lang}}" glyphsetid="{{gsId}}" audio="{{audio}}">
+		{{value}}
+	</button>
+</template>

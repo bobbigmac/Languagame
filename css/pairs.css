@@ -1,0 +1,24 @@
+.pair-glyph-panel {
+	position: fixed;
+	top: 65px;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	padding-bottom: 65px;
+	/*background-color: red;*/
+	/*min-height: 350px;*/
+}
+button.pair-glyph {
+	text-align: center;
+	height: 25%;
+	white-space: normal;
+}
+button.pair-glyph * {
+	vertical-align: middle;
+}
+button.pair-glyph[lang="tc"],
+button.pair-glyph[lang="sc"],
+button.pair-glyph[lang="k"],
+button.pair-glyph[lang="j"] {
+	font-size: 4em;
+}

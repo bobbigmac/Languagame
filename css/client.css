@@ -1,21 +1,3 @@
-/*html, body {
-	height: 100%;
-}
-.navbar {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	min-height: 60px;
-}
-.container-fluid {
-	height: 100%;
-}
-.container-fluid .row-fluid > .col-sm-12 {
-	height: 100%;
-}
-.container-fluid .row-fluid {
-	height: 100%;
-}*/
 
 span[lang="fr"],
 span[lang="pt"],
@@ -35,6 +17,10 @@ span[lang="sc"] {
 	font-size: 4em;
 }
 
+button.playing {
+	color: blue;
+	text-shadow: 2px 2px 2px white;
+}
 .table td span.playing {
 	color: blue;
 	/*font-weight: bold;*/
@@ -93,33 +79,17 @@ span[lang="sc"] {
 	transition: all 1s;
 	-webkit-transition: all 1s;
 }
-
-#glyphsetstable td:hover span {
-	opacity: 1;
-	cursor: pointer;
-}
-#glyphsetstable td span {
-	opacity: 0.8;
-	transition: opacity 0.5s;
-	-webkit-transition: opacity 0.5s;
-}
 span[lang="e"] {
 	opacity: 1;
 }
-#glyphsetstable td.incorrect {
-	background-color: #e74c3c;
+.game-link {
+	padding: 2em 3em;
 }
-#glyphsetstable td.correct {
-	background-color: #2ecc71;
+.game-link i {
+	font-size: 4em;
+	margin: 20px;
+	display: block;
 }
-
-#glyphsetstable span::selection{ background-color: transparent; }
-#glyphsetstable span::moz-selection{ background-color: transparent; }
-#glyphsetstable span::webkit-selection{ background-color: transparent; }
-#glyphsetstable td::selection{ background-color: transparent; }
-#glyphsetstable td::moz-selection{ background-color: transparent; }
-#glyphsetstable td::webkit-selection{ background-color: transparent; }
-
 .modal .english-list div {
 	display: inline-block;
 }
@@ -141,4 +111,7 @@ span[lang="e"] {
 .open-create-account {
 	cursor: pointer;
 	text-align: right;
+}
+.top-margin {
+	margin-top: 20px;
 }

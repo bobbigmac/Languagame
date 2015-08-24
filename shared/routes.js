@@ -4,54 +4,10 @@ Router.configure({
 	loadingTemplate: 'loading'
 });
 
-var currentUser = {
-  ready: function() {
-    var user = Meteor.user();
-    return (user === null || typeof user !== "undefined");
-  }
-};
-
-loadUserLangs = function() {
-  var user = Meteor.user();
-  if(user) {
-  	if(user && user.profile && user.profile.langs && user.profile.langs instanceof Array) {
-  		Session.set('langs', user.profile.langs);
-  	}
-  }
-}
-
 if(Meteor.isClient) {
-
-	Router.route('/admin', {
-		template: 'admin',
-		waitOn: function() {
-			return [
-				currentUser,
-				Meteor.subscribe('admin-stats'),
-				Meteor.subscribe('user-scores'),
-				//Meteor.subscribe('all-glyphs'),
-				//Meteor.subscribe('all-glyphsets'),
-				Meteor.subscribe('possible-glyphsets', Session.get('possible-filter'), Session.get('possible-sort'))
-			];
-		},
-		data: function() {
-			loadUserLangs();
-		}
-	});
-
-	Router.route('/admin/unaudio', {
-		name: 'unaudioGlyphs',
-		template: 'unaudioGlyphs',
-		waitOn: function() {
-			return [
-				currentUser,
-				Meteor.subscribe('admin-stats'),
-				Meteor.subscribe('unaudio-glyphs', Session.get('langs'))
-			]
-		},
-		data: function() {
-			loadUserLangs();
-		}
+	Router.onBeforeAction(function() {
+		loadUserLangs();
+		this.next();
 	});
 }
 
@@ -73,28 +29,16 @@ if(Meteor.isClient) {
 }
 
 Router.route('/', {
-	template: 'glyphsetstable',
+	template: 'games',
 	waitOn: function() {
-		return [
-			currentUser
-		];
+		return [currentUser];
 	},
 	data: function() {
-		loadUserLangs();
-
-		changePlayerScore(0);
-		
-		Tracker.autorun(function() {
-			var langs = Session.get('langs');
-			var userId = Meteor.userId();
-			if(userId) {
-				customSubHandle = Meteor.subscribe('tumbler', false, 3, langs);
-			} else {
-				customSubHandle = Meteor.subscribe('tumbler', Session.get("playerScore"), 3, langs);
-			}
-
-			$('.correct,.incorrect').removeClass('correct').removeClass('incorrect');
-		});
+		//TODO: Pull these from registered games.
+		return [
+			{ name: 'Tumbler', icon: 'table', path: 'tumbler' },
+			{ name: 'Pairs', icon: 'clone', path: 'pairs' },
+		];
 	}
 });
 
@@ -110,8 +54,6 @@ Router.route('/words', {
 	data: function() {
 		var userId = Meteor.userId();
 		if(userId) {
-			loadUserLangs();
-			
 			var user = Meteor.user();
 			var strength = (user && user.strength);
 			if(strength) {

@@ -1,0 +1,25 @@
+
+
+#tumbler td:hover span {
+	opacity: 1;
+	cursor: pointer;
+}
+#tumbler td span {
+	opacity: 0.8;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+}
+
+#tumbler td.incorrect {
+	background-color: #e74c3c;
+}
+#tumbler td.correct {
+	background-color: #2ecc71;
+}
+
+#tumbler span::selection{ background-color: transparent; }
+#tumbler span::moz-selection{ background-color: transparent; }
+#tumbler span::webkit-selection{ background-color: transparent; }
+#tumbler td::selection{ background-color: transparent; }
+#tumbler td::moz-selection{ background-color: transparent; }
+#tumbler td::webkit-selection{ background-color: transparent; }

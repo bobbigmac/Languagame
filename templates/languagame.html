@@ -1,89 +1,44 @@
 
-<template name="test">
-	Testing (no data access, shouldn't lock on collections);
-</template>
-
-<template name="glyphsetstable">
+<template name="signupWarning">
 	{{#unless currentUser}}
 		<div class="alert alert-danger open-create-account" data-toggle="collapse" data-target=".dropdown-menu" aria-expanded="false">
 			Login to an account to keep your progress
 		</div>
 	{{/unless}}
-	<table id="glyphsetstable" class="table table-responsive">
-		<thead>
-			<tr>
-				{{#each langs}}
-					<th>{{name}}</th>
-				{{/each}}
-			</tr>
-		</thead>
-		<tbody>
-			{{#if loading}}
-				<tr><td>Loading...</td></tr>
-			{{else}}
-				{{> glyphsetsrows glyphsets=glyphsets}}
-			{{/if}}
-  	</tbody>
-  </table>
-	<div class="well well-lg">
-		<div class="row text-center">
-			<span class="col-xs-2">
-				<button class="btn btn-link btn-lg mute-audio">
-					{{#if muted}}
-						<i class="glyphicon glyphicon-volume-off"></i>
-					{{else}}
-						<i class="glyphicon glyphicon-volume-up"></i>
-					{{/if}}
-				</button>
-			</span>
-			<span class="col-xs-8">
-				{{#if glyphsets.length}}
-					<a class="btn btn-primary btn-block btn-lg checkresults">
-						<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
-						Test Matches
-					</a>
-				{{else}}
-					Loading...
-				{{/if}}
-			</span>
-			<span class="col-xs-2 text-center"><div>Score</div><div>{{score}}</div></span>
+</template>
+
+<template name="games">
+	<div class="row text-center">
+		<div class="col-xs-12">
+			{{#each this}}
+				{{> gameLink}}
+			{{/each}}
 		</div>
 	</div>
 	{{> languageSelection}}
-	<div class="fixed-message"><div>Well Done!</div></div>
+</template>
+
+<template name="gameLink">
+	<a class="btn btn-lg btn-default game-link" href="{{pathFor path}}">
+		<i class="fa fa-{{icon}}"></i>
+		<span>{{name}}</span>
+	</a>
 </template>
 
 <template name="languageSelection">
-	<div class="well text-center">
-		{{#each keysOf googleLangs}}
-			{{#if arrayContains sessionLangs this}}
-				<button class="btn btn-success toggle-language">
-					{{shortLanguageName this}}
-				</button>
-			{{else}}
-				<button class="btn btn-default toggle-language">
-					{{shortLanguageName this}}
-				</button>
-			{{/if}}
-		{{/each}}
+	<div class="row text-center">
+		<div class="col-xs-12 well top-margin">
+			{{#each keysOf googleLangs}}
+				{{#if arrayContains sessionLangs this}}
+					<button class="btn btn-success toggle-language">
+						{{shortLanguageName this}}
+					</button>
+				{{else}}
+					<button class="btn btn-default toggle-language">
+						{{shortLanguageName this}}
+					</button>
+				{{/if}}
+			{{/each}}
+		</div>
 	</div>
-</template>
-
-<template name="glyphsetsrows">
-	<audio class="global-audio"></audio>
-	{{#each glyphsets}}
-		{{> glyphsetsrow}}
-	{{/each}}
-</template>
-
-<template name="glyphsetsrow">
-	<tr class="glyphsetrow">
-		{{#each langs}}
-  		<td>
-  			<span id="{{key}}{{../_id}}" lang="{{key}}" glyphsetid="{{../_id}}" audio="{{propOfObj key ../audio}}">
-  				{{propOfObj key ..}}
-  			</span>
-			</td>
-		{{/each}}
-	</tr>
 </template>
