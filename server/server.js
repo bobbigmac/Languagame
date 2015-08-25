@@ -10,6 +10,37 @@ Meteor.startup(function () {
 
   //methods
   Meteor.methods({
+    'set-glyphset-lang': function(gsId, lang, val) {
+      if(Roles.userIsInRole(this.userId, ['admin'])) {
+        lang = (lang && typeof lang === 'string' && lang.trim());
+        val = (val && typeof val === 'string' && val.trim());
+
+        if(gsId && lang && val) {
+          var set = {};
+          set[lang] = val;
+          //console.log('gs', gs, lang, val);//criança
+          
+          var glyph = {
+            _id: lang+'_'+val,
+            value: val,
+            values: [val]
+          };
+          glyph['is_'+lang] = true;
+
+          console.log('setting ', set, 'for', gsId);
+          Glyphsets.update({ _id: gsId }, {
+            $set: set
+          }, function(err, affected) {
+            if(!err) {
+              console.log('Setting glyph', glyph);
+              saveOrUpdateGlyph(glyph);
+            } else {
+              console.log(err);
+            }
+          });
+        }
+      }
+    },
     'fix-glyph-values': function() {
       if(Roles.userIsInRole(this.userId, ['admin'])) {
         var glyphs = Glyphs.find({ $where: "this._id == this.value" });

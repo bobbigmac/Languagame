@@ -13,7 +13,8 @@ Template.unaudioGlyphs.rendered = function() {
 	// $(document).on('error', function(e) {
 	// 	console.log('error event', e);
 	// });
-}
+};
+
 Template.unaudioGlyphs.events({
   'click .frame-audio': function(event, template) {
   	var glyphId = this._id;
@@ -247,4 +248,33 @@ Template.addingModal.helpers({
 	},
 	allEngs: function() { return allEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); },
 	bestEngs: function() { return bestEnglishFromPossibleGlyphset(this == 'e' ? Template.parentData() : this); }
+});
+
+Template.adminGlyphsetrow.events({
+	'keypress input[type="text"]': function(event, template) {
+		var key = event.which;
+		if(key === 13) {
+			var val = template.$(event.target).val();
+			if(val) {
+				var lang = this.key;
+				var gs = Template.parentData(0);
+				if(lang && gs && gs._id && val) {
+					Meteor.call('set-glyphset-lang', gs._id, lang, val);
+				}
+			}
+		}
+	}
+});
+
+Template.adminGlyphsetrow.helpers({
+	firstMissingLang: function(langs) {
+		var gs = Template.parentData(1);
+		for(var pos=0; pos < langs.length; pos++) {
+			if(langs[pos]) {
+				if(!gs[langs[pos]]) {
+					return langs[pos].google;
+				}
+			}
+		}
+	}
 });

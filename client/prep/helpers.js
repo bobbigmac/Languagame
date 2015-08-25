@@ -24,7 +24,7 @@ var languages = [
   { key: 'k', name: 'Korean', google: 'ko', full: 'Korean', short: 'Korean', tiny: 'K' },
   { key: 'e', name: 'English', google: 'en', full: 'English', short: 'English', tiny: 'E' },
   { key: 'fr', name: 'French', google: 'fr', full: 'French', short: 'French', tiny: 'F' },
-  { key: 'pt', name: 'Portuguese', google: 'pt-PT', full: 'Portuguese', short: 'Portu.', tiny: 'P' },
+  { key: 'pt', name: 'Portuguese', google: 'pt', full: 'Portuguese', short: 'Portu.', tiny: 'P' },
   { key: 'es', name: 'Spanish', google: 'es', full: 'Spanish', short: 'Spanish', tiny: 'S' }
 ];
 
@@ -88,6 +88,9 @@ UI.registerHelper('sessionLangs', function () {
     langs = Session.get('langs');
   }
   return langs;
+});
+UI.registerHelper('allLangs', function () {
+  return languages;
 });
 UI.registerHelper('langs', function () {
   var langs = Session.get('langs');

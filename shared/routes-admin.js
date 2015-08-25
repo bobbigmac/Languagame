@@ -23,4 +23,19 @@ if(Meteor.isClient) {
 			]
 		}
 	});
+
+	Router.route('/admin/glyphsets', {
+		name: 'glyphsets',
+		template: 'glyphsets',
+		waitOn: function() {
+			return [
+				currentUser,
+				Meteor.subscribe('admin-stats'),
+				Meteor.subscribe('all-glyphsets', Session.get('langs'))
+			]
+		},
+		data: function() {
+			return Glyphsets.find();
+		}
+	});
 }

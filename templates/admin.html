@@ -193,7 +193,7 @@
 					<tr><td>Users</td><td>{{userCount}}</td></tr>
 					<tr><td>Glyphs</td><td>{{glyphCount}}</td></tr>
 					<tr><td><a href="{{pathFor 'unaudioGlyphs'}}">w/o Audio</a></td><td><a href="{{pathFor 'unaudioGlyphs'}}">{{unaudioCount}}</a></td></tr>
-					<tr><td>Glyphsets</td><td>{{glyphsetCount}}</td></tr>
+					<tr><td><a href="{{pathFor 'glyphsets'}}">Glyphsets</a></td><td><a href="{{pathFor 'glyphsets'}}">{{glyphsetCount}}</a></td></tr>
 					<tr><td>Possibles</td><td>{{possibleCount}}</td></tr>
 				</tbody>
 			</table>
@@ -248,4 +248,51 @@
 			{{>adminStats}}
 		{{/if}}
 	</div>
+</template>
+
+<template name="glyphsets">
+	{{> languageSelection}}
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h5 class="panel-title">Registered users</h5>
+				</div>
+				<table class="table table-default">
+					<thead>
+						<tr>
+							<th>Pop.</th>
+							{{#each allLangs}}
+								<th>{{this.tiny}}</th>
+							{{/each}}
+						</tr>
+					</thead>
+					<tbody>
+						{{#each this}}
+							{{> adminGlyphsetrow}}
+						{{/each}}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="adminGlyphsetrow">
+	<tr>
+		<td>{{this.pop}}</td>
+		{{#each allLangs}}
+			<td>
+				{{#if propOfObj this.key ..}}
+					<a href="https://translate.google.com/#{{googleLangOf this.key}}/{{firstMissingLang langs}}/{{propOfObj this.key ..}}" target="_blank">
+						{{propOfObj this.key ..}}
+					</a>
+				{{else}}
+					{{#if arrayContains langs this}}
+						<input type="text" placeholder="{{this.name}}" class="form-control" />
+					{{/if}}
+				{{/if}}
+			</td>
+		{{/each}}
+	</tr>
 </template>
