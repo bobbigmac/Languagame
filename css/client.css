@@ -27,19 +27,6 @@ button.playing {
 	text-shadow: 2px 2px 2px white;
 }
 
-.table th, 
-.table td {
-  text-align: center;
-	transition: background-color 0.5s;
-	-webkit-transition: background-color 0.5s;
-	cursor: pointer;
-}
-.table .btn {
-	padding: 1px 5px 1px;
-	margin: -3px;
-	margin-right: -3px;
-}
-
 .fixed-message div {
 	position: fixed;
 	top: 50%;

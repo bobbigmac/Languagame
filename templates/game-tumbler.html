@@ -1,43 +1,45 @@
 
 <template name="tumbler">
-	<table id="tumbler" class="table table-responsive">
-		<thead>
-			<tr>
-				{{#each langs}}
-					<th>{{name}}</th>
-				{{/each}}
-			</tr>
-		</thead>
-		<tbody>
-			{{#if loading}}
-				<tr><td>Loading...</td></tr>
-			{{else}}
-				{{> glyphsetsrows glyphsets=glyphsets}}
-			{{/if}}
-  	</tbody>
-  </table>
-	<div class="well well-lg">
-		<div class="row text-center">
-			<span class="col-xs-2">
-				<button class="btn btn-link btn-lg mute-audio">
-					{{#if muted}}
-						<i class="glyphicon glyphicon-volume-off"></i>
-					{{else}}
-						<i class="glyphicon glyphicon-volume-up"></i>
-					{{/if}}
-				</button>
-			</span>
-			<span class="col-xs-8">
-				{{#if glyphsets.length}}
-					<a class="btn btn-primary btn-block btn-lg checkresults">
-						<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
-						Test Matches
-					</a>
+	<div class="tumbler-container">
+		<table id="tumbler" class="table table-responsive">
+			<thead>
+				<tr>
+					{{#each langs}}
+						<th>{{name}}</th>
+					{{/each}}
+				</tr>
+			</thead>
+			<tbody>
+				{{#if loading}}
+					<tr><td>Loading...</td></tr>
 				{{else}}
-					Loading...
+					{{> glyphsetsrows glyphsets=glyphsets}}
 				{{/if}}
-			</span>
-			<span class="col-xs-2 text-center"><div>Score</div><div>{{score}}</div></span>
+	  	</tbody>
+	  </table>
+		<div class="well well-lg">
+			<div class="row text-center">
+				<span class="col-xs-2">
+					<button class="btn btn-link btn-lg mute-audio">
+						{{#if muted}}
+							<i class="glyphicon glyphicon-volume-off"></i>
+						{{else}}
+							<i class="glyphicon glyphicon-volume-up"></i>
+						{{/if}}
+					</button>
+				</span>
+				<span class="col-xs-8">
+					{{#if glyphsets.length}}
+						<a class="btn btn-primary btn-block btn-lg checkresults">
+							<i class="glyphicon glyphicon-white glyphicon-refresh"></i>
+							Test Matches
+						</a>
+					{{else}}
+						Loading...
+					{{/if}}
+				</span>
+				<span class="col-xs-2 text-center"><div>Score</div><div>{{score}}</div></span>
+			</div>
 		</div>
 	</div>
 	<div class="fixed-message"><div>Well Done!</div></div>

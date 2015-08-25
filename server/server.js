@@ -27,12 +27,12 @@ Meteor.startup(function () {
           };
           glyph['is_'+lang] = true;
 
-          console.log('setting ', set, 'for', gsId);
+          //console.log('setting ', set, 'for', gsId);
           Glyphsets.update({ _id: gsId }, {
             $set: set
           }, function(err, affected) {
             if(!err) {
-              console.log('Setting glyph', glyph);
+              //console.log('Setting glyph', glyph);
               saveOrUpdateGlyph(glyph);
             } else {
               console.log(err);
