@@ -23,7 +23,7 @@ Meteor.startup(function () {
           var glyph = {
             _id: lang+'_'+val,
             value: val,
-            values: [val]
+            //values: [val]
           };
           glyph['is_'+lang] = true;
 
